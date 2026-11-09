@@ -35,7 +35,7 @@ export const CATEGORIES: CategoryInfo[] = [
     description: 'Architectural masterpieces, ancient cave temples, sacred rivers, and natural wonders.',
     color: '#F97316', // Orange / Saffron
     accentBg: '#FFF7ED',
-    cardCount: 45,
+    cardCount: 48,
   },
   {
     id: 'space',

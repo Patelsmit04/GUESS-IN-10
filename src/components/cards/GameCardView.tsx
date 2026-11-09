@@ -56,32 +56,28 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
   return (
     <div
       onClick={onFlip}
-      className={`perspective-1000 relative select-none shrink-0 ${dimensions.widthClass} ${dimensions.heightClass} ${className} ${onFlip ? 'cursor-pointer' : ''}`}
+      className={`perspective-1000 relative select-none shrink-0 max-w-full ${dimensions.widthClass} ${dimensions.heightClass} ${className} ${onFlip ? 'cursor-pointer' : ''}`}
       style={{
-        width: dimensions.width,
-        minWidth: dimensions.width,
+        width: '100%',
+        maxWidth: dimensions.width,
         height: dimensions.height,
-        minHeight: dimensions.height,
       }}
     >
       <motion.div
         initial={false}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ duration: 0.6, ease: [0.34, 1.56, 0.64, 1] }}
-        className="w-full h-full min-h-full transform-style-3d relative"
+        className="w-full h-full transform-style-3d relative"
         style={{
           width: '100%',
           height: '100%',
-          minHeight: dimensions.height,
         }}
       >
         {/* ================= CARD BACK (Mystery / Hidden Back) ================= */}
         <div
-          className="absolute inset-0 w-full h-full rounded-card-lg backface-hidden shadow-card hover:shadow-card-hover transition-shadow overflow-hidden border-4 border-white flex flex-col items-center justify-between p-5 bg-gradient-to-br from-brand-purple via-indigo-600 to-brand-blue"
+          className="absolute inset-0 w-full h-full rounded-card-lg backface-hidden shadow-card hover:shadow-card-hover transition-shadow overflow-hidden border-4 border-white flex flex-col items-center justify-between p-4 sm:p-5 bg-gradient-to-br from-brand-purple via-indigo-600 to-brand-blue"
           style={{
             transform: 'rotateY(0deg)',
-            height: dimensions.height,
-            minHeight: dimensions.height,
           }}
         >
           {/* Subtle background decorative shapes */}
@@ -131,8 +127,6 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
           style={{
             transform: 'rotateY(180deg)',
             backgroundColor: categoryInfo?.color ? `${categoryInfo.color}` : '#1E3A8A',
-            height: dimensions.height,
-            minHeight: dimensions.height,
           }}
         >
           {card ? (

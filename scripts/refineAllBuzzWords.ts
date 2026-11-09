@@ -166,3 +166,4 @@ updateFile('space.ts', 'SPACE_CARDS', (cards) => {
 });
 
 console.log('Finished refining all categories with tough, clever buzz-words and clean facts!');
+

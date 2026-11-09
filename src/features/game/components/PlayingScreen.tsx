@@ -21,6 +21,9 @@ import {
   Send,
   MessageSquare,
   ShieldCheck,
+  ShieldAlert,
+  Lock,
+  X,
   Zap,
 } from 'lucide-react';
 import { soundManager } from '@/lib/audio/soundManager';
@@ -63,7 +66,8 @@ export const PlayingScreen: React.FC = () => {
 
   const [questionInput, setQuestionInput] = useState('');
   const [isGuessModalOpen, setIsGuessModalOpen] = useState(false);
-  const [isHostPeekOpen, setIsHostPeekOpen] = useState(false);
+  const [isHostPeekModalOpen, setIsHostPeekModalOpen] = useState(false);
+  const [hostRevealedInModal, setHostRevealedInModal] = useState(false);
   const [clueBannerMessage, setClueBannerMessage] = useState<string | null>(null);
 
   const totalAllowed = rules.maxQuestions + bonusQuestionsGranted;
@@ -86,7 +90,7 @@ export const PlayingScreen: React.FC = () => {
   const buzzWords = secretCard?.buzzWords || ['Clue 1', 'Clue 2', 'Clue 3'];
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-4 py-4 sm:py-6 space-y-4">
+    <div className="w-full max-w-5xl mx-auto px-4 py-4 sm:py-6 pb-16 sm:pb-8 space-y-4">
       {/* Clue Banner Notification */}
       <AnimatePresence>
         {clueBannerMessage && (
@@ -406,43 +410,41 @@ export const PlayingScreen: React.FC = () => {
 
           {/* Host Response & Question Input Box */}
           <div className="w-full bg-white rounded-card p-4 sm:p-5 border-2 border-brand-purple/30 shadow-card space-y-3.5 mt-2">
-            <div className="flex items-center justify-between border-b border-gray-100 pb-2">
-              <span className="text-xs font-black uppercase tracking-wider text-brand-purple flex items-center gap-1.5">
-                <span>{hostPlayer.avatar}</span> Host Question & Answer Box
-              </span>
+            <div className="flex items-center justify-between border-b border-gray-100 pb-2.5">
+              <div className="flex items-center gap-2">
+                <span className="text-xl">{hostPlayer.avatar}</span>
+                <div>
+                  <span className="text-[10px] text-gray-400 uppercase font-black tracking-wider block">
+                    Host Console
+                  </span>
+                  <span className="text-xs font-black text-brand-purple">
+                    {hostPlayer.name} Answers
+                  </span>
+                </div>
+              </div>
+
+              {/* Private Shield Button for Host Fact Verification */}
               <button
                 type="button"
-                onClick={() => setIsHostPeekOpen(!isHostPeekOpen)}
-                className="text-xs font-bold text-gray-500 hover:text-brand-purple flex items-center gap-1"
+                onClick={() => {
+                  soundManager.playClick();
+                  setHostRevealedInModal(false);
+                  setIsHostPeekModalOpen(true);
+                }}
+                className="px-2.5 py-1.5 rounded-lg text-xs font-bold text-amber-800 bg-amber-100 hover:bg-amber-200 border border-amber-300 flex items-center gap-1.5 transition-colors shadow-sm"
+                title="Check secret card facts privately"
               >
-                {isHostPeekOpen ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
-                <span>{isHostPeekOpen ? 'Hide Card' : 'Peek Card'}</span>
+                <Lock className="w-3.5 h-3.5 text-amber-700" />
+                <span>Host Fact Check</span>
               </button>
             </div>
 
-            {/* Secret Card Peek for Host */}
-            {isHostPeekOpen && secretCard && (
-              <motion.div
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: 'auto' }}
-                exit={{ opacity: 0, height: 0 }}
-                className="p-3 bg-amber-50 rounded-xl border border-amber-200 text-xs space-y-1.5"
-              >
-                <div className="font-black text-amber-900 flex items-center justify-between">
-                  <span>Secret: {secretCard.name} {secretCard.emoji}</span>
-                  <span className="text-[10px] text-amber-700 uppercase">Host Only</span>
-                </div>
-                <p className="text-amber-800 text-[11px] leading-tight">
-                  {secretCard.explanation}
-                </p>
-                <div className="text-[10px] text-amber-700 italic">
-                  Clues: {secretCard.primaryClues.join(' • ')}
-                </div>
-              </motion.div>
-            )}
-
-            {/* Question Text Input */}
+            {/* Guesser's Question Input (Safe: Zero card leaks!) */}
             <div className="space-y-1.5">
+              <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase tracking-wider">
+                <span>Guesser&apos;s Question:</span>
+                <span className="text-[10px] font-normal text-gray-400">Type or ask aloud</span>
+              </div>
               <div className="relative">
                 <input
                   type="text"
@@ -460,7 +462,7 @@ export const PlayingScreen: React.FC = () => {
                     key={idx}
                     type="button"
                     onClick={() => setQuestionInput(chip)}
-                    className="text-[11px] px-2 py-0.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-600 transition-colors"
+                    className="text-[11px] px-2.5 py-1 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-600 transition-colors"
                   >
                     + {chip}
                   </button>
@@ -469,7 +471,7 @@ export const PlayingScreen: React.FC = () => {
             </div>
 
             {/* Host Decision Buttons: YES / NO / UNKNOWN */}
-            <div className="space-y-1.5 pt-2">
+            <div className="space-y-1.5 pt-2 border-t border-gray-100">
               <div className="text-[11px] font-bold uppercase tracking-wider text-gray-400">
                 Host: Tap to answer current question
               </div>
@@ -502,6 +504,114 @@ export const PlayingScreen: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Host Private Peek Shield Modal */}
+      <AnimatePresence>
+        {isHostPeekModalOpen && secretCard && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-md">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95, y: 15 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 15 }}
+              className="bg-white rounded-modal shadow-float max-w-sm sm:max-w-md w-full overflow-hidden border-2 border-brand-purple flex flex-col"
+              role="dialog"
+            >
+              {/* Modal Top Bar */}
+              <div className="p-3.5 bg-brand-purple text-white flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Lock className="w-4 h-4 text-brand-yellow" />
+                  <span className="text-xs font-black uppercase tracking-wider">
+                    Host Private Peek
+                  </span>
+                </div>
+                <button
+                  onClick={() => {
+                    setIsHostPeekModalOpen(false);
+                    setHostRevealedInModal(false);
+                  }}
+                  className="p-1 rounded-full text-white/80 hover:text-white hover:bg-white/20 transition-colors"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+
+              {!hostRevealedInModal ? (
+                /* Privacy Shield Gate */
+                <div className="p-6 text-center space-y-4 bg-amber-50/50">
+                  <div className="w-16 h-16 rounded-3xl bg-amber-100 text-amber-700 flex items-center justify-center text-3xl mx-auto shadow-inner border border-amber-200">
+                    🛡️
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-black text-xl text-amber-950">
+                      Pass Device to {hostPlayer.name} Only!
+                    </h3>
+                    <p className="text-xs text-amber-800 mt-1.5 font-medium leading-relaxed">
+                      <strong>{guesserPlayer.name}</strong>, please look away from the screen right now to prevent spoiling the secret card!
+                    </p>
+                  </div>
+
+                  <div className="pt-2">
+                    <button
+                      type="button"
+                      onClick={() => setHostRevealedInModal(true)}
+                      className="w-full py-3.5 px-4 rounded-card font-heading font-black text-sm text-white bg-amber-600 hover:bg-amber-700 btn-tactile-coral flex items-center justify-center gap-2 shadow-md transition-all"
+                    >
+                      <Eye className="w-4 h-4" />
+                      <span>I am {hostPlayer.name} • Reveal Secret Card</span>
+                    </button>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => setIsHostPeekModalOpen(false)}
+                    className="text-xs text-gray-500 hover:text-gray-700 font-bold underline"
+                  >
+                    Cancel & Return to Game
+                  </button>
+                </div>
+              ) : (
+                /* Host Card View */
+                <div className="p-4 sm:p-5 flex flex-col items-center space-y-3 bg-gray-50/70 max-h-[80vh] overflow-y-auto">
+                  <div className="w-full bg-amber-100 border border-amber-300 rounded-xl p-2.5 text-center text-xs text-amber-900 font-bold flex items-center justify-center gap-1.5">
+                    <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span>Host Fact Verification Mode</span>
+                  </div>
+
+                  {/* Physical Card Front View */}
+                  <div className="w-full flex justify-center py-1">
+                    <GameCardView
+                      card={secretCard}
+                      isFlipped={true}
+                      size="sm"
+                    />
+                  </div>
+
+                  {/* Explanation summary */}
+                  <div className="w-full bg-white p-3 rounded-xl border border-gray-200 text-xs text-gray-700 space-y-1">
+                    <div className="font-heading font-black text-xs text-brand-purple">
+                      Secret: {secretCard.name} ({secretCard.category})
+                    </div>
+                    <p className="text-[11px] text-gray-600 leading-snug">
+                      {secretCard.explanation}
+                    </p>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setHostRevealedInModal(false);
+                      setIsHostPeekModalOpen(false);
+                    }}
+                    className="w-full py-3.5 rounded-card font-heading font-black text-sm text-white bg-brand-purple hover:bg-brand-purple-dark btn-tactile-purple shadow-md"
+                  >
+                    ✕ Hide Secret & Hand Back to {guesserPlayer.name}
+                  </button>
+                </div>
+              )}
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
 
       {/* Guess Submission Modal */}
       {isGuessModalOpen && (

@@ -125,13 +125,13 @@ export const SetupScreen: React.FC = () => {
           {mode === 'one-on-one' ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {/* Player 1 */}
-              <div className="space-y-1.5">
+              <div className="space-y-1.5 min-w-0">
                 <span className="text-xs font-semibold text-gray-500">Player 1</span>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 min-w-0 w-full">
                   <select
                     value={player1Avatar}
                     onChange={(e) => setPlayer1Avatar(e.target.value)}
-                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl"
+                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl shrink-0"
                   >
                     {AVATAR_OPTIONS.map((a) => (
                       <option key={a} value={a}>
@@ -145,19 +145,19 @@ export const SetupScreen: React.FC = () => {
                     maxLength={16}
                     onChange={(e) => setPlayer1Name(e.target.value)}
                     placeholder="Player 1"
-                    className="flex-1 px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
+                    className="flex-1 min-w-0 w-full px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
                   />
                 </div>
               </div>
 
               {/* Player 2 */}
-              <div className="space-y-1.5">
+              <div className="space-y-1.5 min-w-0">
                 <span className="text-xs font-semibold text-gray-500">Player 2</span>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 min-w-0 w-full">
                   <select
                     value={player2Avatar}
                     onChange={(e) => setPlayer2Avatar(e.target.value)}
-                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl"
+                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl shrink-0"
                   >
                     {AVATAR_OPTIONS.map((a) => (
                       <option key={a} value={a}>
@@ -171,7 +171,7 @@ export const SetupScreen: React.FC = () => {
                     maxLength={16}
                     onChange={(e) => setPlayer2Name(e.target.value)}
                     placeholder="Player 2"
-                    className="flex-1 px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
+                    className="flex-1 min-w-0 w-full px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
                   />
                 </div>
               </div>
@@ -179,13 +179,13 @@ export const SetupScreen: React.FC = () => {
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {/* Team 1 */}
-              <div className="space-y-1.5">
+              <div className="space-y-1.5 min-w-0">
                 <span className="text-xs font-semibold text-gray-500">Team 1</span>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 min-w-0 w-full">
                   <select
                     value={team1Avatar}
                     onChange={(e) => setTeam1Avatar(e.target.value)}
-                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl"
+                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl shrink-0"
                   >
                     {AVATAR_OPTIONS.map((a) => (
                       <option key={a} value={a}>
@@ -199,19 +199,19 @@ export const SetupScreen: React.FC = () => {
                     maxLength={18}
                     onChange={(e) => setTeam1Name(e.target.value)}
                     placeholder="Team 1"
-                    className="flex-1 px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
+                    className="flex-1 min-w-0 w-full px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
                   />
                 </div>
               </div>
 
               {/* Team 2 */}
-              <div className="space-y-1.5">
+              <div className="space-y-1.5 min-w-0">
                 <span className="text-xs font-semibold text-gray-500">Team 2</span>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 min-w-0 w-full">
                   <select
                     value={team2Avatar}
                     onChange={(e) => setTeam2Avatar(e.target.value)}
-                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl"
+                    className="p-2 text-xl bg-white border border-gray-200 rounded-xl shrink-0"
                   >
                     {AVATAR_OPTIONS.map((a) => (
                       <option key={a} value={a}>
@@ -225,7 +225,7 @@ export const SetupScreen: React.FC = () => {
                     maxLength={18}
                     onChange={(e) => setTeam2Name(e.target.value)}
                     placeholder="Team 2"
-                    className="flex-1 px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
+                    className="flex-1 min-w-0 w-full px-3 py-2 text-sm bg-white border border-gray-200 rounded-xl focus:outline-brand-purple"
                   />
                 </div>
               </div>
@@ -247,16 +247,20 @@ export const SetupScreen: React.FC = () => {
                   soundManager.playClick();
                   setCategory(cat.id);
                 }}
-                className={`p-2.5 rounded-xl border-2 text-left flex flex-col justify-between transition-all ${
+                className={`p-2.5 rounded-xl border-2 text-left flex flex-col justify-between transition-all min-h-[96px] ${
                   category === cat.id
                     ? 'border-brand-purple bg-brand-purple-light text-brand-purple font-bold shadow-sm'
                     : 'border-gray-200 hover:border-gray-300 text-gray-700 bg-white'
                 }`}
               >
                 <span className="text-2xl mb-1">{cat.icon}</span>
-                <div className="w-full">
-                  <div className="text-xs font-heading font-black leading-tight line-clamp-1">{cat.name}</div>
-                  <div className="text-[10px] text-gray-400 font-normal">{cat.cardCount} cards</div>
+                <div className="w-full min-w-0">
+                  <div className="text-xs font-heading font-black leading-tight break-words line-clamp-2 min-h-[2rem] flex items-center">
+                    {cat.name}
+                  </div>
+                  <div className="text-[10px] text-gray-400 font-normal mt-0.5">
+                    {cat.cardCount} cards
+                  </div>
                 </div>
               </button>
             ))}
@@ -273,14 +277,14 @@ export const SetupScreen: React.FC = () => {
               {targetCards} Cards to Win
             </span>
           </div>
-          <div className="grid grid-cols-5 gap-2">
+          <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
             {[
-              { num: 3, label: '3 (Quick)' },
-              { num: 5, label: '5 (Fast)' },
-              { num: 7, label: '7 (Classic)' },
-              { num: 10, label: '10 (Pro)' },
-              { num: 15, label: '15 (Marathon)' },
-            ].map(({ num, label }) => (
+              { num: 3, label: '3', sub: 'Quick' },
+              { num: 5, label: '5', sub: 'Fast' },
+              { num: 7, label: '7', sub: 'Classic' },
+              { num: 10, label: '10', sub: 'Pro' },
+              { num: 15, label: '15', sub: 'Marathon' },
+            ].map(({ num, label, sub }) => (
               <button
                 key={num}
                 type="button"
@@ -288,13 +292,16 @@ export const SetupScreen: React.FC = () => {
                   soundManager.playClick();
                   setTargetCards(num);
                 }}
-                className={`py-2 px-1 rounded-xl border-2 text-xs font-bold transition-all text-center ${
+                className={`py-2 px-1.5 rounded-xl border-2 text-xs font-bold transition-all text-center flex flex-col items-center justify-center ${
                   targetCards === num
                     ? 'border-brand-purple bg-brand-purple text-white shadow-sm'
                     : 'border-gray-200 text-gray-600 hover:border-gray-300 bg-white'
                 }`}
               >
-                {label}
+                <span className="font-heading font-black text-sm">{label}</span>
+                <span className={`text-[10px] ${targetCards === num ? 'text-white/90' : 'text-gray-400'}`}>
+                  ({sub})
+                </span>
               </button>
             ))}
           </div>

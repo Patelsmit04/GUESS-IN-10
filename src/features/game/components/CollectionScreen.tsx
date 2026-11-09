@@ -185,7 +185,7 @@ export const CollectionScreen: React.FC = () => {
                 </button>
               </div>
 
-              <div className="p-4 sm:p-6 flex justify-center items-center bg-gray-50/50 min-h-[490px] overflow-y-auto">
+              <div className="p-3 sm:p-5 flex justify-center items-center bg-gray-50/50 max-h-[75vh] overflow-y-auto">
                 <GameCardView
                   card={inspectedCard}
                   isFlipped={true}

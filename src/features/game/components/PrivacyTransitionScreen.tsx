@@ -67,8 +67,8 @@ export const PrivacyTransitionScreen: React.FC = () => {
 
       {/* 2. Main Host Showcase Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-        {/* Left: Host Mission, Instructions & Controls (Col 6) */}
-        <div className="lg:col-span-6 bg-white rounded-modal p-5 sm:p-6 border border-brand-border shadow-card space-y-5">
+        {/* Left: Host Mission, Instructions & Controls (Col 6) - Order 2 on mobile, Order 1 on Desktop */}
+        <div className="order-2 lg:order-1 lg:col-span-6 bg-white rounded-modal p-5 sm:p-6 border border-brand-border shadow-card space-y-5">
           <div>
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-brand-purple-light text-brand-purple mb-2">
               <span>{categoryInfo?.icon}</span> {categoryInfo?.name}
@@ -143,8 +143,8 @@ export const PrivacyTransitionScreen: React.FC = () => {
           </div>
         </div>
 
-        {/* Right: Secret Card Front Revealed to Host (Col 6) */}
-        <div className="lg:col-span-6 flex flex-col items-center">
+        {/* Right: Secret Card Front Revealed to Host (Col 6) - Order 1 on mobile, Order 2 on Desktop */}
+        <div className="order-1 lg:order-2 lg:col-span-6 flex flex-col items-center">
           <div className="text-center mb-2">
             <span className="text-xs uppercase font-extrabold text-brand-purple bg-brand-purple-light px-3 py-1 rounded-full">
               Host Secret Preview

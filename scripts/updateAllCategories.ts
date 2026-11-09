@@ -272,3 +272,4 @@ const dinoCards: CardDef[] = dinos.map(([id, name, emoji, buzz, desc, era, diet,
 writeCat('dinosaurs.ts', 'DINOSAURS_CARDS', dinoCards);
 
 console.log('Finished updating Professions, Food, and Dinosaurs with challenging buzz-words and crisp facts!');
+

@@ -198,3 +198,4 @@ const sportsCards: CardDef[] = allSportsList.map(([id, name, emoji, buzz, desc, 
 writeCategory('sports.ts', 'SPORTS_CARDS', sportsCards);
 
 console.log('Finished updating Professions and Sports with challenging buzz-words and crisp facts!');
+
