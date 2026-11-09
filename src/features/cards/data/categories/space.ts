@@ -8,9 +8,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "☀️",
     "buzzWords": [
-      "Fusion",
+      "Plasma",
       "Solar",
-      "Center"
+      "Fusion"
     ],
     "clues": [
       "G-type yellow dwarf star at the center of our Solar System.",
@@ -70,8 +70,8 @@ export const SPACE_CARDS: Card[] = [
     "emoji": "🌕",
     "buzzWords": [
       "Tides",
-      "Apollo",
-      "Crater"
+      "Crater",
+      "Satellite"
     ],
     "clues": [
       "Earth’s only natural permanent satellite, causing ocean tides.",
@@ -130,9 +130,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🔴",
     "buzzWords": [
-      "Red Planet",
-      "Rovers",
-      "Olympus Mons"
+      "Oxide",
+      "Terrestrial",
+      "Canyon"
     ],
     "clues": [
       "Fourth planet from the Sun, covered in reddish iron oxide rust.",
@@ -151,7 +151,7 @@ export const SPACE_CARDS: Card[] = [
       {
         "icon": "🌌",
         "label": "Cosmic Property",
-        "value": "Two Moons (Phobos/Deimos)"
+        "value": "Two Moons"
       },
       {
         "icon": "⭐",
@@ -191,9 +191,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🪐",
     "buzzWords": [
-      "Rings",
-      "Gas Giant",
-      "Titan"
+      "Equatorial",
+      "Atmosphere",
+      "Gas Giant"
     ],
     "clues": [
       "Sixth planet from the Sun, celebrated for dazzling planetary rings.",
@@ -252,9 +252,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌀",
     "buzzWords": [
-      "Great Red Spot",
-      "Largest",
-      "Galilean Moons"
+      "Great Storm",
+      "Gas Giant",
+      "Galilean"
     ],
     "clues": [
       "Largest planet in our Solar System, possessing a storm raging for centuries.",
@@ -313,9 +313,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "☄️",
     "buzzWords": [
-      "Dirty Snowball",
-      "Tail",
-      "Kuiper Belt"
+      "Sublimation",
+      "Eccentric",
+      "Kuiper"
     ],
     "clues": [
       "Icy small celestial body that sprouts a glowing coma and tail near the Sun.",
@@ -376,7 +376,7 @@ export const SPACE_CARDS: Card[] = [
     "buzzWords": [
       "Singularity",
       "Event Horizon",
-      "No Light Escapes"
+      "Density"
     ],
     "clues": [
       "Region of spacetime with gravity so intense that not even light can escape.",
@@ -436,8 +436,8 @@ export const SPACE_CARDS: Card[] = [
     "emoji": "🌌",
     "buzzWords": [
       "Barred Spiral",
-      "Sagittarius A*",
-      "100B Stars"
+      "Bulge",
+      "Stars"
     ],
     "clues": [
       "The spiral galaxy containing our Solar System and 100 billion other stars.",
@@ -498,7 +498,7 @@ export const SPACE_CARDS: Card[] = [
     "buzzWords": [
       "Microgravity",
       "Orbit",
-      "Multinational"
+      "Habitable"
     ],
     "clues": [
       "Modular habitable space station orbiting Earth every 90 minutes.",
@@ -517,7 +517,7 @@ export const SPACE_CARDS: Card[] = [
       {
         "icon": "🌌",
         "label": "Cosmic Property",
-        "value": "Low Earth Orbit (250 mi)"
+        "value": "Low Earth Orbit"
       },
       {
         "icon": "⭐",
@@ -557,9 +557,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🔭",
     "buzzWords": [
+      "Optical",
       "Deep Field",
-      "Pillars of Creation",
-      "Discovery"
+      "Orbit"
     ],
     "clues": [
       "Space telescope in low Earth orbit that opened our eyes to deep cosmos since 1990.",
@@ -618,9 +618,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌋",
     "buzzWords": [
+      "Atmosphere",
       "Greenhouse",
-      "Hottest Planet",
-      "Morning Star"
+      "Terrestrial"
     ],
     "clues": [
       "Second planet from the Sun with a runaway greenhouse atmosphere hot enough to melt lead.",
@@ -679,9 +679,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌑",
     "buzzWords": [
-      "Smallest",
       "Sunbaked",
-      "Speedy Orbit"
+      "Speedy Orbit",
+      "Cratered"
     ],
     "clues": [
       "Smallest planet and closest to the Sun, with extreme day-night temperature swings.",
@@ -741,8 +741,8 @@ export const SPACE_CARDS: Card[] = [
     "emoji": "💨",
     "buzzWords": [
       "Ice Giant",
-      "Supersonic Winds",
-      "Triton"
+      "Supersonic",
+      "Azure"
     ],
     "clues": [
       "Eighth and most distant major planet, famous for vivid blue methane atmosphere and supersonic gales.",
@@ -801,9 +801,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "❄️",
     "buzzWords": [
-      "Tilted on Side",
+      "Axial Tilt",
       "Cyan",
-      "Coldest"
+      "Ice Giant"
     ],
     "clues": [
       "Ice giant that rotates rolling on its side like a bowling ball with 98° axial tilt.",
@@ -862,9 +862,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "❤️",
     "buzzWords": [
-      "Dwarf Planet",
-      "Heart Glacier",
-      "Charon"
+      "Kuiper Belt",
+      "Nitrogen Ice",
+      "Dwarf Body"
     ],
     "clues": [
       "Dwarf planet in the Kuiper Belt featuring a nitrogen ice glacier shaped like a giant heart.",
@@ -923,9 +923,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🪨",
     "buzzWords": [
+      "Circumstellar",
       "Ceres",
-      "Between Mars & Jupiter",
-      "Rocky Debris"
+      "Rocky"
     ],
     "clues": [
       "Circumstellar disc between the orbits of Mars and Jupiter filled with rocky minor planets.",
@@ -984,8 +984,8 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "💥",
     "buzzWords": [
-      "Stellar Explosion",
-      "Stardust",
+      "Stellar Death",
+      "Nucleosynthesis",
       "Shockwave"
     ],
     "clues": [
@@ -1045,9 +1045,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌌",
     "buzzWords": [
-      "Neighbor",
       "Spiral",
-      "Future Collision"
+      "Local Group",
+      "Collision"
     ],
     "clues": [
       "Nearest major spiral galaxy to the Milky Way, located 2.5 million light-years away.",
@@ -1106,9 +1106,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "☁️",
     "buzzWords": [
-      "Stellar Nursery",
-      "Gas Cloud",
-      "Glowing Dust"
+      "Diffuse",
+      "Nursery",
+      "Ionized"
     ],
     "clues": [
       "Diffuse glowing stellar nursery in the constellation Orion where new baby stars are born.",
@@ -1167,8 +1167,8 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🛰️",
     "buzzWords": [
-      "Gold Mirrors",
       "Infrared",
+      "Beryllium",
       "L2 Point"
     ],
     "clues": [
@@ -1228,9 +1228,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🚀",
     "buzzWords": [
-      "Eagle",
+      "Descent",
       "Tranquility",
-      "One Small Step"
+      "Historic"
     ],
     "clues": [
       "The spacecraft that landed Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969.",
@@ -1290,8 +1290,8 @@ export const SPACE_CARDS: Card[] = [
     "emoji": "📡",
     "buzzWords": [
       "Interstellar",
-      "Golden Record",
-      "Most Distant"
+      "Golden Disc",
+      "Telemetry"
     ],
     "clues": [
       "Most distant human-made object from Earth, traveling through interstellar space carrying a Golden Record.",
@@ -1350,8 +1350,8 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "💫",
     "buzzWords": [
-      "Extreme Density",
-      "Pulsar Beams",
+      "Degenerate",
+      "Lighthouse",
       "Magnetic"
     ],
     "clues": [
@@ -1376,7 +1376,7 @@ export const SPACE_CARDS: Card[] = [
       {
         "icon": "⭐",
         "label": "Feature",
-        "value": "City-Sized (12 mi)"
+        "value": "City-Sized"
       },
       {
         "icon": "🔭",
@@ -1411,9 +1411,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌑",
     "buzzWords": [
-      "Corona",
-      "Totality",
-      "Moon Shadow"
+      "Syzygy",
+      "Umbra",
+      "Corona"
     ],
     "clues": [
       "Rare alignment when the Moon passes directly between the Sun and Earth, blocking out sunlight.",
@@ -1472,9 +1472,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🔴",
     "buzzWords": [
-      "Earth Shadow",
-      "Coppery Red",
-      "Full Moon"
+      "Atmospheric",
+      "Rayleigh",
+      "Umbra"
     ],
     "clues": [
       "Astronomical event where Earth blocks sunlight to the Moon, casting a reddish coppery glow.",
@@ -1533,9 +1533,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "⭐",
     "buzzWords": [
-      "Navigation",
-      "True North",
-      "Ursa Minor"
+      "Celestial",
+      "Axis",
+      "Navigation"
     ],
     "clues": [
       "Anchor navigation star situated almost directly above Earth’s geographic North Pole.",
@@ -1594,9 +1594,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌠",
     "buzzWords": [
-      "Shooting Star",
-      "Atmosphere",
-      "Perseids"
+      "Streams",
+      "Debris",
+      "Atmospheric"
     ],
     "clues": [
       "Celestial event where streams of cosmic dust burn up as glowing streaks in Earth’s atmosphere.",
@@ -1656,8 +1656,8 @@ export const SPACE_CARDS: Card[] = [
     "emoji": "🟢",
     "buzzWords": [
       "Solar Wind",
-      "Magnetic Poles",
-      "Dancing Curtains"
+      "Magnetosphere",
+      "Emission"
     ],
     "clues": [
       "Luminous atmospheric curtains created when solar wind particles collide with atmospheric gases.",
@@ -1716,9 +1716,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🧪",
     "buzzWords": [
-      "Methane Lakes",
-      "Thick Atmosphere",
-      "Saturn Moon"
+      "Hydrocarbon",
+      "Atmospheric",
+      "Cryogenic"
     ],
     "clues": [
       "Saturn’s largest moon, the only moon in the Solar System with a dense atmosphere and liquid lakes.",
@@ -1777,9 +1777,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌊",
     "buzzWords": [
-      "Subsurface Ocean",
-      "Ice Crust",
-      "Alien Life"
+      "Subsurface",
+      "Astrobiology",
+      "Fractures"
     ],
     "clues": [
       "Icy moon of Jupiter concealing a global subterranean saltwater ocean containing 2x Earth’s water.",
@@ -1838,9 +1838,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🌕",
     "buzzWords": [
-      "Largest Moon",
-      "Magnetic Field",
-      "Jupiter"
+      "Magnetic",
+      "Galilean",
+      "Subsurface"
     ],
     "clues": [
       "Largest moon in the entire Solar System, even larger than the planet Mercury.",
@@ -1899,9 +1899,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🤖",
     "buzzWords": [
-      "Gale Crater",
-      "Nuclear Battery",
-      "Rover"
+      "Robotic",
+      "Gale Basin",
+      "Radioisotope"
     ],
     "clues": [
       "Car-sized robotic science laboratory exploring Mars’s Gale Crater searching for ancient habitable water.",
@@ -1960,9 +1960,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🧑‍🚀",
     "buzzWords": [
+      "Extravehicular",
       "Tether",
-      "Spacesuit",
-      "Vacuum Work"
+      "Pressurized"
     ],
     "clues": [
       "Extravehicular activity where astronauts exit their spacecraft into open vacuum.",
@@ -2023,7 +2023,7 @@ export const SPACE_CARDS: Card[] = [
     "buzzWords": [
       "Reusable",
       "Orbiter",
-      "Launch Pad"
+      "Glider"
     ],
     "clues": [
       "NASA’s legendary winged reusable orbital spacecraft fleet (Columbia, Challenger, Discovery, Atlantis, Endeavour).",
@@ -2082,9 +2082,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🧑‍🚀",
     "buzzWords": [
-      "Microgravity",
-      "Helmet",
-      "Spacewalker"
+      "Altitude",
+      "Weightless",
+      "Expedition"
     ],
     "clues": [
       "Trained human spacefarer commanding spacecraft and conducting orbital scientific experiments.",
@@ -2143,9 +2143,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🪐",
     "buzzWords": [
-      "Goldilocks Zone",
-      "Transit Method",
-      "Alien World"
+      "Transit",
+      "Goldilocks",
+      "Doppler"
     ],
     "clues": [
       "Planet orbiting a star outside our Solar System, discovered by transits and wobble techniques.",
@@ -2204,9 +2204,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🕳️",
     "buzzWords": [
-      "Point of No Return",
-      "Telescope Image",
-      "Schwarzschild"
+      "Escape Velocity",
+      "Relativity",
+      "Dilation"
     ],
     "clues": [
       "The boundary around a black hole beyond which escape velocity exceeds the speed of light.",
@@ -2265,9 +2265,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "⚡",
     "buzzWords": [
-      "Sunspot Burst",
-      "Plasma",
-      "Electromagnetic"
+      "Reconnection",
+      "Magnetic",
+      "Corona"
     ],
     "clues": [
       "Sudden, intense flash of increased brightness on the Sun releasing massive bursts of magnetic energy.",
@@ -2326,9 +2326,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "📏",
     "buzzWords": [
-      "Speed of Light",
-      "Distance Unit",
-      "6 Trillion Miles"
+      "Cosmic Metric",
+      "Velocity",
+      "Distance"
     ],
     "clues": [
       "Unit of astronomical distance equal to the distance that light travels in one Earth year.",
@@ -2347,7 +2347,7 @@ export const SPACE_CARDS: Card[] = [
       {
         "icon": "🌌",
         "label": "Cosmic Property",
-        "value": "Distance (Not Time)"
+        "value": "Distance"
       },
       {
         "icon": "⭐",
@@ -2387,9 +2387,9 @@ export const SPACE_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "💥",
     "buzzWords": [
-      "Cosmic Origin",
-      "13.8 Billion Years",
-      "Expanding Universe"
+      "Cosmology",
+      "Inflation",
+      "Primordial"
     ],
     "clues": [
       "The prevailing cosmological model explaining the rapid expansion of the universe from a hot, dense point.",
@@ -2418,7 +2418,7 @@ export const SPACE_CARDS: Card[] = [
       {
         "icon": "🔭",
         "label": "Observation",
-        "value": "Cosmic Background (CMB)"
+        "value": "Cosmic Background"
       },
       {
         "icon": "🚀",

@@ -8,9 +8,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🐺",
     "buzzWords": [
-      "Fur",
-      "Mammal",
-      "Pup"
+      "Canine",
+      "Pack",
+      "Tundra"
     ],
     "clues": [
       "I am the largest wild member of the dog (canine) family.",
@@ -74,9 +74,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🦁",
     "buzzWords": [
-      "Mane",
-      "Pride",
-      "Roar"
+      "Savanna",
+      "Carnivore",
+      "Pride"
     ],
     "clues": [
       "I am known worldwide as the \"King of the Jungle\".",
@@ -141,8 +141,8 @@ export const ANIMALS_CARDS: Card[] = [
     "emoji": "🐯",
     "buzzWords": [
       "Stripes",
-      "Jungle",
-      "Solitary"
+      "Solitary",
+      "Stalker"
     ],
     "clues": [
       "I am the largest cat species in the entire world.",
@@ -271,8 +271,8 @@ export const ANIMALS_CARDS: Card[] = [
     "emoji": "🐼",
     "buzzWords": [
       "Bamboo",
-      "Black & White",
-      "China"
+      "Highlands",
+      "Solitary"
     ],
     "clues": [
       "I have a distinctive, round black and white face and fur coat.",
@@ -336,8 +336,8 @@ export const ANIMALS_CARDS: Card[] = [
     "emoji": "🐆",
     "buzzWords": [
       "Sprint",
-      "Tear Stripes",
-      "Speed"
+      "Feline",
+      "Savanna"
     ],
     "clues": [
       "I am the fastest land animal in the world, sprinting up to 70 mph (112 km/h).",
@@ -356,7 +356,7 @@ export const ANIMALS_CARDS: Card[] = [
       {
         "icon": "⚡",
         "label": "Top Speed",
-        "value": "70 mph (112 km/h)"
+        "value": "70 mph (112 km"
       },
       {
         "icon": "🥩",
@@ -399,9 +399,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🦘",
     "buzzWords": [
-      "Pouch",
-      "Hop",
-      "Outback"
+      "Marsupial",
+      "Herbivore",
+      "Bipedal"
     ],
     "clues": [
       "I am a marsupial native to Australia that hops on two powerful hind legs.",
@@ -464,9 +464,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🐋",
     "buzzWords": [
-      "Krill",
-      "Baleen",
-      "Blowhole"
+      "Marine",
+      "Mammal",
+      "Migratory"
     ],
     "clues": [
       "I am the largest animal known to have ever lived on planet Earth.",
@@ -528,9 +528,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🐧",
     "buzzWords": [
-      "Antarctica",
-      "Huddle",
-      "Flightless"
+      "Colony",
+      "Antarctic",
+      "Plumage"
     ],
     "clues": [
       "I am a flightless polar marine bird that thrives in sub-zero Antarctic blizzard winds.",
@@ -592,9 +592,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "easy",
     "emoji": "🦎",
     "buzzWords": [
-      "Tongue",
-      "Camouflage",
-      "Independent Eyes"
+      "Reptile",
+      "Arboreal",
+      "Camouflage"
     ],
     "clues": [
       "I am a tree-dwelling reptile famous for changing my skin colors.",
@@ -656,9 +656,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦒",
     "buzzWords": [
-      "Neck",
-      "Spots",
-      "Acacia"
+      "Browsing",
+      "Savanna",
+      "Ungulate"
     ],
     "clues": [
       "Tallest living terrestrial animal with a 6-foot neck.",
@@ -717,9 +717,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦓",
     "buzzWords": [
-      "Stripes",
       "Herd",
-      "Savannah"
+      "Herbivore",
+      "Grazing"
     ],
     "clues": [
       "African equids famous for black and white striped coats.",
@@ -778,9 +778,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🐨",
     "buzzWords": [
+      "Marsupial",
       "Eucalyptus",
-      "Sleep",
-      "Marsupial"
+      "Nocturnal"
     ],
     "clues": [
       "Tree-dwelling Australian marsupial that eats toxic eucalyptus.",
@@ -839,9 +839,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦆",
     "buzzWords": [
-      "Bill",
-      "Egg-Laying",
-      "Venom"
+      "Egg-laying",
+      "Venomous",
+      "Monotreme"
     ],
     "clues": [
       "Semi-aquatic egg-laying mammal with a duck-like bill.",
@@ -961,9 +961,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🐻‍❄️",
     "buzzWords": [
+      "Marine",
       "Arctic",
-      "Ice",
-      "Seal"
+      "Blubber"
     ],
     "clues": [
       "Apex predator of the Arctic sea ice and largest land carnivore.",
@@ -1083,9 +1083,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🐵",
     "buzzWords": [
-      "Tools",
-      "Troop",
-      "Intelligence"
+      "Primate",
+      "Tool-user",
+      "Troop"
     ],
     "clues": [
       "Our closest living evolutionary relative, skilled in tool use.",
@@ -1144,9 +1144,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦛",
     "buzzWords": [
-      "Submerged",
-      "Canines",
-      "River"
+      "Semiaquatic",
+      "Herbivore",
+      "Territorial"
     ],
     "clues": [
       "Semi-aquatic African giant that secretes pink \"blood sweat\".",
@@ -1205,9 +1205,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦏",
     "buzzWords": [
-      "Horn",
-      "Armor",
-      "Grass"
+      "Keratin",
+      "Herbivore",
+      "Horned"
     ],
     "clues": [
       "Thick-skinned herbivore armed with one or two keratin horns.",
@@ -1266,9 +1266,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦅",
     "buzzWords": [
-      "White Head",
-      "Talons",
-      "National Bird"
+      "Apex",
+      "Raptor",
+      "Plumage"
     ],
     "clues": [
       "Bird of prey with white head feathers and emblem of the USA.",
@@ -1388,9 +1388,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🐙",
     "buzzWords": [
-      "Eight Arms",
-      "Three Hearts",
-      "Ink"
+      "Mollusk",
+      "Cephalopod",
+      "Camouflage"
     ],
     "clues": [
       "Intelligent ocean cephalopod with blue blood and no bones.",
@@ -1510,9 +1510,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦩",
     "buzzWords": [
-      "Pink",
-      "One Leg",
-      "Filter"
+      "Wading",
+      "Colony",
+      "Carotenoids"
     ],
     "clues": [
       "Wading bird whose pink plumage comes from carotenoid algae.",
@@ -1592,7 +1592,7 @@ export const ANIMALS_CARDS: Card[] = [
       {
         "icon": "🌲",
         "label": "Habitat",
-        "value": "Mangrove / Estuary"
+        "value": "Mangrove"
       },
       {
         "icon": "🥩",
@@ -1754,9 +1754,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🐾",
     "buzzWords": [
-      "Sentry",
+      "Mob",
       "Burrow",
-      "Kalahari"
+      "Sentinel"
     ],
     "clues": [
       "Social desert mongoose that stands on hind legs to keep watch.",
@@ -1876,9 +1876,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦫",
     "buzzWords": [
-      "Dam",
-      "Teeth",
-      "Lodge"
+      "Rodent",
+      "Dam-builder",
+      "Semiaquatic"
     ],
     "clues": [
       "Keystone rodent engineer that fells trees and constructs dams.",
@@ -1937,9 +1937,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦔",
     "buzzWords": [
-      "Spines",
-      "Roll into Ball",
-      "Nocturnal"
+      "Quills",
+      "Nocturnal",
+      "Spines"
     ],
     "clues": [
       "Small spiny mammal that curls into a prickly defensive sphere.",
@@ -1958,7 +1958,7 @@ export const ANIMALS_CARDS: Card[] = [
       {
         "icon": "🌲",
         "label": "Habitat",
-        "value": "Gardens / Meadows"
+        "value": "Gardens"
       },
       {
         "icon": "🥩",
@@ -2303,9 +2303,9 @@ export const ANIMALS_CARDS: Card[] = [
     "difficulty": "medium",
     "emoji": "🦊",
     "buzzWords": [
-      "Bushy Tail",
-      "Clever",
-      "Pounce"
+      "Vulpine",
+      "Nocturnal",
+      "Omnivore"
     ],
     "clues": [
       "Adaptable canine famous for its fiery coat, bushy tail, and cunning.",

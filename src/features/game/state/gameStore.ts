@@ -164,6 +164,8 @@ export const useGameStore = create<GameState>((set, get) => {
         members: cfg.members,
       }));
 
+      const initialSecretCard = CardRepository.getRandomCard(category);
+
       set((state) => ({
         mode,
         players,
@@ -172,8 +174,8 @@ export const useGameStore = create<GameState>((set, get) => {
         currentRound: 1,
         hostIndex: 0,
         guesserIndex: 1,
-        phase: 'card-selection',
-        secretCard: null,
+        phase: 'privacy-transition',
+        secretCard: initialSecretCard,
         privacyConfirmed: false,
         questionCount: 0,
         bonusQuestionsGranted: 0,
@@ -204,12 +206,17 @@ export const useGameStore = create<GameState>((set, get) => {
 
     selectRandomSecretCard: () => {
       soundManager.playCardSelect();
-      const { selectedCategory } = get();
-      const randomCard = CardRepository.getRandomCard(selectedCategory);
+      const state = get();
+      const usedIds = [
+        ...state.players.flatMap((p) => p.collectedCardIds),
+        ...(state.secretCard ? [state.secretCard.id] : []),
+      ];
+      const randomCard =
+        CardRepository.getRandomCard(state.selectedCategory, usedIds) ||
+        CardRepository.getRandomCard(state.selectedCategory);
       if (randomCard) {
         set({
           secretCard: randomCard,
-          phase: 'privacy-transition',
           privacyConfirmed: false,
         });
       }
@@ -468,12 +475,16 @@ export const useGameStore = create<GameState>((set, get) => {
       const numPlayers = state.players.length;
       const nextHost = (state.hostIndex + 1) % numPlayers;
       const nextGuesser = (state.guesserIndex + 1) % numPlayers;
+      const usedIds = state.players.flatMap((p) => p.collectedCardIds);
+      const nextSecretCard =
+        CardRepository.getRandomCard(state.selectedCategory, usedIds) ||
+        CardRepository.getRandomCard(state.selectedCategory);
 
       set({
         currentRound: state.currentRound + 1,
         hostIndex: nextHost,
         guesserIndex: nextGuesser,
-        secretCard: null,
+        secretCard: nextSecretCard,
         privacyConfirmed: false,
         questionCount: 0,
         bonusQuestionsGranted: 0,
@@ -484,7 +495,7 @@ export const useGameStore = create<GameState>((set, get) => {
         activeHints: [],
         activeEliminations: [],
         roundResult: null,
-        phase: 'card-selection',
+        phase: 'privacy-transition',
       });
     },
 
@@ -497,13 +508,14 @@ export const useGameStore = create<GameState>((set, get) => {
         collectedCardIds: [],
         cluesRemaining: { hint: 1, eliminate: 1, bonus: 1 },
       }));
+      const freshSecretCard = CardRepository.getRandomCard(state.selectedCategory);
 
       set({
         currentRound: 1,
         hostIndex: 0,
         guesserIndex: 1,
         players: resetPlayers,
-        secretCard: null,
+        secretCard: freshSecretCard,
         privacyConfirmed: false,
         questionCount: 0,
         bonusQuestionsGranted: 0,
@@ -515,7 +527,7 @@ export const useGameStore = create<GameState>((set, get) => {
         activeEliminations: [],
         roundResult: null,
         matchWinner: null,
-        phase: 'card-selection',
+        phase: 'privacy-transition',
       });
     },
 

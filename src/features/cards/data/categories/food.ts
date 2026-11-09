@@ -5,635 +5,25 @@ export const FOOD_CARDS: Card[] = [
     "id": "fod_pizza_001",
     "category": "food",
     "name": "Pizza",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🍕",
     "buzzWords": [
-      "Crust",
-      "Mozzarella",
-      "Oven"
+      "Flatbread",
+      "Wood-Fired",
+      "Savory"
     ],
     "clues": [
-      "Iconic Italian flatbread baked with tomato sauce, bubbly mozzarella cheese, and diverse toppings.",
-      "Originates from Naples, Italy with a Savory & Herby flavor profile.",
-      "Key ingredients include Dough, Tomato & Cheese and typically prepared via Wood-Fired Oven."
+      "Baked round leavened dough layered with tomato reduction, melted curd, and seasonings.",
+      "Traces culinary heritage to Italy with a Savory flavor profile.",
+      "Features Dough & Cheese traditionally prepared via Oven Bake."
     ],
     "primaryClues": [
-      "Iconic Italian flatbread baked with tomato sauce, bubbly mozzarella cheese, and diverse toppings.",
-      "Origin: Naples, Italy."
-    ],
-    "secondaryClues": [
-      "Flavor: Savory & Herby.",
-      "Features Dough, Tomato & Cheese."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Naples, Italy"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory & Herby"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Dough, Tomato & Cheese"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Wood-Fired Oven"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Pizza?",
-      "answer": "Naples, Italy"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "pizza"
-    ],
-    "explanation": "Pizza is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The Margherita pizza was created in 1889 to represent the colors of the Italian flag: red tomato, white mozzarella, green basil!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_sushi_002",
-    "category": "food",
-    "name": "Sushi",
-    "difficulty": "easy",
-    "emoji": "🍣",
-    "buzzWords": [
-      "Nori",
-      "Rice",
-      "Wasabi"
-    ],
-    "clues": [
-      "Japanese culinary art combining vinegared sumeshi rice with fresh seafood and seaweed.",
-      "Originates from Japan with a Umami & Fresh flavor profile.",
-      "Key ingredients include Vinegared Rice & Fish and typically prepared via Chilled Rolls / Nigiri."
-    ],
-    "primaryClues": [
-      "Japanese culinary art combining vinegared sumeshi rice with fresh seafood and seaweed.",
-      "Origin: Japan."
-    ],
-    "secondaryClues": [
-      "Flavor: Umami & Fresh.",
-      "Features Vinegared Rice & Fish."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Japan"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Umami & Fresh"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Vinegared Rice & Fish"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Chilled Rolls / Nigiri"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Sushi?",
-      "answer": "Japan"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "sushi"
-    ],
-    "explanation": "Sushi is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Sushi originally developed as a way to preserve fresh fish by fermenting it in seasoned rice!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_taco_003",
-    "category": "food",
-    "name": "Taco",
-    "difficulty": "easy",
-    "emoji": "🌮",
-    "buzzWords": [
-      "Tortilla",
-      "Salsa",
-      "Cilantro"
-    ],
-    "clues": [
-      "Traditional Mexican dish consisting of a folded corn or flour tortilla filled with spiced meat and fresh garnishes.",
-      "Originates from Mexico with a Zesty & Savory flavor profile.",
-      "Key ingredients include Tortilla, Meat & Salsa and typically prepared via Handheld Street Food."
-    ],
-    "primaryClues": [
-      "Traditional Mexican dish consisting of a folded corn or flour tortilla filled with spiced meat and fresh garnishes.",
-      "Origin: Mexico."
-    ],
-    "secondaryClues": [
-      "Flavor: Zesty & Savory.",
-      "Features Tortilla, Meat & Salsa."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Mexico"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Zesty & Savory"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Tortilla, Meat & Salsa"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Handheld Street Food"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Taco?",
-      "answer": "Mexico"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "taco"
-    ],
-    "explanation": "Taco is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "November 16 is UNESCO’s celebration of Mexican cuisine, recognized as an Intangible Cultural Heritage!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_croissant_004",
-    "category": "food",
-    "name": "Croissant",
-    "difficulty": "easy",
-    "emoji": "🥐",
-    "buzzWords": [
-      "Flaky",
-      "Butter",
-      "Pastry"
-    ],
-    "clues": [
-      "Buttery, flaky viennoiserie pastry layered with laminated dough folded repeatedly into a crescent shape.",
-      "Originates from France / Austria with a Rich & Buttery flavor profile.",
-      "Key ingredients include Flour, Butter & Yeast and typically prepared via Baked Fresh Morning."
-    ],
-    "primaryClues": [
-      "Buttery, flaky viennoiserie pastry layered with laminated dough folded repeatedly into a crescent shape.",
-      "Origin: France / Austria."
-    ],
-    "secondaryClues": [
-      "Flavor: Rich & Buttery.",
-      "Features Flour, Butter & Yeast."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "France / Austria"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Rich & Buttery"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Flour, Butter & Yeast"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Baked Fresh Morning"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Croissant?",
-      "answer": "France / Austria"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "croissant"
-    ],
-    "explanation": "Croissant is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "A classic croissant requires over 50 delicate butter layers created through the laminating folding process!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_biryani_005",
-    "category": "food",
-    "name": "Biryani",
-    "difficulty": "easy",
-    "emoji": "🍛",
-    "buzzWords": [
-      "Basmati",
-      "Saffron",
-      "Dum"
-    ],
-    "clues": [
-      "Aromatic mixed rice dish layered with marinated spices, fragrant basmati, saffron, and tender meats.",
-      "Originates from Indian Subcontinent with a Rich & Spiced flavor profile.",
-      "Key ingredients include Basmati Rice & Spices and typically prepared via Dum Pukht (Sealed Pot)."
-    ],
-    "primaryClues": [
-      "Aromatic mixed rice dish layered with marinated spices, fragrant basmati, saffron, and tender meats.",
-      "Origin: Indian Subcontinent."
-    ],
-    "secondaryClues": [
-      "Flavor: Rich & Spiced.",
-      "Features Basmati Rice & Spices."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Indian Subcontinent"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Rich & Spiced"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Basmati Rice & Spices"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Dum Pukht (Sealed Pot)"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Biryani?",
-      "answer": "Indian Subcontinent"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "biryani"
-    ],
-    "explanation": "Biryani is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Authentic Dum Biryani is cooked in a heavy pot sealed with a rope of raw dough to trap fragrant steam inside!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_hamburger_006",
-    "category": "food",
-    "name": "Hamburger",
-    "difficulty": "easy",
-    "emoji": "🍔",
-    "buzzWords": [
-      "Patty",
-      "Bun",
-      "Pickles"
-    ],
-    "clues": [
-      "Globally popular sandwich consisting of one or more cooked ground meat patties placed inside a sliced bun.",
-      "Originates from USA / Germany with a Savory & Juicy flavor profile.",
-      "Key ingredients include Beef Patty & Sesame Bun and typically prepared via Hot Off the Grill."
-    ],
-    "primaryClues": [
-      "Globally popular sandwich consisting of one or more cooked ground meat patties placed inside a sliced bun.",
-      "Origin: USA / Germany."
-    ],
-    "secondaryClues": [
-      "Flavor: Savory & Juicy.",
-      "Features Beef Patty & Sesame Bun."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "USA / Germany"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory & Juicy"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Beef Patty & Sesame Bun"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Hot Off the Grill"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Hamburger?",
-      "answer": "USA / Germany"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "hamburger"
-    ],
-    "explanation": "Hamburger is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Americans consume approximately 50 billion burgers every year—enough to circle the Earth 32 times!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_padthai_007",
-    "category": "food",
-    "name": "Pad Thai",
-    "difficulty": "easy",
-    "emoji": "🍜",
-    "buzzWords": [
-      "Tamarind",
-      "Noodles",
-      "Peanuts"
-    ],
-    "clues": [
-      "Stir-fried rice noodle dish featuring eggs, tofu or shrimp, flavored with tamarind, fish sauce, and crushed peanuts.",
-      "Originates from Thailand with a Sweet, Sour & Savory flavor profile.",
-      "Key ingredients include Rice Noodles & Tamarind and typically prepared via Wok Street Food."
-    ],
-    "primaryClues": [
-      "Stir-fried rice noodle dish featuring eggs, tofu or shrimp, flavored with tamarind, fish sauce, and crushed peanuts.",
-      "Origin: Thailand."
-    ],
-    "secondaryClues": [
-      "Flavor: Sweet, Sour & Savory.",
-      "Features Rice Noodles & Tamarind."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Thailand"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet, Sour & Savory"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Rice Noodles & Tamarind"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Wok Street Food"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Pad Thai?",
-      "answer": "Thailand"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "pad thai"
-    ],
-    "explanation": "Pad Thai is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Pad Thai was promoted in the 1930s by Thailand’s prime minister to encourage national unity and rice noodle production!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_dumplings_008",
-    "category": "food",
-    "name": "Dim Sum (Dumplings)",
-    "difficulty": "easy",
-    "emoji": "🥟",
-    "buzzWords": [
-      "Steam",
-      "Wrapper",
-      "Bamboo"
-    ],
-    "clues": [
-      "Steamed or pan-fried dough parcels stuffed with flavorful fillings served in traditional bamboo baskets.",
-      "Originates from China (Guangdong) with a Savory & Tender flavor profile.",
-      "Key ingredients include Dough & Minced Filling and typically prepared via Steamed Bamboo Baskets."
-    ],
-    "primaryClues": [
-      "Steamed or pan-fried dough parcels stuffed with flavorful fillings served in traditional bamboo baskets.",
-      "Origin: China (Guangdong)."
-    ],
-    "secondaryClues": [
-      "Flavor: Savory & Tender.",
-      "Features Dough & Minced Filling."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "China (Guangdong)"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory & Tender"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Dough & Minced Filling"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Steamed Bamboo Baskets"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Dim Sum (Dumplings)?",
-      "answer": "China (Guangdong)"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "dim sum (dumplings)"
-    ],
-    "explanation": "Dim Sum (Dumplings) is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Dim Sum translates poetically to \"touch the heart\", traditionally paired with hot Chinese tea in yum cha meals!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_paella_009",
-    "category": "food",
-    "name": "Paella",
-    "difficulty": "easy",
-    "emoji": "🥘",
-    "buzzWords": [
-      "Saffron",
-      "Socarrat",
-      "Bomba Rice"
-    ],
-    "clues": [
-      "Iconic Spanish rice dish from Valencia cooked in a broad shallow pan with saffron, beans, seafood or chicken.",
-      "Originates from Valencia, Spain with a Saffron & Smoky flavor profile.",
-      "Key ingredients include Bomba Rice & Saffron and typically prepared via Wide Shallow Pan."
-    ],
-    "primaryClues": [
-      "Iconic Spanish rice dish from Valencia cooked in a broad shallow pan with saffron, beans, seafood or chicken.",
-      "Origin: Valencia, Spain."
-    ],
-    "secondaryClues": [
-      "Flavor: Saffron & Smoky.",
-      "Features Bomba Rice & Saffron."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Valencia, Spain"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Saffron & Smoky"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Bomba Rice & Saffron"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Wide Shallow Pan"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Paella?",
-      "answer": "Valencia, Spain"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "paella"
-    ],
-    "explanation": "Paella is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The most prized part of a authentic paella is the \"socarrat\"—the crispy caramelized layer of rice at the bottom of the pan!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_ramen_010",
-    "category": "food",
-    "name": "Ramen",
-    "difficulty": "easy",
-    "emoji": "🍜",
-    "buzzWords": [
-      "Broth",
-      "Chashu",
-      "Slurp"
-    ],
-    "clues": [
-      "Japanese noodle soup consisting of wheat noodles served in a rich meat or fish broth flavored with miso or soy.",
-      "Originates from Japan with a Deep Umami & Savory flavor profile.",
-      "Key ingredients include Wheat Noodles & Broth and typically prepared via Piping Hot Bowl."
-    ],
-    "primaryClues": [
-      "Japanese noodle soup consisting of wheat noodles served in a rich meat or fish broth flavored with miso or soy.",
-      "Origin: Japan."
-    ],
-    "secondaryClues": [
-      "Flavor: Deep Umami & Savory.",
-      "Features Wheat Noodles & Broth."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Japan"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Deep Umami & Savory"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Wheat Noodles & Broth"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Piping Hot Bowl"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Ramen?",
-      "answer": "Japan"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "ramen"
-    ],
-    "explanation": "Ramen is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Slurping your ramen loudly in Japan is actually a sign of respect to the chef indicating the broth is delicious!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_gelato_011",
-    "category": "food",
-    "name": "Gelato",
-    "difficulty": "easy",
-    "emoji": "🍨",
-    "buzzWords": [
-      "Dense",
-      "Churned",
-      "Pistachio"
-    ],
-    "clues": [
-      "Italian frozen dessert made with a higher proportion of milk and churned at a slower speed than American ice cream.",
-      "Originates from Italy with a Creamy & Sweet flavor profile.",
-      "Key ingredients include Milk, Sugar & Fruit/Nuts and typically prepared via Scooped at -12°C."
-    ],
-    "primaryClues": [
-      "Italian frozen dessert made with a higher proportion of milk and churned at a slower speed than American ice cream.",
+      "Baked round leavened dough layered with tomato reduction, melted curd, and seasonings.",
       "Origin: Italy."
     ],
     "secondaryClues": [
-      "Flavor: Creamy & Sweet.",
-      "Features Milk, Sugar & Fruit/Nuts."
+      "Flavor profile: Savory.",
+      "Core ingredient: Dough & Cheese."
     ],
     "factGrid": [
       {
@@ -643,22 +33,22 @@ export const FOOD_CARDS: Card[] = [
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Creamy & Sweet"
+        "label": "Flavor",
+        "value": "Savory"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Milk, Sugar & Fruit/Nuts"
+        "label": "Core",
+        "value": "Dough & Cheese"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Scooped at -12°C"
+        "label": "Prep",
+        "value": "Oven Bake"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Gelato?",
+      "question": "What nation or culinary tradition gave birth to Pizza?",
       "answer": "Italy"
     },
     "facts": {
@@ -666,523 +56,98 @@ export const FOOD_CARDS: Card[] = [
       "culinaryDelicacy": true
     },
     "aliases": [
-      "gelato"
+      "pizza",
+      "pizza"
     ],
-    "explanation": "Gelato is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Gelato contains less air (overrun) and less butterfat than ordinary ice cream, giving it a much denser, richer flavor!",
+    "explanation": "Pizza is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The Margherita pizza was created in 1889 to mirror the Italian flag colors: red tomato, white mozzarella, green basil!",
     "verificationStatus": "verified"
   },
   {
-    "id": "fod_baguette_012",
+    "id": "fod_sushi_002",
     "category": "food",
-    "name": "Baguette",
-    "difficulty": "easy",
-    "emoji": "🥖",
+    "name": "Sushi",
+    "difficulty": "medium",
+    "emoji": "🍣",
     "buzzWords": [
-      "Crusty",
-      "Long Loaf",
-      "Bakery"
+      "Vinegared",
+      "Raw",
+      "Roll"
     ],
     "clues": [
-      "Long, thin loaf of French bread distinguished by its golden crispy crust and soft chewy interior holes.",
-      "Originates from France with a Toasty & Crusty flavor profile.",
-      "Key ingredients include Flour, Water, Yeast, Salt and typically prepared via Freshly Baked Daily."
+      "Culinary art pairing seasoned short-grain sumeshi rice with marine seafood slices.",
+      "Traces culinary heritage to Japan with a Umami flavor profile.",
+      "Features Vinegared Rice traditionally prepared via Chilled Roll."
     ],
     "primaryClues": [
-      "Long, thin loaf of French bread distinguished by its golden crispy crust and soft chewy interior holes.",
-      "Origin: France."
+      "Culinary art pairing seasoned short-grain sumeshi rice with marine seafood slices.",
+      "Origin: Japan."
     ],
     "secondaryClues": [
-      "Flavor: Toasty & Crusty.",
-      "Features Flour, Water, Yeast, Salt."
+      "Flavor profile: Umami.",
+      "Core ingredient: Vinegared Rice."
     ],
     "factGrid": [
       {
         "icon": "🌍",
         "label": "Origin",
-        "value": "France"
+        "value": "Japan"
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Toasty & Crusty"
+        "label": "Flavor",
+        "value": "Umami"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Flour, Water, Yeast, Salt"
+        "label": "Core",
+        "value": "Vinegared Rice"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Freshly Baked Daily"
+        "label": "Prep",
+        "value": "Chilled Roll"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Baguette?",
-      "answer": "France"
+      "question": "What nation or culinary tradition gave birth to Sushi?",
+      "answer": "Japan"
     },
     "facts": {
       "isFood": true,
       "culinaryDelicacy": true
     },
     "aliases": [
-      "baguette"
+      "sushi",
+      "sushi"
     ],
-    "explanation": "Baguette is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "French law actually dictates the ingredients of a traditional baguette: strictly flour, water, salt, and yeast—nothing else!",
+    "explanation": "Sushi is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Sushi originally developed as an ancient preservation method by fermenting cleaned fish in seasoned cooked rice!",
     "verificationStatus": "verified"
   },
   {
-    "id": "fod_dosa_013",
+    "id": "fod_taco_003",
     "category": "food",
-    "name": "Dosa",
-    "difficulty": "easy",
-    "emoji": "🥞",
+    "name": "Taco",
+    "difficulty": "medium",
+    "emoji": "🌮",
     "buzzWords": [
-      "Fermented",
-      "Crispy",
-      "Chutney"
+      "Folded",
+      "Tortilla",
+      "Garnish"
     ],
     "clues": [
-      "Crispy, paper-thin savory crepe made from fermented batter of ground rice and black gram lentils.",
-      "Originates from South India with a Tangy & Crispy flavor profile.",
-      "Key ingredients include Rice & Urad Dal Batter and typically prepared via Hot Tawa Griddle."
+      "Handheld griddled corn disc wrapped around seasoned proteins, chopped onions, and cilantro.",
+      "Traces culinary heritage to Mexico with a Zesty flavor profile.",
+      "Features Corn Tortilla traditionally prepared via Handheld."
     ],
     "primaryClues": [
-      "Crispy, paper-thin savory crepe made from fermented batter of ground rice and black gram lentils.",
-      "Origin: South India."
-    ],
-    "secondaryClues": [
-      "Flavor: Tangy & Crispy.",
-      "Features Rice & Urad Dal Batter."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "South India"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Tangy & Crispy"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Rice & Urad Dal Batter"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Hot Tawa Griddle"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Dosa?",
-      "answer": "South India"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "dosa"
-    ],
-    "explanation": "Dosa is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "A Family Roast Dosa can stretch up to 4 to 6 feet long across multiple plates on a dining table!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_poutine_014",
-    "category": "food",
-    "name": "Poutine",
-    "difficulty": "easy",
-    "emoji": "🍟",
-    "buzzWords": [
-      "Curds",
-      "Gravy",
-      "Fries"
-    ],
-    "clues": [
-      "Hearty French-Canadian comfort dish consisting of crisp French fries topped with fresh cheese curds and hot brown gravy.",
-      "Originates from Quebec, Canada with a Savory & Salty flavor profile.",
-      "Key ingredients include Fries, Curds & Gravy and typically prepared via Piping Hot Bowl."
-    ],
-    "primaryClues": [
-      "Hearty French-Canadian comfort dish consisting of crisp French fries topped with fresh cheese curds and hot brown gravy.",
-      "Origin: Quebec, Canada."
-    ],
-    "secondaryClues": [
-      "Flavor: Savory & Salty.",
-      "Features Fries, Curds & Gravy."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Quebec, Canada"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory & Salty"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Fries, Curds & Gravy"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Piping Hot Bowl"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Poutine?",
-      "answer": "Quebec, Canada"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "poutine"
-    ],
-    "explanation": "Poutine is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Authentic poutine cheese curds must \"squeak\" against your teeth when fresh; quiet curds mean they are too old!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_falafel_015",
-    "category": "food",
-    "name": "Falafel",
-    "difficulty": "easy",
-    "emoji": "🧆",
-    "buzzWords": [
-      "Chickpeas",
-      "Pita",
-      "Tahini"
-    ],
-    "clues": [
-      "Deep-fried spiced balls or patties made from ground chickpeas or fava beans mixed with parsley and cumin.",
-      "Originates from Middle East / Egypt with a Crispy & Herby flavor profile.",
-      "Key ingredients include Ground Chickpeas & Herbs and typically prepared via Deep-Fried Handheld."
-    ],
-    "primaryClues": [
-      "Deep-fried spiced balls or patties made from ground chickpeas or fava beans mixed with parsley and cumin.",
-      "Origin: Middle East / Egypt."
-    ],
-    "secondaryClues": [
-      "Flavor: Crispy & Herby.",
-      "Features Ground Chickpeas & Herbs."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Middle East / Egypt"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Crispy & Herby"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Ground Chickpeas & Herbs"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Deep-Fried Handheld"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Falafel?",
-      "answer": "Middle East / Egypt"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "falafel"
-    ],
-    "explanation": "Falafel is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Falafel is believed to have originated in Egypt centuries ago as a hearty meatless meal during religious fasting!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_lasagna_016",
-    "category": "food",
-    "name": "Lasagna",
-    "difficulty": "easy",
-    "emoji": "🍝",
-    "buzzWords": [
-      "Layers",
-      "Béchamel",
-      "Bake"
-    ],
-    "clues": [
-      "Baked Italian pasta casserole made of wide flat sheets layered with meat ragù, béchamel sauce, and melted cheese.",
-      "Originates from Italy (Emilia-Romagna) with a Rich & Savory flavor profile.",
-      "Key ingredients include Pasta Sheets & Ragù and typically prepared via Oven-Baked Casserole."
-    ],
-    "primaryClues": [
-      "Baked Italian pasta casserole made of wide flat sheets layered with meat ragù, béchamel sauce, and melted cheese.",
-      "Origin: Italy (Emilia-Romagna)."
-    ],
-    "secondaryClues": [
-      "Flavor: Rich & Savory.",
-      "Features Pasta Sheets & Ragù."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Italy (Emilia-Romagna)"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Rich & Savory"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Pasta Sheets & Ragù"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Oven-Baked Casserole"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Lasagna?",
-      "answer": "Italy (Emilia-Romagna)"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "lasagna"
-    ],
-    "explanation": "Lasagna is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Ancient Romans baked a precursor dish called \"lagana\" made of thin wheat dough baked in wood-fired ovens!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_crepe_017",
-    "category": "food",
-    "name": "Crepe",
-    "difficulty": "easy",
-    "emoji": "🥞",
-    "buzzWords": [
-      "Thin Pancake",
-      "Nutella",
-      "Brittany"
-    ],
-    "clues": [
-      "Very thin French pancake made from wheat or buckwheat flour cooked on a hot round griddle.",
-      "Originates from Brittany, France with a Sweet or Savory flavor profile.",
-      "Key ingredients include Flour, Milk, Eggs, Butter and typically prepared via Spun on Flat Bilig."
-    ],
-    "primaryClues": [
-      "Very thin French pancake made from wheat or buckwheat flour cooked on a hot round griddle.",
-      "Origin: Brittany, France."
-    ],
-    "secondaryClues": [
-      "Flavor: Sweet or Savory.",
-      "Features Flour, Milk, Eggs, Butter."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Brittany, France"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet or Savory"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Flour, Milk, Eggs, Butter"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Spun on Flat Bilig"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Crepe?",
-      "answer": "Brittany, France"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "crepe"
-    ],
-    "explanation": "Crepe is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "In France, flipping a crepe on February 2 (Candlemas) while holding a gold coin in your hand is believed to bring good fortune!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_samosa_018",
-    "category": "food",
-    "name": "Samosa",
-    "difficulty": "easy",
-    "emoji": "🥟",
-    "buzzWords": [
-      "Triangular",
-      "Spiced Potato",
-      "Chutney"
-    ],
-    "clues": [
-      "Golden triangular fried or baked pastry pocket stuffed with spiced potatoes, peas, onions, and cumin.",
-      "Originates from South & Central Asia with a Spicy & Crispy flavor profile.",
-      "Key ingredients include Flour Pastry & Spiced Filling and typically prepared via Deep-Fried Snack."
-    ],
-    "primaryClues": [
-      "Golden triangular fried or baked pastry pocket stuffed with spiced potatoes, peas, onions, and cumin.",
-      "Origin: South & Central Asia."
-    ],
-    "secondaryClues": [
-      "Flavor: Spicy & Crispy.",
-      "Features Flour Pastry & Spiced Filling."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "South & Central Asia"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Spicy & Crispy"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Flour Pastry & Spiced Filling"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Deep-Fried Snack"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Samosa?",
-      "answer": "South & Central Asia"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "samosa"
-    ],
-    "explanation": "Samosa is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Samosas originated in ancient Central Asia where nomadic merchants carried them in saddlebags for long journeys!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_curry_019",
-    "category": "food",
-    "name": "Curry",
-    "difficulty": "easy",
-    "emoji": "🍛",
-    "buzzWords": [
-      "Spices",
-      "Gravy",
-      "Simmer"
-    ],
-    "clues": [
-      "Diverse spectrum of dishes prepared with a complex sauce combining turmeric, cumin, coriander, and chili.",
-      "Originates from Global / South Asia with a Warm, Spiced & Deep flavor profile.",
-      "Key ingredients include Spice Blend, Veg/Meat & Sauce and typically prepared via Simmered Pot."
-    ],
-    "primaryClues": [
-      "Diverse spectrum of dishes prepared with a complex sauce combining turmeric, cumin, coriander, and chili.",
-      "Origin: Global / South Asia."
-    ],
-    "secondaryClues": [
-      "Flavor: Warm, Spiced & Deep.",
-      "Features Spice Blend, Veg/Meat & Sauce."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Global / South Asia"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Warm, Spiced & Deep"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Spice Blend, Veg/Meat & Sauce"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Simmered Pot"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Curry?",
-      "answer": "Global / South Asia"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "curry"
-    ],
-    "explanation": "Curry is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The word \"curry\" comes from the Tamil word \"kari\", which simply means a spiced sauce or relish!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_guacamole_020",
-    "category": "food",
-    "name": "Guacamole",
-    "difficulty": "easy",
-    "emoji": "🥑",
-    "buzzWords": [
-      "Avocado",
-      "Lime",
-      "Molcajete"
-    ],
-    "clues": [
-      "Creamy avocado-based dip mashed with lime juice, fresh cilantro, onions, jalapenos, and sea salt.",
-      "Originates from Mexico with a Fresh & Citrusy flavor profile.",
-      "Key ingredients include Ripe Hass Avocados & Lime and typically prepared via Mashed in Molcajete."
-    ],
-    "primaryClues": [
-      "Creamy avocado-based dip mashed with lime juice, fresh cilantro, onions, jalapenos, and sea salt.",
+      "Handheld griddled corn disc wrapped around seasoned proteins, chopped onions, and cilantro.",
       "Origin: Mexico."
     ],
     "secondaryClues": [
-      "Flavor: Fresh & Citrusy.",
-      "Features Ripe Hass Avocados & Lime."
+      "Flavor profile: Zesty.",
+      "Core ingredient: Corn Tortilla."
     ],
     "factGrid": [
       {
@@ -1192,22 +157,22 @@ export const FOOD_CARDS: Card[] = [
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Fresh & Citrusy"
+        "label": "Flavor",
+        "value": "Zesty"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Ripe Hass Avocados & Lime"
+        "label": "Core",
+        "value": "Corn Tortilla"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Mashed in Molcajete"
+        "label": "Prep",
+        "value": "Handheld"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Guacamole?",
+      "question": "What nation or culinary tradition gave birth to Taco?",
       "answer": "Mexico"
     },
     "facts": {
@@ -1215,767 +180,98 @@ export const FOOD_CARDS: Card[] = [
       "culinaryDelicacy": true
     },
     "aliases": [
-      "guacamole"
+      "taco",
+      "taco"
     ],
-    "explanation": "Guacamole is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Guacamole was invented by the Aztecs in Mexico over 500 years ago, who called it \"ahuacamolli\"!",
+    "explanation": "Taco is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Traditional Mexican cuisine was formally recognized by UNESCO as an Intangible Cultural Heritage of Humanity!",
     "verificationStatus": "verified"
   },
   {
-    "id": "fod_cheesecake_021",
+    "id": "fod_croissant_004",
     "category": "food",
-    "name": "Cheesecake",
-    "difficulty": "easy",
-    "emoji": "🍰",
+    "name": "Croissant",
+    "difficulty": "medium",
+    "emoji": "🥐",
     "buzzWords": [
-      "Cream Cheese",
-      "Graham Crust",
-      "Berry"
+      "Laminated",
+      "Pastry",
+      "Flaky"
     ],
     "clues": [
-      "Sweet dessert consisting of a thick, creamy filling of soft cheese over a crushed biscuit or graham crust.",
-      "Originates from Greece / New York with a Sweet & Creamy Tang flavor profile.",
-      "Key ingredients include Cream Cheese, Eggs & Sugar and typically prepared via Chilled or Baked."
+      "Crescent viennoiserie pastry prepared by repeatedly folding butter into yeast dough.",
+      "Traces culinary heritage to France with a Buttery flavor profile.",
+      "Features Layered Dough traditionally prepared via Oven Bake."
     ],
     "primaryClues": [
-      "Sweet dessert consisting of a thick, creamy filling of soft cheese over a crushed biscuit or graham crust.",
-      "Origin: Greece / New York."
+      "Crescent viennoiserie pastry prepared by repeatedly folding butter into yeast dough.",
+      "Origin: France."
     ],
     "secondaryClues": [
-      "Flavor: Sweet & Creamy Tang.",
-      "Features Cream Cheese, Eggs & Sugar."
+      "Flavor profile: Buttery.",
+      "Core ingredient: Layered Dough."
     ],
     "factGrid": [
       {
         "icon": "🌍",
         "label": "Origin",
-        "value": "Greece / New York"
+        "value": "France"
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet & Creamy Tang"
+        "label": "Flavor",
+        "value": "Buttery"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Cream Cheese, Eggs & Sugar"
+        "label": "Core",
+        "value": "Layered Dough"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Chilled or Baked"
+        "label": "Prep",
+        "value": "Oven Bake"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Cheesecake?",
-      "answer": "Greece / New York"
+      "question": "What nation or culinary tradition gave birth to Croissant?",
+      "answer": "France"
     },
     "facts": {
       "isFood": true,
       "culinaryDelicacy": true
     },
     "aliases": [
-      "cheesecake"
+      "croissant",
+      "croissant"
     ],
-    "explanation": "Cheesecake is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Cheesecake was served to athletes at the very first Olympic Games in Ancient Greece in 776 BC as an energy food!",
+    "explanation": "Croissant is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "An authentic classic French croissant contains over 50 gossamer butter layers produced during laminating!",
     "verificationStatus": "verified"
   },
   {
-    "id": "fod_waffle_022",
+    "id": "fod_biryani_005",
     "category": "food",
-    "name": "Belgian Waffle",
-    "difficulty": "easy",
-    "emoji": "🧇",
+    "name": "Biryani",
+    "difficulty": "medium",
+    "emoji": "🍛",
     "buzzWords": [
-      "Grid",
-      "Pearl Sugar",
-      "Syrup"
+      "Fragrant",
+      "Layered",
+      "Dum"
     ],
     "clues": [
-      "Crispy, grid-patterned batter cake baked between two hot patterned iron plates with deep pockets.",
-      "Originates from Belgium with a Sweet & Crisp flavor profile.",
-      "Key ingredients include Leavened Batter & Pearl Sugar and typically prepared via Hot Waffle Iron."
+      "Royal mixed rice dish layered with fragrant aged basmati, whole spices, and tender proteins.",
+      "Traces culinary heritage to India with a Spiced flavor profile.",
+      "Features Basmati Rice traditionally prepared via Dum Sealed."
     ],
     "primaryClues": [
-      "Crispy, grid-patterned batter cake baked between two hot patterned iron plates with deep pockets.",
-      "Origin: Belgium."
-    ],
-    "secondaryClues": [
-      "Flavor: Sweet & Crisp.",
-      "Features Leavened Batter & Pearl Sugar."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Belgium"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet & Crisp"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Leavened Batter & Pearl Sugar"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Hot Waffle Iron"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Belgian Waffle?",
-      "answer": "Belgium"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "belgian waffle"
-    ],
-    "explanation": "Belgian Waffle is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Liege waffles contain chunks of pearl sugar that melt and caramelize on the outside of the waffle iron!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_shawarma_023",
-    "category": "food",
-    "name": "Shawarma",
-    "difficulty": "easy",
-    "emoji": "🌯",
-    "buzzWords": [
-      "Spit",
-      "Pita",
-      "Toum"
-    ],
-    "clues": [
-      "Middle Eastern street food of seasoned meat roasted on a slow-turning vertical spit and shaved into flatbread.",
-      "Originates from Levant / Middle East with a Savory & Spiced flavor profile.",
-      "Key ingredients include Shaved Meat, Tahini & Pita and typically prepared via Carved Vertical Spit."
-    ],
-    "primaryClues": [
-      "Middle Eastern street food of seasoned meat roasted on a slow-turning vertical spit and shaved into flatbread.",
-      "Origin: Levant / Middle East."
-    ],
-    "secondaryClues": [
-      "Flavor: Savory & Spiced.",
-      "Features Shaved Meat, Tahini & Pita."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Levant / Middle East"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory & Spiced"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Shaved Meat, Tahini & Pita"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Carved Vertical Spit"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Shawarma?",
-      "answer": "Levant / Middle East"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "shawarma"
-    ],
-    "explanation": "Shawarma is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The word \"Shawarma\" comes from the Turkish word \"çevirme\", which means \"turning\" in reference to the vertical rotisserie!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_pekingduck_024",
-    "category": "food",
-    "name": "Peking Duck",
-    "difficulty": "easy",
-    "emoji": "🦆",
-    "buzzWords": [
-      "Crispy Skin",
-      "Pancakes",
-      "Hoisin"
-    ],
-    "clues": [
-      "Celebrated imperial Chinese delicacy featuring whole roasted duck with thin, ultra-crisp skin served with hoisin and pancakes.",
-      "Originates from Beijing, China with a Savory, Sweet & Crisp flavor profile.",
-      "Key ingredients include Duck, Maltose Syrup & Hoisin and typically prepared via Hanging Wood Oven."
-    ],
-    "primaryClues": [
-      "Celebrated imperial Chinese delicacy featuring whole roasted duck with thin, ultra-crisp skin served with hoisin and pancakes.",
-      "Origin: Beijing, China."
-    ],
-    "secondaryClues": [
-      "Flavor: Savory, Sweet & Crisp.",
-      "Features Duck, Maltose Syrup & Hoisin."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Beijing, China"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory, Sweet & Crisp"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Duck, Maltose Syrup & Hoisin"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Hanging Wood Oven"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Peking Duck?",
-      "answer": "Beijing, China"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "peking duck"
-    ],
-    "explanation": "Peking Duck is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Peking duck chefs pump air under the skin of the raw duck before roasting to separate skin from fat so it crisps like glass!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_fishandchips_025",
-    "category": "food",
-    "name": "Fish and Chips",
-    "difficulty": "easy",
-    "emoji": "🐟",
-    "buzzWords": [
-      "Batter",
-      "Malt Vinegar",
-      "Cod"
-    ],
-    "clues": [
-      "Classic British hot dish consisting of deep-fried battered fish served alongside thick-cut potato chips.",
-      "Originates from United Kingdom with a Crispy & Savory flavor profile.",
-      "Key ingredients include Battered Cod/Haddock & Potatoes and typically prepared via Paper-Wrapped Hot."
-    ],
-    "primaryClues": [
-      "Classic British hot dish consisting of deep-fried battered fish served alongside thick-cut potato chips.",
-      "Origin: United Kingdom."
-    ],
-    "secondaryClues": [
-      "Flavor: Crispy & Savory.",
-      "Features Battered Cod/Haddock & Potatoes."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "United Kingdom"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Crispy & Savory"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Battered Cod/Haddock & Potatoes"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Paper-Wrapped Hot"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Fish and Chips?",
-      "answer": "United Kingdom"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "fish and chips"
-    ],
-    "explanation": "Fish and Chips is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "During both World War I and World War II, the British government safeguarded fish and chips from food rationing!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_pho_026",
-    "category": "food",
-    "name": "Pho",
-    "difficulty": "easy",
-    "emoji": "🍜",
-    "buzzWords": [
-      "Star Anise",
-      "Bone Broth",
-      "Herbs"
-    ],
-    "clues": [
-      "Fragrant Vietnamese soup consisting of bone broth, rice noodles, herbs, and thinly sliced beef or chicken.",
-      "Originates from Vietnam with a Fragrant & Herbal flavor profile.",
-      "Key ingredients include Beef Broth, Star Anise & Noodles and typically prepared via Steaming Hot Bowl."
-    ],
-    "primaryClues": [
-      "Fragrant Vietnamese soup consisting of bone broth, rice noodles, herbs, and thinly sliced beef or chicken.",
-      "Origin: Vietnam."
-    ],
-    "secondaryClues": [
-      "Flavor: Fragrant & Herbal.",
-      "Features Beef Broth, Star Anise & Noodles."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Vietnam"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Fragrant & Herbal"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Beef Broth, Star Anise & Noodles"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Steaming Hot Bowl"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Pho?",
-      "answer": "Vietnam"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "pho"
-    ],
-    "explanation": "Pho is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The aromatic secret to Pho broth is charring onions and fresh ginger over open flames before simmering for 12 hours!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_pretzel_027",
-    "category": "food",
-    "name": "Pretzel",
-    "difficulty": "easy",
-    "emoji": "🥨",
-    "buzzWords": [
-      "Knot",
-      "Coarse Salt",
-      "Lye"
-    ],
-    "clues": [
-      "Baked pastry shaped into an interlocking knot, dipped in alkaline lye solution for a deep brown sheen and salt.",
-      "Originates from Germany / Alsace with a Toasty, Malty & Salty flavor profile.",
-      "Key ingredients include Dough, Lye Dip & Coarse Salt and typically prepared via Baked Brown Knot."
-    ],
-    "primaryClues": [
-      "Baked pastry shaped into an interlocking knot, dipped in alkaline lye solution for a deep brown sheen and salt.",
-      "Origin: Germany / Alsace."
-    ],
-    "secondaryClues": [
-      "Flavor: Toasty, Malty & Salty.",
-      "Features Dough, Lye Dip & Coarse Salt."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Germany / Alsace"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Toasty, Malty & Salty"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Dough, Lye Dip & Coarse Salt"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Baked Brown Knot"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Pretzel?",
-      "answer": "Germany / Alsace"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "pretzel"
-    ],
-    "explanation": "Pretzel is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Pretzel shape is said to represent monk hands crossed in prayer, originally given as rewards to children learning prayers!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_tiramisu_028",
-    "category": "food",
-    "name": "Tiramisu",
-    "difficulty": "easy",
-    "emoji": "☕",
-    "buzzWords": [
-      "Ladyfingers",
-      "Mascarpone",
-      "Espresso"
-    ],
-    "clues": [
-      "Beloved Italian coffee-flavored dessert made of ladyfingers dipped in espresso layered with mascarpone cream.",
-      "Originates from Treviso, Italy with a Coffee & Cocoa Sweet flavor profile.",
-      "Key ingredients include Ladyfingers, Mascarpone, Coffee and typically prepared via Chilled Layers."
-    ],
-    "primaryClues": [
-      "Beloved Italian coffee-flavored dessert made of ladyfingers dipped in espresso layered with mascarpone cream.",
-      "Origin: Treviso, Italy."
-    ],
-    "secondaryClues": [
-      "Flavor: Coffee & Cocoa Sweet.",
-      "Features Ladyfingers, Mascarpone, Coffee."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Treviso, Italy"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Coffee & Cocoa Sweet"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Ladyfingers, Mascarpone, Coffee"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Chilled Layers"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Tiramisu?",
-      "answer": "Treviso, Italy"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "tiramisu"
-    ],
-    "explanation": "Tiramisu is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The Italian name \"Tiramisù\" translates literally to \"pick me up\" or \"lift me up\", referring to espresso caffeine!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_churros_029",
-    "category": "food",
-    "name": "Churros",
-    "difficulty": "easy",
-    "emoji": "🥖",
-    "buzzWords": [
-      "Cinnamon Sugar",
-      "Chocolate",
-      "Fluted"
-    ],
-    "clues": [
-      "Fried-dough pastry piped through a star-shaped nozzle, fried golden crisp, and rolled in cinnamon sugar.",
-      "Originates from Spain & Portugal with a Sweet & Cinnamon Crunch flavor profile.",
-      "Key ingredients include Choux Dough & Cinnamon Sugar and typically prepared via Deep-Fried Sticks."
-    ],
-    "primaryClues": [
-      "Fried-dough pastry piped through a star-shaped nozzle, fried golden crisp, and rolled in cinnamon sugar.",
-      "Origin: Spain & Portugal."
-    ],
-    "secondaryClues": [
-      "Flavor: Sweet & Cinnamon Crunch.",
-      "Features Choux Dough & Cinnamon Sugar."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Spain & Portugal"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet & Cinnamon Crunch"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Choux Dough & Cinnamon Sugar"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Deep-Fried Sticks"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Churros?",
-      "answer": "Spain & Portugal"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "churros"
-    ],
-    "explanation": "Churros is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Spanish shepherds invented churros because the dough was easy to make and fry in an open pan over mountain campfires!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_burrito_030",
-    "category": "food",
-    "name": "Burrito",
-    "difficulty": "easy",
-    "emoji": "🌯",
-    "buzzWords": [
-      "Flour Tortilla",
-      "Cylinder",
-      "Beans"
-    ],
-    "clues": [
-      "Hearty Mexican and Tex-Mex dish composed of a large flour tortilla tightly wrapped around seasoned meat, rice, and beans.",
-      "Originates from Mexico / USA with a Savory & Hearty flavor profile.",
-      "Key ingredients include Large Flour Tortilla & Fillings and typically prepared via Wrapped Cylinder."
-    ],
-    "primaryClues": [
-      "Hearty Mexican and Tex-Mex dish composed of a large flour tortilla tightly wrapped around seasoned meat, rice, and beans.",
-      "Origin: Mexico / USA."
-    ],
-    "secondaryClues": [
-      "Flavor: Savory & Hearty.",
-      "Features Large Flour Tortilla & Fillings."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Mexico / USA"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory & Hearty"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Large Flour Tortilla & Fillings"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Wrapped Cylinder"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Burrito?",
-      "answer": "Mexico / USA"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "burrito"
-    ],
-    "explanation": "Burrito is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The word \"Burrito\" translates to \"little donkey\" in Spanish, possibly named after the rolled bedrolls donkeys packed!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_macaron_031",
-    "category": "food",
-    "name": "French Macaron",
-    "difficulty": "easy",
-    "emoji": "🍪",
-    "buzzWords": [
-      "Almond Meringue",
-      "Ganache",
-      "Pastel"
-    ],
-    "clues": [
-      "Delicate, colorful French confection made of two smooth almond meringue shells sandwiching creamy ganache.",
-      "Originates from France / Italy with a Sweet & Nutty Crunch flavor profile.",
-      "Key ingredients include Almond Flour, Egg Whites, Sugar and typically prepared via Delicate Sandwiched Cookie."
-    ],
-    "primaryClues": [
-      "Delicate, colorful French confection made of two smooth almond meringue shells sandwiching creamy ganache.",
-      "Origin: France / Italy."
-    ],
-    "secondaryClues": [
-      "Flavor: Sweet & Nutty Crunch.",
-      "Features Almond Flour, Egg Whites, Sugar."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "France / Italy"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet & Nutty Crunch"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Almond Flour, Egg Whites, Sugar"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Delicate Sandwiched Cookie"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating French Macaron?",
-      "answer": "France / Italy"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "french macaron"
-    ],
-    "explanation": "French Macaron is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Authentic macarons must develop smooth \"feet\" (ruffled edges) at their base while baking to be considered pastry perfection!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_hummus_032",
-    "category": "food",
-    "name": "Hummus",
-    "difficulty": "easy",
-    "emoji": "🧆",
-    "buzzWords": [
-      "Chickpea Puree",
-      "Tahini",
-      "Olive Oil"
-    ],
-    "clues": [
-      "Velvety Middle Eastern spread made of cooked chickpeas mashed with tahini paste, garlic, lemon juice, and olive oil.",
-      "Originates from Levant / Middle East with a Nutty, Tangy & Creamy flavor profile.",
-      "Key ingredients include Chickpeas, Tahini & Lemon and typically prepared via Cold Dip with Pita."
-    ],
-    "primaryClues": [
-      "Velvety Middle Eastern spread made of cooked chickpeas mashed with tahini paste, garlic, lemon juice, and olive oil.",
-      "Origin: Levant / Middle East."
-    ],
-    "secondaryClues": [
-      "Flavor: Nutty, Tangy & Creamy.",
-      "Features Chickpeas, Tahini & Lemon."
-    ],
-    "factGrid": [
-      {
-        "icon": "🌍",
-        "label": "Origin",
-        "value": "Levant / Middle East"
-      },
-      {
-        "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Nutty, Tangy & Creamy"
-      },
-      {
-        "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Chickpeas, Tahini & Lemon"
-      },
-      {
-        "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Cold Dip with Pita"
-      }
-    ],
-    "bonusTrivia": {
-      "question": "What country or region is famous for creating Hummus?",
-      "answer": "Levant / Middle East"
-    },
-    "facts": {
-      "isFood": true,
-      "culinaryDelicacy": true
-    },
-    "aliases": [
-      "hummus"
-    ],
-    "explanation": "Hummus is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The Arabic word \"Hummus\" simply means \"chickpea\", an ancient pulse crop cultivated for over 7,000 years!",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "fod_paanipuri_033",
-    "category": "food",
-    "name": "Pani Puri (Golgappa)",
-    "difficulty": "easy",
-    "emoji": "🥟",
-    "buzzWords": [
-      "Crispy Sphere",
-      "Mint Water",
-      "Street Snack"
-    ],
-    "clues": [
-      "Hollow, crispy fried dough ball punctured and stuffed with spiced potatoes and flooded with tangy mint-tamarind water.",
-      "Originates from India with a Explosive Tangy & Spicy flavor profile.",
-      "Key ingredients include Semolina Puri & Mint Water and typically prepared via Eaten Whole in One Bite."
-    ],
-    "primaryClues": [
-      "Hollow, crispy fried dough ball punctured and stuffed with spiced potatoes and flooded with tangy mint-tamarind water.",
+      "Royal mixed rice dish layered with fragrant aged basmati, whole spices, and tender proteins.",
       "Origin: India."
     ],
     "secondaryClues": [
-      "Flavor: Explosive Tangy & Spicy.",
-      "Features Semolina Puri & Mint Water."
+      "Flavor profile: Spiced.",
+      "Core ingredient: Basmati Rice."
     ],
     "factGrid": [
       {
@@ -1985,22 +281,22 @@ export const FOOD_CARDS: Card[] = [
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Explosive Tangy & Spicy"
+        "label": "Flavor",
+        "value": "Spiced"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Semolina Puri & Mint Water"
+        "label": "Core",
+        "value": "Basmati Rice"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Eaten Whole in One Bite"
+        "label": "Prep",
+        "value": "Dum Sealed"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Pani Puri (Golgappa)?",
+      "question": "What nation or culinary tradition gave birth to Biryani?",
       "answer": "India"
     },
     "facts": {
@@ -2008,35 +304,1772 @@ export const FOOD_CARDS: Card[] = [
       "culinaryDelicacy": true
     },
     "aliases": [
-      "pani puri (golgappa)"
+      "biryani",
+      "biryani"
     ],
-    "explanation": "Pani Puri (Golgappa) is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Pani Puri must be popped entirely into your mouth at once to experience the burst of cold spicy water without spilling!",
+    "explanation": "Biryani is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "True Dum Biryani is cooked inside a heavy earthen pot sealed with a rope of raw dough to trap aromatic steam!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_hamburger_006",
+    "category": "food",
+    "name": "Hamburger",
+    "difficulty": "medium",
+    "emoji": "🍔",
+    "buzzWords": [
+      "Seared",
+      "Griddle",
+      "Sesame"
+    ],
+    "clues": [
+      "Iconic grilled ground meat patty sandwiched between halves of a sliced round yeast bun.",
+      "Traces culinary heritage to USA with a Savory flavor profile.",
+      "Features Ground Beef traditionally prepared via Flat Griddle."
+    ],
+    "primaryClues": [
+      "Iconic grilled ground meat patty sandwiched between halves of a sliced round yeast bun.",
+      "Origin: USA."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Savory.",
+      "Core ingredient: Ground Beef."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "USA"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Savory"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Ground Beef"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Flat Griddle"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Hamburger?",
+      "answer": "USA"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "hamburger",
+      "hamburger"
+    ],
+    "explanation": "Hamburger is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Americans consume approximately 50 billion burgers every calendar year—enough to encircle the equator 32 times!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_padthai_007",
+    "category": "food",
+    "name": "Pad Thai",
+    "difficulty": "medium",
+    "emoji": "🍜",
+    "buzzWords": [
+      "Wok-Tossed",
+      "Crushed Peanuts",
+      "Stir-Fried"
+    ],
+    "clues": [
+      "Stir-fried rice noodles tossed with tofu or shrimp, dried radishes, and sour tamarind paste.",
+      "Traces culinary heritage to Thailand with a Sweet-Sour flavor profile.",
+      "Features Rice Noodles traditionally prepared via Wok Toss."
+    ],
+    "primaryClues": [
+      "Stir-fried rice noodles tossed with tofu or shrimp, dried radishes, and sour tamarind paste.",
+      "Origin: Thailand."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Sweet-Sour.",
+      "Core ingredient: Rice Noodles."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Thailand"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Sweet-Sour"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Rice Noodles"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Wok Toss"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Pad Thai?",
+      "answer": "Thailand"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "pad thai",
+      "pad"
+    ],
+    "explanation": "Pad Thai is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Pad Thai was vigorously promoted in the 1930s by Thailand's prime minister to cultivate national unity and rice milling!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_dumplings_008",
+    "category": "food",
+    "name": "Dim Sum (Dumplings)",
+    "difficulty": "medium",
+    "emoji": "🥟",
+    "buzzWords": [
+      "Bamboo",
+      "Parcel",
+      "Steamed"
+    ],
+    "clues": [
+      "Thin wheat dough parcels enclosing savory minced fillings, served in woven bamboo steamers.",
+      "Traces culinary heritage to China with a Umami flavor profile.",
+      "Features Minced Filling traditionally prepared via Steam Basket."
+    ],
+    "primaryClues": [
+      "Thin wheat dough parcels enclosing savory minced fillings, served in woven bamboo steamers.",
+      "Origin: China."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Umami.",
+      "Core ingredient: Minced Filling."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "China"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Umami"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Minced Filling"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Steam Basket"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Dim Sum (Dumplings)?",
+      "answer": "China"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "dim sum (dumplings)",
+      "dim"
+    ],
+    "explanation": "Dim Sum (Dumplings) is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The Cantonese phrase \"Dim Sum\" translates poetically to \"touch the heart\", traditionally accompanied by hot tea!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_paella_009",
+    "category": "food",
+    "name": "Paella",
+    "difficulty": "medium",
+    "emoji": "🥘",
+    "buzzWords": [
+      "Socarrat",
+      "Saffron",
+      "Shallow-Pan"
+    ],
+    "clues": [
+      "Golden saffron rice simmered in wide shallow iron pans over outdoor wood fires.",
+      "Traces culinary heritage to Spain with a Smoky flavor profile.",
+      "Features Bomba Rice traditionally prepared via Shallow Pan."
+    ],
+    "primaryClues": [
+      "Golden saffron rice simmered in wide shallow iron pans over outdoor wood fires.",
+      "Origin: Spain."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Smoky.",
+      "Core ingredient: Bomba Rice."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Spain"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Smoky"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Bomba Rice"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Shallow Pan"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Paella?",
+      "answer": "Spain"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "paella",
+      "paella"
+    ],
+    "explanation": "Paella is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The most prized portion of authentic Valencian paella is the \"socarrat\"—the crisp caramelized crust at the base!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_ramen_010",
+    "category": "food",
+    "name": "Ramen",
+    "difficulty": "medium",
+    "emoji": "🍜",
+    "buzzWords": [
+      "Broth",
+      "Wheat",
+      "Slurp"
+    ],
+    "clues": [
+      "Springy alkalized wheat noodles served in long-simmered bone or kelp broth flavored with miso.",
+      "Traces culinary heritage to Japan with a Deep Umami flavor profile.",
+      "Features Wheat Noodles traditionally prepared via Simmered Pot."
+    ],
+    "primaryClues": [
+      "Springy alkalized wheat noodles served in long-simmered bone or kelp broth flavored with miso.",
+      "Origin: Japan."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Deep Umami.",
+      "Core ingredient: Wheat Noodles."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Japan"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Deep Umami"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Wheat Noodles"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Simmered Pot"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Ramen?",
+      "answer": "Japan"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "ramen",
+      "ramen"
+    ],
+    "explanation": "Ramen is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Slurping your hot ramen noodles loudly in Japan is welcomed as a sincere compliment to the master broth chef!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_gelato_011",
+    "category": "food",
+    "name": "Gelato",
+    "difficulty": "medium",
+    "emoji": "🍨",
+    "buzzWords": [
+      "Dense",
+      "Churned",
+      "Slow-Freeze"
+    ],
+    "clues": [
+      "Frozen cream confection churned at low velocity containing significantly lower air overrun.",
+      "Traces culinary heritage to Italy with a Rich Sweet flavor profile.",
+      "Features Milk & Sugar traditionally prepared via Churned Tub."
+    ],
+    "primaryClues": [
+      "Frozen cream confection churned at low velocity containing significantly lower air overrun.",
+      "Origin: Italy."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Rich Sweet.",
+      "Core ingredient: Milk & Sugar."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Italy"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Rich Sweet"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Milk & Sugar"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Churned Tub"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Gelato?",
+      "answer": "Italy"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "gelato",
+      "gelato"
+    ],
+    "explanation": "Gelato is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Authentic Italian gelato contains substantially less butterfat and air than American ice cream, creating denser flavor!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_baguette_012",
+    "category": "food",
+    "name": "Baguette",
+    "difficulty": "medium",
+    "emoji": "🥖",
+    "buzzWords": [
+      "Crusty",
+      "Elongated",
+      "Scores"
+    ],
+    "clues": [
+      "Slender elongated wheat loaf noted for its crisp caramelized crust and open interior crumb.",
+      "Traces culinary heritage to France with a Toasty flavor profile.",
+      "Features Flour & Yeast traditionally prepared via Hearth Bake."
+    ],
+    "primaryClues": [
+      "Slender elongated wheat loaf noted for its crisp caramelized crust and open interior crumb.",
+      "Origin: France."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Toasty.",
+      "Core ingredient: Flour & Yeast."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "France"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Toasty"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Flour & Yeast"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Hearth Bake"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Baguette?",
+      "answer": "France"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "baguette",
+      "baguette"
+    ],
+    "explanation": "Baguette is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "French national law legally defines an authentic baguette: strictly flour, water, salt, and yeast—zero additives!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_dosa_013",
+    "category": "food",
+    "name": "Dosa",
+    "difficulty": "medium",
+    "emoji": "🥞",
+    "buzzWords": [
+      "Fermented",
+      "Crispy",
+      "Lentil"
+    ],
+    "clues": [
+      "Paper-thin golden savory crepe crafted from stone-ground fermented rice and black gram batter.",
+      "Traces culinary heritage to India with a Tangy Crisp flavor profile.",
+      "Features Lentil Batter traditionally prepared via Flat Tawa."
+    ],
+    "primaryClues": [
+      "Paper-thin golden savory crepe crafted from stone-ground fermented rice and black gram batter.",
+      "Origin: India."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Tangy Crisp.",
+      "Core ingredient: Lentil Batter."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "India"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Tangy Crisp"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Lentil Batter"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Flat Tawa"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Dosa?",
+      "answer": "India"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "dosa",
+      "dosa"
+    ],
+    "explanation": "Dosa is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "A grand family roast paper dosa served in South Indian dining halls can stretch across four to six feet in length!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_poutine_014",
+    "category": "food",
+    "name": "Poutine",
+    "difficulty": "medium",
+    "emoji": "🍟",
+    "buzzWords": [
+      "Curds",
+      "Gravy",
+      "Fries"
+    ],
+    "clues": [
+      "Hot potato batons smothered in squeaky fresh white cheddar curds and rich velouté gravy.",
+      "Traces culinary heritage to Canada with a Savory flavor profile.",
+      "Features Curds & Fries traditionally prepared via Warm Platter."
+    ],
+    "primaryClues": [
+      "Hot potato batons smothered in squeaky fresh white cheddar curds and rich velouté gravy.",
+      "Origin: Canada."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Savory.",
+      "Core ingredient: Curds & Fries."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Canada"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Savory"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Curds & Fries"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Warm Platter"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Poutine?",
+      "answer": "Canada"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "poutine",
+      "poutine"
+    ],
+    "explanation": "Poutine is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Fresh artisan poutine cheese curds must produce an audible \"squeak\" against teeth to be verified fresh!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_falafel_015",
+    "category": "food",
+    "name": "Falafel",
+    "difficulty": "medium",
+    "emoji": "🧆",
+    "buzzWords": [
+      "Chickpeas",
+      "Crispy",
+      "Spiced"
+    ],
+    "clues": [
+      "Deep-fried golden patties prepared from soaked chickpeas or fava beans ground with herbs.",
+      "Traces culinary heritage to Middle East with a Herby Crisp flavor profile.",
+      "Features Ground Pulses traditionally prepared via Deep Fryer."
+    ],
+    "primaryClues": [
+      "Deep-fried golden patties prepared from soaked chickpeas or fava beans ground with herbs.",
+      "Origin: Middle East."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Herby Crisp.",
+      "Core ingredient: Ground Pulses."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Middle East"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Herby Crisp"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Ground Pulses"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Deep Fryer"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Falafel?",
+      "answer": "Middle East"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "falafel",
+      "falafel"
+    ],
+    "explanation": "Falafel is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Culinary historians trace falafel to ancient Coptic Christian communities in Egypt looking for meatless feast foods!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_lasagna_016",
+    "category": "food",
+    "name": "Lasagna",
+    "difficulty": "medium",
+    "emoji": "🍝",
+    "buzzWords": [
+      "Layers",
+      "Béchamel",
+      "Casserole"
+    ],
+    "clues": [
+      "Oven-baked pasta casserole alternating broad flat ribbons with meat ragù and velvety béchamel.",
+      "Traces culinary heritage to Italy with a Rich Savory flavor profile.",
+      "Features Pasta Sheets traditionally prepared via Oven Bake."
+    ],
+    "primaryClues": [
+      "Oven-baked pasta casserole alternating broad flat ribbons with meat ragù and velvety béchamel.",
+      "Origin: Italy."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Rich Savory.",
+      "Core ingredient: Pasta Sheets."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Italy"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Rich Savory"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Pasta Sheets"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Oven Bake"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Lasagna?",
+      "answer": "Italy"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "lasagna",
+      "lasagna"
+    ],
+    "explanation": "Lasagna is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Ancient Roman legions baked a flat pasta ancestor called \"lagana\" across iron baking plates over open embers!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_crepe_017",
+    "category": "food",
+    "name": "Crepe",
+    "difficulty": "medium",
+    "emoji": "🥞",
+    "buzzWords": [
+      "Thin Batter",
+      "Griddle",
+      "Fliped"
+    ],
+    "clues": [
+      "Ultra-thin pan-cooked batter disc folded around sweet hazelnut spreads or savory cheeses.",
+      "Traces culinary heritage to France with a Sweet-Savory flavor profile.",
+      "Features Egg Batter traditionally prepared via Round Bilig."
+    ],
+    "primaryClues": [
+      "Ultra-thin pan-cooked batter disc folded around sweet hazelnut spreads or savory cheeses.",
+      "Origin: France."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Sweet-Savory.",
+      "Core ingredient: Egg Batter."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "France"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Sweet-Savory"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Egg Batter"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Round Bilig"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Crepe?",
+      "answer": "France"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "crepe",
+      "crepe"
+    ],
+    "explanation": "Crepe is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Flipping a crepe on Candlemas day while holding a gold coin in your left hand is said to bring prosperous fortune!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_samosa_018",
+    "category": "food",
+    "name": "Samosa",
+    "difficulty": "medium",
+    "emoji": "🥟",
+    "buzzWords": [
+      "Pyramid",
+      "Flaky",
+      "Spiced"
+    ],
+    "clues": [
+      "Crisp golden triangular pastry parcel stuffed with seasoned potatoes, green peas, and cumin.",
+      "Traces culinary heritage to India with a Spiced Crisp flavor profile.",
+      "Features Wheat Crust traditionally prepared via Deep Fryer."
+    ],
+    "primaryClues": [
+      "Crisp golden triangular pastry parcel stuffed with seasoned potatoes, green peas, and cumin.",
+      "Origin: India."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Spiced Crisp.",
+      "Core ingredient: Wheat Crust."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "India"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Spiced Crisp"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Wheat Crust"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Deep Fryer"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Samosa?",
+      "answer": "India"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "samosa",
+      "samosa"
+    ],
+    "explanation": "Samosa is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Nomadic traders in medieval Central Asia carried samosas across mountain trails packed in their leather saddlebags!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_curry_019",
+    "category": "food",
+    "name": "Curry",
+    "difficulty": "medium",
+    "emoji": "🍛",
+    "buzzWords": [
+      "Turmeric",
+      "Simmered",
+      "Gravy"
+    ],
+    "clues": [
+      "Complex aromatic sauce dish prepared by infusing coriander, turmeric, cumin, and chilis.",
+      "Traces culinary heritage to India with a Warm Spiced flavor profile.",
+      "Features Spice Paste traditionally prepared via Simmered Pot."
+    ],
+    "primaryClues": [
+      "Complex aromatic sauce dish prepared by infusing coriander, turmeric, cumin, and chilis.",
+      "Origin: India."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Warm Spiced.",
+      "Core ingredient: Spice Paste."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "India"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Warm Spiced"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Spice Paste"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Simmered Pot"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Curry?",
+      "answer": "India"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "curry",
+      "curry"
+    ],
+    "explanation": "Curry is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The word \"curry\" originates from the ancient classical Tamil word \"kari\", which translates to seasoned sauce!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_guacamole_020",
+    "category": "food",
+    "name": "Guacamole",
+    "difficulty": "medium",
+    "emoji": "🥑",
+    "buzzWords": [
+      "Avocado",
+      "Molcajete",
+      "Citrus"
+    ],
+    "clues": [
+      "Velvety mash of ripe buttery alligator pears blended with fresh lime juice, sea salt, and herbs.",
+      "Traces culinary heritage to Mexico with a Zesty Fresh flavor profile.",
+      "Features Hass Avocado traditionally prepared via Stone Mortar."
+    ],
+    "primaryClues": [
+      "Velvety mash of ripe buttery alligator pears blended with fresh lime juice, sea salt, and herbs.",
+      "Origin: Mexico."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Zesty Fresh.",
+      "Core ingredient: Hass Avocado."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Mexico"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Zesty Fresh"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Hass Avocado"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Stone Mortar"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Guacamole?",
+      "answer": "Mexico"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "guacamole",
+      "guacamole"
+    ],
+    "explanation": "Guacamole is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Guacamole was invented by the Aztec civilization over 500 years ago, who christened it \"ahuacamolli\"!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_cheesecake_021",
+    "category": "food",
+    "name": "Cheesecake",
+    "difficulty": "medium",
+    "emoji": "🍰",
+    "buzzWords": [
+      "Crust",
+      "Cream Cheese",
+      "Chilled"
+    ],
+    "clues": [
+      "Dense baked or chilled dessert featuring sweetened fresh cheese puree over a crumb foundation.",
+      "Traces culinary heritage to Greece with a Tangy Sweet flavor profile.",
+      "Features Cheese & Eggs traditionally prepared via Bake/Chill."
+    ],
+    "primaryClues": [
+      "Dense baked or chilled dessert featuring sweetened fresh cheese puree over a crumb foundation.",
+      "Origin: Greece."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Tangy Sweet.",
+      "Core ingredient: Cheese & Eggs."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Greece"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Tangy Sweet"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Cheese & Eggs"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Bake/Chill"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Cheesecake?",
+      "answer": "Greece"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "cheesecake",
+      "cheesecake"
+    ],
+    "explanation": "Cheesecake is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Cheesecake wedges were served to competing athletes at the inaugural Olympic Games in ancient Greece in 776 BC!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_waffle_022",
+    "category": "food",
+    "name": "Belgian Waffle",
+    "difficulty": "medium",
+    "emoji": "🧇",
+    "buzzWords": [
+      "Grid Iron",
+      "Pearl Sugar",
+      "Pockets"
+    ],
+    "clues": [
+      "Leavened batter cooked between embossed cast-iron plates producing deep square indentations.",
+      "Traces culinary heritage to Belgium with a Sweet Crisp flavor profile.",
+      "Features Leavened Dough traditionally prepared via Waffle Iron."
+    ],
+    "primaryClues": [
+      "Leavened batter cooked between embossed cast-iron plates producing deep square indentations.",
+      "Origin: Belgium."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Sweet Crisp.",
+      "Core ingredient: Leavened Dough."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Belgium"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Sweet Crisp"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Leavened Dough"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Waffle Iron"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Belgian Waffle?",
+      "answer": "Belgium"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "belgian waffle",
+      "belgian"
+    ],
+    "explanation": "Belgian Waffle is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Authentic Liège waffles contain coarse Belgian pearl sugar crystals that caramelize into crunchy pockets on iron plates!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_shawarma_023",
+    "category": "food",
+    "name": "Shawarma",
+    "difficulty": "medium",
+    "emoji": "🌯",
+    "buzzWords": [
+      "Vertical Spit",
+      "Shaved",
+      "Flatbread"
+    ],
+    "clues": [
+      "Stacked spiced meat cones roasted against a radiant vertical burner and carved in fine ribbons.",
+      "Traces culinary heritage to Middle East with a Savory Spiced flavor profile.",
+      "Features Shaved Meat traditionally prepared via Vertical Spit."
+    ],
+    "primaryClues": [
+      "Stacked spiced meat cones roasted against a radiant vertical burner and carved in fine ribbons.",
+      "Origin: Middle East."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Savory Spiced.",
+      "Core ingredient: Shaved Meat."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Middle East"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Savory Spiced"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Shaved Meat"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Vertical Spit"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Shawarma?",
+      "answer": "Middle East"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "shawarma",
+      "shawarma"
+    ],
+    "explanation": "Shawarma is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The designation \"Shawarma\" derives from the Turkish verb \"çevirme\", meaning \"turning\" in homage to the spit!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_pekingduck_024",
+    "category": "food",
+    "name": "Peking Duck",
+    "difficulty": "medium",
+    "emoji": "🦆",
+    "buzzWords": [
+      "Caramelized",
+      "Glazed",
+      "Roast"
+    ],
+    "clues": [
+      "Imperial poultry delicacy prepared by hanging air-dried fowl in wood-fired ovens for glassy skin.",
+      "Traces culinary heritage to China with a Savory Sweet flavor profile.",
+      "Features Whole Duck traditionally prepared via Hanging Oven."
+    ],
+    "primaryClues": [
+      "Imperial poultry delicacy prepared by hanging air-dried fowl in wood-fired ovens for glassy skin.",
+      "Origin: China."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Savory Sweet.",
+      "Core ingredient: Whole Duck."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "China"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Savory Sweet"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Whole Duck"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Hanging Oven"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Peking Duck?",
+      "answer": "China"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "peking duck",
+      "peking"
+    ],
+    "explanation": "Peking Duck is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Imperial roast chefs pump compressed air beneath the duck skin before firing to separate fat from the crisp skin!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_fishandchips_025",
+    "category": "food",
+    "name": "Fish and Chips",
+    "difficulty": "medium",
+    "emoji": "🐟",
+    "buzzWords": [
+      "Battered",
+      "Malt Vinegar",
+      "Fillet"
+    ],
+    "clues": [
+      "Deep-fried golden battered white fish fillet paired with thick cut salted potato batons.",
+      "Traces culinary heritage to UK with a Crispy flavor profile.",
+      "Features Whitefish traditionally prepared via Deep Fryer."
+    ],
+    "primaryClues": [
+      "Deep-fried golden battered white fish fillet paired with thick cut salted potato batons.",
+      "Origin: UK."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Crispy.",
+      "Core ingredient: Whitefish."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "UK"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Crispy"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Whitefish"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Deep Fryer"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Fish and Chips?",
+      "answer": "UK"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "fish and chips",
+      "fish"
+    ],
+    "explanation": "Fish and Chips is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "During both World Wars, the British wartime government deliberately exempted fish and chips from food rationing!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_pho_026",
+    "category": "food",
+    "name": "Pho",
+    "difficulty": "medium",
+    "emoji": "🍜",
+    "buzzWords": [
+      "Star Anise",
+      "Bone Broth",
+      "Rice Ribbons"
+    ],
+    "clues": [
+      "Fragrant simmering clear broth brewed with charred ginger, cinnamon, and flat rice ribbons.",
+      "Traces culinary heritage to Vietnam with a Herbal Umami flavor profile.",
+      "Features Charred Broth traditionally prepared via Steaming Bowl."
+    ],
+    "primaryClues": [
+      "Fragrant simmering clear broth brewed with charred ginger, cinnamon, and flat rice ribbons.",
+      "Origin: Vietnam."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Herbal Umami.",
+      "Core ingredient: Charred Broth."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Vietnam"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Herbal Umami"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Charred Broth"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Steaming Bowl"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Pho?",
+      "answer": "Vietnam"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "pho",
+      "pho"
+    ],
+    "explanation": "Pho is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The distinctive fragrant aroma of traditional Pho broth stems from slow-roasting whole onions and ginger roots!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_pretzel_027",
+    "category": "food",
+    "name": "Pretzel",
+    "difficulty": "medium",
+    "emoji": "🥨",
+    "buzzWords": [
+      "Knot",
+      "Lye Glaze",
+      "Rock Salt"
+    ],
+    "clues": [
+      "Twisted knot bread immersed in an alkaline bath before baking for mahogany gloss and chew.",
+      "Traces culinary heritage to Germany with a Toasty Salty flavor profile.",
+      "Features Lye Dough traditionally prepared via Hearth Bake."
+    ],
+    "primaryClues": [
+      "Twisted knot bread immersed in an alkaline bath before baking for mahogany gloss and chew.",
+      "Origin: Germany."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Toasty Salty.",
+      "Core ingredient: Lye Dough."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Germany"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Toasty Salty"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Lye Dough"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Hearth Bake"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Pretzel?",
+      "answer": "Germany"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "pretzel",
+      "pretzel"
+    ],
+    "explanation": "Pretzel is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The interlocking knot design historically represented the crossed arms of religious monks folded in humble prayer!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_tiramisu_028",
+    "category": "food",
+    "name": "Tiramisu",
+    "difficulty": "medium",
+    "emoji": "☕",
+    "buzzWords": [
+      "Ladyfingers",
+      "Mascarpone",
+      "Espresso"
+    ],
+    "clues": [
+      "Layered Italian dolce constructed with coffee-drenched ladyfingers and whipped mascarpone.",
+      "Traces culinary heritage to Italy with a Mocha Sweet flavor profile.",
+      "Features Mascarpone traditionally prepared via Chilled Layers."
+    ],
+    "primaryClues": [
+      "Layered Italian dolce constructed with coffee-drenched ladyfingers and whipped mascarpone.",
+      "Origin: Italy."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Mocha Sweet.",
+      "Core ingredient: Mascarpone."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Italy"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Mocha Sweet"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Mascarpone"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Chilled Layers"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Tiramisu?",
+      "answer": "Italy"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "tiramisu",
+      "tiramisu"
+    ],
+    "explanation": "Tiramisu is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The Italian name \"Tiramisù\" translates idiomatically to \"pick-me-up\", alluding to the energizing caffeine boost!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_churros_029",
+    "category": "food",
+    "name": "Churros",
+    "difficulty": "medium",
+    "emoji": "🥖",
+    "buzzWords": [
+      "Fluted",
+      "Star Nozzle",
+      "Cinnamon"
+    ],
+    "clues": [
+      "Extruded choux pastry ribbons piped through fluted star nozzles into bubbling hot oil.",
+      "Traces culinary heritage to Spain with a Sweet Crunch flavor profile.",
+      "Features Choux Dough traditionally prepared via Extruded Fry."
+    ],
+    "primaryClues": [
+      "Extruded choux pastry ribbons piped through fluted star nozzles into bubbling hot oil.",
+      "Origin: Spain."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Sweet Crunch.",
+      "Core ingredient: Choux Dough."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Spain"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Sweet Crunch"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Choux Dough"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Extruded Fry"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Churros?",
+      "answer": "Spain"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "churros",
+      "churros"
+    ],
+    "explanation": "Churros is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Nomadic Spanish hill shepherds invented churros because soft pastry dough was effortless to fry in iron pans!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_burrito_030",
+    "category": "food",
+    "name": "Burrito",
+    "difficulty": "medium",
+    "emoji": "🌯",
+    "buzzWords": [
+      "Cylinder",
+      "Flour Wrap",
+      "Stuffed"
+    ],
+    "clues": [
+      "Large malleable wheat flour flatbread wrapped securely into an enclosed edible cylinder.",
+      "Traces culinary heritage to Mexico with a Hearty flavor profile.",
+      "Features Flour Tortilla traditionally prepared via Folded Roll."
+    ],
+    "primaryClues": [
+      "Large malleable wheat flour flatbread wrapped securely into an enclosed edible cylinder.",
+      "Origin: Mexico."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Hearty.",
+      "Core ingredient: Flour Tortilla."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Mexico"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Hearty"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Flour Tortilla"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Folded Roll"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Burrito?",
+      "answer": "Mexico"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "burrito",
+      "burrito"
+    ],
+    "explanation": "Burrito is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The term \"Burrito\" translates directly to \"little donkey\" in Spanish, possibly referencing packed cargo bedrolls!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_macaron_031",
+    "category": "food",
+    "name": "French Macaron",
+    "difficulty": "medium",
+    "emoji": "🍪",
+    "buzzWords": [
+      "Almond Meringue",
+      "Ganache",
+      "Ruffled"
+    ],
+    "clues": [
+      "Delicate confection pairing twin smooth almond meringue discs sandwiching silky ganache.",
+      "Traces culinary heritage to France with a Nutty Sweet flavor profile.",
+      "Features Almond Flour traditionally prepared via Gentle Bake."
+    ],
+    "primaryClues": [
+      "Delicate confection pairing twin smooth almond meringue discs sandwiching silky ganache.",
+      "Origin: France."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Nutty Sweet.",
+      "Core ingredient: Almond Flour."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "France"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Nutty Sweet"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Almond Flour"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Gentle Bake"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to French Macaron?",
+      "answer": "France"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "french macaron",
+      "french"
+    ],
+    "explanation": "French Macaron is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "True French patisserie macarons must form a distinct ruffled ring around their base known to chefs as the \"foot\"!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_hummus_032",
+    "category": "food",
+    "name": "Hummus",
+    "difficulty": "medium",
+    "emoji": "🧆",
+    "buzzWords": [
+      "Sesame Paste",
+      "Pureed",
+      "Dip"
+    ],
+    "clues": [
+      "Silky puree of simmered chickpeas blended with rich sesame paste, cold-pressed oil, and garlic.",
+      "Traces culinary heritage to Middle East with a Nutty Creamy flavor profile.",
+      "Features Cooked Pulses traditionally prepared via Cold Puree."
+    ],
+    "primaryClues": [
+      "Silky puree of simmered chickpeas blended with rich sesame paste, cold-pressed oil, and garlic.",
+      "Origin: Middle East."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Nutty Creamy.",
+      "Core ingredient: Cooked Pulses."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "Middle East"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Nutty Creamy"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Cooked Pulses"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Cold Puree"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Hummus?",
+      "answer": "Middle East"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "hummus",
+      "hummus"
+    ],
+    "explanation": "Hummus is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The Arabic word \"Hummus\" translates literally to \"chickpea\", an ancient pulse crop farmed for 7,000 years!",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fod_paanipuri_033",
+    "category": "food",
+    "name": "Pani Puri (Golgappa)",
+    "difficulty": "medium",
+    "emoji": "🥟",
+    "buzzWords": [
+      "Hollow Shell",
+      "Mint Essence",
+      "Street Snack"
+    ],
+    "clues": [
+      "Crisp fried semolina globes hollowed and flooded with cold spiced tamarind-mint nectar.",
+      "Traces culinary heritage to India with a Spicy Tangy flavor profile.",
+      "Features Crisp Puri traditionally prepared via Handheld Sip."
+    ],
+    "primaryClues": [
+      "Crisp fried semolina globes hollowed and flooded with cold spiced tamarind-mint nectar.",
+      "Origin: India."
+    ],
+    "secondaryClues": [
+      "Flavor profile: Spicy Tangy.",
+      "Core ingredient: Crisp Puri."
+    ],
+    "factGrid": [
+      {
+        "icon": "🌍",
+        "label": "Origin",
+        "value": "India"
+      },
+      {
+        "icon": "👅",
+        "label": "Flavor",
+        "value": "Spicy Tangy"
+      },
+      {
+        "icon": "🥣",
+        "label": "Core",
+        "value": "Crisp Puri"
+      },
+      {
+        "icon": "🍳",
+        "label": "Prep",
+        "value": "Handheld Sip"
+      }
+    ],
+    "bonusTrivia": {
+      "question": "What nation or culinary tradition gave birth to Pani Puri (Golgappa)?",
+      "answer": "India"
+    },
+    "facts": {
+      "isFood": true,
+      "culinaryDelicacy": true
+    },
+    "aliases": [
+      "pani puri (golgappa)",
+      "pani"
+    ],
+    "explanation": "Pani Puri (Golgappa) is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Pani Puri globes must be consumed whole in a single mouth bite to enjoy the burst of chilled aromatic liquor!",
     "verificationStatus": "verified"
   },
   {
     "id": "fod_kimchi_034",
     "category": "food",
     "name": "Kimchi",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥬",
     "buzzWords": [
       "Fermented",
       "Gochugaru",
-      "Cabbage"
+      "Earthenware"
     ],
     "clues": [
-      "Traditional Korean banchan side dish of salted, seasoned, and fermented Napa cabbage and Korean radishes.",
-      "Originates from Korea with a Spicy, Sour & Tangy flavor profile.",
-      "Key ingredients include Napa Cabbage, Chili & Garlic and typically prepared via Fermented Onggi Earthenware."
+      "Traditional Korean staple of lacto-fermented Napa cabbage seasoned with red chili flake and garlic.",
+      "Traces culinary heritage to Korea with a Tangy Pungent flavor profile.",
+      "Features Napa Cabbage traditionally prepared via Fermentation."
     ],
     "primaryClues": [
-      "Traditional Korean banchan side dish of salted, seasoned, and fermented Napa cabbage and Korean radishes.",
+      "Traditional Korean staple of lacto-fermented Napa cabbage seasoned with red chili flake and garlic.",
       "Origin: Korea."
     ],
     "secondaryClues": [
-      "Flavor: Spicy, Sour & Tangy.",
-      "Features Napa Cabbage, Chili & Garlic."
+      "Flavor profile: Tangy Pungent.",
+      "Core ingredient: Napa Cabbage."
     ],
     "factGrid": [
       {
@@ -2046,22 +2079,22 @@ export const FOOD_CARDS: Card[] = [
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Spicy, Sour & Tangy"
+        "label": "Flavor",
+        "value": "Tangy Pungent"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Napa Cabbage, Chili & Garlic"
+        "label": "Core",
+        "value": "Napa Cabbage"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Fermented Onggi Earthenware"
+        "label": "Prep",
+        "value": "Fermentation"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Kimchi?",
+      "question": "What nation or culinary tradition gave birth to Kimchi?",
       "answer": "Korea"
     },
     "facts": {
@@ -2069,35 +2102,36 @@ export const FOOD_CARDS: Card[] = [
       "culinaryDelicacy": true
     },
     "aliases": [
+      "kimchi",
       "kimchi"
     ],
-    "explanation": "Kimchi is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Korean families hold annual \"Kimjang\" gatherings in late autumn to ferment enough kimchi to feed the village all winter!",
+    "explanation": "Kimchi is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Korean families gather annually for \"Kimjang\" gatherings in late autumn to ferment enough kimchi pots for winter!",
     "verificationStatus": "verified"
   },
   {
     "id": "fod_gyoza_035",
     "category": "food",
     "name": "Gyoza",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥟",
     "buzzWords": [
-      "Pan-Fried",
-      "Crispy Skirt",
-      "Sesame"
+      "Crescent",
+      "Potsticker",
+      "Crisp Skirt"
     ],
     "clues": [
-      "Crescent-shaped Japanese dumplings with a savory pork and cabbage filling, pan-fried on one side and steamed.",
-      "Originates from Japan with a Savory & Crispy-Bottom flavor profile.",
-      "Key ingredients include Minced Pork, Cabbage & Wrapper and typically prepared via Pan-Fried Bottom / Steamed."
+      "Pleated crescent dumplings pan-seared to a brittle bottom glaze then steamed under cover.",
+      "Traces culinary heritage to Japan with a Savory Crisp flavor profile.",
+      "Features Minced Pork traditionally prepared via Sear & Steam."
     ],
     "primaryClues": [
-      "Crescent-shaped Japanese dumplings with a savory pork and cabbage filling, pan-fried on one side and steamed.",
+      "Pleated crescent dumplings pan-seared to a brittle bottom glaze then steamed under cover.",
       "Origin: Japan."
     ],
     "secondaryClues": [
-      "Flavor: Savory & Crispy-Bottom.",
-      "Features Minced Pork, Cabbage & Wrapper."
+      "Flavor profile: Savory Crisp.",
+      "Core ingredient: Minced Pork."
     ],
     "factGrid": [
       {
@@ -2107,22 +2141,22 @@ export const FOOD_CARDS: Card[] = [
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Savory & Crispy-Bottom"
+        "label": "Flavor",
+        "value": "Savory Crisp"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Minced Pork, Cabbage & Wrapper"
+        "label": "Core",
+        "value": "Minced Pork"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Pan-Fried Bottom / Steamed"
+        "label": "Prep",
+        "value": "Sear & Steam"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Gyoza?",
+      "question": "What nation or culinary tradition gave birth to Gyoza?",
       "answer": "Japan"
     },
     "facts": {
@@ -2130,157 +2164,160 @@ export const FOOD_CARDS: Card[] = [
       "culinaryDelicacy": true
     },
     "aliases": [
+      "gyoza",
       "gyoza"
     ],
-    "explanation": "Gyoza is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The signature cooking method—pan-frying till crisp then adding water to steam—is called \"potsticking\"!",
+    "explanation": "Gyoza is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The dual cooking style—first searing the flat bottom in oil then adding water to steam—is called potsticking!",
     "verificationStatus": "verified"
   },
   {
     "id": "fod_baklava_036",
     "category": "food",
     "name": "Baklava",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🍯",
     "buzzWords": [
       "Phyllo",
       "Pistachio",
-      "Honey"
+      "Syrup"
     ],
     "clues": [
-      "Rich, sweet pastry made of dozens of paper-thin phyllo pastry layers filled with chopped nuts and drenched in syrup.",
-      "Originates from Ottoman Empire / Greece with a Sweet, Nutty & Flaky flavor profile.",
-      "Key ingredients include Phyllo Dough, Walnuts & Honey and typically prepared via Diamond-Cut Baked Sheets."
+      "Delicate dessert composed of dozens of micro-thin translucent pastry sheets drenched in honey.",
+      "Traces culinary heritage to Ottoman Empire with a Honey Sweet flavor profile.",
+      "Features Phyllo Dough traditionally prepared via Baked Sheet."
     ],
     "primaryClues": [
-      "Rich, sweet pastry made of dozens of paper-thin phyllo pastry layers filled with chopped nuts and drenched in syrup.",
-      "Origin: Ottoman Empire / Greece."
+      "Delicate dessert composed of dozens of micro-thin translucent pastry sheets drenched in honey.",
+      "Origin: Ottoman Empire."
     ],
     "secondaryClues": [
-      "Flavor: Sweet, Nutty & Flaky.",
-      "Features Phyllo Dough, Walnuts & Honey."
+      "Flavor profile: Honey Sweet.",
+      "Core ingredient: Phyllo Dough."
     ],
     "factGrid": [
       {
         "icon": "🌍",
         "label": "Origin",
-        "value": "Ottoman Empire / Greece"
+        "value": "Ottoman Empire"
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet, Nutty & Flaky"
+        "label": "Flavor",
+        "value": "Honey Sweet"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Phyllo Dough, Walnuts & Honey"
+        "label": "Core",
+        "value": "Phyllo Dough"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Diamond-Cut Baked Sheets"
+        "label": "Prep",
+        "value": "Baked Sheet"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Baklava?",
-      "answer": "Ottoman Empire / Greece"
+      "question": "What nation or culinary tradition gave birth to Baklava?",
+      "answer": "Ottoman Empire"
     },
     "facts": {
       "isFood": true,
       "culinaryDelicacy": true
     },
     "aliases": [
+      "baklava",
       "baklava"
     ],
-    "explanation": "Baklava is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "A royal tray of Ottoman palace baklava was traditionally made with exactly 40 gossamer-thin layers of phyllo!",
+    "explanation": "Baklava is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "A traditional grand Ottoman imperial palace baklava tray was rolled with exactly 40 individual phyllo sheets!",
     "verificationStatus": "verified"
   },
   {
     "id": "fod_nachos_037",
     "category": "food",
     "name": "Nachos",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🧀",
     "buzzWords": [
       "Tortilla Chips",
-      "Jalapeño",
-      "Melted Cheese"
+      "Pickled Rings",
+      "Melted"
     ],
     "clues": [
-      "Appetizer consisting of heated tortilla chips covered with melted cheese and pickled jalapeño pepper rings.",
-      "Originates from Piedras Negras, Mexico with a Cheesy, Crunchy & Spicy flavor profile.",
-      "Key ingredients include Tortilla Chips & Cheese and typically prepared via Warm Baked Platter."
+      "Heated maize chips smothered with molten cheese sauce and sliced hot pickled peppers.",
+      "Traces culinary heritage to Mexico with a Cheesy Crisp flavor profile.",
+      "Features Maize Chips traditionally prepared via Baked Platter."
     ],
     "primaryClues": [
-      "Appetizer consisting of heated tortilla chips covered with melted cheese and pickled jalapeño pepper rings.",
-      "Origin: Piedras Negras, Mexico."
+      "Heated maize chips smothered with molten cheese sauce and sliced hot pickled peppers.",
+      "Origin: Mexico."
     ],
     "secondaryClues": [
-      "Flavor: Cheesy, Crunchy & Spicy.",
-      "Features Tortilla Chips & Cheese."
+      "Flavor profile: Cheesy Crisp.",
+      "Core ingredient: Maize Chips."
     ],
     "factGrid": [
       {
         "icon": "🌍",
         "label": "Origin",
-        "value": "Piedras Negras, Mexico"
+        "value": "Mexico"
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Cheesy, Crunchy & Spicy"
+        "label": "Flavor",
+        "value": "Cheesy Crisp"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Tortilla Chips & Cheese"
+        "label": "Core",
+        "value": "Maize Chips"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Warm Baked Platter"
+        "label": "Prep",
+        "value": "Baked Platter"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Nachos?",
-      "answer": "Piedras Negras, Mexico"
+      "question": "What nation or culinary tradition gave birth to Nachos?",
+      "answer": "Mexico"
     },
     "facts": {
       "isFood": true,
       "culinaryDelicacy": true
     },
     "aliases": [
+      "nachos",
       "nachos"
     ],
-    "explanation": "Nachos is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Nachos were invented in 1943 by maitre d' Ignacio \"Nacho\" Anaya when military wives walked into his restaurant after closing!",
+    "explanation": "Nachos is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Nachos were invented on the fly in 1943 by maitre d' Ignacio \"Nacho\" Anaya for visiting wives of US officers!",
     "verificationStatus": "verified"
   },
   {
     "id": "fod_misosoup_038",
     "category": "food",
     "name": "Miso Soup",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥣",
     "buzzWords": [
-      "Fermented Soybean",
+      "Fermented Bean",
       "Dashi",
-      "Tofu"
+      "Wakame"
     ],
     "clues": [
-      "Traditional Japanese warm soup consisting of a dashi stock mixed with fermented miso soybean paste and soft tofu.",
-      "Originates from Japan with a Warm, Soothing Umami flavor profile.",
-      "Key ingredients include Dashi Stock, Miso & Wakame and typically prepared via Warm Lacquered Bowl."
+      "Traditional morning bowl prepared by dissolving fermented soybean paste into simmered broth.",
+      "Traces culinary heritage to Japan with a Warm Umami flavor profile.",
+      "Features Soy Paste traditionally prepared via Simmered Bowl."
     ],
     "primaryClues": [
-      "Traditional Japanese warm soup consisting of a dashi stock mixed with fermented miso soybean paste and soft tofu.",
+      "Traditional morning bowl prepared by dissolving fermented soybean paste into simmered broth.",
       "Origin: Japan."
     ],
     "secondaryClues": [
-      "Flavor: Warm, Soothing Umami.",
-      "Features Dashi Stock, Miso & Wakame."
+      "Flavor profile: Warm Umami.",
+      "Core ingredient: Soy Paste."
     ],
     "factGrid": [
       {
@@ -2290,22 +2327,22 @@ export const FOOD_CARDS: Card[] = [
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Warm, Soothing Umami"
+        "label": "Flavor",
+        "value": "Warm Umami"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Dashi Stock, Miso & Wakame"
+        "label": "Core",
+        "value": "Soy Paste"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Warm Lacquered Bowl"
+        "label": "Prep",
+        "value": "Simmered Bowl"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Miso Soup?",
+      "question": "What nation or culinary tradition gave birth to Miso Soup?",
       "answer": "Japan"
     },
     "facts": {
@@ -2313,132 +2350,135 @@ export const FOOD_CARDS: Card[] = [
       "culinaryDelicacy": true
     },
     "aliases": [
-      "miso soup"
+      "miso soup",
+      "miso"
     ],
-    "explanation": "Miso Soup is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "Over three-quarters of people in Japan drink at least one bowl of freshly prepared miso soup every single day!",
+    "explanation": "Miso Soup is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "Over 75 percent of Japanese citizens consume at least one hot bowl of freshly prepared miso soup daily!",
     "verificationStatus": "verified"
   },
   {
     "id": "fod_pancakes_039",
     "category": "food",
     "name": "Pancakes",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥞",
     "buzzWords": [
-      "Maple Syrup",
-      "Fluffy",
-      "Griddle"
+      "Starch Batter",
+      "Griddle",
+      "Maple"
     ],
     "clues": [
-      "Flat cake, often thin and round, prepared from a starch-based batter cooked on a hot griddle with butter and syrup.",
-      "Originates from Ancient Greece / Global with a Sweet & Fluffy flavor profile.",
-      "Key ingredients include Batter, Butter & Maple Syrup and typically prepared via Hot Flat Griddle."
+      "Flat round starch cakes poured onto hot griddles, flipped, and stacked with butter and syrup.",
+      "Traces culinary heritage to Global with a Fluffy Sweet flavor profile.",
+      "Features Leavened Batter traditionally prepared via Flat Griddle."
     ],
     "primaryClues": [
-      "Flat cake, often thin and round, prepared from a starch-based batter cooked on a hot griddle with butter and syrup.",
-      "Origin: Ancient Greece / Global."
+      "Flat round starch cakes poured onto hot griddles, flipped, and stacked with butter and syrup.",
+      "Origin: Global."
     ],
     "secondaryClues": [
-      "Flavor: Sweet & Fluffy.",
-      "Features Batter, Butter & Maple Syrup."
+      "Flavor profile: Fluffy Sweet.",
+      "Core ingredient: Leavened Batter."
     ],
     "factGrid": [
       {
         "icon": "🌍",
         "label": "Origin",
-        "value": "Ancient Greece / Global"
+        "value": "Global"
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Sweet & Fluffy"
+        "label": "Flavor",
+        "value": "Fluffy Sweet"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Batter, Butter & Maple Syrup"
+        "label": "Core",
+        "value": "Leavened Batter"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Hot Flat Griddle"
+        "label": "Prep",
+        "value": "Flat Griddle"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Pancakes?",
-      "answer": "Ancient Greece / Global"
+      "question": "What nation or culinary tradition gave birth to Pancakes?",
+      "answer": "Global"
     },
     "facts": {
       "isFood": true,
       "culinaryDelicacy": true
     },
     "aliases": [
+      "pancakes",
       "pancakes"
     ],
-    "explanation": "Pancakes is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The world’s largest pancake was flipped in England, measuring over 49 feet across and weighing 3 metric tons!",
+    "explanation": "Pancakes is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The world’s largest single skillet pancake was flipped in Rochdale, England, spanning 49 feet across!",
     "verificationStatus": "verified"
   },
   {
     "id": "fod_gulabjamun_040",
     "category": "food",
     "name": "Gulab Jamun",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🍯",
     "buzzWords": [
       "Khoya",
-      "Rose Water",
-      "Cardamom Syrup"
+      "Cardamom",
+      "Floral Syrup"
     ],
     "clues": [
-      "Beloved Indian dessert of deep-fried dough balls made of milk solids soaked in hot rose-cardamom sugar syrup.",
-      "Originates from India / Persia with a Decadent, Floral Sweet flavor profile.",
-      "Key ingredients include Khoya (Milk Solids) & Rose Syrup and typically prepared via Warm or Cold in Bowls."
+      "Fried dough globes of reduced milk solids immersed in steaming rose-scented syrup.",
+      "Traces culinary heritage to India with a Rich Floral flavor profile.",
+      "Features Milk Solids traditionally prepared via Soaked Bowls."
     ],
     "primaryClues": [
-      "Beloved Indian dessert of deep-fried dough balls made of milk solids soaked in hot rose-cardamom sugar syrup.",
-      "Origin: India / Persia."
+      "Fried dough globes of reduced milk solids immersed in steaming rose-scented syrup.",
+      "Origin: India."
     ],
     "secondaryClues": [
-      "Flavor: Decadent, Floral Sweet.",
-      "Features Khoya (Milk Solids) & Rose Syrup."
+      "Flavor profile: Rich Floral.",
+      "Core ingredient: Milk Solids."
     ],
     "factGrid": [
       {
         "icon": "🌍",
         "label": "Origin",
-        "value": "India / Persia"
+        "value": "India"
       },
       {
         "icon": "👅",
-        "label": "Taste Profile",
-        "value": "Decadent, Floral Sweet"
+        "label": "Flavor",
+        "value": "Rich Floral"
       },
       {
         "icon": "🥣",
-        "label": "Key Ingredient",
-        "value": "Khoya (Milk Solids) & Rose Syrup"
+        "label": "Core",
+        "value": "Milk Solids"
       },
       {
         "icon": "🍳",
-        "label": "Prep Style",
-        "value": "Warm or Cold in Bowls"
+        "label": "Prep",
+        "value": "Soaked Bowls"
       }
     ],
     "bonusTrivia": {
-      "question": "What country or region is famous for creating Gulab Jamun?",
-      "answer": "India / Persia"
+      "question": "What nation or culinary tradition gave birth to Gulab Jamun?",
+      "answer": "India"
     },
     "facts": {
       "isFood": true,
       "culinaryDelicacy": true
     },
     "aliases": [
-      "gulab jamun"
+      "gulab jamun",
+      "gulab"
     ],
-    "explanation": "Gulab Jamun is an internationally cherished food with distinctive culinary heritage.",
-    "funFact": "The name \"Gulab\" comes from Persian words \"gol\" (flower) and \"ab\" (water), referencing the fragrant rosewater syrup!",
+    "explanation": "Gulab Jamun is a celebrated culinary creation with rich cultural heritage.",
+    "funFact": "The title \"Gulab\" originates from Persian roots \"gol\" (flower) and \"ab\" (water), honoring the rosewater syrup!",
     "verificationStatus": "verified"
   }
 ];

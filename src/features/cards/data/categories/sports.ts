@@ -5,312 +5,317 @@ export const SPORTS_CARDS: Card[] = [
     "id": "spt_soccer_001",
     "category": "sports",
     "name": "Soccer (Football)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⚽",
     "buzzWords": [
-      "Goal",
-      "Eleven",
-      "FIFA"
+      "Pitch",
+      "Cleats",
+      "Offside"
     ],
     "clues": [
-      "The most played and watched sport in the world, contested by two teams of 11 players.",
-      "Typically features: 11 Players and played using Football & Cleats.",
-      "Contested on a Pitch (Field) under governance of FIFA / England."
+      "Two squads compete on natural turf to direct a sphere into opposite netting.",
+      "Typically played on a Pitch by a 11 Squad.",
+      "Utilizes specialized Footwear governed globally by FIFA."
     ],
     "primaryClues": [
-      "The most played and watched sport in the world, contested by two teams of 11 players.",
-      "Features 11 Players."
+      "Two squads compete on natural turf to direct a sphere into opposite netting.",
+      "Contested on a Pitch."
     ],
     "secondaryClues": [
-      "Played using Football & Cleats.",
-      "Venue: Pitch (Field)."
+      "Team setup: 11 Squad.",
+      "Gear: Footwear."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "11 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Football & Cleats"
+        "label": "Team",
+        "value": "11 Squad"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Pitch (Field)"
+        "value": "Pitch"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Footwear"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIFA / England"
+        "label": "Origin",
+        "value": "FIFA"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Soccer (Football)?",
-      "answer": "Football & Cleats"
+      "question": "What essential gear or venue is key to Soccer (Football)?",
+      "answer": "Footwear"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "soccer (football)"
+      "soccer (football)",
+      "soccer"
     ],
     "explanation": "Soccer (Football) is an internationally recognized competitive sport.",
-    "funFact": "Over 3.5 billion fans tuned into the FIFA World Cup, making it the most popular sporting event on Earth!",
+    "funFact": "Over 3.5 billion global fans watched the FIFA World Cup, making it humanity’s most-watched sporting tournament!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_basketball_002",
     "category": "sports",
     "name": "Basketball",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏀",
     "buzzWords": [
-      "Hoop",
-      "Dribble",
-      "NBA"
+      "Hardwood",
+      "Quarters",
+      "Backboard"
     ],
     "clues": [
-      "Fast-paced team sport where players score by shooting a ball through an elevated 10-foot rim.",
-      "Typically features: 5 Players and played using Basketball & Court.",
-      "Contested on a Hardwood Court under governance of FIBA / NBA."
+      "Fast-paced court sport where athletes bounce and loft a leather ball into elevated hoops.",
+      "Typically played on a Hardwood by a 5 Court.",
+      "Utilizes specialized Sneakers governed globally by FIBA."
     ],
     "primaryClues": [
-      "Fast-paced team sport where players score by shooting a ball through an elevated 10-foot rim.",
-      "Features 5 Players."
+      "Fast-paced court sport where athletes bounce and loft a leather ball into elevated hoops.",
+      "Contested on a Hardwood."
     ],
     "secondaryClues": [
-      "Played using Basketball & Court.",
-      "Venue: Hardwood Court."
+      "Team setup: 5 Court.",
+      "Gear: Sneakers."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "5 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Basketball & Court"
+        "label": "Team",
+        "value": "5 Court"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Hardwood Court"
+        "value": "Hardwood"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Sneakers"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIBA / NBA"
+        "label": "Origin",
+        "value": "FIBA"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Basketball?",
-      "answer": "Basketball & Court"
+      "question": "What essential gear or venue is key to Basketball?",
+      "answer": "Sneakers"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "basketball",
       "basketball"
     ],
     "explanation": "Basketball is an internationally recognized competitive sport.",
-    "funFact": "Basketball was invented in 1891 by Dr. James Naismith using peach baskets as goals!",
+    "funFact": "Basketball was invented in 1891 by Dr. James Naismith in Massachusetts using two peach baskets mounted to balcony railings!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_cricket_003",
     "category": "sports",
     "name": "Cricket",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏏",
     "buzzWords": [
-      "Wicket",
-      "Pitch",
-      "Century"
+      "Innings",
+      "Stumps",
+      "Pitch"
     ],
     "clues": [
-      "Bat-and-ball game played between two teams of eleven players on a field with a 22-yard pitch.",
-      "Typically features: 11 Players and played using Bat, Ball & Stumps.",
-      "Contested on a Oval & 22-Yard Pitch under governance of ICC / England."
+      "Bat-and-ball contest played over multiple overs centered on a 22-yard prepared strip.",
+      "Typically played on a Oval by a 11 Squad.",
+      "Utilizes specialized Willow Bat governed globally by ICC."
     ],
     "primaryClues": [
-      "Bat-and-ball game played between two teams of eleven players on a field with a 22-yard pitch.",
-      "Features 11 Players."
+      "Bat-and-ball contest played over multiple overs centered on a 22-yard prepared strip.",
+      "Contested on a Oval."
     ],
     "secondaryClues": [
-      "Played using Bat, Ball & Stumps.",
-      "Venue: Oval & 22-Yard Pitch."
+      "Team setup: 11 Squad.",
+      "Gear: Willow Bat."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "11 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Bat, Ball & Stumps"
+        "label": "Team",
+        "value": "11 Squad"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Oval & 22-Yard Pitch"
+        "value": "Oval"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Willow Bat"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "ICC / England"
+        "label": "Origin",
+        "value": "ICC"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Cricket?",
-      "answer": "Bat, Ball & Stumps"
+      "question": "What essential gear or venue is key to Cricket?",
+      "answer": "Willow Bat"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "cricket",
       "cricket"
     ],
     "explanation": "Cricket is an internationally recognized competitive sport.",
-    "funFact": "The longest cricket test match in history lasted 12 days between England and South Africa in 1939!",
+    "funFact": "The longest official test cricket match took place in 1939 between England and South Africa, lasting 12 days before ending in a draw!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_tennis_004",
     "category": "sports",
     "name": "Tennis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🎾",
     "buzzWords": [
-      "Racket",
       "Deuce",
-      "Wimbledon"
+      "Baseline",
+      "Racket"
     ],
     "clues": [
-      "Racket sport played individually against a single opponent or in pairs across a netted court.",
-      "Typically features: 1 or 2 (Singles/Doubles) and played using Racket & Yellow Felt Ball.",
-      "Contested on a Grass / Clay / Hard Court under governance of ITF / Wimbledon."
+      "Duelists exchange high-speed spin shots over a center mesh on grass, clay, or asphalt.",
+      "Typically played on a Court by a 1-2 Players.",
+      "Utilizes specialized String Racket governed globally by ITF."
     ],
     "primaryClues": [
-      "Racket sport played individually against a single opponent or in pairs across a netted court.",
-      "Features 1 or 2 (Singles/Doubles)."
+      "Duelists exchange high-speed spin shots over a center mesh on grass, clay, or asphalt.",
+      "Contested on a Court."
     ],
     "secondaryClues": [
-      "Played using Racket & Yellow Felt Ball.",
-      "Venue: Grass / Clay / Hard Court."
+      "Team setup: 1-2 Players.",
+      "Gear: String Racket."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "1 or 2 (Singles/Doubles)"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Racket & Yellow Felt Ball"
+        "label": "Team",
+        "value": "1-2 Players"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Grass / Clay / Hard Court"
+        "value": "Court"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "String Racket"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "ITF / Wimbledon"
+        "label": "Origin",
+        "value": "ITF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Tennis?",
-      "answer": "Racket & Yellow Felt Ball"
+      "question": "What essential gear or venue is key to Tennis?",
+      "answer": "String Racket"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "tennis",
       "tennis"
     ],
     "explanation": "Tennis is an internationally recognized competitive sport.",
-    "funFact": "Tennis balls were originally white; fluorescent yellow was adopted in 1972 so television viewers could track them!",
+    "funFact": "Regulation tennis balls were originally white; fluorescent optic yellow was adopted in 1972 so TV audiences could track volleys!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_baseball_005",
     "category": "sports",
     "name": "Baseball",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⚾",
     "buzzWords": [
-      "Home Run",
-      "Bases",
-      "Strikeout"
+      "Innings",
+      "Diamond",
+      "Bases"
     ],
     "clues": [
-      "Bat-and-ball game played between two opposing teams who take turns batting and fielding.",
-      "Typically features: 9 Players and played using Bat, Glove & Ball.",
-      "Contested on a Diamond Field under governance of MLB / USA."
+      "Offensive batters attempt to round four dirt bases following hard-contact hits into outfield.",
+      "Typically played on a Diamond by a 9 Field.",
+      "Utilizes specialized Hardwood Bat governed globally by MLB."
     ],
     "primaryClues": [
-      "Bat-and-ball game played between two opposing teams who take turns batting and fielding.",
-      "Features 9 Players."
+      "Offensive batters attempt to round four dirt bases following hard-contact hits into outfield.",
+      "Contested on a Diamond."
     ],
     "secondaryClues": [
-      "Played using Bat, Glove & Ball.",
-      "Venue: Diamond Field."
+      "Team setup: 9 Field.",
+      "Gear: Hardwood Bat."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "9 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Bat, Glove & Ball"
+        "label": "Team",
+        "value": "9 Field"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Diamond Field"
+        "value": "Diamond"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Hardwood Bat"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "MLB / USA"
+        "label": "Origin",
+        "value": "MLB"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Baseball?",
-      "answer": "Bat, Glove & Ball"
+      "question": "What essential gear or venue is key to Baseball?",
+      "answer": "Hardwood Bat"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "baseball",
       "baseball"
     ],
     "explanation": "Baseball is an internationally recognized competitive sport.",
-    "funFact": "Major league baseballs are hand-stitched with exactly 108 red double stitches!",
+    "funFact": "Every major league regulation baseball is hand-sewn with precisely 108 double stitches of waxed red thread!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_rugby_006",
     "category": "sports",
     "name": "Rugby",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏉",
     "buzzWords": [
       "Try",
@@ -318,89 +323,85 @@ export const SPORTS_CARDS: Card[] = [
       "Oval Ball"
     ],
     "clues": [
-      "High-impact collision team sport played with an oval ball that can only be passed backwards.",
-      "Typically features: 15 or 7 Players and played using Oval Ball & Posts.",
-      "Contested on a Grass Pitch under governance of World Rugby / UK."
+      "Full-contact collision code where teammates only pitch an oblong ball laterally or backwards.",
+      "Typically played on a Pitch by a 15 Squad.",
+      "Utilizes specialized Mouthguard governed globally by World Rugby."
     ],
     "primaryClues": [
-      "High-impact collision team sport played with an oval ball that can only be passed backwards.",
-      "Features 15 or 7 Players."
+      "Full-contact collision code where teammates only pitch an oblong ball laterally or backwards.",
+      "Contested on a Pitch."
     ],
     "secondaryClues": [
-      "Played using Oval Ball & Posts.",
-      "Venue: Grass Pitch."
+      "Team setup: 15 Squad.",
+      "Gear: Mouthguard."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "15 or 7 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Oval Ball & Posts"
+        "label": "Team",
+        "value": "15 Squad"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Grass Pitch"
+        "value": "Pitch"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Mouthguard"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Rugby / UK"
+        "label": "Origin",
+        "value": "World Rugby"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Rugby?",
-      "answer": "Oval Ball & Posts"
+      "question": "What essential gear or venue is key to Rugby?",
+      "answer": "Mouthguard"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "rugby",
       "rugby"
     ],
     "explanation": "Rugby is an internationally recognized competitive sport.",
-    "funFact": "Legend says William Webb Ellis invented rugby in 1823 by picking up the soccer ball and running with it!",
+    "funFact": "Tradition holds that schoolboy William Webb Ellis invented rugby in 1823 by grasping the football and charging downfield with it!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_icehockey_007",
     "category": "sports",
     "name": "Ice Hockey",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏒",
     "buzzWords": [
-      "Puck",
       "Rink",
-      "Stanley Cup"
+      "Puck",
+      "Faceoff"
     ],
     "clues": [
-      "Fast-paced contact winter sport played on an ice rink with skates, sticks, and a vulcanized rubber puck.",
-      "Typically features: 6 Players (incl. Goalie) and played using Puck, Stick & Skates.",
-      "Contested on a Ice Rink under governance of IIHF / NHL."
+      "Gliding skaters maneuver a dense vulcanized disk across frozen surfaces toward goal nets.",
+      "Typically played on a Ice Rink by a 6 Skaters.",
+      "Utilizes specialized Curved Stick governed globally by IIHF."
     ],
     "primaryClues": [
-      "Fast-paced contact winter sport played on an ice rink with skates, sticks, and a vulcanized rubber puck.",
-      "Features 6 Players (incl. Goalie)."
+      "Gliding skaters maneuver a dense vulcanized disk across frozen surfaces toward goal nets.",
+      "Contested on a Ice Rink."
     ],
     "secondaryClues": [
-      "Played using Puck, Stick & Skates.",
-      "Venue: Ice Rink."
+      "Team setup: 6 Skaters.",
+      "Gear: Curved Stick."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "6 Players (incl. Goalie)"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Puck, Stick & Skates"
+        "label": "Team",
+        "value": "6 Skaters"
       },
       {
         "icon": "🏟️",
@@ -408,1097 +409,1115 @@ export const SPORTS_CARDS: Card[] = [
         "value": "Ice Rink"
       },
       {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Curved Stick"
+      },
+      {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "IIHF / NHL"
+        "label": "Origin",
+        "value": "IIHF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Ice Hockey?",
-      "answer": "Puck, Stick & Skates"
+      "question": "What essential gear or venue is key to Ice Hockey?",
+      "answer": "Curved Stick"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "ice hockey"
+      "ice hockey",
+      "ice"
     ],
     "explanation": "Ice Hockey is an internationally recognized competitive sport.",
-    "funFact": "Regulation hockey pucks are kept frozen before games to prevent them from bouncing on the ice!",
+    "funFact": "Regulation pucks are kept in sub-zero freezers prior to faceoff to limit erratic bouncing along the chilled ice sheet!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_badminton_008",
     "category": "sports",
     "name": "Badminton",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏸",
     "buzzWords": [
       "Shuttlecock",
-      "Racquet",
+      "Net",
       "Smash"
     ],
     "clues": [
-      "Racket sport played using racquets to hit a feathered shuttlecock across a net.",
-      "Typically features: 1 or 2 Players and played using Racquet & Feather Shuttlecock.",
-      "Contested on a Indoor Court under governance of BWF / England."
+      "Opponents wield ultra-light racquets to volley a feathered conical projectile over high nets.",
+      "Typically played on a Court by a 1-2 Players.",
+      "Utilizes specialized Light Racquet governed globally by BWF."
     ],
     "primaryClues": [
-      "Racket sport played using racquets to hit a feathered shuttlecock across a net.",
-      "Features 1 or 2 Players."
+      "Opponents wield ultra-light racquets to volley a feathered conical projectile over high nets.",
+      "Contested on a Court."
     ],
     "secondaryClues": [
-      "Played using Racquet & Feather Shuttlecock.",
-      "Venue: Indoor Court."
+      "Team setup: 1-2 Players.",
+      "Gear: Light Racquet."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "1 or 2 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Racquet & Feather Shuttlecock"
+        "label": "Team",
+        "value": "1-2 Players"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Indoor Court"
+        "value": "Court"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Light Racquet"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "BWF / England"
+        "label": "Origin",
+        "value": "BWF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Badminton?",
-      "answer": "Racquet & Feather Shuttlecock"
+      "question": "What essential gear or venue is key to Badminton?",
+      "answer": "Light Racquet"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "badminton",
       "badminton"
     ],
     "explanation": "Badminton is an internationally recognized competitive sport.",
-    "funFact": "A smashed badminton shuttlecock can exceed 300 mph (490 km/h), faster than any other racket projectile!",
+    "funFact": "A spiked smash from an elite badminton player can propel the feathered shuttlecock over 300 mph (490 km/h)!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_tabletennis_009",
     "category": "sports",
     "name": "Table Tennis (Ping Pong)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏓",
     "buzzWords": [
       "Paddle",
       "Spin",
-      "Celluloid"
+      "Rally"
     ],
     "clues": [
-      "High-speed sport where players hit a lightweight ball back and forth across a hard table divided by a net.",
-      "Typically features: 1 or 2 Players and played using Paddle & 40mm Plastic Ball.",
-      "Contested on a Hard Table with Net under governance of ITTF / England."
+      "Players rally a 40mm celluloid sphere over a center barrier with rubber-faced paddles.",
+      "Typically played on a Table by a 1-2 Players.",
+      "Utilizes specialized Rubber Paddle governed globally by ITTF."
     ],
     "primaryClues": [
-      "High-speed sport where players hit a lightweight ball back and forth across a hard table divided by a net.",
-      "Features 1 or 2 Players."
+      "Players rally a 40mm celluloid sphere over a center barrier with rubber-faced paddles.",
+      "Contested on a Table."
     ],
     "secondaryClues": [
-      "Played using Paddle & 40mm Plastic Ball.",
-      "Venue: Hard Table with Net."
+      "Team setup: 1-2 Players.",
+      "Gear: Rubber Paddle."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "1 or 2 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Paddle & 40mm Plastic Ball"
+        "label": "Team",
+        "value": "1-2 Players"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Hard Table with Net"
+        "value": "Table"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Rubber Paddle"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "ITTF / England"
+        "label": "Origin",
+        "value": "ITTF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Table Tennis (Ping Pong)?",
-      "answer": "Paddle & 40mm Plastic Ball"
+      "question": "What essential gear or venue is key to Table Tennis (Ping Pong)?",
+      "answer": "Rubber Paddle"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "table tennis (ping pong)"
+      "table tennis (ping pong)",
+      "table"
     ],
     "explanation": "Table Tennis (Ping Pong) is an internationally recognized competitive sport.",
-    "funFact": "Table tennis was originally played after dinner in Victorian England using cigar-box lids as paddles!",
+    "funFact": "Table tennis originated as a relaxed parlor game in Victorian England played with champagne corks and cigar-box lids!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_swimming_010",
     "category": "sports",
     "name": "Swimming",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏊",
     "buzzWords": [
       "Laps",
-      "Freestyle",
+      "Stroke",
       "Goggles"
     ],
     "clues": [
-      "Individual or team racing sport requiring the use of one’s entire body to move through water.",
-      "Typically features: Individual / Relay and played using Goggles, Cap & Swimsuit.",
-      "Contested on a 50m Olympic Pool under governance of World Aquatics."
+      "Racers surge through 50-meter lanes executing butterfly, backstroke, breaststroke, or crawl.",
+      "Typically played on a Lane Pool by a Individual.",
+      "Utilizes specialized Goggles governed globally by World Aquatics."
     ],
     "primaryClues": [
-      "Individual or team racing sport requiring the use of one’s entire body to move through water.",
-      "Features Individual / Relay."
+      "Racers surge through 50-meter lanes executing butterfly, backstroke, breaststroke, or crawl.",
+      "Contested on a Lane Pool."
     ],
     "secondaryClues": [
-      "Played using Goggles, Cap & Swimsuit.",
-      "Venue: 50m Olympic Pool."
+      "Team setup: Individual.",
+      "Gear: Goggles."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Individual / Relay"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Goggles, Cap & Swimsuit"
+        "label": "Team",
+        "value": "Individual"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "50m Olympic Pool"
+        "value": "Lane Pool"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Goggles"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
+        "label": "Origin",
         "value": "World Aquatics"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Swimming?",
-      "answer": "Goggles, Cap & Swimsuit"
+      "question": "What essential gear or venue is key to Swimming?",
+      "answer": "Goggles"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "swimming",
       "swimming"
     ],
     "explanation": "Swimming is an internationally recognized competitive sport.",
-    "funFact": "Olympic swimmers can complete 50 meters in under 21 seconds, burning up to 1,000 calories an hour!",
+    "funFact": "Elite Olympic swimmers can complete a 50-meter sprint in under 21 seconds, burning more than 1,000 calories an hour!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_athletics_011",
     "category": "sports",
     "name": "Athletics (Track & Field)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏃",
     "buzzWords": [
       "Sprint",
       "Relay",
-      "Hurdles"
+      "Baton"
     ],
     "clues": [
-      "Collection of competitive running, jumping, throwing, and walking sports tracing back to ancient Greece.",
-      "Typically features: Individual / Team and played using Track Spikes & Baton.",
-      "Contested on a 400m Running Oval under governance of World Athletics."
+      "Athletes contest pure human speed, hurdle clearances, and baton handoffs around an oval.",
+      "Typically played on a Track Oval by a Individual.",
+      "Utilizes specialized Spikes governed globally by World Athletics."
     ],
     "primaryClues": [
-      "Collection of competitive running, jumping, throwing, and walking sports tracing back to ancient Greece.",
-      "Features Individual / Team."
+      "Athletes contest pure human speed, hurdle clearances, and baton handoffs around an oval.",
+      "Contested on a Track Oval."
     ],
     "secondaryClues": [
-      "Played using Track Spikes & Baton.",
-      "Venue: 400m Running Oval."
+      "Team setup: Individual.",
+      "Gear: Spikes."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Individual / Team"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Track Spikes & Baton"
+        "label": "Team",
+        "value": "Individual"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "400m Running Oval"
+        "value": "Track Oval"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Spikes"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
+        "label": "Origin",
         "value": "World Athletics"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Athletics (Track & Field)?",
-      "answer": "Track Spikes & Baton"
+      "question": "What essential gear or venue is key to Athletics (Track & Field)?",
+      "answer": "Spikes"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "athletics (track & field)"
+      "athletics (track & field)",
+      "athletics"
     ],
     "explanation": "Athletics (Track & Field) is an internationally recognized competitive sport.",
-    "funFact": "Sprinter Usain Bolt achieved a record peak top speed of 27.78 mph (44.72 km/h) in Berlin!",
+    "funFact": "Jamaican sprinter Usain Bolt hit an unprecedented peak land speed of 27.78 mph (44.72 km/h) in his Berlin 100m sprint!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_golf_012",
     "category": "sports",
     "name": "Golf",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⛳",
     "buzzWords": [
-      "Birdie",
-      "Putter",
-      "Tee-Off"
+      "Fairway",
+      "Handicap",
+      "Links"
     ],
     "clues": [
-      "Precision club-and-ball sport where players use various clubs to hit balls into a series of holes.",
-      "Typically features: 1 to 4 Players and played using Clubs, Ball & Tee.",
-      "Contested on a 18-Hole Course under governance of R&A / USGA / Scotland."
+      "Players navigate sand bunkers and greens to sink dimpled balls into 18 sequential cups.",
+      "Typically played on a Links Course by a 1-4 Field.",
+      "Utilizes specialized Set of Clubs governed globally by R&A."
     ],
     "primaryClues": [
-      "Precision club-and-ball sport where players use various clubs to hit balls into a series of holes.",
-      "Features 1 to 4 Players."
+      "Players navigate sand bunkers and greens to sink dimpled balls into 18 sequential cups.",
+      "Contested on a Links Course."
     ],
     "secondaryClues": [
-      "Played using Clubs, Ball & Tee.",
-      "Venue: 18-Hole Course."
+      "Team setup: 1-4 Field.",
+      "Gear: Set of Clubs."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "1 to 4 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Clubs, Ball & Tee"
+        "label": "Team",
+        "value": "1-4 Field"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "18-Hole Course"
+        "value": "Links Course"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Set of Clubs"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "R&A / USGA / Scotland"
+        "label": "Origin",
+        "value": "R&A"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Golf?",
-      "answer": "Clubs, Ball & Tee"
+      "question": "What essential gear or venue is key to Golf?",
+      "answer": "Set of Clubs"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "golf",
       "golf"
     ],
     "explanation": "Golf is an internationally recognized competitive sport.",
-    "funFact": "Golf is one of only two sports ever played on the Moon; astronaut Alan Shepard hit two balls there in 1971!",
+    "funFact": "Golf is one of only two sports ever contested on the lunar surface; astronaut Alan Shepard struck two balls on the Moon in 1971!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_volleyball_013",
     "category": "sports",
     "name": "Volleyball",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏐",
     "buzzWords": [
+      "Rotation",
       "Spike",
-      "Set",
-      "Rotation"
+      "Net"
     ],
     "clues": [
-      "Team sport where two teams of six players are separated by a net, volleying a ball without it touching the floor.",
-      "Typically features: 6 Players (Court) / 2 (Beach) and played using Volleyball & High Net.",
-      "Contested on a Indoor Court / Sand under governance of FIVB / USA."
+      "Six-player lineups maintain high airborne rallies without allowing the ball to strike floor.",
+      "Typically played on a Hardcourt by a 6 Squad.",
+      "Utilizes specialized Volleyball governed globally by FIVB."
     ],
     "primaryClues": [
-      "Team sport where two teams of six players are separated by a net, volleying a ball without it touching the floor.",
-      "Features 6 Players (Court) / 2 (Beach)."
+      "Six-player lineups maintain high airborne rallies without allowing the ball to strike floor.",
+      "Contested on a Hardcourt."
     ],
     "secondaryClues": [
-      "Played using Volleyball & High Net.",
-      "Venue: Indoor Court / Sand."
+      "Team setup: 6 Squad.",
+      "Gear: Volleyball."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "6 Players (Court) / 2 (Beach)"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Volleyball & High Net"
+        "label": "Team",
+        "value": "6 Squad"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Indoor Court / Sand"
+        "value": "Hardcourt"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Volleyball"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIVB / USA"
+        "label": "Origin",
+        "value": "FIVB"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Volleyball?",
-      "answer": "Volleyball & High Net"
+      "question": "What essential gear or venue is key to Volleyball?",
+      "answer": "Volleyball"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "volleyball",
       "volleyball"
     ],
     "explanation": "Volleyball is an internationally recognized competitive sport.",
-    "funFact": "Volleyball was originally called \"Mintonette\" when invented in 1895 as a gentler alternative to basketball!",
+    "funFact": "Volleyball was originally christened \"Mintonette\" in 1895 as a gentler indoor pastime for older YMCA businessmen!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_boxing_014",
     "category": "sports",
     "name": "Boxing",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥊",
     "buzzWords": [
-      "Knockout",
-      "Ring",
-      "Jab"
+      "Canvas",
+      "Rounds",
+      "Gloves"
     ],
     "clues": [
-      "Combat sport in which two people throw punches at each other for a predetermined amount of time in a ring.",
-      "Typically features: 2 Fighters and played using Padded Gloves & Mouthguard.",
-      "Contested on a Square Ring (Canvas) under governance of WBC/WBA/IBF/WBO."
+      "Combatants trade strategic combinations inside ropes under three-minute round intervals.",
+      "Typically played on a Square Ring by a 2 Fighters.",
+      "Utilizes specialized Padded Gloves governed globally by WBC."
     ],
     "primaryClues": [
-      "Combat sport in which two people throw punches at each other for a predetermined amount of time in a ring.",
-      "Features 2 Fighters."
+      "Combatants trade strategic combinations inside ropes under three-minute round intervals.",
+      "Contested on a Square Ring."
     ],
     "secondaryClues": [
-      "Played using Padded Gloves & Mouthguard.",
-      "Venue: Square Ring (Canvas)."
+      "Team setup: 2 Fighters.",
+      "Gear: Padded Gloves."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "2 Fighters"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Padded Gloves & Mouthguard"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Square Ring (Canvas)"
+        "value": "Square Ring"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Padded Gloves"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "WBC/WBA/IBF/WBO"
+        "label": "Origin",
+        "value": "WBC"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Boxing?",
-      "answer": "Padded Gloves & Mouthguard"
+      "question": "What essential gear or venue is key to Boxing?",
+      "answer": "Padded Gloves"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "boxing",
       "boxing"
     ],
     "explanation": "Boxing is an internationally recognized competitive sport.",
-    "funFact": "The canvas ring where boxers fight is called a \"ring\" because ancient combatants formed a human circle around bouts!",
+    "funFact": "The contest area is called a \"ring\" because early bare-knuckle spectators formed a living human circle around fighters!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_karate_015",
     "category": "sports",
     "name": "Karate",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥋",
     "buzzWords": [
-      "Black Belt",
       "Kata",
-      "Dojo"
+      "Dojo",
+      "Kumite"
     ],
     "clues": [
-      "Martial art developed in the Ryukyu Kingdom characterized by striking arts, kicking, and punches.",
-      "Typically features: Individual / Kumite and played using Gi Uniform & Colored Belts.",
-      "Contested on a Dojo / Tatami Mat under governance of WKF / Okinawa, Japan."
+      "Martial discipline emphasizing swift strikes, side kicks, and defensive blocks on tatami.",
+      "Typically played on a Tatami Dojo by a 2 Duelists.",
+      "Utilizes specialized Cotton Gi governed globally by WKF."
     ],
     "primaryClues": [
-      "Martial art developed in the Ryukyu Kingdom characterized by striking arts, kicking, and punches.",
-      "Features Individual / Kumite."
+      "Martial discipline emphasizing swift strikes, side kicks, and defensive blocks on tatami.",
+      "Contested on a Tatami Dojo."
     ],
     "secondaryClues": [
-      "Played using Gi Uniform & Colored Belts.",
-      "Venue: Dojo / Tatami Mat."
+      "Team setup: 2 Duelists.",
+      "Gear: Cotton Gi."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Individual / Kumite"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Gi Uniform & Colored Belts"
+        "label": "Team",
+        "value": "2 Duelists"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Dojo / Tatami Mat"
+        "value": "Tatami Dojo"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Cotton Gi"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "WKF / Okinawa, Japan"
+        "label": "Origin",
+        "value": "WKF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Karate?",
-      "answer": "Gi Uniform & Colored Belts"
+      "question": "What essential gear or venue is key to Karate?",
+      "answer": "Cotton Gi"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "karate",
       "karate"
     ],
     "explanation": "Karate is an internationally recognized competitive sport.",
-    "funFact": "The Japanese word \"Karate\" translates literally to \"Empty Hand\", meaning fighting without weapons!",
+    "funFact": "The Japanese term \"Karate\" translates literally to \"Empty Hand\", representing martial defense without weapons!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_formula1_016",
     "category": "sports",
     "name": "Formula 1 Racing",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏎️",
     "buzzWords": [
-      "Pit Stop",
       "Grand Prix",
-      "Pole Position"
+      "Paddock",
+      "Chassis"
     ],
     "clues": [
-      "Highest class of international single-seater auto racing sanctioned by the FIA.",
-      "Typically features: 20 Drivers / 10 Teams and played using Single-Seater V6 Hybrid Car.",
-      "Contested on a FIA Grade 1 Circuit under governance of FIA / International."
+      "Drivers pilot single-seat carbon-fiber open-wheel prototypes through challenging road circuits.",
+      "Typically played on a Grand Prix by a 20 Drivers.",
+      "Utilizes specialized Hybrid Car governed globally by FIA."
     ],
     "primaryClues": [
-      "Highest class of international single-seater auto racing sanctioned by the FIA.",
-      "Features 20 Drivers / 10 Teams."
+      "Drivers pilot single-seat carbon-fiber open-wheel prototypes through challenging road circuits.",
+      "Contested on a Grand Prix."
     ],
     "secondaryClues": [
-      "Played using Single-Seater V6 Hybrid Car.",
-      "Venue: FIA Grade 1 Circuit."
+      "Team setup: 20 Drivers.",
+      "Gear: Hybrid Car."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "20 Drivers / 10 Teams"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Single-Seater V6 Hybrid Car"
+        "label": "Team",
+        "value": "20 Drivers"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "FIA Grade 1 Circuit"
+        "value": "Grand Prix"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Hybrid Car"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIA / International"
+        "label": "Origin",
+        "value": "FIA"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Formula 1 Racing?",
-      "answer": "Single-Seater V6 Hybrid Car"
+      "question": "What essential gear or venue is key to Formula 1 Racing?",
+      "answer": "Hybrid Car"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "formula 1 racing"
+      "formula 1 racing",
+      "formula"
     ],
     "explanation": "Formula 1 Racing is an internationally recognized competitive sport.",
-    "funFact": "An F1 pit crew can change all four tires on a car in under 1.8 seconds!",
+    "funFact": "A world-class Formula 1 pit crew can swap all four tires and inspect aero wings in under 1.8 seconds!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_cycling_017",
     "category": "sports",
     "name": "Road Cycling",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🚴",
     "buzzWords": [
       "Peloton",
-      "Tour de France",
-      "Jersey"
+      "Drafting",
+      "Cadence"
     ],
     "clues": [
-      "Endurance bicycle racing held on paved roads, featuring iconic multi-stage grand tours.",
-      "Typically features: Teams of 8 / Individual and played using Lightweight Carbon Bicycle.",
-      "Contested on a Paved Roadways under governance of UCI / France."
+      "Racers draft in aerodynamic packs over hundreds of kilometers across mountain stages.",
+      "Typically played on a Roadways by a Individual.",
+      "Utilizes specialized Carbon Bike governed globally by UCI."
     ],
     "primaryClues": [
-      "Endurance bicycle racing held on paved roads, featuring iconic multi-stage grand tours.",
-      "Features Teams of 8 / Individual."
+      "Racers draft in aerodynamic packs over hundreds of kilometers across mountain stages.",
+      "Contested on a Roadways."
     ],
     "secondaryClues": [
-      "Played using Lightweight Carbon Bicycle.",
-      "Venue: Paved Roadways."
+      "Team setup: Individual.",
+      "Gear: Carbon Bike."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Teams of 8 / Individual"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Lightweight Carbon Bicycle"
+        "label": "Team",
+        "value": "Individual"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Paved Roadways"
+        "value": "Roadways"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Carbon Bike"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "UCI / France"
+        "label": "Origin",
+        "value": "UCI"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Road Cycling?",
-      "answer": "Lightweight Carbon Bicycle"
+      "question": "What essential gear or venue is key to Road Cycling?",
+      "answer": "Carbon Bike"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "road cycling"
+      "road cycling",
+      "road"
     ],
     "explanation": "Road Cycling is an internationally recognized competitive sport.",
-    "funFact": "Riders in the 3-week Tour de France pedal over 2,000 miles and burn up to 7,000 calories every single day!",
+    "funFact": "Contestants in the three-week Tour de France pedal over 2,000 miles and burn up to 7,000 calories each arduous stage!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_gymnastics_018",
     "category": "sports",
     "name": "Gymnastics (Artistic)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🤸",
     "buzzWords": [
-      "Vault",
-      "Beam",
-      "Perfect 10"
+      "Apparatus",
+      "Dismount",
+      "Vault"
     ],
     "clues": [
-      "Sport involving physical exercises requiring balance, strength, flexibility, agility, and coordination.",
-      "Typically features: Individual / Team and played using Balance Beam, Bars & Vault.",
-      "Contested on a Spring Floor Arena under governance of FIG / Ancient Greece."
+      "Athletes demonstrate spatial orientation, balance, and core strength across apparatuses.",
+      "Typically played on a Spring Floor by a Individual.",
+      "Utilizes specialized Bars & Beam governed globally by FIG."
     ],
     "primaryClues": [
-      "Sport involving physical exercises requiring balance, strength, flexibility, agility, and coordination.",
-      "Features Individual / Team."
+      "Athletes demonstrate spatial orientation, balance, and core strength across apparatuses.",
+      "Contested on a Spring Floor."
     ],
     "secondaryClues": [
-      "Played using Balance Beam, Bars & Vault.",
-      "Venue: Spring Floor Arena."
+      "Team setup: Individual.",
+      "Gear: Bars & Beam."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Individual / Team"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Balance Beam, Bars & Vault"
+        "label": "Team",
+        "value": "Individual"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Spring Floor Arena"
+        "value": "Spring Floor"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Bars & Beam"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIG / Ancient Greece"
+        "label": "Origin",
+        "value": "FIG"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Gymnastics (Artistic)?",
-      "answer": "Balance Beam, Bars & Vault"
+      "question": "What essential gear or venue is key to Gymnastics (Artistic)?",
+      "answer": "Bars & Beam"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "gymnastics (artistic)"
+      "gymnastics (artistic)",
+      "gymnastics"
     ],
     "explanation": "Gymnastics (Artistic) is an internationally recognized competitive sport.",
-    "funFact": "In 1976, 14-year-old Nadia Comaneci scored the first ever \"Perfect 10\" in Olympic gymnastics history!",
+    "funFact": "At the 1976 Montreal Olympics, 14-year-old Nadia Comaneci earned the very first \"Perfect 10\" in Olympic gymnastics!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_archery_019",
     "category": "sports",
     "name": "Archery",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏹",
     "buzzWords": [
-      "Bullseye",
       "Quiver",
-      "Bow"
+      "Bullseye",
+      "Recurve"
     ],
     "clues": [
-      "Art, practice, or skill of using a bow to shoot arrows at a target with concentric scoring circles.",
-      "Typically features: Individual / Team and played using Recurve/Compound Bow & Arrows.",
-      "Contested on a Target Range (70m) under governance of World Archery."
+      "Precision marksmen release carbon shafts from tensioned limbs toward concentric target rings.",
+      "Typically played on a Outdoor Range by a Individual.",
+      "Utilizes specialized Recurve Bow governed globally by World Archery."
     ],
     "primaryClues": [
-      "Art, practice, or skill of using a bow to shoot arrows at a target with concentric scoring circles.",
-      "Features Individual / Team."
+      "Precision marksmen release carbon shafts from tensioned limbs toward concentric target rings.",
+      "Contested on a Outdoor Range."
     ],
     "secondaryClues": [
-      "Played using Recurve/Compound Bow & Arrows.",
-      "Venue: Target Range (70m)."
+      "Team setup: Individual.",
+      "Gear: Recurve Bow."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Individual / Team"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Recurve/Compound Bow & Arrows"
+        "label": "Team",
+        "value": "Individual"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Target Range (70m)"
+        "value": "Outdoor Range"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Recurve Bow"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
+        "label": "Origin",
         "value": "World Archery"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Archery?",
-      "answer": "Recurve/Compound Bow & Arrows"
+      "question": "What essential gear or venue is key to Archery?",
+      "answer": "Recurve Bow"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "archery",
       "archery"
     ],
     "explanation": "Archery is an internationally recognized competitive sport.",
-    "funFact": "Olympic archers aim at a center \"10-ring\" yellow circle just 12 cm wide from the distance of three tennis courts!",
+    "funFact": "Olympic archers must strike a center \"10-ring\" yellow circle just 12 cm wide from the length of three tennis courts!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_skateboarding_020",
     "category": "sports",
     "name": "Skateboarding",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🛹",
     "buzzWords": [
-      "Ollie",
-      "Halfpipe",
-      "Kickflip"
+      "Grip Tape",
+      "Urethane",
+      "Deck"
     ],
     "clues": [
-      "Action sport involving riding and performing tricks using a deck mounted on four urethane wheels.",
-      "Typically features: Individual and played using Board, Trucks & Wheels.",
-      "Contested on a Skatepark / Street under governance of World Skate / California."
+      "Riders perform vertical airs, grinds, and flips on concave wooden decks atop four wheels.",
+      "Typically played on a Concrete Park by a Individual.",
+      "Utilizes specialized Maple Deck governed globally by World Skate."
     ],
     "primaryClues": [
-      "Action sport involving riding and performing tricks using a deck mounted on four urethane wheels.",
-      "Features Individual."
+      "Riders perform vertical airs, grinds, and flips on concave wooden decks atop four wheels.",
+      "Contested on a Concrete Park."
     ],
     "secondaryClues": [
-      "Played using Board, Trucks & Wheels.",
-      "Venue: Skatepark / Street."
+      "Team setup: Individual.",
+      "Gear: Maple Deck."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "Individual"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Board, Trucks & Wheels"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Skatepark / Street"
+        "value": "Concrete Park"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Maple Deck"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Skate / California"
+        "label": "Origin",
+        "value": "World Skate"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Skateboarding?",
-      "answer": "Board, Trucks & Wheels"
+      "question": "What essential gear or venue is key to Skateboarding?",
+      "answer": "Maple Deck"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "skateboarding",
       "skateboarding"
     ],
     "explanation": "Skateboarding is an internationally recognized competitive sport.",
-    "funFact": "Skateboarding was invented by California surfers in the 1950s who wanted to \"sidewalk surf\" when ocean waves were flat!",
+    "funFact": "Skateboarding was conceived by Southern California wave surfers in the 1950s who sought to \"sidewalk surf\" on flat days!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_surfing_021",
     "category": "sports",
     "name": "Surfing",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏄",
     "buzzWords": [
-      "Barrel",
-      "Wave",
-      "Wetsuit"
+      "Reef",
+      "Swell",
+      "Wax"
     ],
     "clues": [
-      "Surface water sport in which an individual rides a board on the forward section of a moving wave.",
-      "Typically features: Individual and played using Surfboard & Wax / Leash.",
-      "Contested on a Ocean Reef / Beach Break under governance of ISA / Hawaii & Polynesia."
+      "Wave riders paddle into oceanic breaks and balance along curl faces.",
+      "Typically played on a Ocean Break by a Individual.",
+      "Utilizes specialized Fiberglass Board governed globally by ISA."
     ],
     "primaryClues": [
-      "Surface water sport in which an individual rides a board on the forward section of a moving wave.",
-      "Features Individual."
+      "Wave riders paddle into oceanic breaks and balance along curl faces.",
+      "Contested on a Ocean Break."
     ],
     "secondaryClues": [
-      "Played using Surfboard & Wax / Leash.",
-      "Venue: Ocean Reef / Beach Break."
+      "Team setup: Individual.",
+      "Gear: Fiberglass Board."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "Individual"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Surfboard & Wax / Leash"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Ocean Reef / Beach Break"
+        "value": "Ocean Break"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Fiberglass Board"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "ISA / Hawaii & Polynesia"
+        "label": "Origin",
+        "value": "ISA"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Surfing?",
-      "answer": "Surfboard & Wax / Leash"
+      "question": "What essential gear or venue is key to Surfing?",
+      "answer": "Fiberglass Board"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "surfing",
       "surfing"
     ],
     "explanation": "Surfing is an internationally recognized competitive sport.",
-    "funFact": "Ancient Hawaiian royalty surfed ceremonial boards carved from giant koa trees measuring up to 16 feet long!",
+    "funFact": "Polynesian and Hawaiian kings rode massive sacred boards carved from native koa trees reaching 16 feet long!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_snowboarding_022",
     "category": "sports",
     "name": "Snowboarding",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏂",
     "buzzWords": [
-      "Halfpipe",
       "Carve",
-      "Bindings"
+      "Bindings",
+      "Powder"
     ],
     "clues": [
-      "Winter recreation and sport involving descending a snow-covered slope while standing on a board.",
-      "Typically features: Individual and played using Snowboard, Boots & Bindings.",
-      "Contested on a Snowy Mountain Slopes under governance of FIS / USA."
+      "Athletes carve alpine snow faces and launch spins on single composite decks.",
+      "Typically played on a Snow Piste by a Individual.",
+      "Utilizes specialized Snowboard governed globally by FIS."
     ],
     "primaryClues": [
-      "Winter recreation and sport involving descending a snow-covered slope while standing on a board.",
-      "Features Individual."
+      "Athletes carve alpine snow faces and launch spins on single composite decks.",
+      "Contested on a Snow Piste."
     ],
     "secondaryClues": [
-      "Played using Snowboard, Boots & Bindings.",
-      "Venue: Snowy Mountain Slopes."
+      "Team setup: Individual.",
+      "Gear: Snowboard."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "Individual"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Snowboard, Boots & Bindings"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Snowy Mountain Slopes"
+        "value": "Snow Piste"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Snowboard"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIS / USA"
+        "label": "Origin",
+        "value": "FIS"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Snowboarding?",
-      "answer": "Snowboard, Boots & Bindings"
+      "question": "What essential gear or venue is key to Snowboarding?",
+      "answer": "Snowboard"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "snowboarding",
       "snowboarding"
     ],
     "explanation": "Snowboarding is an internationally recognized competitive sport.",
-    "funFact": "The earliest snowboard was invented in 1965 by Sherman Poppen, who tied two skis together for his daughter and called it a \"Snurfer\"!",
+    "funFact": "The precursor to modern snowboards was invented in 1965 by Sherman Poppen, who bound two skis together and called it a \"Snurfer\"!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_skiing_023",
     "category": "sports",
     "name": "Alpine Skiing",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⛷️",
     "buzzWords": [
       "Slalom",
       "Poles",
-      "Downhill"
+      "Bindings"
     ],
     "clues": [
-      "Sliding down snow-covered hills on skis with fixed-heel bindings at blistering speeds.",
-      "Typically features: Individual and played using Pair of Skis, Boots & Poles.",
-      "Contested on a Alpine Pistes under governance of FIS / Scandinavia."
+      "Racers weave past gate markers at highway velocities down frozen mountain gradients.",
+      "Typically played on a Alpine Slopes by a Individual.",
+      "Utilizes specialized Pair of Skis governed globally by FIS."
     ],
     "primaryClues": [
-      "Sliding down snow-covered hills on skis with fixed-heel bindings at blistering speeds.",
-      "Features Individual."
+      "Racers weave past gate markers at highway velocities down frozen mountain gradients.",
+      "Contested on a Alpine Slopes."
     ],
     "secondaryClues": [
-      "Played using Pair of Skis, Boots & Poles.",
-      "Venue: Alpine Pistes."
+      "Team setup: Individual.",
+      "Gear: Pair of Skis."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "Individual"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Pair of Skis, Boots & Poles"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Alpine Pistes"
+        "value": "Alpine Slopes"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Pair of Skis"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIS / Scandinavia"
+        "label": "Origin",
+        "value": "FIS"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Alpine Skiing?",
-      "answer": "Pair of Skis, Boots & Poles"
+      "question": "What essential gear or venue is key to Alpine Skiing?",
+      "answer": "Pair of Skis"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "alpine skiing"
+      "alpine skiing",
+      "alpine"
     ],
     "explanation": "Alpine Skiing is an internationally recognized competitive sport.",
-    "funFact": "Rock carvings in Norway suggest humans have been skiing for over 5,000 years!",
+    "funFact": "Primitive petroglyphs and wooden ski fragments excavated in Norway indicate humanity has skied for over 5,000 years!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_waterpolo_024",
     "category": "sports",
     "name": "Water Polo",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🤽",
     "buzzWords": [
       "Eggbeater",
       "Cap",
-      "Goal Net"
+      "Goal"
     ],
     "clues": [
-      "Competitive water team sport where players swim, tread water, and throw a ball into the opponent’s goal.",
-      "Typically features: 7 Players (incl. Goalie) and played using Water Polo Ball & Ear-Guard Caps.",
-      "Contested on a All-Deep Swimming Pool under governance of World Aquatics / UK."
+      "Swimmers tread deep water without resting on basin tiles, passing a leather water ball.",
+      "Typically played on a Deep Pool by a 7 Squad.",
+      "Utilizes specialized Ear-Guard Cap governed globally by World Aquatics."
     ],
     "primaryClues": [
-      "Competitive water team sport where players swim, tread water, and throw a ball into the opponent’s goal.",
-      "Features 7 Players (incl. Goalie)."
+      "Swimmers tread deep water without resting on basin tiles, passing a leather water ball.",
+      "Contested on a Deep Pool."
     ],
     "secondaryClues": [
-      "Played using Water Polo Ball & Ear-Guard Caps.",
-      "Venue: All-Deep Swimming Pool."
+      "Team setup: 7 Squad.",
+      "Gear: Ear-Guard Cap."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "7 Players (incl. Goalie)"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Water Polo Ball & Ear-Guard Caps"
+        "label": "Team",
+        "value": "7 Squad"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "All-Deep Swimming Pool"
+        "value": "Deep Pool"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Ear-Guard Cap"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Aquatics / UK"
+        "label": "Origin",
+        "value": "World Aquatics"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Water Polo?",
-      "answer": "Water Polo Ball & Ear-Guard Caps"
+      "question": "What essential gear or venue is key to Water Polo?",
+      "answer": "Ear-Guard Cap"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "water polo"
+      "water polo",
+      "water"
     ],
     "explanation": "Water Polo is an internationally recognized competitive sport.",
-    "funFact": "Water polo players are never allowed to touch the bottom or sides of the pool during the entire game!",
+    "funFact": "Water polo field players are never permitted to touch pool flooring or sidewalls during the entirety of active play!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_judo_025",
     "category": "sports",
     "name": "Judo",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥋",
     "buzzWords": [
-      "Ippon",
-      "Throw",
-      "Tatami"
+      "Tatami",
+      "Grip",
+      "Ippon"
     ],
     "clues": [
-      "Japanese martial art focused on throws, joint locks, and pins using the opponent’s own momentum.",
-      "Typically features: 2 Competitors and played using Judogi & Colored Belt.",
-      "Contested on a Tatami Mat under governance of IJF / Japan."
+      "Combatants use off-balancing leverage and shoulder throws to pin adversaries flat.",
+      "Typically played on a Tatami Mat by a 2 Fighters.",
+      "Utilizes specialized Heavy Gi governed globally by IJF."
     ],
     "primaryClues": [
-      "Japanese martial art focused on throws, joint locks, and pins using the opponent’s own momentum.",
-      "Features 2 Competitors."
+      "Combatants use off-balancing leverage and shoulder throws to pin adversaries flat.",
+      "Contested on a Tatami Mat."
     ],
     "secondaryClues": [
-      "Played using Judogi & Colored Belt.",
-      "Venue: Tatami Mat."
+      "Team setup: 2 Fighters.",
+      "Gear: Heavy Gi."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "2 Competitors"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Judogi & Colored Belt"
+        "label": "Team",
+        "value": "2 Fighters"
       },
       {
         "icon": "🏟️",
@@ -1506,60 +1525,61 @@ export const SPORTS_CARDS: Card[] = [
         "value": "Tatami Mat"
       },
       {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Heavy Gi"
+      },
+      {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "IJF / Japan"
+        "label": "Origin",
+        "value": "IJF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Judo?",
-      "answer": "Judogi & Colored Belt"
+      "question": "What essential gear or venue is key to Judo?",
+      "answer": "Heavy Gi"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "judo",
       "judo"
     ],
     "explanation": "Judo is an internationally recognized competitive sport.",
-    "funFact": "Judo means \"The Gentle Way\", emphasizing using an opponent’s strength against them rather than brute force!",
+    "funFact": "Judo translates philosophically to \"The Gentle Way\", teaching students to turn an attacker’s momentum into their throw!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_wrestling_026",
     "category": "sports",
     "name": "Wrestling",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🤼",
     "buzzWords": [
-      "Pin",
+      "Takedown",
       "Singlet",
-      "Takedown"
+      "Pin"
     ],
     "clues": [
-      "Combat sport involving grappling techniques such as clinch fighting, throws, and takedowns.",
-      "Typically features: 2 Wrestlers and played using Singlet & Wrestling Shoes.",
-      "Contested on a Circular Mat under governance of UWW / Ancient Greece."
+      "Grapplers employ body locks and leverage to force an opponent’s shoulder blades down.",
+      "Typically played on a Circular Mat by a 2 Athletes.",
+      "Utilizes specialized Singlet governed globally by UWW."
     ],
     "primaryClues": [
-      "Combat sport involving grappling techniques such as clinch fighting, throws, and takedowns.",
-      "Features 2 Wrestlers."
+      "Grapplers employ body locks and leverage to force an opponent’s shoulder blades down.",
+      "Contested on a Circular Mat."
     ],
     "secondaryClues": [
-      "Played using Singlet & Wrestling Shoes.",
-      "Venue: Circular Mat."
+      "Team setup: 2 Athletes.",
+      "Gear: Singlet."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "2 Wrestlers"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Singlet & Wrestling Shoes"
+        "label": "Team",
+        "value": "2 Athletes"
       },
       {
         "icon": "🏟️",
@@ -1567,878 +1587,898 @@ export const SPORTS_CARDS: Card[] = [
         "value": "Circular Mat"
       },
       {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Singlet"
+      },
+      {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "UWW / Ancient Greece"
+        "label": "Origin",
+        "value": "UWW"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Wrestling?",
-      "answer": "Singlet & Wrestling Shoes"
+      "question": "What essential gear or venue is key to Wrestling?",
+      "answer": "Singlet"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "wrestling",
       "wrestling"
     ],
     "explanation": "Wrestling is an internationally recognized competitive sport.",
-    "funFact": "Wrestling is considered one of humanity’s oldest recorded sports, depicted in cave drawings dating back 15,000 years!",
+    "funFact": "Wrestling stands among our species' oldest competitive sports, depicted on cave wall paintings dating back 15,000 years!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_fencing_027",
     "category": "sports",
     "name": "Fencing",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🤺",
     "buzzWords": [
-      "Foil",
-      "En Garde",
-      "Touché"
+      "Touché",
+      "Piste",
+      "Blade"
     ],
     "clues": [
-      "Combat sport involving swordplay using blunted weapons: foil, épée, or sabre.",
-      "Typically features: 2 Fencers and played using Foil / Épée / Sabre & Mesh Mask.",
-      "Contested on a Piste (14m Strip) under governance of FIE / Europe."
+      "Duelists advance along a narrow metal piste trading microsecond weapon touches.",
+      "Typically played on a 14m Piste by a 2 Fencers.",
+      "Utilizes specialized Mask & Foil governed globally by FIE."
     ],
     "primaryClues": [
-      "Combat sport involving swordplay using blunted weapons: foil, épée, or sabre.",
-      "Features 2 Fencers."
+      "Duelists advance along a narrow metal piste trading microsecond weapon touches.",
+      "Contested on a 14m Piste."
     ],
     "secondaryClues": [
-      "Played using Foil / Épée / Sabre & Mesh Mask.",
-      "Venue: Piste (14m Strip)."
+      "Team setup: 2 Fencers.",
+      "Gear: Mask & Foil."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "2 Fencers"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Foil / Épée / Sabre & Mesh Mask"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Piste (14m Strip)"
+        "value": "14m Piste"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Mask & Foil"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIE / Europe"
+        "label": "Origin",
+        "value": "FIE"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Fencing?",
-      "answer": "Foil / Épée / Sabre & Mesh Mask"
+      "question": "What essential gear or venue is key to Fencing?",
+      "answer": "Mask & Foil"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "fencing",
       "fencing"
     ],
     "explanation": "Fencing is an internationally recognized competitive sport.",
-    "funFact": "Fencing sword tips are equipped with electronic sensors; the tip of an épée moves faster than a bullet fired from a handgun!",
+    "funFact": "The tip of a modern electronic épée sword registers impacts faster than the firing velocity of a pistol bullet!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_rowing_028",
     "category": "sports",
     "name": "Rowing (Crew)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🚣",
     "buzzWords": [
-      "Oar",
       "Coxswain",
+      "Oar",
       "Regatta"
     ],
     "clues": [
-      "Sport of racing boats on water using oars to propel slender, lightweight racing shells backwards.",
-      "Typically features: 1, 2, 4, or 8 Rowers (+ Cox) and played using Oars & Long Racing Shell.",
-      "Contested on a 2,000m Water Course under governance of World Rowing / UK."
+      "Crews synchronize long levered sweeps to drive needle-thin fiberglass hulls backwards.",
+      "Typically played on a Still Water by a 1-8 Crew.",
+      "Utilizes specialized Long Oars governed globally by World Rowing."
     ],
     "primaryClues": [
-      "Sport of racing boats on water using oars to propel slender, lightweight racing shells backwards.",
-      "Features 1, 2, 4, or 8 Rowers (+ Cox)."
+      "Crews synchronize long levered sweeps to drive needle-thin fiberglass hulls backwards.",
+      "Contested on a Still Water."
     ],
     "secondaryClues": [
-      "Played using Oars & Long Racing Shell.",
-      "Venue: 2,000m Water Course."
+      "Team setup: 1-8 Crew.",
+      "Gear: Long Oars."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "1, 2, 4, or 8 Rowers (+ Cox)"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Oars & Long Racing Shell"
+        "label": "Team",
+        "value": "1-8 Crew"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "2,000m Water Course"
+        "value": "Still Water"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Long Oars"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Rowing / UK"
+        "label": "Origin",
+        "value": "World Rowing"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Rowing (Crew)?",
-      "answer": "Oars & Long Racing Shell"
+      "question": "What essential gear or venue is key to Rowing (Crew)?",
+      "answer": "Long Oars"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "rowing (crew)"
+      "rowing (crew)",
+      "rowing"
     ],
     "explanation": "Rowing (Crew) is an internationally recognized competitive sport.",
-    "funFact": "Rowers face backwards toward the start line; only the coxswain at the stern faces forward to steer!",
+    "funFact": "Rowers face toward the start line behind them; only the non-rowing coxswain stationed in the stern looks ahead to steer!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_weightlifting_029",
     "category": "sports",
     "name": "Weightlifting (Olympic)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏋️",
     "buzzWords": [
       "Snatch",
-      "Clean and Jerk",
-      "Barbell"
+      "Platform",
+      "Plates"
     ],
     "clues": [
-      "Strength sport where athletes compete in lifting a barbell loaded with heavy weight plates overhead.",
-      "Typically features: Individual and played using Barbell, Bumper Plates & Chalk.",
-      "Contested on a Wooden Lifting Platform under governance of IWF / International."
+      "Lifters hoist heavy steel barbells from ground to extended overhead lockout.",
+      "Typically played on a Timber Stage by a Individual.",
+      "Utilizes specialized Barbell governed globally by IWF."
     ],
     "primaryClues": [
-      "Strength sport where athletes compete in lifting a barbell loaded with heavy weight plates overhead.",
-      "Features Individual."
+      "Lifters hoist heavy steel barbells from ground to extended overhead lockout.",
+      "Contested on a Timber Stage."
     ],
     "secondaryClues": [
-      "Played using Barbell, Bumper Plates & Chalk.",
-      "Venue: Wooden Lifting Platform."
+      "Team setup: Individual.",
+      "Gear: Barbell."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "Individual"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Barbell, Bumper Plates & Chalk"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Wooden Lifting Platform"
+        "value": "Timber Stage"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Barbell"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "IWF / International"
+        "label": "Origin",
+        "value": "IWF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Weightlifting (Olympic)?",
-      "answer": "Barbell, Bumper Plates & Chalk"
+      "question": "What essential gear or venue is key to Weightlifting (Olympic)?",
+      "answer": "Barbell"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "weightlifting (olympic)"
+      "weightlifting (olympic)",
+      "weightlifting"
     ],
     "explanation": "Weightlifting (Olympic) is an internationally recognized competitive sport.",
-    "funFact": "Olympic weightlifters can lift more than three times their own body weight over their heads in a single explosive motion!",
+    "funFact": "Olympic weightlifters can propel three times their own body mass over their heads in a single fluid kinetic motion!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_figureskating_030",
     "category": "sports",
     "name": "Figure Skating",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⛸️",
     "buzzWords": [
       "Axel",
-      "Spin",
-      "Choreography"
+      "Choreography",
+      "Spin"
     ],
     "clues": [
-      "Sport and art where individuals or duos perform jumps, spins, and choreography on ice skates.",
-      "Typically features: 1 or 2 Skaters and played using Figure Skates with Toe Pick.",
-      "Contested on a Ice Rink under governance of ISU / Europe."
+      "Skaters execute multi-rotation jumps and spins set to musical accompaniments on ice.",
+      "Typically played on a Ice Arena by a 1-2 Skaters.",
+      "Utilizes specialized Pick Skates governed globally by ISU."
     ],
     "primaryClues": [
-      "Sport and art where individuals or duos perform jumps, spins, and choreography on ice skates.",
-      "Features 1 or 2 Skaters."
+      "Skaters execute multi-rotation jumps and spins set to musical accompaniments on ice.",
+      "Contested on a Ice Arena."
     ],
     "secondaryClues": [
-      "Played using Figure Skates with Toe Pick.",
-      "Venue: Ice Rink."
+      "Team setup: 1-2 Skaters.",
+      "Gear: Pick Skates."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "1 or 2 Skaters"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Figure Skates with Toe Pick"
+        "label": "Team",
+        "value": "1-2 Skaters"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Ice Rink"
+        "value": "Ice Arena"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Pick Skates"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "ISU / Europe"
+        "label": "Origin",
+        "value": "ISU"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Figure Skating?",
-      "answer": "Figure Skates with Toe Pick"
+      "question": "What essential gear or venue is key to Figure Skating?",
+      "answer": "Pick Skates"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "figure skating"
+      "figure skating",
+      "figure"
     ],
     "explanation": "Figure Skating is an internationally recognized competitive sport.",
-    "funFact": "Figure skating was the very first winter sport included in the Olympic Games, debuting at London 1908 before the Winter Olympics existed!",
+    "funFact": "Figure skating was the earliest winter discipline showcased in Olympic history, debuting at the 1908 London Summer Games!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_handball_031",
     "category": "sports",
     "name": "Handball",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🤾",
     "buzzWords": [
-      "Court",
+      "Crease",
       "Throw",
       "Goal"
     ],
     "clues": [
-      "Fast team sport where two teams of seven players pass a ball using their hands to throw it into the goal.",
-      "Typically features: 7 Players and played using Handball (Resin) & Goal.",
-      "Contested on a 40x20m Indoor Court under governance of IHF / Northern Europe."
+      "Athletes sprint and bounce a resin-coated ball before firing past a defending keeper.",
+      "Typically played on a Indoor Court by a 7 Squad.",
+      "Utilizes specialized Resin Ball governed globally by IHF."
     ],
     "primaryClues": [
-      "Fast team sport where two teams of seven players pass a ball using their hands to throw it into the goal.",
-      "Features 7 Players."
+      "Athletes sprint and bounce a resin-coated ball before firing past a defending keeper.",
+      "Contested on a Indoor Court."
     ],
     "secondaryClues": [
-      "Played using Handball (Resin) & Goal.",
-      "Venue: 40x20m Indoor Court."
+      "Team setup: 7 Squad.",
+      "Gear: Resin Ball."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "7 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Handball (Resin) & Goal"
+        "label": "Team",
+        "value": "7 Squad"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "40x20m Indoor Court"
+        "value": "Indoor Court"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Resin Ball"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "IHF / Northern Europe"
+        "label": "Origin",
+        "value": "IHF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Handball?",
-      "answer": "Handball (Resin) & Goal"
+      "question": "What essential gear or venue is key to Handball?",
+      "answer": "Resin Ball"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "handball",
       "handball"
     ],
     "explanation": "Handball is an internationally recognized competitive sport.",
-    "funFact": "Handball players can throw the ball at speeds exceeding 80 mph (130 km/h)!",
+    "funFact": "Elite handball forwards can hurl the ball at speeds exceeding 80 mph (130 km/h) into goal corners!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_equestrian_032",
     "category": "sports",
-    "name": "Equestrian (Dressage & Jumping)",
-    "difficulty": "easy",
+    "name": "Equestrian (Dressage)",
+    "difficulty": "medium",
     "emoji": "🏇",
     "buzzWords": [
-      "Saddle",
       "Stirrup",
-      "Horseback"
+      "Gait",
+      "Saddle"
     ],
     "clues": [
-      "Group of Olympic sports involving horseback riding, jumping obstacles, and precision dressage tests.",
-      "Typically features: Rider & Equine Athlete and played using Saddle, Bridle & Helmet.",
-      "Contested on a Sand Arena / Show Ring under governance of FEI / Europe."
+      "Riders guide horses through intricate geometric gaits, pirouettes, and obstacle courses.",
+      "Typically played on a Sand Arena by a Horse & Rider.",
+      "Utilizes specialized English Saddle governed globally by FEI."
     ],
     "primaryClues": [
-      "Group of Olympic sports involving horseback riding, jumping obstacles, and precision dressage tests.",
-      "Features Rider & Equine Athlete."
+      "Riders guide horses through intricate geometric gaits, pirouettes, and obstacle courses.",
+      "Contested on a Sand Arena."
     ],
     "secondaryClues": [
-      "Played using Saddle, Bridle & Helmet.",
-      "Venue: Sand Arena / Show Ring."
+      "Team setup: Horse & Rider.",
+      "Gear: English Saddle."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Rider & Equine Athlete"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Saddle, Bridle & Helmet"
+        "label": "Team",
+        "value": "Horse & Rider"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Sand Arena / Show Ring"
+        "value": "Sand Arena"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "English Saddle"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FEI / Europe"
+        "label": "Origin",
+        "value": "FEI"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Equestrian (Dressage & Jumping)?",
-      "answer": "Saddle, Bridle & Helmet"
+      "question": "What essential gear or venue is key to Equestrian (Dressage)?",
+      "answer": "English Saddle"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "equestrian (dressage & jumping)"
+      "equestrian (dressage)",
+      "equestrian"
     ],
-    "explanation": "Equestrian (Dressage & Jumping) is an internationally recognized competitive sport.",
-    "funFact": "Equestrian is the only Olympic sport where men and women compete directly against each other on equal terms!",
+    "explanation": "Equestrian (Dressage) is an internationally recognized competitive sport.",
+    "funFact": "Equestrian remains the sole Olympic event where male and female competitors battle directly against each other on equal terms!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_polo_033",
     "category": "sports",
     "name": "Polo",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐎",
     "buzzWords": [
-      "Mallet",
       "Chukker",
+      "Mallet",
       "Divot"
     ],
     "clues": [
-      "Team sport played on horseback where riders use a long wooden mallet to hit a ball into the goal.",
-      "Typically features: 4 Riders per Team and played using Long Mallet, Helmet & White Ball.",
-      "Contested on a 300-Yard Grass Field under governance of FIP / Persia (Iran)."
+      "Mounted riders gallop across grass expanses swinging long mallets to drive wooden balls.",
+      "Typically played on a 300yd Grass by a 4 Riders.",
+      "Utilizes specialized Long Mallet governed globally by FIP."
     ],
     "primaryClues": [
-      "Team sport played on horseback where riders use a long wooden mallet to hit a ball into the goal.",
-      "Features 4 Riders per Team."
+      "Mounted riders gallop across grass expanses swinging long mallets to drive wooden balls.",
+      "Contested on a 300yd Grass."
     ],
     "secondaryClues": [
-      "Played using Long Mallet, Helmet & White Ball.",
-      "Venue: 300-Yard Grass Field."
+      "Team setup: 4 Riders.",
+      "Gear: Long Mallet."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "4 Riders per Team"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Long Mallet, Helmet & White Ball"
+        "label": "Team",
+        "value": "4 Riders"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "300-Yard Grass Field"
+        "value": "300yd Grass"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Long Mallet"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "FIP / Persia (Iran)"
+        "label": "Origin",
+        "value": "FIP"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Polo?",
-      "answer": "Long Mallet, Helmet & White Ball"
+      "question": "What essential gear or venue is key to Polo?",
+      "answer": "Long Mallet"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "polo",
       "polo"
     ],
     "explanation": "Polo is an internationally recognized competitive sport.",
-    "funFact": "Polo requires the largest playing field in all of sports—covering the area of nearly nine soccer pitches!",
+    "funFact": "A standard polo playing pitch requires nine times the surface area of a standard professional soccer pitch!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_lacrosse_034",
     "category": "sports",
     "name": "Lacrosse",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥍",
     "buzzWords": [
-      "Crosse",
-      "Net Pocket",
-      "Faceoff"
+      "Faceoff",
+      "Mesh Pocket",
+      "Crosse"
     ],
     "clues": [
-      "Fast contact team sport played using a stick with a mesh pocket to catch, carry, and shoot a rubber ball.",
-      "Typically features: 10 Players (Field) and played using Stick with Net Pocket & Helmet.",
-      "Contested on a Field / Turf under governance of World Lacrosse / Indigenous N. America."
+      "Field runners cradle a dense rubber projectile in woven stick pockets at high speed.",
+      "Typically played on a Turf Field by a 10 Squad.",
+      "Utilizes specialized Mesh Crosse governed globally by World Lacrosse."
     ],
     "primaryClues": [
-      "Fast contact team sport played using a stick with a mesh pocket to catch, carry, and shoot a rubber ball.",
-      "Features 10 Players (Field)."
+      "Field runners cradle a dense rubber projectile in woven stick pockets at high speed.",
+      "Contested on a Turf Field."
     ],
     "secondaryClues": [
-      "Played using Stick with Net Pocket & Helmet.",
-      "Venue: Field / Turf."
+      "Team setup: 10 Squad.",
+      "Gear: Mesh Crosse."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "10 Players (Field)"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Stick with Net Pocket & Helmet"
+        "label": "Team",
+        "value": "10 Squad"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Field / Turf"
+        "value": "Turf Field"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Mesh Crosse"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Lacrosse / Indigenous N. America"
+        "label": "Origin",
+        "value": "World Lacrosse"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Lacrosse?",
-      "answer": "Stick with Net Pocket & Helmet"
+      "question": "What essential gear or venue is key to Lacrosse?",
+      "answer": "Mesh Crosse"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "lacrosse",
       "lacrosse"
     ],
     "explanation": "Lacrosse is an internationally recognized competitive sport.",
-    "funFact": "Lacrosse was invented by Indigenous North American tribes over 900 years ago as a spiritual game called \"The Creator's Game\"!",
+    "funFact": "Lacrosse was created over 900 years ago by Indigenous North American peoples as a spiritual contest called \"The Creator's Game\"!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_bobsleigh_035",
     "category": "sports",
     "name": "Bobsleigh",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🛷",
     "buzzWords": [
-      "Ice Track",
       "Runners",
-      "G-Force"
+      "Gravity",
+      "Banking"
     ],
     "clues": [
-      "Winter sport in which two or four teammates make timed runs down narrow, twisting banked ice tracks.",
-      "Typically features: 2 or 4 Sledders and played using Aerodynamic Sled & Ice Spikes.",
-      "Contested on a Twisting Banked Ice Chute under governance of IBSF / Switzerland."
+      "Teams sprint-launch aerodynamic sleds down twisting, refrigerated iced mountain shoots.",
+      "Typically played on a Ice Trough by a 2-4 Racers.",
+      "Utilizes specialized Aero Sled governed globally by IBSF."
     ],
     "primaryClues": [
-      "Winter sport in which two or four teammates make timed runs down narrow, twisting banked ice tracks.",
-      "Features 2 or 4 Sledders."
+      "Teams sprint-launch aerodynamic sleds down twisting, refrigerated iced mountain shoots.",
+      "Contested on a Ice Trough."
     ],
     "secondaryClues": [
-      "Played using Aerodynamic Sled & Ice Spikes.",
-      "Venue: Twisting Banked Ice Chute."
+      "Team setup: 2-4 Racers.",
+      "Gear: Aero Sled."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "2 or 4 Sledders"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Aerodynamic Sled & Ice Spikes"
+        "label": "Team",
+        "value": "2-4 Racers"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Twisting Banked Ice Chute"
+        "value": "Ice Trough"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Aero Sled"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "IBSF / Switzerland"
+        "label": "Origin",
+        "value": "IBSF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Bobsleigh?",
-      "answer": "Aerodynamic Sled & Ice Spikes"
+      "question": "What essential gear or venue is key to Bobsleigh?",
+      "answer": "Aero Sled"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "bobsleigh",
       "bobsleigh"
     ],
     "explanation": "Bobsleigh is an internationally recognized competitive sport.",
-    "funFact": "Bobsleighs reach speeds over 95 mph (150 km/h) and expose athletes to up to 5G of centrifugal force in banked turns!",
+    "funFact": "Four-man bobsleighs exceed 95 mph (150 km/h) and exert over 5G of centrifugal force on crews inside steep ice curves!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_taekwondo_036",
     "category": "sports",
     "name": "Taekwondo",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥋",
     "buzzWords": [
+      "Dobok",
       "High Kick",
-      "Sparring",
-      "Dobok"
+      "Spin"
     ],
     "clues": [
-      "Korean martial art characterized by head-height kicks, jumping spinning kicks, and fast footwork.",
-      "Typically features: 2 Competitors and played using Dobok Uniform & Electronic Chest Guard.",
-      "Contested on a Octagonal Mat under governance of World Taekwondo / Korea."
+      "Martial athletes score points by delivering fast head-height roundhouses and jumping spin kicks.",
+      "Typically played on a Octagon Mat by a 2 Fighters.",
+      "Utilizes specialized Chest Guard governed globally by World Taekwondo."
     ],
     "primaryClues": [
-      "Korean martial art characterized by head-height kicks, jumping spinning kicks, and fast footwork.",
-      "Features 2 Competitors."
+      "Martial athletes score points by delivering fast head-height roundhouses and jumping spin kicks.",
+      "Contested on a Octagon Mat."
     ],
     "secondaryClues": [
-      "Played using Dobok Uniform & Electronic Chest Guard.",
-      "Venue: Octagonal Mat."
+      "Team setup: 2 Fighters.",
+      "Gear: Chest Guard."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "2 Competitors"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Dobok Uniform & Electronic Chest Guard"
+        "label": "Team",
+        "value": "2 Fighters"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Octagonal Mat"
+        "value": "Octagon Mat"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Chest Guard"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Taekwondo / Korea"
+        "label": "Origin",
+        "value": "World Taekwondo"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Taekwondo?",
-      "answer": "Dobok Uniform & Electronic Chest Guard"
+      "question": "What essential gear or venue is key to Taekwondo?",
+      "answer": "Chest Guard"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "taekwondo",
       "taekwondo"
     ],
     "explanation": "Taekwondo is an internationally recognized competitive sport.",
-    "funFact": "Taekwondo translates to \"The Way of Kicking and Punching\", famous for 540-degree airborne spinning kicks!",
+    "funFact": "The Korean martial art translates to \"The Way of Kicking and Punching\", celebrated for airborne 540-degree kicks!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_triathlon_037",
     "category": "sports",
     "name": "Triathlon (Ironman)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏅",
     "buzzWords": [
-      "Swim-Bike-Run",
       "Transition",
-      "Finish Line"
+      "Endurance",
+      "Legs"
     ],
     "clues": [
-      "Multisport endurance race consisting of continuous swimming, cycling, and running over various distances.",
-      "Typically features: Individual Competitor and played using Tri-Suit, Bicycle & Running Shoes.",
-      "Contested on a Open Water, Highway & Roads under governance of World Triathlon / Hawaii."
+      "Endurance racers perform consecutive open-water swimming, cycling, and long marathon runs.",
+      "Typically played on a Open Route by a Individual.",
+      "Utilizes specialized Tri-Suit & Bike governed globally by World Triathlon."
     ],
     "primaryClues": [
-      "Multisport endurance race consisting of continuous swimming, cycling, and running over various distances.",
-      "Features Individual Competitor."
+      "Endurance racers perform consecutive open-water swimming, cycling, and long marathon runs.",
+      "Contested on a Open Route."
     ],
     "secondaryClues": [
-      "Played using Tri-Suit, Bicycle & Running Shoes.",
-      "Venue: Open Water, Highway & Roads."
+      "Team setup: Individual.",
+      "Gear: Tri-Suit & Bike."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
-        "value": "Individual Competitor"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Tri-Suit, Bicycle & Running Shoes"
+        "label": "Team",
+        "value": "Individual"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Open Water, Highway & Roads"
+        "value": "Open Route"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Tri-Suit & Bike"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Triathlon / Hawaii"
+        "label": "Origin",
+        "value": "World Triathlon"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Triathlon (Ironman)?",
-      "answer": "Tri-Suit, Bicycle & Running Shoes"
+      "question": "What essential gear or venue is key to Triathlon (Ironman)?",
+      "answer": "Tri-Suit & Bike"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
-      "triathlon (ironman)"
+      "triathlon (ironman)",
+      "triathlon"
     ],
     "explanation": "Triathlon (Ironman) is an internationally recognized competitive sport.",
-    "funFact": "The Ironman triathlon combines a 2.4-mile ocean swim, a 112-mile bike ride, and a full 26.2-mile marathon without breaks!",
+    "funFact": "An Ironman triathlon challenges competitors to a 2.4-mile swim, a 112-mile bicycle ride, and a 26.2-mile marathon without pause!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_curling_038",
     "category": "sports",
     "name": "Curling",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥌",
     "buzzWords": [
       "Granite Stone",
       "Broom",
-      "Button"
+      "House"
     ],
     "clues": [
-      "Ice sport where players slide polished granite stones toward a circular target called the \"house\".",
-      "Typically features: 4 Players and played using Polished Granite Stone & Brooms.",
-      "Contested on a Pebbled Ice Sheet under governance of World Curling / Scotland."
+      "Tacticians glide 44-pound polished granite stones across pebbled ice sheets toward targets.",
+      "Typically played on a Pebbled Sheet by a 4 Players.",
+      "Utilizes specialized Granite Stone governed globally by World Curling."
     ],
     "primaryClues": [
-      "Ice sport where players slide polished granite stones toward a circular target called the \"house\".",
-      "Features 4 Players."
+      "Tacticians glide 44-pound polished granite stones across pebbled ice sheets toward targets.",
+      "Contested on a Pebbled Sheet."
     ],
     "secondaryClues": [
-      "Played using Polished Granite Stone & Brooms.",
-      "Venue: Pebbled Ice Sheet."
+      "Team setup: 4 Players.",
+      "Gear: Granite Stone."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "4 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Polished Granite Stone & Brooms"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Pebbled Ice Sheet"
+        "value": "Pebbled Sheet"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Granite Stone"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "World Curling / Scotland"
+        "label": "Origin",
+        "value": "World Curling"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Curling?",
-      "answer": "Polished Granite Stone & Brooms"
+      "question": "What essential gear or venue is key to Curling?",
+      "answer": "Granite Stone"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "curling",
       "curling"
     ],
     "explanation": "Curling is an internationally recognized competitive sport.",
-    "funFact": "All Olympic curling stones are crafted from rare water-resistant granite quarried from one single uninhabited Scottish island, Ailsa Craig!",
+    "funFact": "All certified Olympic curling stones are cut from rare microgranite found on one uninhabited Scottish isle, Ailsa Craig!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_snooker_039",
     "category": "sports",
     "name": "Snooker",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🎱",
     "buzzWords": [
-      "Cue Ball",
-      "147 Break",
-      "Baize"
+      "Baize",
+      "Potting",
+      "Break"
     ],
     "clues": [
-      "Cue sport played on a baize-covered pocket table where players pot red and colored balls in sequence.",
-      "Typically features: 2 Players and played using Cue Stick, Chalk & 22 Balls.",
-      "Contested on a 12x6-Foot Slate Table under governance of WPBSA / India (British Army)."
+      "Cueists pocket 15 reds alternately with colored balls across a heavy baize-covered slate.",
+      "Typically played on a 12ft Table by a 2 Players.",
+      "Utilizes specialized Ash Cue governed globally by WPBSA."
     ],
     "primaryClues": [
-      "Cue sport played on a baize-covered pocket table where players pot red and colored balls in sequence.",
-      "Features 2 Players."
+      "Cueists pocket 15 reds alternately with colored balls across a heavy baize-covered slate.",
+      "Contested on a 12ft Table."
     ],
     "secondaryClues": [
-      "Played using Cue Stick, Chalk & 22 Balls.",
-      "Venue: 12x6-Foot Slate Table."
+      "Team setup: 2 Players.",
+      "Gear: Ash Cue."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "2 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Cue Stick, Chalk & 22 Balls"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "12x6-Foot Slate Table"
+        "value": "12ft Table"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Ash Cue"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "WPBSA / India (British Army)"
+        "label": "Origin",
+        "value": "WPBSA"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Snooker?",
-      "answer": "Cue Stick, Chalk & 22 Balls"
+      "question": "What essential gear or venue is key to Snooker?",
+      "answer": "Ash Cue"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "snooker",
       "snooker"
     ],
     "explanation": "Snooker is an internationally recognized competitive sport.",
-    "funFact": "A maximum break of 147 points requires potting 15 reds followed each time by the black ball, then all six colors in order!",
+    "funFact": "A maximum break of 147 points requires a player to pot all 15 red balls paired with the black, followed by all 6 colors!",
     "verificationStatus": "verified"
   },
   {
     "id": "spt_squash_040",
     "category": "sports",
     "name": "Squash",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🎾",
     "buzzWords": [
-      "Four Walls",
-      "Rubber Ball",
-      "Tin"
+      "Enclosure",
+      "Tin",
+      "Volley"
     ],
     "clues": [
-      "High-intensity racket sport played by two players in a four-walled court with a small, hollow rubber ball.",
-      "Typically features: 2 Players and played using Racket & Small Rubber Ball.",
-      "Contested on a Four-Walled Indoor Court under governance of WSF / Harrow School, UK."
+      "Two athletes strike a hollow rubber sphere repeatedly against front and sidewalls in a box.",
+      "Typically played on a Four Walls by a 2 Players.",
+      "Utilizes specialized Rubber Ball governed globally by WSF."
     ],
     "primaryClues": [
-      "High-intensity racket sport played by two players in a four-walled court with a small, hollow rubber ball.",
-      "Features 2 Players."
+      "Two athletes strike a hollow rubber sphere repeatedly against front and sidewalls in a box.",
+      "Contested on a Four Walls."
     ],
     "secondaryClues": [
-      "Played using Racket & Small Rubber Ball.",
-      "Venue: Four-Walled Indoor Court."
+      "Team setup: 2 Players.",
+      "Gear: Rubber Ball."
     ],
     "factGrid": [
       {
         "icon": "👥",
-        "label": "Team / Field",
+        "label": "Team",
         "value": "2 Players"
-      },
-      {
-        "icon": "🎽",
-        "label": "Equipment",
-        "value": "Racket & Small Rubber Ball"
       },
       {
         "icon": "🏟️",
         "label": "Venue",
-        "value": "Four-Walled Indoor Court"
+        "value": "Four Walls"
+      },
+      {
+        "icon": "🎽",
+        "label": "Gear",
+        "value": "Rubber Ball"
       },
       {
         "icon": "🏆",
-        "label": "Origin / Body",
-        "value": "WSF / Harrow School, UK"
+        "label": "Origin",
+        "value": "WSF"
       }
     ],
     "bonusTrivia": {
-      "question": "What piece of equipment or venue is essential in Squash?",
-      "answer": "Racket & Small Rubber Ball"
+      "question": "What essential gear or venue is key to Squash?",
+      "answer": "Rubber Ball"
     },
     "facts": {
       "isSport": true,
       "globalAthletics": true
     },
     "aliases": [
+      "squash",
       "squash"
     ],
     "explanation": "Squash is an internationally recognized competitive sport.",
-    "funFact": "Squash is ranked by Forbes as the world’s number-one healthiest sport for calorie burn and cardiovascular endurance!",
+    "funFact": "Squash was rated by Forbes as the world’s most physically demanding sport for total cardiovascular workout and agility!",
     "verificationStatus": "verified"
   }
 ];

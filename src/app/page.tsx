@@ -45,8 +45,9 @@ export default function Guess10App() {
             )}
             {phase === 'setup' && <SetupScreen />}
             {phase === 'category-selection' && <CategoryScreen />}
-            {phase === 'card-selection' && <CardSelectionScreen />}
-            {phase === 'privacy-transition' && <PrivacyTransitionScreen />}
+            {(phase === 'card-selection' || phase === 'privacy-transition') && (
+              <PrivacyTransitionScreen />
+            )}
             {phase === 'playing' && <PlayingScreen />}
             {phase === 'round-result' && <RoundResultScreen />}
             {phase === 'match-result' && <MatchResultScreen />}

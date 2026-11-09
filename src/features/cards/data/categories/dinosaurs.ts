@@ -5,1959 +5,1991 @@ export const DINOSAURS_CARDS: Card[] = [
     "id": "din_trex_001",
     "category": "dinosaurs",
     "name": "Tyrannosaurus Rex",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦖",
     "buzzWords": [
-      "Bite",
-      "Carnivore",
+      "Bipedal",
+      "Apex",
       "Cretaceous"
     ],
     "clues": [
-      "Apex predator of the late Cretaceous, famed for bone-crushing jaws and tiny two-clawed arms.",
-      "Lived during the Late Cretaceous (68-66 Ma) with a Carnivore (Apex Predator) diet.",
-      "Physical dimensions: 12 m (40 ft) / 8 tons with signature trait: 12,800 lb Bite Force."
+      "Late Cretaceous theropod possessing massive bone-crushing jaw mechanics and reduced forearms.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 12m / 8t characterized by its Crushing Bite."
     ],
     "primaryClues": [
-      "Apex predator of the late Cretaceous, famed for bone-crushing jaws and tiny two-clawed arms.",
-      "Era: Late Cretaceous (68-66 Ma)."
+      "Late Cretaceous theropod possessing massive bone-crushing jaw mechanics and reduced forearms.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore (Apex Predator).",
-      "Size: 12 m (40 ft) / 8 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 12m / 8t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (68-66 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore (Apex Predator)"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "12 m (40 ft) / 8 tons"
+        "label": "Size",
+        "value": "12m / 8t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "12,800 lb Bite Force"
+        "label": "Trait",
+        "value": "Crushing Bite"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Tyrannosaurus Rex live in?",
-      "answer": "Late Cretaceous (68-66 Ma)"
+      "question": "What geologic period did Tyrannosaurus Rex inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
-      "tyrannosaurus rex"
+      "tyrannosaurus rex",
+      "tyrannosaurus"
     ],
     "explanation": "Tyrannosaurus Rex is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "T. rex had the strongest bite force of any terrestrial animal in history, capable of shattering car bones like twigs!",
+    "funFact": "T. rex generated over 12,000 pounds of bite force—sufficient to explode the dense femur bones of prey!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_triceratops_002",
     "category": "dinosaurs",
     "name": "Triceratops",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦏",
     "buzzWords": [
-      "Three Horns",
       "Frill",
-      "Herbivore"
+      "Herbivore",
+      "Crest"
     ],
     "clues": [
-      "Three-horned herbivore equipped with a massive solid bone neck frill to defend against predators.",
-      "Lived during the Late Cretaceous (68-66 Ma) with a Herbivore (Beak & Teeth) diet.",
-      "Physical dimensions: 9 m (30 ft) / 10 tons with signature trait: Three Brow & Nose Horns."
+      "Stout quadrupedal ceratopsian protected by three pointed facial horn spikes and a bone collar.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 9m / 10t characterized by its Three Horns."
     ],
     "primaryClues": [
-      "Three-horned herbivore equipped with a massive solid bone neck frill to defend against predators.",
-      "Era: Late Cretaceous (68-66 Ma)."
+      "Stout quadrupedal ceratopsian protected by three pointed facial horn spikes and a bone collar.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore (Beak & Teeth).",
-      "Size: 9 m (30 ft) / 10 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 9m / 10t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (68-66 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore (Beak & Teeth)"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "9 m (30 ft) / 10 tons"
+        "label": "Size",
+        "value": "9m / 10t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Three Brow & Nose Horns"
+        "label": "Trait",
+        "value": "Three Horns"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Triceratops live in?",
-      "answer": "Late Cretaceous (68-66 Ma)"
+      "question": "What geologic period did Triceratops inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "triceratops",
       "triceratops"
     ],
     "explanation": "Triceratops is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Triceratops had a skull measuring over 8 feet long, making it one of the largest land animal skulls ever known!",
+    "funFact": "Triceratops skulls measured up to 8 feet in length, ranking among the largest land animal skulls ever discovered!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_velociraptor_003",
     "category": "dinosaurs",
     "name": "Velociraptor",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦅",
     "buzzWords": [
-      "Sickle Claw",
-      "Feathers",
-      "Pack Hunter"
+      "Feathered",
+      "Agile",
+      "Talon"
     ],
     "clues": [
-      "Agile, feathered bipedal predator possessing a prominent curved sickle claw on each second toe.",
-      "Lived during the Late Cretaceous (75-71 Ma) with a Carnivore diet.",
-      "Physical dimensions: 2 m (6.5 ft) / 15 kg with signature trait: Curved Retractable Claw."
+      "Compact bipedal dromaeosaurid predator armed with an oversized curved sickle talon on each foot.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 2m / 15kg characterized by its Sickle Talon."
     ],
     "primaryClues": [
-      "Agile, feathered bipedal predator possessing a prominent curved sickle claw on each second toe.",
-      "Era: Late Cretaceous (75-71 Ma)."
+      "Compact bipedal dromaeosaurid predator armed with an oversized curved sickle talon on each foot.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore.",
-      "Size: 2 m (6.5 ft) / 15 kg."
+      "Dietary niche: Carnivore.",
+      "Size: 2m / 15kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (75-71 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "2 m (6.5 ft) / 15 kg"
+        "label": "Size",
+        "value": "2m / 15kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Curved Retractable Claw"
+        "label": "Trait",
+        "value": "Sickle Talon"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Velociraptor live in?",
-      "answer": "Late Cretaceous (75-71 Ma)"
+      "question": "What geologic period did Velociraptor inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "velociraptor",
       "velociraptor"
     ],
     "explanation": "Velociraptor is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "In reality, Velociraptor was turkey-sized and covered in real feathers, unlike the giant scaly lizards depicted in movies!",
+    "funFact": "In reality, Velociraptor was turkey-sized and draped in true feathers, far different from cinematic scaly lizards!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_brachiosaurus_004",
     "category": "dinosaurs",
     "name": "Brachiosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦕",
     "buzzWords": [
-      "Long Neck",
       "Canopy",
-      "Sauropod"
+      "Sauropod",
+      "Jurassic"
     ],
     "clues": [
-      "Colossal sauropod whose longer front legs and vertical neck allowed it to browse tree treetops 40 feet high.",
-      "Lived during the Late Jurassic (154-150 Ma) with a Herbivore (Canopy Feeder) diet.",
-      "Physical dimensions: 26 m (85 ft) / 45 tons with signature trait: Front Legs Longer Than Back."
+      "Towering sauropod whose forelimbs were taller than its rear legs, enabling high canopy feeding.",
+      "Thrived during the Jurassic era as a verified Herbivore.",
+      "Measured roughly 26m / 45t characterized by its Tall Forelegs."
     ],
     "primaryClues": [
-      "Colossal sauropod whose longer front legs and vertical neck allowed it to browse tree treetops 40 feet high.",
-      "Era: Late Jurassic (154-150 Ma)."
+      "Towering sauropod whose forelimbs were taller than its rear legs, enabling high canopy feeding.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore (Canopy Feeder).",
-      "Size: 26 m (85 ft) / 45 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 26m / 45t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Jurassic (154-150 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore (Canopy Feeder)"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "26 m (85 ft) / 45 tons"
+        "label": "Size",
+        "value": "26m / 45t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Front Legs Longer Than Back"
+        "label": "Trait",
+        "value": "Tall Forelegs"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Brachiosaurus live in?",
-      "answer": "Late Jurassic (154-150 Ma)"
+      "question": "What geologic period did Brachiosaurus inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "brachiosaurus",
       "brachiosaurus"
     ],
     "explanation": "Brachiosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Brachiosaurus had nostrils located on top of its head, and its heart weighed over 400 pounds to pump blood up its neck!",
+    "funFact": "Brachiosaurus required a massive 400-pound heart to pump oxygenated blood 40 vertical feet to its brain!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_stegosaurus_005",
     "category": "dinosaurs",
     "name": "Stegosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🛡️",
     "buzzWords": [
-      "Back Plates",
       "Thagomizer",
-      "Spikes"
+      "Plates",
+      "Herbivore"
     ],
     "clues": [
-      "Armored quadrupedal herbivore famous for double rows of kite-shaped back plates and a spiked tail.",
-      "Lived during the Late Jurassic (155-150 Ma) with a Herbivore (Low Shrub) diet.",
-      "Physical dimensions: 9 m (30 ft) / 5 tons with signature trait: Spiked Tail (\"Thagomizer\")."
+      "Armored quadruped displaying alternating kite-shaped dorsal plates and four sharp caudal tail spikes.",
+      "Thrived during the Jurassic era as a verified Herbivore.",
+      "Measured roughly 9m / 5t characterized by its Spiked Tail."
     ],
     "primaryClues": [
-      "Armored quadrupedal herbivore famous for double rows of kite-shaped back plates and a spiked tail.",
-      "Era: Late Jurassic (155-150 Ma)."
+      "Armored quadruped displaying alternating kite-shaped dorsal plates and four sharp caudal tail spikes.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore (Low Shrub).",
-      "Size: 9 m (30 ft) / 5 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 9m / 5t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Jurassic (155-150 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore (Low Shrub)"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "9 m (30 ft) / 5 tons"
+        "label": "Size",
+        "value": "9m / 5t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Spiked Tail (\"Thagomizer\")"
+        "label": "Trait",
+        "value": "Spiked Tail"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Stegosaurus live in?",
-      "answer": "Late Jurassic (155-150 Ma)"
+      "question": "What geologic period did Stegosaurus inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "stegosaurus",
       "stegosaurus"
     ],
     "explanation": "Stegosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Despite weighing 5 tons, Stegosaurus had a brain the size of a walnut, weighing only about 80 grams!",
+    "funFact": "Despite weighing over 5 tons, Stegosaurus had an extraordinarily small brain roughly the volume of a walnut!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_spinosaurus_006",
     "category": "dinosaurs",
     "name": "Spinosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐊",
     "buzzWords": [
       "Sail",
-      "Paddle Tail",
-      "River Monster"
+      "River",
+      "Piscivore"
     ],
     "clues": [
-      "Largest known predatory dinosaur, equipped with a 6-foot back sail and adapted for semi-aquatic river hunting.",
-      "Lived during the Late Cretaceous (99-93 Ma) with a Carnivore / Piscivore diet.",
-      "Physical dimensions: 15 m (49 ft) / 7 tons with signature trait: Tall Neural Spine Sail."
+      "Semiaquatic river behemoth sporting a 6-foot neural back sail and paddle-shaped tail.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 15m / 7t characterized by its Dorsal Sail."
     ],
     "primaryClues": [
-      "Largest known predatory dinosaur, equipped with a 6-foot back sail and adapted for semi-aquatic river hunting.",
-      "Era: Late Cretaceous (99-93 Ma)."
+      "Semiaquatic river behemoth sporting a 6-foot neural back sail and paddle-shaped tail.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore / Piscivore.",
-      "Size: 15 m (49 ft) / 7 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 15m / 7t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (99-93 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore / Piscivore"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "15 m (49 ft) / 7 tons"
+        "label": "Size",
+        "value": "15m / 7t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Tall Neural Spine Sail"
+        "label": "Trait",
+        "value": "Dorsal Sail"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Spinosaurus live in?",
-      "answer": "Late Cretaceous (99-93 Ma)"
+      "question": "What geologic period did Spinosaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "spinosaurus",
       "spinosaurus"
     ],
     "explanation": "Spinosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Spinosaurus is the only dinosaur known to have had aquatic adaptations including paddle-like tail and dense bones for diving!",
+    "funFact": "Spinosaurus is the only recognized dinosaur displaying specialized semi-aquatic features for swimming and fish hunting!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_ankylosaurus_007",
     "category": "dinosaurs",
     "name": "Ankylosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐢",
     "buzzWords": [
-      "Armor Plates",
-      "Tail Club",
-      "Tank"
+      "Carapace",
+      "Armor",
+      "Club"
     ],
     "clues": [
-      "Living tank of the late Cretaceous, covered in heavy bony armor plates with a heavy bone tail club.",
-      "Lived during the Late Cretaceous (68-66 Ma) with a Herbivore diet.",
-      "Physical dimensions: 8 m (26 ft) / 6 tons with signature trait: Solid Bone Sledgehammer Club."
+      "Heavily armored living fortress covered in bony osteoderm plates and anchored by a sledgehammer tail.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 8m / 6t characterized by its Tail Club."
     ],
     "primaryClues": [
-      "Living tank of the late Cretaceous, covered in heavy bony armor plates with a heavy bone tail club.",
-      "Era: Late Cretaceous (68-66 Ma)."
+      "Heavily armored living fortress covered in bony osteoderm plates and anchored by a sledgehammer tail.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore.",
-      "Size: 8 m (26 ft) / 6 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 8m / 6t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (68-66 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "8 m (26 ft) / 6 tons"
+        "label": "Size",
+        "value": "8m / 6t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Solid Bone Sledgehammer Club"
+        "label": "Trait",
+        "value": "Tail Club"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Ankylosaurus live in?",
-      "answer": "Late Cretaceous (68-66 Ma)"
+      "question": "What geologic period did Ankylosaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "ankylosaurus",
       "ankylosaurus"
     ],
     "explanation": "Ankylosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "The tail club of Ankylosaurus could deliver a blow with enough kinetic force to snap the shin bones of attacking predators!",
+    "funFact": "The solid bone tail club of Ankylosaurus could strike with enough kinetic impact to shatter attacking legs!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_pterodactyl_008",
     "category": "dinosaurs",
     "name": "Pteranodon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦅",
     "buzzWords": [
+      "Glider",
       "Wingspan",
-      "Crest",
-      "Flying Reptile"
+      "Crest"
     ],
     "clues": [
-      "Large flying pterosaur with a toothless beak, prominent head crest, and skin wings spanning 20 feet.",
-      "Lived during the Late Cretaceous (88-86 Ma) with a Piscivore (Fish Eater) diet.",
-      "Physical dimensions: 6 m (20 ft) Wingspan with signature trait: Head Crest & No Teeth."
+      "Late Cretaceous flying reptile soaring on membrane wings with a cranial balance crest.",
+      "Thrived during the Cretaceous era as a verified Piscivore.",
+      "Measured roughly 6m Span characterized by its Toothless."
     ],
     "primaryClues": [
-      "Large flying pterosaur with a toothless beak, prominent head crest, and skin wings spanning 20 feet.",
-      "Era: Late Cretaceous (88-86 Ma)."
+      "Late Cretaceous flying reptile soaring on membrane wings with a cranial balance crest.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Piscivore (Fish Eater).",
-      "Size: 6 m (20 ft) Wingspan."
+      "Dietary niche: Piscivore.",
+      "Size: 6m Span."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (88-86 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Piscivore (Fish Eater)"
+        "label": "Diet",
+        "value": "Piscivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "6 m (20 ft) Wingspan"
+        "label": "Size",
+        "value": "6m Span"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Head Crest & No Teeth"
+        "label": "Trait",
+        "value": "Toothless"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Pteranodon live in?",
-      "answer": "Late Cretaceous (88-86 Ma)"
+      "question": "What geologic period did Pteranodon inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "pteranodon",
       "pteranodon"
     ],
     "explanation": "Pteranodon is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Pteranodon was not technically a dinosaur, but rather a flying reptile that ruled prehistoric skies!",
+    "funFact": "Pteranodon was a winged flying reptile (pterosaur), meaning it was not technically classified as a dinosaur!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_megalodon_009",
     "category": "dinosaurs",
     "name": "Megalodon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦈",
     "buzzWords": [
-      "Giant Shark",
+      "Predator",
       "Fossil Tooth",
-      "Prehistoric Seas"
+      "Prehistoric"
     ],
     "clues": [
-      "Enormous prehistoric mackerel shark that dominated world oceans, reaching lengths of up to 60 feet.",
-      "Lived during the Miocene to Pliocene (23-3.6 Ma) with a Carnivore (Whale Hunter) diet.",
-      "Physical dimensions: 18 m (60 ft) / 50 tons with signature trait: 7-Inch Serrated Teeth."
+      "Enormous prehistoric mackerel shark that dominated Cenozoic oceans, preying upon baleen whales.",
+      "Thrived during the Miocene era as a verified Carnivore.",
+      "Measured roughly 18m / 50t characterized by its 7-Inch Teeth."
     ],
     "primaryClues": [
-      "Enormous prehistoric mackerel shark that dominated world oceans, reaching lengths of up to 60 feet.",
-      "Era: Miocene to Pliocene (23-3.6 Ma)."
+      "Enormous prehistoric mackerel shark that dominated Cenozoic oceans, preying upon baleen whales.",
+      "Period/Era: Miocene."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore (Whale Hunter).",
-      "Size: 18 m (60 ft) / 50 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 18m / 50t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Miocene to Pliocene (23-3.6 Ma)"
+        "label": "Period",
+        "value": "Miocene"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore (Whale Hunter)"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "18 m (60 ft) / 50 tons"
+        "label": "Size",
+        "value": "18m / 50t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "7-Inch Serrated Teeth"
+        "label": "Trait",
+        "value": "7-Inch Teeth"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Megalodon live in?",
-      "answer": "Miocene to Pliocene (23-3.6 Ma)"
+      "question": "What geologic period did Megalodon inhabit?",
+      "answer": "Miocene"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "megalodon",
       "megalodon"
     ],
     "explanation": "Megalodon is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "A single Megalodon tooth could be larger than an adult human's hand, and its jaw could swallow two adults standing side by side!",
+    "funFact": "A single fossilized Megalodon tooth exceeds the length of an adult human hand, and its jaws could engulf two people!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_mammoth_010",
     "category": "dinosaurs",
     "name": "Woolly Mammoth",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦣",
     "buzzWords": [
-      "Tusks",
-      "Fur Coat",
-      "Ice Age"
+      "Tundra",
+      "Ivory",
+      "Pleistocene"
     ],
     "clues": [
-      "Ice Age elephant relative draped in dense woolly fur, possessing curved tusks up to 14 feet long.",
-      "Lived during the Pleistocene (300,000-4,000 yrs) with a Herbivore (Tundra Grasses) diet.",
-      "Physical dimensions: 3.4 m (11 ft) / 6 tons with signature trait: Curved Ivory Tusks & Fur."
+      "Ice Age proboscidean draped in dense insulated woolly pelage possessing twin curved tusks.",
+      "Thrived during the Ice Age era as a verified Herbivore.",
+      "Measured roughly 3.4m / 6t characterized by its Curved Tusks."
     ],
     "primaryClues": [
-      "Ice Age elephant relative draped in dense woolly fur, possessing curved tusks up to 14 feet long.",
-      "Era: Pleistocene (300,000-4,000 yrs)."
+      "Ice Age proboscidean draped in dense insulated woolly pelage possessing twin curved tusks.",
+      "Period/Era: Ice Age."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore (Tundra Grasses).",
-      "Size: 3.4 m (11 ft) / 6 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 3.4m / 6t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Pleistocene (300,000-4,000 yrs)"
+        "label": "Period",
+        "value": "Ice Age"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore (Tundra Grasses)"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "3.4 m (11 ft) / 6 tons"
+        "label": "Size",
+        "value": "3.4m / 6t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Curved Ivory Tusks & Fur"
+        "label": "Trait",
+        "value": "Curved Tusks"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Woolly Mammoth live in?",
-      "answer": "Pleistocene (300,000-4,000 yrs)"
+      "question": "What geologic period did Woolly Mammoth inhabit?",
+      "answer": "Ice Age"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
-      "woolly mammoth"
+      "woolly mammoth",
+      "woolly"
     ],
     "explanation": "Woolly Mammoth is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Isolated populations of Woolly Mammoths survived on Wrangel Island in the Arctic until 4,000 years ago—while Egypt's pyramids were standing!",
+    "funFact": "Isolated dwarf mammoth herds survived on Arctic Wrangel Island until 4,000 years ago—while Giza’s pyramids stood!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_smilodon_011",
     "category": "dinosaurs",
     "name": "Sabertooth Cat (Smilodon)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐯",
     "buzzWords": [
       "Canines",
-      "Ice Age Predator",
+      "Pleistocene",
       "Ambush"
     ],
     "clues": [
-      "Powerful Ice Age apex feline armed with 11-inch curved saber canines designed to sever prey throats.",
-      "Lived during the Pleistocene (2.5 Ma - 10,000 yrs) with a Carnivore diet.",
-      "Physical dimensions: 1.2 m at shoulder / 300 kg with signature trait: 11-Inch Curved Saber Canines."
+      "Compact powerhouse feline armed with 11-inch curved serrated upper canine daggers.",
+      "Thrived during the Pleistocene era as a verified Carnivore.",
+      "Measured roughly 1.2m / 300kg characterized by its Saber Teeth."
     ],
     "primaryClues": [
-      "Powerful Ice Age apex feline armed with 11-inch curved saber canines designed to sever prey throats.",
-      "Era: Pleistocene (2.5 Ma - 10,000 yrs)."
+      "Compact powerhouse feline armed with 11-inch curved serrated upper canine daggers.",
+      "Period/Era: Pleistocene."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore.",
-      "Size: 1.2 m at shoulder / 300 kg."
+      "Dietary niche: Carnivore.",
+      "Size: 1.2m / 300kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Pleistocene (2.5 Ma - 10,000 yrs)"
+        "label": "Period",
+        "value": "Pleistocene"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "1.2 m at shoulder / 300 kg"
+        "label": "Size",
+        "value": "1.2m / 300kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "11-Inch Curved Saber Canines"
+        "label": "Trait",
+        "value": "Saber Teeth"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Sabertooth Cat (Smilodon) live in?",
-      "answer": "Pleistocene (2.5 Ma - 10,000 yrs)"
+      "question": "What geologic period did Sabertooth Cat (Smilodon) inhabit?",
+      "answer": "Pleistocene"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
-      "sabertooth cat (smilodon)"
+      "sabertooth cat (smilodon)",
+      "sabertooth"
     ],
     "explanation": "Sabertooth Cat (Smilodon) is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Smilodon could open its jaws to an astonishing 120-degree angle to drive its long saber teeth into prey!",
+    "funFact": "Smilodon could unhinge its jaws to a 120-degree opening angle to drive its long saber teeth into prey throats!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_diplodocus_012",
     "category": "dinosaurs",
     "name": "Diplodocus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦕",
     "buzzWords": [
-      "Whip Tail",
-      "Pencil Teeth",
+      "Whip-Tail",
+      "Sauropod",
       "Jurassic"
     ],
     "clues": [
-      "Ultra-long sauropod featuring a long slender neck and a whip-like tail containing over 80 vertebrae.",
-      "Lived during the Late Jurassic (154-152 Ma) with a Herbivore (Fern Stripper) diet.",
-      "Physical dimensions: 27 m (90 ft) / 15 tons with signature trait: Whip-Like Crack Tail."
+      "Slender Jurassic giant whose ultra-long whip-like tail consisted of over 80 tapered vertebrae.",
+      "Thrived during the Jurassic era as a verified Herbivore.",
+      "Measured roughly 27m / 15t characterized by its Whip Tail."
     ],
     "primaryClues": [
-      "Ultra-long sauropod featuring a long slender neck and a whip-like tail containing over 80 vertebrae.",
-      "Era: Late Jurassic (154-152 Ma)."
+      "Slender Jurassic giant whose ultra-long whip-like tail consisted of over 80 tapered vertebrae.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore (Fern Stripper).",
-      "Size: 27 m (90 ft) / 15 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 27m / 15t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Jurassic (154-152 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore (Fern Stripper)"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "27 m (90 ft) / 15 tons"
+        "label": "Size",
+        "value": "27m / 15t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Whip-Like Crack Tail"
+        "label": "Trait",
+        "value": "Whip Tail"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Diplodocus live in?",
-      "answer": "Late Jurassic (154-152 Ma)"
+      "question": "What geologic period did Diplodocus inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "diplodocus",
       "diplodocus"
     ],
     "explanation": "Diplodocus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Diplodocus could crack the tip of its whip-like tail so fast that it broke the sound barrier, producing a loud sonic boom!",
+    "funFact": "Diplodocus could snap the tapered tip of its tail so fast that it broke the speed of sound, creating sonic booms!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_allosaurus_013",
     "category": "dinosaurs",
     "name": "Allosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦖",
     "buzzWords": [
-      "Jurassic Predator",
-      "Three Claws",
-      "Eye Crests"
+      "Theropod",
+      "Brow Ridges",
+      "Jurassic"
     ],
     "clues": [
-      "Dominant apex predator of the Jurassic Morrison Formation, featuring sharp serrated teeth and brow ridges.",
-      "Lived during the Late Jurassic (155-145 Ma) with a Carnivore diet.",
-      "Physical dimensions: 10 m (33 ft) / 2.5 tons with signature trait: Pair of Small Brow Crests."
+      "Dominant North American Jurassic apex predator possessing three-clawed hands and sharp serrations.",
+      "Thrived during the Jurassic era as a verified Carnivore.",
+      "Measured roughly 10m / 2.5t characterized by its Hatchet Bite."
     ],
     "primaryClues": [
-      "Dominant apex predator of the Jurassic Morrison Formation, featuring sharp serrated teeth and brow ridges.",
-      "Era: Late Jurassic (155-145 Ma)."
+      "Dominant North American Jurassic apex predator possessing three-clawed hands and sharp serrations.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore.",
-      "Size: 10 m (33 ft) / 2.5 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 10m / 2.5t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Jurassic (155-145 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "10 m (33 ft) / 2.5 tons"
+        "label": "Size",
+        "value": "10m / 2.5t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Pair of Small Brow Crests"
+        "label": "Trait",
+        "value": "Hatchet Bite"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Allosaurus live in?",
-      "answer": "Late Jurassic (155-145 Ma)"
+      "question": "What geologic period did Allosaurus inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "allosaurus",
       "allosaurus"
     ],
     "explanation": "Allosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Allosaurus used its upper jaw like a battleaxe, slamming its teeth down into prey with powerful neck muscles!",
+    "funFact": "Allosaurus used its upper skull like a chopping axe, driving its serrated teeth into prey with powerful neck muscles!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_parasaurolophus_014",
     "category": "dinosaurs",
     "name": "Parasaurolophus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🎺",
     "buzzWords": [
-      "Tubular Crest",
       "Resonance",
+      "Tubular",
       "Duck-Billed"
     ],
     "clues": [
-      "Hadrosaurid duck-billed dinosaur with an extraordinary 6-foot curved hollow cranial horn used to trumpet sounds.",
-      "Lived during the Late Cretaceous (76-73 Ma) with a Herbivore (Ground & Trees) diet.",
-      "Physical dimensions: 10 m (33 ft) / 3 tons with signature trait: Hollow Backward-Curving Crest."
+      "Hadrosaurid duck-billed herbivore sporting an extended 6-foot curved hollow cranial trombone crest.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 10m / 3t characterized by its Hollow Crest."
     ],
     "primaryClues": [
-      "Hadrosaurid duck-billed dinosaur with an extraordinary 6-foot curved hollow cranial horn used to trumpet sounds.",
-      "Era: Late Cretaceous (76-73 Ma)."
+      "Hadrosaurid duck-billed herbivore sporting an extended 6-foot curved hollow cranial trombone crest.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore (Ground & Trees).",
-      "Size: 10 m (33 ft) / 3 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 10m / 3t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (76-73 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore (Ground & Trees)"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "10 m (33 ft) / 3 tons"
+        "label": "Size",
+        "value": "10m / 3t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Hollow Backward-Curving Crest"
+        "label": "Trait",
+        "value": "Hollow Crest"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Parasaurolophus live in?",
-      "answer": "Late Cretaceous (76-73 Ma)"
+      "question": "What geologic period did Parasaurolophus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "parasaurolophus",
       "parasaurolophus"
     ],
     "explanation": "Parasaurolophus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Scientists recreated the sound of Parasaurolophus by running air simulations through its hollow crest, hearing deep foghorn-like notes!",
+    "funFact": "Computer simulations blowing virtual air through the hollow crest revealed it sounded like deep, echoing foghorn blasts!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_iguanodon_015",
     "category": "dinosaurs",
     "name": "Iguanodon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦎",
     "buzzWords": [
       "Thumb Spike",
       "Bipedal",
-      "Early Discovery"
+      "Cretaceous"
     ],
     "clues": [
-      "Famous ornithopod dinosaur equipped with sharp conical thumb spikes on each forelimb for defense.",
-      "Lived during the Early Cretaceous (126-125 Ma) with a Herbivore diet.",
-      "Physical dimensions: 10 m (33 ft) / 4 tons with signature trait: Sharp Conical Thumb Spikes."
+      "Early discovered ornithopod armed with a conical defensive thumb claw on each front limb.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 10m / 4t characterized by its Thumb Spike."
     ],
     "primaryClues": [
-      "Famous ornithopod dinosaur equipped with sharp conical thumb spikes on each forelimb for defense.",
-      "Era: Early Cretaceous (126-125 Ma)."
+      "Early discovered ornithopod armed with a conical defensive thumb claw on each front limb.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore.",
-      "Size: 10 m (33 ft) / 4 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 10m / 4t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Early Cretaceous (126-125 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "10 m (33 ft) / 4 tons"
+        "label": "Size",
+        "value": "10m / 4t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Sharp Conical Thumb Spikes"
+        "label": "Trait",
+        "value": "Thumb Spike"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Iguanodon live in?",
-      "answer": "Early Cretaceous (126-125 Ma)"
+      "question": "What geologic period did Iguanodon inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "iguanodon",
       "iguanodon"
     ],
     "explanation": "Iguanodon is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "When first discovered in 1822, paleontologists mistakenly thought the thumb spike was a horn on the dinosaur's nose!",
+    "funFact": "When excavated in 1822, pioneer paleontologists erroneously believed the pointed thumb spike sat atop its nose!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_carnotaurus_016",
     "category": "dinosaurs",
     "name": "Carnotaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐂",
     "buzzWords": [
-      "Bull Horns",
-      "Speedy Biped",
-      "Tiny Arms"
+      "Brow Horns",
+      "Sprinter",
+      "Patagonia"
     ],
     "clues": [
-      "South American predator distinguished by thick bull-like brow horns and vestigial tiny arms.",
-      "Lived during the Late Cretaceous (72-70 Ma) with a Carnivore (Sprint Hunter) diet.",
-      "Physical dimensions: 8 m (26 ft) / 1.5 tons with signature trait: Pair of Thick Frontal Horns."
+      "Fast South American theropod recognized by twin bull-like frontal brow horns and vestigial arms.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 8m / 1.5t characterized by its Brow Horns."
     ],
     "primaryClues": [
-      "South American predator distinguished by thick bull-like brow horns and vestigial tiny arms.",
-      "Era: Late Cretaceous (72-70 Ma)."
+      "Fast South American theropod recognized by twin bull-like frontal brow horns and vestigial arms.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore (Sprint Hunter).",
-      "Size: 8 m (26 ft) / 1.5 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 8m / 1.5t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (72-70 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore (Sprint Hunter)"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "8 m (26 ft) / 1.5 tons"
+        "label": "Size",
+        "value": "8m / 1.5t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Pair of Thick Frontal Horns"
+        "label": "Trait",
+        "value": "Brow Horns"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Carnotaurus live in?",
-      "answer": "Late Cretaceous (72-70 Ma)"
+      "question": "What geologic period did Carnotaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "carnotaurus",
       "carnotaurus"
     ],
     "explanation": "Carnotaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Carnotaurus had arms even smaller than T. rex, but powerful leg muscles made it one of the fastest sprinting large theropods!",
+    "funFact": "Carnotaurus had tiny forelimbs smaller than T. rex, yet possessed huge muscular caudofemoralis sprinting muscles!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_plesiosaurus_017",
     "category": "dinosaurs",
     "name": "Plesiosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🌊",
     "buzzWords": [
-      "Flippers",
-      "Serpentine Neck",
-      "Loch Ness"
+      "Paddles",
+      "Marine",
+      "Serpentine"
     ],
     "clues": [
-      "Marine reptile featuring a compact body, broad paddle-like flippers, and a long flexible neck.",
-      "Lived during the Early Jurassic (200-175 Ma) with a Piscivore (Fish Hunter) diet.",
-      "Physical dimensions: 3.5 m (11 ft) / 500 kg with signature trait: Four Diamond Paddles & Long Neck."
+      "Marine reptile propelled by four broad diamond-shaped flippers beneath an extended neck.",
+      "Thrived during the Jurassic era as a verified Piscivore.",
+      "Measured roughly 3.5m / 500kg characterized by its Four Flippers."
     ],
     "primaryClues": [
-      "Marine reptile featuring a compact body, broad paddle-like flippers, and a long flexible neck.",
-      "Era: Early Jurassic (200-175 Ma)."
+      "Marine reptile propelled by four broad diamond-shaped flippers beneath an extended neck.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Piscivore (Fish Hunter).",
-      "Size: 3.5 m (11 ft) / 500 kg."
+      "Dietary niche: Piscivore.",
+      "Size: 3.5m / 500kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Early Jurassic (200-175 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Piscivore (Fish Hunter)"
+        "label": "Diet",
+        "value": "Piscivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "3.5 m (11 ft) / 500 kg"
+        "label": "Size",
+        "value": "3.5m / 500kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Four Diamond Paddles & Long Neck"
+        "label": "Trait",
+        "value": "Four Flippers"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Plesiosaurus live in?",
-      "answer": "Early Jurassic (200-175 Ma)"
+      "question": "What geologic period did Plesiosaurus inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "plesiosaurus",
       "plesiosaurus"
     ],
     "explanation": "Plesiosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "The mythical Loch Ness Monster legend was largely inspired by the classic shape of fossil Plesiosaurs!",
+    "funFact": "The popular legend of Scotland’s Loch Ness Monster was heavily modeled after early sketches of fossil Plesiosaurs!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_mosasaurus_018",
     "category": "dinosaurs",
     "name": "Mosasaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐊",
     "buzzWords": [
-      "Double-Hinged Jaw",
-      "Paddle Tail",
-      "Ocean Behemoth"
+      "Double-Hinged",
+      "Pelagic",
+      "Marine Apex"
     ],
     "clues": [
-      "Enormous apex marine reptile of the Cretaceous seas with paddle limbs and a jaw equipped with extra interior teeth.",
-      "Lived during the Late Cretaceous (82-66 Ma) with a Apex Marine Carnivore diet.",
-      "Physical dimensions: 17 m (56 ft) / 15 tons with signature trait: Pterygoid Second Teeth in Throat."
+      "Colossal marine squamate of the late Cretaceous seas possessing secondary throat teeth.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 17m / 15t characterized by its Throat Teeth."
     ],
     "primaryClues": [
-      "Enormous apex marine reptile of the Cretaceous seas with paddle limbs and a jaw equipped with extra interior teeth.",
-      "Era: Late Cretaceous (82-66 Ma)."
+      "Colossal marine squamate of the late Cretaceous seas possessing secondary throat teeth.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Apex Marine Carnivore.",
-      "Size: 17 m (56 ft) / 15 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 17m / 15t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (82-66 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Apex Marine Carnivore"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "17 m (56 ft) / 15 tons"
+        "label": "Size",
+        "value": "17m / 15t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Pterygoid Second Teeth in Throat"
+        "label": "Trait",
+        "value": "Throat Teeth"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Mosasaurus live in?",
-      "answer": "Late Cretaceous (82-66 Ma)"
+      "question": "What geologic period did Mosasaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "mosasaurus",
       "mosasaurus"
     ],
     "explanation": "Mosasaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Mosasaurus was closely related to modern monitor lizards and snakes, not dinosaurs, and gave birth to live young at sea!",
+    "funFact": "Mosasaurus was closely related to modern monitor lizards and snakes, and gave birth to live pups in open waters!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_archaeopteryx_019",
     "category": "dinosaurs",
     "name": "Archaeopteryx",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🪶",
     "buzzWords": [
-      "Transitional Fossil",
-      "Feathers",
-      "Toothed Beak"
+      "Transitional",
+      "Asymmetric",
+      "Feathered"
     ],
     "clues": [
-      "Famous transitional fossil showing the evolutionary link between non-avian dinosaurs and modern birds.",
-      "Lived during the Late Jurassic (150 Ma) with a Carnivore / Insectivore diet.",
-      "Physical dimensions: 0.5 m (20 in) / 1 kg with signature trait: Wings with Clawed Fingers & Teeth."
+      "Renowned fossil showing the evolutionary transition linking theropod dinosaurs to modern avian birds.",
+      "Thrived during the Jurassic era as a verified Insectivore.",
+      "Measured roughly 0.5m / 1kg characterized by its Toothed Beak."
     ],
     "primaryClues": [
-      "Famous transitional fossil showing the evolutionary link between non-avian dinosaurs and modern birds.",
-      "Era: Late Jurassic (150 Ma)."
+      "Renowned fossil showing the evolutionary transition linking theropod dinosaurs to modern avian birds.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore / Insectivore.",
-      "Size: 0.5 m (20 in) / 1 kg."
+      "Dietary niche: Insectivore.",
+      "Size: 0.5m / 1kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Jurassic (150 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore / Insectivore"
+        "label": "Diet",
+        "value": "Insectivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "0.5 m (20 in) / 1 kg"
+        "label": "Size",
+        "value": "0.5m / 1kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Wings with Clawed Fingers & Teeth"
+        "label": "Trait",
+        "value": "Toothed Beak"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Archaeopteryx live in?",
-      "answer": "Late Jurassic (150 Ma)"
+      "question": "What geologic period did Archaeopteryx inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "archaeopteryx",
       "archaeopteryx"
     ],
     "explanation": "Archaeopteryx is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Archaeopteryx had flight feathers like modern birds, but retained teeth, three wing claws, and a long bony tail like reptiles!",
+    "funFact": "Archaeopteryx displayed genuine flight feathers like birds, but preserved sharp jaw teeth and a long bony lizard tail!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_dilophosaurus_020",
     "category": "dinosaurs",
     "name": "Dilophosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦎",
     "buzzWords": [
-      "Double Crest",
-      "Early Jurassic",
-      "Slender Theropod"
+      "Twin Crests",
+      "Jurassic",
+      "Slender"
     ],
     "clues": [
-      "Slender Early Jurassic predatory dinosaur bearing a distinct pair of thin, semi-circular bone crests on its head.",
-      "Lived during the Early Jurassic (193 Ma) with a Carnivore diet.",
-      "Physical dimensions: 7 m (23 ft) / 400 kg with signature trait: Twin Parallel Head Crests."
+      "Slender early Jurassic theropod bearing a distinct pair of thin, semicircular bone crests.",
+      "Thrived during the Jurassic era as a verified Carnivore.",
+      "Measured roughly 7m / 400kg characterized by its Twin Crests."
     ],
     "primaryClues": [
-      "Slender Early Jurassic predatory dinosaur bearing a distinct pair of thin, semi-circular bone crests on its head.",
-      "Era: Early Jurassic (193 Ma)."
+      "Slender early Jurassic theropod bearing a distinct pair of thin, semicircular bone crests.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore.",
-      "Size: 7 m (23 ft) / 400 kg."
+      "Dietary niche: Carnivore.",
+      "Size: 7m / 400kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Early Jurassic (193 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "7 m (23 ft) / 400 kg"
+        "label": "Size",
+        "value": "7m / 400kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Twin Parallel Head Crests"
+        "label": "Trait",
+        "value": "Twin Crests"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Dilophosaurus live in?",
-      "answer": "Early Jurassic (193 Ma)"
+      "question": "What geologic period did Dilophosaurus inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "dilophosaurus",
       "dilophosaurus"
     ],
     "explanation": "Dilophosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Unlike Jurassic Park movies, real Dilophosaurus was over 20 feet long, had no neck frill, and could not spit venom!",
+    "funFact": "Contrary to movies, the genuine Dilophosaurus measured over 20 feet long, lacked any neck frill, and could not spit!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_pachycephalosaurus_021",
     "category": "dinosaurs",
     "name": "Pachycephalosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "💥",
     "buzzWords": [
-      "Dome Head",
-      "Thick Skull",
+      "Dome Skull",
+      "Knobs",
       "Head-Butt"
     ],
     "clues": [
-      "Herbivorous dinosaur with a solid bone dome skull up to 10 inches thick fringed with bony knobs.",
-      "Lived during the Late Cretaceous (70-66 Ma) with a Herbivore / Omnivore diet.",
-      "Physical dimensions: 4.5 m (15 ft) / 500 kg with signature trait: 10-Inch Thick Bone Dome."
+      "Bipedal herbivore displaying a solid cranial bone dome up to 10 inches thick fringed in spikes.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 4.5m / 500kg characterized by its Dome Head."
     ],
     "primaryClues": [
-      "Herbivorous dinosaur with a solid bone dome skull up to 10 inches thick fringed with bony knobs.",
-      "Era: Late Cretaceous (70-66 Ma)."
+      "Bipedal herbivore displaying a solid cranial bone dome up to 10 inches thick fringed in spikes.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore / Omnivore.",
-      "Size: 4.5 m (15 ft) / 500 kg."
+      "Dietary niche: Herbivore.",
+      "Size: 4.5m / 500kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (70-66 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore / Omnivore"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "4.5 m (15 ft) / 500 kg"
+        "label": "Size",
+        "value": "4.5m / 500kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "10-Inch Thick Bone Dome"
+        "label": "Trait",
+        "value": "Dome Head"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Pachycephalosaurus live in?",
-      "answer": "Late Cretaceous (70-66 Ma)"
+      "question": "What geologic period did Pachycephalosaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "pachycephalosaurus",
       "pachycephalosaurus"
     ],
     "explanation": "Pachycephalosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "The thick bone dome on its head was likely used for head-butting or flank-butting rivals, much like modern bighorn rams!",
+    "funFact": "The 10-inch solid bone dome atop its skull was utilized for head-to-flank combat bouts like modern bighorn sheep!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_dimetrodon_022",
     "category": "dinosaurs",
     "name": "Dimetrodon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⛵",
     "buzzWords": [
-      "Back Sail",
+      "Neural Sail",
       "Permian",
       "Synapsid"
     ],
     "clues": [
-      "Prehistoric predator sporting a tall dorsal sail of bone and skin, living millions of years before dinosaurs existed.",
-      "Lived during the Early Permian (295-272 Ma) with a Carnivore (Apex Predator) diet.",
-      "Physical dimensions: 4 m (13 ft) / 250 kg with signature trait: Tall Neural Sail for Thermoregulation."
+      "Prehistoric apex predator sporting a tall dorsal sail, living millions of years before dinosaurs.",
+      "Thrived during the Permian era as a verified Carnivore.",
+      "Measured roughly 4m / 250kg characterized by its Tall Sail."
     ],
     "primaryClues": [
-      "Prehistoric predator sporting a tall dorsal sail of bone and skin, living millions of years before dinosaurs existed.",
-      "Era: Early Permian (295-272 Ma)."
+      "Prehistoric apex predator sporting a tall dorsal sail, living millions of years before dinosaurs.",
+      "Period/Era: Permian."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore (Apex Predator).",
-      "Size: 4 m (13 ft) / 250 kg."
+      "Dietary niche: Carnivore.",
+      "Size: 4m / 250kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Early Permian (295-272 Ma)"
+        "label": "Period",
+        "value": "Permian"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore (Apex Predator)"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "4 m (13 ft) / 250 kg"
+        "label": "Size",
+        "value": "4m / 250kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Tall Neural Sail for Thermoregulation"
+        "label": "Trait",
+        "value": "Tall Sail"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Dimetrodon live in?",
-      "answer": "Early Permian (295-272 Ma)"
+      "question": "What geologic period did Dimetrodon inhabit?",
+      "answer": "Permian"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "dimetrodon",
       "dimetrodon"
     ],
     "explanation": "Dimetrodon is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Dimetrodon was not a dinosaur; it was a synapsid (mammal-like reptile), making it more closely related to humans than to T. rex!",
+    "funFact": "Dimetrodon was not a dinosaur; it was a synapsid, making it biologically closer to modern mammals and humans!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_therizinosaurus_023",
     "category": "dinosaurs",
     "name": "Therizinosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦅",
     "buzzWords": [
-      "Giant Claws",
-      "Scythe",
-      "Feathered Herbivore"
+      "Scythe Claws",
+      "Foliage",
+      "Theropod"
     ],
     "clues": [
-      "Bizarre theropod possessing the longest claws in animal history—scythe-like hand claws measuring up to 3 feet long.",
-      "Lived during the Late Cretaceous (70 Ma) with a Herbivore / Folivore diet.",
-      "Physical dimensions: 10 m (33 ft) / 5 tons with signature trait: 1-Meter (3-Foot) Hand Claws."
+      "Bizarre herbivorous theropod armed with the longest claws in animal history, reaching 3 feet long.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 10m / 5t characterized by its 3-Foot Claws."
     ],
     "primaryClues": [
-      "Bizarre theropod possessing the longest claws in animal history—scythe-like hand claws measuring up to 3 feet long.",
-      "Era: Late Cretaceous (70 Ma)."
+      "Bizarre herbivorous theropod armed with the longest claws in animal history, reaching 3 feet long.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore / Folivore.",
-      "Size: 10 m (33 ft) / 5 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 10m / 5t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (70 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore / Folivore"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "10 m (33 ft) / 5 tons"
+        "label": "Size",
+        "value": "10m / 5t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "1-Meter (3-Foot) Hand Claws"
+        "label": "Trait",
+        "value": "3-Foot Claws"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Therizinosaurus live in?",
-      "answer": "Late Cretaceous (70 Ma)"
+      "question": "What geologic period did Therizinosaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "therizinosaurus",
       "therizinosaurus"
     ],
     "explanation": "Therizinosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Despite having terrifying 3-foot scythe claws, Therizinosaurus was actually a peaceful plant eater that used claws to pull down tree branches!",
+    "funFact": "Despite wielding terrifying 3-foot scythe hand claws, Therizinosaurus used them peacefully to strip tree branches!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_deinonychus_024",
     "category": "dinosaurs",
     "name": "Deinonychus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦅",
     "buzzWords": [
-      "Terrible Claw",
-      "Agile Pack",
-      "Raptor"
+      "Stiff Tail",
+      "Raptor",
+      "Pack Hunter"
     ],
     "clues": [
-      "Cretaceous dromaeosaurid predator whose discovery in the 1960s ignited the \"Dinosaur Renaissance\" showing active, warm-blooded animals.",
-      "Lived during the Early Cretaceous (115-108 Ma) with a Carnivore diet.",
-      "Physical dimensions: 3.4 m (11 ft) / 80 kg with signature trait: Large Sickle Claws & Stiff Tail."
+      "Agile Cretaceous predator whose anatomical discovery in the 1960s sparked the \"Dinosaur Renaissance\".",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 3.4m / 80kg characterized by its Sickle Claw."
     ],
     "primaryClues": [
-      "Cretaceous dromaeosaurid predator whose discovery in the 1960s ignited the \"Dinosaur Renaissance\" showing active, warm-blooded animals.",
-      "Era: Early Cretaceous (115-108 Ma)."
+      "Agile Cretaceous predator whose anatomical discovery in the 1960s sparked the \"Dinosaur Renaissance\".",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore.",
-      "Size: 3.4 m (11 ft) / 80 kg."
+      "Dietary niche: Carnivore.",
+      "Size: 3.4m / 80kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Early Cretaceous (115-108 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "3.4 m (11 ft) / 80 kg"
+        "label": "Size",
+        "value": "3.4m / 80kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Large Sickle Claws & Stiff Tail"
+        "label": "Trait",
+        "value": "Sickle Claw"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Deinonychus live in?",
-      "answer": "Early Cretaceous (115-108 Ma)"
+      "question": "What geologic period did Deinonychus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "deinonychus",
       "deinonychus"
     ],
     "explanation": "Deinonychus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "The discovery of Deinonychus completely revolutionized science, proving dinosaurs were agile, warm-blooded creatures related to birds!",
+    "funFact": "The discovery of Deinonychus proved to science that dinosaurs were dynamic, warm-blooded, agile animals related to birds!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_giganotosaurus_025",
     "category": "dinosaurs",
     "name": "Giganotosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦖",
     "buzzWords": [
-      "Giant of the South",
       "Patagonia",
-      "Argentine Apex"
+      "Titan Hunter",
+      "Theropod"
     ],
     "clues": [
-      "Massive South American theropod dinosaur that grew even longer than T. rex, preying on giant titanosaurs.",
-      "Lived during the Late Cretaceous (98-97 Ma) with a Carnivore (Titanosaur Hunter) diet.",
-      "Physical dimensions: 13 m (43 ft) / 8.5 tons with signature trait: Long Narrow Skull & Blade Teeth."
+      "Massive Argentine theropod that grew slightly longer than T. rex, preying upon giant titanosaurs.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 13m / 8.5t characterized by its Blade Teeth."
     ],
     "primaryClues": [
-      "Massive South American theropod dinosaur that grew even longer than T. rex, preying on giant titanosaurs.",
-      "Era: Late Cretaceous (98-97 Ma)."
+      "Massive Argentine theropod that grew slightly longer than T. rex, preying upon giant titanosaurs.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore (Titanosaur Hunter).",
-      "Size: 13 m (43 ft) / 8.5 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 13m / 8.5t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (98-97 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore (Titanosaur Hunter)"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "13 m (43 ft) / 8.5 tons"
+        "label": "Size",
+        "value": "13m / 8.5t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Long Narrow Skull & Blade Teeth"
+        "label": "Trait",
+        "value": "Blade Teeth"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Giganotosaurus live in?",
-      "answer": "Late Cretaceous (98-97 Ma)"
+      "question": "What geologic period did Giganotosaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "giganotosaurus",
       "giganotosaurus"
     ],
     "explanation": "Giganotosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Giganotosaurus hunted the largest animals to ever walk Earth: giant long-necked titanosaur sauropods in prehistoric Patagonia!",
+    "funFact": "Giganotosaurus hunted the largest herbivores to ever walk Earth: long-necked Argentine titanosaur sauropods!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_oviraptor_026",
     "category": "dinosaurs",
     "name": "Oviraptor",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🥚",
     "buzzWords": [
-      "Toothless Beak",
-      "Brooding Nest",
-      "Crest"
+      "Toothless",
+      "Cranial Crest",
+      "Brooding"
     ],
     "clues": [
-      "Feathered bird-like dinosaur with a toothless beak and cranial crest, unfairly nicknamed the \"egg thief\".",
-      "Lived during the Late Cretaceous (75 Ma) with a Omnivore diet.",
-      "Physical dimensions: 2 m (6.5 ft) / 35 kg with signature trait: Curved Toothless Beak & Nest Care."
+      "Feathered bird-like dinosaur possessing a curved toothless beak and cranial crest, unfairly dubbed egg thief.",
+      "Thrived during the Cretaceous era as a verified Omnivore.",
+      "Measured roughly 2m / 35kg characterized by its Nest Brooder."
     ],
     "primaryClues": [
-      "Feathered bird-like dinosaur with a toothless beak and cranial crest, unfairly nicknamed the \"egg thief\".",
-      "Era: Late Cretaceous (75 Ma)."
+      "Feathered bird-like dinosaur possessing a curved toothless beak and cranial crest, unfairly dubbed egg thief.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Omnivore.",
-      "Size: 2 m (6.5 ft) / 35 kg."
+      "Dietary niche: Omnivore.",
+      "Size: 2m / 35kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (75 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Omnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "2 m (6.5 ft) / 35 kg"
+        "label": "Size",
+        "value": "2m / 35kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Curved Toothless Beak & Nest Care"
+        "label": "Trait",
+        "value": "Nest Brooder"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Oviraptor live in?",
-      "answer": "Late Cretaceous (75 Ma)"
+      "question": "What geologic period did Oviraptor inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "oviraptor",
       "oviraptor"
     ],
     "explanation": "Oviraptor is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Oviraptor was originally thought to be stealing eggs, but later fossils showed it was actually tenderly brooding and protecting its own eggs!",
+    "funFact": "Oviraptor was initially believed to steal eggs, but later discoveries proved it was lovingly shielding its own nest!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_microraptor_027",
     "category": "dinosaurs",
     "name": "Microraptor",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🪶",
     "buzzWords": [
       "Four Wings",
-      "Glider",
-      "Iridescent Feathers"
+      "Iridescent",
+      "Glider"
     ],
     "clues": [
-      "Tiny feathered dinosaur with long flight feathers on both its forelimbs and hindlegs, forming four functional wings.",
-      "Lived during the Early Cretaceous (120 Ma) with a Carnivore / Insectivore diet.",
-      "Physical dimensions: 0.8 m (30 in) / 1 kg with signature trait: Four Wings (Wings on Legs)."
+      "Tiny feathered raptor bearing aerodynamic flight quills on both forelimbs and hind legs.",
+      "Thrived during the Cretaceous era as a verified Insectivore.",
+      "Measured roughly 0.8m / 1kg characterized by its Four Wings."
     ],
     "primaryClues": [
-      "Tiny feathered dinosaur with long flight feathers on both its forelimbs and hindlegs, forming four functional wings.",
-      "Era: Early Cretaceous (120 Ma)."
+      "Tiny feathered raptor bearing aerodynamic flight quills on both forelimbs and hind legs.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore / Insectivore.",
-      "Size: 0.8 m (30 in) / 1 kg."
+      "Dietary niche: Insectivore.",
+      "Size: 0.8m / 1kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Early Cretaceous (120 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore / Insectivore"
+        "label": "Diet",
+        "value": "Insectivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "0.8 m (30 in) / 1 kg"
+        "label": "Size",
+        "value": "0.8m / 1kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Four Wings (Wings on Legs)"
+        "label": "Trait",
+        "value": "Four Wings"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Microraptor live in?",
-      "answer": "Early Cretaceous (120 Ma)"
+      "question": "What geologic period did Microraptor inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "microraptor",
       "microraptor"
     ],
     "explanation": "Microraptor is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Fossilized pigment cells (melanosomes) show that Microraptor had glossy, iridescent black feathers like a modern raven!",
+    "funFact": "Fossilized pigment melanosomes reveal that Microraptor possessed glossy, iridescent blue-black plumage like a raven!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_brontosaurus_028",
     "category": "dinosaurs",
     "name": "Brontosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦕",
     "buzzWords": [
       "Thunder Lizard",
-      "Long Neck",
-      "Restored Name"
+      "Pillar Limbs",
+      "Sauropod"
     ],
     "clues": [
-      "Massive sauropod whose name means \"Thunder Lizard\", historically synonymous with iconic long-necked giants.",
-      "Lived during the Late Jurassic (155-152 Ma) with a Herbivore diet.",
-      "Physical dimensions: 22 m (72 ft) / 17 tons with signature trait: Massive Pillar Limbs & Tail."
+      "Iconic long-necked sauropod meaning \"Thunder Lizard\", formally reinstated as a distinct genus in 2015.",
+      "Thrived during the Jurassic era as a verified Herbivore.",
+      "Measured roughly 22m / 17t characterized by its Pillar Limbs."
     ],
     "primaryClues": [
-      "Massive sauropod whose name means \"Thunder Lizard\", historically synonymous with iconic long-necked giants.",
-      "Era: Late Jurassic (155-152 Ma)."
+      "Iconic long-necked sauropod meaning \"Thunder Lizard\", formally reinstated as a distinct genus in 2015.",
+      "Period/Era: Jurassic."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore.",
-      "Size: 22 m (72 ft) / 17 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 22m / 17t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Jurassic (155-152 Ma)"
+        "label": "Period",
+        "value": "Jurassic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "22 m (72 ft) / 17 tons"
+        "label": "Size",
+        "value": "22m / 17t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Massive Pillar Limbs & Tail"
+        "label": "Trait",
+        "value": "Pillar Limbs"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Brontosaurus live in?",
-      "answer": "Late Jurassic (155-152 Ma)"
+      "question": "What geologic period did Brontosaurus inhabit?",
+      "answer": "Jurassic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "brontosaurus",
       "brontosaurus"
     ],
     "explanation": "Brontosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Brontosaurus was declared invalid in 1903 as identical to Apatosaurus, but thorough anatomical studies in 2015 officially restored its genus!",
+    "funFact": "Declared a synonym of Apatosaurus in 1903, meticulous anatomical research in 2015 officially restored its genus!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_argentinosaurus_029",
     "category": "dinosaurs",
     "name": "Argentinosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦕",
     "buzzWords": [
-      "Heaviest Land Animal",
       "Titan",
+      "Colossal",
       "Patagonia"
     ],
     "clues": [
-      "One of the largest land animals ever known to walk the Earth, reaching estimated lengths over 100 feet.",
-      "Lived during the Late Cretaceous (95 Ma) with a Herbivore diet.",
-      "Physical dimensions: 35 m (115 ft) / 75 tons with signature trait: Giant Single Vertebrae 5 Feet Tall."
+      "One of the heaviest terrestrial vertebrates in Earth history, estimated to stretch over 115 feet.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 35m / 75t characterized by its Giant Vertebrae."
     ],
     "primaryClues": [
-      "One of the largest land animals ever known to walk the Earth, reaching estimated lengths over 100 feet.",
-      "Era: Late Cretaceous (95 Ma)."
+      "One of the heaviest terrestrial vertebrates in Earth history, estimated to stretch over 115 feet.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore.",
-      "Size: 35 m (115 ft) / 75 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 35m / 75t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (95 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "35 m (115 ft) / 75 tons"
+        "label": "Size",
+        "value": "35m / 75t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Giant Single Vertebrae 5 Feet Tall"
+        "label": "Trait",
+        "value": "Giant Vertebrae"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Argentinosaurus live in?",
-      "answer": "Late Cretaceous (95 Ma)"
+      "question": "What geologic period did Argentinosaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "argentinosaurus",
       "argentinosaurus"
     ],
     "explanation": "Argentinosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "A single fossil back vertebra bone from Argentinosaurus was over 5 feet tall and weighed over 1,000 pounds!",
+    "funFact": "A single fossilized back vertebra bone from Argentinosaurus stood over 5 feet tall and weighed over 1,000 pounds!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_titanoboa_030",
     "category": "dinosaurs",
     "name": "Titanoboa",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐍",
     "buzzWords": [
-      "Giant Snake",
+      "Constrictor",
       "Paleocene",
-      "Constrictor"
+      "Rainforest"
     ],
     "clues": [
-      "Largest snake in Earth's history, measuring nearly 43 feet long and weighing as much as a small car in tropical rainforests.",
-      "Lived during the Paleocene (60-58 Ma) with a Carnivore (Crocodile Eater) diet.",
-      "Physical dimensions: 13 m (43 ft) / 1.1 tons with signature trait: Gigantic Coils & Constriction."
+      "Largest serpent in Earth history, reaching 43 feet long and thriving in hot post-extinction swamps.",
+      "Thrived during the Paleocene era as a verified Carnivore.",
+      "Measured roughly 13m / 1.1t characterized by its Giant Coils."
     ],
     "primaryClues": [
-      "Largest snake in Earth's history, measuring nearly 43 feet long and weighing as much as a small car in tropical rainforests.",
-      "Era: Paleocene (60-58 Ma)."
+      "Largest serpent in Earth history, reaching 43 feet long and thriving in hot post-extinction swamps.",
+      "Period/Era: Paleocene."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore (Crocodile Eater).",
-      "Size: 13 m (43 ft) / 1.1 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 13m / 1.1t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Paleocene (60-58 Ma)"
+        "label": "Period",
+        "value": "Paleocene"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore (Crocodile Eater)"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "13 m (43 ft) / 1.1 tons"
+        "label": "Size",
+        "value": "13m / 1.1t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Gigantic Coils & Constriction"
+        "label": "Trait",
+        "value": "Giant Coils"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Titanoboa live in?",
-      "answer": "Paleocene (60-58 Ma)"
+      "question": "What geologic period did Titanoboa inhabit?",
+      "answer": "Paleocene"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "titanoboa",
       "titanoboa"
     ],
     "explanation": "Titanoboa is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Titanoboa could swallow 10-foot-long prehistoric crocodiles whole, thriving in the super-hot tropical climate after the dinosaurs died out!",
+    "funFact": "Titanoboa could swallow 10-foot prehistoric crocodilians whole, thriving in super-warm equatorial jungles!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_quetzalcoatlus_031",
     "category": "dinosaurs",
     "name": "Quetzalcoatlus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦅",
     "buzzWords": [
-      "Giraffe-Sized",
-      "Giant Wingspan",
+      "Giraffe-Height",
+      "Wingspan",
       "Azhdarchid"
     ],
     "clues": [
-      "Largest flying creature in Earth history, standing as tall as a giraffe with a staggering 36-foot wingspan.",
-      "Lived during the Late Cretaceous (68-66 Ma) with a Carnivore (Terrestrial Stalker) diet.",
-      "Physical dimensions: 11 m (36 ft) Wingspan / Giraffe Height with signature trait: Javelin Beak & Gigantic Wings."
+      "Largest flying creature in Earth history, standing as tall as a giraffe with a 36-foot wingspan.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 11m Span characterized by its Javelin Beak."
     ],
     "primaryClues": [
-      "Largest flying creature in Earth history, standing as tall as a giraffe with a staggering 36-foot wingspan.",
-      "Era: Late Cretaceous (68-66 Ma)."
+      "Largest flying creature in Earth history, standing as tall as a giraffe with a 36-foot wingspan.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore (Terrestrial Stalker).",
-      "Size: 11 m (36 ft) Wingspan / Giraffe Height."
+      "Dietary niche: Carnivore.",
+      "Size: 11m Span."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (68-66 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore (Terrestrial Stalker)"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "11 m (36 ft) Wingspan / Giraffe Height"
+        "label": "Size",
+        "value": "11m Span"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Javelin Beak & Gigantic Wings"
+        "label": "Trait",
+        "value": "Javelin Beak"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Quetzalcoatlus live in?",
-      "answer": "Late Cretaceous (68-66 Ma)"
+      "question": "What geologic period did Quetzalcoatlus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "quetzalcoatlus",
       "quetzalcoatlus"
     ],
     "explanation": "Quetzalcoatlus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Quetzalcoatlus was as tall as a giraffe on the ground, yet could launch itself into the sky and fly thousands of miles without landing!",
+    "funFact": "Quetzalcoatlus stood giraffe-height on the soil, yet could launch airborne to fly thousands of miles without landing!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_dodo_032",
     "category": "dinosaurs",
     "name": "Dodo Bird",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦤",
     "buzzWords": [
-      "Mauritius",
       "Flightless",
-      "Extinction"
+      "Mauritius",
+      "Extinct"
     ],
     "clues": [
-      "Flightless bird endemic to the Indian Ocean island of Mauritius that went extinct in the 17th century.",
-      "Lived during the Holocene (Extinct 1662) with a Herbivore / Frugivore diet.",
-      "Physical dimensions: 1 m (3.3 ft) / 15 kg with signature trait: Heavy Bulbous Beak & No Flight."
+      "Flightless avian endemic to the Indian Ocean island of Mauritius that went extinct in the 17th century.",
+      "Thrived during the Holocene era as a verified Herbivore.",
+      "Measured roughly 1m / 15kg characterized by its Bulbous Beak."
     ],
     "primaryClues": [
-      "Flightless bird endemic to the Indian Ocean island of Mauritius that went extinct in the 17th century.",
-      "Era: Holocene (Extinct 1662)."
+      "Flightless avian endemic to the Indian Ocean island of Mauritius that went extinct in the 17th century.",
+      "Period/Era: Holocene."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore / Frugivore.",
-      "Size: 1 m (3.3 ft) / 15 kg."
+      "Dietary niche: Herbivore.",
+      "Size: 1m / 15kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Holocene (Extinct 1662)"
+        "label": "Period",
+        "value": "Holocene"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore / Frugivore"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "1 m (3.3 ft) / 15 kg"
+        "label": "Size",
+        "value": "1m / 15kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Heavy Bulbous Beak & No Flight"
+        "label": "Trait",
+        "value": "Bulbous Beak"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Dodo Bird live in?",
-      "answer": "Holocene (Extinct 1662)"
+      "question": "What geologic period did Dodo Bird inhabit?",
+      "answer": "Holocene"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
-      "dodo bird"
+      "dodo bird",
+      "dodo"
     ],
     "explanation": "Dodo Bird is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "The Dodo evolved without natural predators on Mauritius for millions of years, making it completely fearless when Dutch sailors arrived!",
+    "funFact": "The Dodo evolved without natural predators on Mauritius for eons, making it trustingly fearless around sailors!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_dunkleosteus_033",
     "category": "dinosaurs",
     "name": "Dunkleosteus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐟",
     "buzzWords": [
       "Armored Fish",
@@ -1965,480 +1997,488 @@ export const DINOSAURS_CARDS: Card[] = [
       "Devonian"
     ],
     "clues": [
-      "Armored placoderm fish of the Devonian seas possessing self-sharpening bony jaw plates instead of teeth.",
-      "Lived during the Late Devonian (382-358 Ma) with a Apex Marine Predator diet.",
-      "Physical dimensions: 9 m (30 ft) / 4 tons with signature trait: Armor-Plated Head & Bone Shears."
+      "Placoderm fish of the Devonian oceans possessing self-sharpening armored jaw plates instead of teeth.",
+      "Thrived during the Devonian era as a verified Carnivore.",
+      "Measured roughly 9m / 4t characterized by its Bone Shears."
     ],
     "primaryClues": [
-      "Armored placoderm fish of the Devonian seas possessing self-sharpening bony jaw plates instead of teeth.",
-      "Era: Late Devonian (382-358 Ma)."
+      "Placoderm fish of the Devonian oceans possessing self-sharpening armored jaw plates instead of teeth.",
+      "Period/Era: Devonian."
     ],
     "secondaryClues": [
-      "Diet/Type: Apex Marine Predator.",
-      "Size: 9 m (30 ft) / 4 tons."
+      "Dietary niche: Carnivore.",
+      "Size: 9m / 4t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Devonian (382-358 Ma)"
+        "label": "Period",
+        "value": "Devonian"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Apex Marine Predator"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "9 m (30 ft) / 4 tons"
+        "label": "Size",
+        "value": "9m / 4t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Armor-Plated Head & Bone Shears"
+        "label": "Trait",
+        "value": "Bone Shears"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Dunkleosteus live in?",
-      "answer": "Late Devonian (382-358 Ma)"
+      "question": "What geologic period did Dunkleosteus inhabit?",
+      "answer": "Devonian"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "dunkleosteus",
       "dunkleosteus"
     ],
     "explanation": "Dunkleosteus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Dunkleosteus could snap its jaws shut in just 20 milliseconds with a bite force equivalent to that of a T. rex!",
+    "funFact": "Dunkleosteus could snap its jaws closed in 20 milliseconds with a bite force equivalent to that of a T. rex!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_trilobite_034",
     "category": "dinosaurs",
     "name": "Trilobite",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦐",
     "buzzWords": [
+      "Calcite Eyes",
       "Three Lobes",
-      "Compound Eyes",
       "Paleozoic"
     ],
     "clues": [
-      "Iconic hard-shelled marine arthropod with three body lobes that populated world oceans for over 270 million years.",
-      "Lived during the Cambrian to Permian (521-252 Ma) with a Detritivore / Scavenger diet.",
-      "Physical dimensions: 3 to 70 cm / Mineralized Exoskeleton with signature trait: Calcite Crystal Compound Eyes."
+      "Hard-shelled marine arthropod with three segmented body lobes that flourished for 270 million years.",
+      "Thrived during the Paleozoic era as a verified Detritivore.",
+      "Measured roughly 10cm / Shell characterized by its Calcite Eyes."
     ],
     "primaryClues": [
-      "Iconic hard-shelled marine arthropod with three body lobes that populated world oceans for over 270 million years.",
-      "Era: Cambrian to Permian (521-252 Ma)."
+      "Hard-shelled marine arthropod with three segmented body lobes that flourished for 270 million years.",
+      "Period/Era: Paleozoic."
     ],
     "secondaryClues": [
-      "Diet/Type: Detritivore / Scavenger.",
-      "Size: 3 to 70 cm / Mineralized Exoskeleton."
+      "Dietary niche: Detritivore.",
+      "Size: 10cm / Shell."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Cambrian to Permian (521-252 Ma)"
+        "label": "Period",
+        "value": "Paleozoic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Detritivore / Scavenger"
+        "label": "Diet",
+        "value": "Detritivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "3 to 70 cm / Mineralized Exoskeleton"
+        "label": "Size",
+        "value": "10cm / Shell"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Calcite Crystal Compound Eyes"
+        "label": "Trait",
+        "value": "Calcite Eyes"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Trilobite live in?",
-      "answer": "Cambrian to Permian (521-252 Ma)"
+      "question": "What geologic period did Trilobite inhabit?",
+      "answer": "Paleozoic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "trilobite",
       "trilobite"
     ],
     "explanation": "Trilobite is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Trilobites had complex compound eyes made of optical calcite crystals, allowing them to see clearly underwater 500 million years ago!",
+    "funFact": "Trilobites possessed compound eyes engineered from optical calcite crystals, letting them see underwater 500 Ma!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_ammonite_035",
     "category": "dinosaurs",
     "name": "Ammonite",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐚",
     "buzzWords": [
-      "Coiled Shell",
-      "Cephalopod",
-      "Tentacles"
+      "Spiral Shell",
+      "Chambers",
+      "Cephalopod"
     ],
     "clues": [
-      "Extinct marine mollusc with a distinctive ribbed spiral shell, related to modern octopuses and squids.",
-      "Lived during the Devonian to Cretaceous (400-66 Ma) with a Carnivore / Plankton Feeder diet.",
-      "Physical dimensions: 2 cm to 2 meters Shell with signature trait: Chambered Spiral Shell with Siphuncle."
+      "Marine mollusk protected by a coiled, ribbed chambered shell, related to modern octopuses and squids.",
+      "Thrived during the Mesozoic era as a verified Carnivore.",
+      "Measured roughly 20cm Shell characterized by its Chambered Shell."
     ],
     "primaryClues": [
-      "Extinct marine mollusc with a distinctive ribbed spiral shell, related to modern octopuses and squids.",
-      "Era: Devonian to Cretaceous (400-66 Ma)."
+      "Marine mollusk protected by a coiled, ribbed chambered shell, related to modern octopuses and squids.",
+      "Period/Era: Mesozoic."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore / Plankton Feeder.",
-      "Size: 2 cm to 2 meters Shell."
+      "Dietary niche: Carnivore.",
+      "Size: 20cm Shell."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Devonian to Cretaceous (400-66 Ma)"
+        "label": "Period",
+        "value": "Mesozoic"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore / Plankton Feeder"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "2 cm to 2 meters Shell"
+        "label": "Size",
+        "value": "20cm Shell"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Chambered Spiral Shell with Siphuncle"
+        "label": "Trait",
+        "value": "Chambered Shell"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Ammonite live in?",
-      "answer": "Devonian to Cretaceous (400-66 Ma)"
+      "question": "What geologic period did Ammonite inhabit?",
+      "answer": "Mesozoic"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "ammonite",
       "ammonite"
     ],
     "explanation": "Ammonite is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Ammonites filled their spiral shell chambers with gas and water to control their buoyancy, floating up and down in the prehistoric seas!",
+    "funFact": "Ammonites adjusted water and gas volumes in their shell chambers to control their buoyant depth in ancient seas!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_glyptodon_036",
     "category": "dinosaurs",
     "name": "Glyptodon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐢",
     "buzzWords": [
-      "Giant Armadillo",
-      "Dome Shell",
-      "Spiked Tail"
+      "Carapace",
+      "Club Tail",
+      "Pleistocene"
     ],
     "clues": [
-      "Volkswagen-Beetle-sized prehistoric mammal related to armadillos, protected by a fused bone carapace and spiked club tail.",
-      "Lived during the Pleistocene (2.5 Ma - 10,000 yrs) with a Herbivore diet.",
-      "Physical dimensions: 3.3 m (11 ft) / 2 tons with signature trait: Fused Bone Dome Shell & Spiked Tail."
+      "Car-sized Ice Age mammal related to armadillos, protected by a fused bone dome and spiked tail.",
+      "Thrived during the Pleistocene era as a verified Herbivore.",
+      "Measured roughly 3.3m / 2t characterized by its Fused Carapace."
     ],
     "primaryClues": [
-      "Volkswagen-Beetle-sized prehistoric mammal related to armadillos, protected by a fused bone carapace and spiked club tail.",
-      "Era: Pleistocene (2.5 Ma - 10,000 yrs)."
+      "Car-sized Ice Age mammal related to armadillos, protected by a fused bone dome and spiked tail.",
+      "Period/Era: Pleistocene."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore.",
-      "Size: 3.3 m (11 ft) / 2 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 3.3m / 2t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Pleistocene (2.5 Ma - 10,000 yrs)"
+        "label": "Period",
+        "value": "Pleistocene"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "3.3 m (11 ft) / 2 tons"
+        "label": "Size",
+        "value": "3.3m / 2t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Fused Bone Dome Shell & Spiked Tail"
+        "label": "Trait",
+        "value": "Fused Carapace"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Glyptodon live in?",
-      "answer": "Pleistocene (2.5 Ma - 10,000 yrs)"
+      "question": "What geologic period did Glyptodon inhabit?",
+      "answer": "Pleistocene"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "glyptodon",
       "glyptodon"
     ],
     "explanation": "Glyptodon is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Early humans in South America occasionally used empty fossilized Glyptodon shells as emergency shelters and roof huts!",
+    "funFact": "Early humans in South America occasionally utilized empty fossilized Glyptodon carapaces as emergency dome huts!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_megatherium_037",
     "category": "dinosaurs",
     "name": "Giant Ground Sloth (Megatherium)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦥",
     "buzzWords": [
-      "Elephant-Sized",
-      "Massive Claws",
+      "Elephant-Size",
+      "Curved Claws",
       "Ice Age"
     ],
     "clues": [
-      "One of the largest land mammals to have ever lived, weighing 4 tons and walking upright on the sides of its hind feet.",
-      "Lived during the Pliocene to Pleistocene (5 Ma - 10,000 yrs) with a Herbivore (Tree Foliage) diet.",
-      "Physical dimensions: 6 m (20 ft) / 4 tons with signature trait: Massive Curved Claws & Tail Tripod."
+      "Massive 4-ton Ice Age terrestrial mammal that reared upright on hind legs and tail like a giant tripod.",
+      "Thrived during the Pleistocene era as a verified Herbivore.",
+      "Measured roughly 6m / 4t characterized by its Tripod Stance."
     ],
     "primaryClues": [
-      "One of the largest land mammals to have ever lived, weighing 4 tons and walking upright on the sides of its hind feet.",
-      "Era: Pliocene to Pleistocene (5 Ma - 10,000 yrs)."
+      "Massive 4-ton Ice Age terrestrial mammal that reared upright on hind legs and tail like a giant tripod.",
+      "Period/Era: Pleistocene."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore (Tree Foliage).",
-      "Size: 6 m (20 ft) / 4 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 6m / 4t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Pliocene to Pleistocene (5 Ma - 10,000 yrs)"
+        "label": "Period",
+        "value": "Pleistocene"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Herbivore (Tree Foliage)"
+        "label": "Diet",
+        "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "6 m (20 ft) / 4 tons"
+        "label": "Size",
+        "value": "6m / 4t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Massive Curved Claws & Tail Tripod"
+        "label": "Trait",
+        "value": "Tripod Stance"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Giant Ground Sloth (Megatherium) live in?",
-      "answer": "Pliocene to Pleistocene (5 Ma - 10,000 yrs)"
+      "question": "What geologic period did Giant Ground Sloth (Megatherium) inhabit?",
+      "answer": "Pleistocene"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
-      "giant ground sloth (megatherium)"
+      "giant ground sloth (megatherium)",
+      "giant"
     ],
     "explanation": "Giant Ground Sloth (Megatherium) is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Megatherium could stand on its powerful hind legs and tail like a giant tripod to pull down tree branches 20 feet high!",
+    "funFact": "Megatherium could balance on its robust hind legs and tail like a tripod to browse forest canopies 20 feet high!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_coelacanth_038",
     "category": "dinosaurs",
     "name": "Coelacanth",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐟",
     "buzzWords": [
-      "Lobed Fins",
       "Living Fossil",
-      "Deep Ocean"
+      "Lobed Fins",
+      "Abyss"
     ],
     "clues": [
-      "Ancient lobe-finned fish thought to have gone extinct alongside the dinosaurs 66 million years ago until a living one was caught in 1938.",
-      "Lived during the Devonian to Present (400 Ma - Today) with a Carnivore / Piscivore diet.",
-      "Physical dimensions: 2 m (6.5 ft) / 90 kg with signature trait: Lobed Leg-Like Fins & Intracranial Joint."
+      "Ancient lobe-finned fish presumed extinct since the Cretaceous until a living specimen was hauled up in 1938.",
+      "Thrived during the Living Fossil era as a verified Carnivore.",
+      "Measured roughly 2m / 90kg characterized by its Lobed Fins."
     ],
     "primaryClues": [
-      "Ancient lobe-finned fish thought to have gone extinct alongside the dinosaurs 66 million years ago until a living one was caught in 1938.",
-      "Era: Devonian to Present (400 Ma - Today)."
+      "Ancient lobe-finned fish presumed extinct since the Cretaceous until a living specimen was hauled up in 1938.",
+      "Period/Era: Living Fossil."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivore / Piscivore.",
-      "Size: 2 m (6.5 ft) / 90 kg."
+      "Dietary niche: Carnivore.",
+      "Size: 2m / 90kg."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Devonian to Present (400 Ma - Today)"
+        "label": "Period",
+        "value": "Living Fossil"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivore / Piscivore"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "2 m (6.5 ft) / 90 kg"
+        "label": "Size",
+        "value": "2m / 90kg"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Lobed Leg-Like Fins & Intracranial Joint"
+        "label": "Trait",
+        "value": "Lobed Fins"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Coelacanth live in?",
-      "answer": "Devonian to Present (400 Ma - Today)"
+      "question": "What geologic period did Coelacanth inhabit?",
+      "answer": "Living Fossil"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "coelacanth",
       "coelacanth"
     ],
     "explanation": "Coelacanth is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "The discovery of a living Coelacanth in South Africa in 1938 is considered the greatest zoological discovery of the 20th century!",
+    "funFact": "The discovery of a living Coelacanth in South Africa in 1938 is hailed as the greatest zoological shock of the 20th century!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_styracosaurus_039",
     "category": "dinosaurs",
     "name": "Styracosaurus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦏",
     "buzzWords": [
-      "Nose Horn",
-      "Spiked Frill",
+      "Nasal Horn",
+      "Frill Spikes",
       "Ceratopsian"
     ],
     "clues": [
-      "Ceratopsian dinosaur sporting a long straight nasal horn and a neck frill studded with 4 to 6 long defensive spikes.",
-      "Lived during the Late Cretaceous (75 Ma) with a Herbivore diet.",
-      "Physical dimensions: 5.5 m (18 ft) / 3 tons with signature trait: Long Nose Horn & 6 Frill Spikes."
+      "Ceratopsian herbivore wielding a solitary long nasal horn and a neck collar studded with 6 radiating spikes.",
+      "Thrived during the Cretaceous era as a verified Herbivore.",
+      "Measured roughly 5.5m / 3t characterized by its Radiating Frill."
     ],
     "primaryClues": [
-      "Ceratopsian dinosaur sporting a long straight nasal horn and a neck frill studded with 4 to 6 long defensive spikes.",
-      "Era: Late Cretaceous (75 Ma)."
+      "Ceratopsian herbivore wielding a solitary long nasal horn and a neck collar studded with 6 radiating spikes.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Herbivore.",
-      "Size: 5.5 m (18 ft) / 3 tons."
+      "Dietary niche: Herbivore.",
+      "Size: 5.5m / 3t."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Late Cretaceous (75 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
+        "label": "Diet",
         "value": "Herbivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "5.5 m (18 ft) / 3 tons"
+        "label": "Size",
+        "value": "5.5m / 3t"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Long Nose Horn & 6 Frill Spikes"
+        "label": "Trait",
+        "value": "Radiating Frill"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Styracosaurus live in?",
-      "answer": "Late Cretaceous (75 Ma)"
+      "question": "What geologic period did Styracosaurus inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
+      "styracosaurus",
       "styracosaurus"
     ],
     "explanation": "Styracosaurus is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Styracosaurus had a battery of hundreds of self-sharpening teeth packed into jaw columns to slice through tough, fibrous palm fronds!",
+    "funFact": "Styracosaurus packed batteries of self-sharpening teeth in its jaws to grind through fibrous prehistoric palm leaves!",
     "verificationStatus": "verified"
   },
   {
     "id": "din_carnivorousplant_040",
     "category": "dinosaurs",
-    "name": "Archaeamphora (Prehistoric Pitcher)",
-    "difficulty": "easy",
+    "name": "Archaeamphora",
+    "difficulty": "medium",
     "emoji": "🪴",
     "buzzWords": [
-      "Fossil Plant",
-      "Trap",
-      "Cretaceous Flora"
+      "Pitcher Leaf",
+      "Pitfall",
+      "Fossil Flora"
     ],
     "clues": [
-      "Ancient carnivorous pitcher plant from the Early Cretaceous with tubular leaves adapted to trap insects.",
-      "Lived during the Early Cretaceous (125 Ma) with a Carnivorous Plant diet.",
-      "Physical dimensions: 5 cm / Insect Trap with signature trait: Tubular Pitcher Leaves."
+      "Early Cretaceous fossil pitcher plant with specialized tubular leaves evolved to trap crawling insects.",
+      "Thrived during the Cretaceous era as a verified Carnivore.",
+      "Measured roughly 5cm Trap characterized by its Tubular Pitcher."
     ],
     "primaryClues": [
-      "Ancient carnivorous pitcher plant from the Early Cretaceous with tubular leaves adapted to trap insects.",
-      "Era: Early Cretaceous (125 Ma)."
+      "Early Cretaceous fossil pitcher plant with specialized tubular leaves evolved to trap crawling insects.",
+      "Period/Era: Cretaceous."
     ],
     "secondaryClues": [
-      "Diet/Type: Carnivorous Plant.",
-      "Size: 5 cm / Insect Trap."
+      "Dietary niche: Carnivore.",
+      "Size: 5cm Trap."
     ],
     "factGrid": [
       {
         "icon": "⏳",
-        "label": "Period / Era",
-        "value": "Early Cretaceous (125 Ma)"
+        "label": "Period",
+        "value": "Cretaceous"
       },
       {
         "icon": "🥩",
-        "label": "Diet / Ecology",
-        "value": "Carnivorous Plant"
+        "label": "Diet",
+        "value": "Carnivore"
       },
       {
         "icon": "📏",
-        "label": "Length / Weight",
-        "value": "5 cm / Insect Trap"
+        "label": "Size",
+        "value": "5cm Trap"
       },
       {
         "icon": "🦴",
-        "label": "Unique Trait",
-        "value": "Tubular Pitcher Leaves"
+        "label": "Trait",
+        "value": "Tubular Pitcher"
       }
     ],
     "bonusTrivia": {
-      "question": "What geologic period did Archaeamphora (Prehistoric Pitcher) live in?",
-      "answer": "Early Cretaceous (125 Ma)"
+      "question": "What geologic period did Archaeamphora inhabit?",
+      "answer": "Cretaceous"
     },
     "facts": {
       "isPrehistoric": true,
       "fossilRecord": true
     },
     "aliases": [
-      "archaeamphora (prehistoric pitcher)"
+      "archaeamphora",
+      "archaeamphora"
     ],
-    "explanation": "Archaeamphora (Prehistoric Pitcher) is an extraordinary prehistoric organism preserved in the global fossil record.",
-    "funFact": "Prehistoric plants evolved pitfall traps during the Cretaceous to capture insects for nitrogen in nutrient-poor soils!",
+    "explanation": "Archaeamphora is an extraordinary prehistoric organism preserved in the global fossil record.",
+    "funFact": "Prehistoric plants developed pitfall traps during the Cretaceous to digest insects for essential nitrogen in boggy soils!",
     "verificationStatus": "verified"
   }
 ];

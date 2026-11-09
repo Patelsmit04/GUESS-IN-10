@@ -62,17 +62,18 @@ store.configureGame(
 );
 
 const stateAfterSetup = useGameStore.getState();
-assert(stateAfterSetup.phase === 'card-selection', 'Phase transitioned to card-selection');
+assert(stateAfterSetup.phase === 'privacy-transition', 'Phase transitioned directly to privacy-transition (random card drawn)');
+assert(!!stateAfterSetup.secretCard, 'Secret card automatically drawn for Host');
 assert(stateAfterSetup.players.length === 2, '2 players configured');
 assert(stateAfterSetup.rules.targetCardsToWin === 3, 'Target cards configured to 3');
 assert(stateAfterSetup.hostIndex === 0, 'Alice is Host in Round 1');
 assert(stateAfterSetup.guesserIndex === 1, 'Bob is Guesser in Round 1');
 
-// 4. Test Card Selection & Privacy Transition
-console.log('\n4. Testing Host Card Selection & Privacy Transition:');
+// 4. Test Host Secret Card Confirmation & Privacy Transition
+console.log('\n4. Testing Host Secret Card Confirmation & Handover:');
 store.selectSecretCard(panda!);
 const stateAfterSelect = useGameStore.getState();
-assert(stateAfterSelect.phase === 'privacy-transition', 'Phase transitioned to privacy-transition');
+assert(stateAfterSelect.phase === 'privacy-transition', 'Phase stays in privacy-transition');
 assert(stateAfterSelect.secretCard?.id === panda!.id, 'Secret card stored safely in state');
 
 store.confirmPrivacy();
@@ -140,8 +141,8 @@ assert(stateRound2.currentRound === 2, 'Advanced to Round 2');
 assert(stateRound2.hostIndex === 1, 'Host index alternated to Bob');
 assert(stateRound2.guesserIndex === 0, 'Guesser index alternated to Alice');
 assert(stateRound2.questionCount === 0, 'Question counter reset for new round');
-assert(stateRound2.secretCard === null, 'Secret card cleared for new round');
-assert(stateRound2.phase === 'card-selection', 'Ready for new secret card selection');
+assert(!!stateRound2.secretCard, 'Secret card automatically drawn for new round');
+assert(stateRound2.phase === 'privacy-transition', 'Ready for new secret card review in privacy-transition');
 
 console.log('\n✅ ALL GUESS 10 SPECIFICATION & ENGINE TESTS PASSED!\n');
 

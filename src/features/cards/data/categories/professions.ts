@@ -5,2440 +5,2480 @@ export const PROFESSIONS_CARDS: Card[] = [
     "id": "prf_astronaut_001",
     "category": "professions",
     "name": "Astronaut",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🧑‍🚀",
     "buzzWords": [
-      "Helmet",
-      "Spacesuit",
-      "Orbit"
+      "Altitude",
+      "Weightless",
+      "Expedition"
     ],
     "clues": [
-      "Spacefarer trained to command, pilot, or serve as crew aboard a spacecraft traveling beyond Earth.",
-      "Essential gear: Spacesuit & Visor and primarily works in Outer Space / ISS.",
-      "Requires mastery of Piloting & Science with the societal mission of Space Exploration."
+      "I undergo extensive training to endure extreme g-forces and zero gravity.",
+      "My primary workspace is Orbit utilizing specialized Visor.",
+      "Demands advanced command of Piloting in the domain of Astro-Science."
     ],
     "primaryClues": [
-      "Spacefarer trained to command, pilot, or serve as crew aboard a spacecraft traveling beyond Earth.",
-      "Tool/Gear: Spacesuit & Visor."
+      "I undergo extensive training to endure extreme g-forces and zero gravity.",
+      "Primary workspace: Orbit."
     ],
     "secondaryClues": [
-      "Environment: Outer Space / ISS.",
-      "Skill: Piloting & Science."
+      "Key equipment: Visor.",
+      "Specialization: Piloting."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Spacesuit & Visor"
+        "label": "Gear",
+        "value": "Visor"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Outer Space / ISS"
+        "label": "Base",
+        "value": "Orbit"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Piloting & Science"
+        "label": "Skill",
+        "value": "Piloting"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Space Exploration"
+        "label": "Field",
+        "value": "Astro-Science"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Astronaut?",
-      "answer": "Spacesuit & Visor"
+      "question": "What essential gear or venue is key to a Astronaut?",
+      "answer": "Visor"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "astronaut",
       "astronaut"
     ],
     "explanation": "Astronaut is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Astronauts can grow up to 2 inches taller while in space because microgravity allows their spine to expand!",
+    "funFact": "Astronauts can grow up to 2 inches taller while in space because microgravity expands the spine!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_doctor_002",
     "category": "professions",
     "name": "Doctor (Physician)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🩺",
     "buzzWords": [
-      "Stethoscope",
-      "Prescription",
-      "Hospital"
+      "Diagnosis",
+      "Ward",
+      "Vitals"
     ],
     "clues": [
-      "Licensed medical practitioner who diagnoses, treats, and helps prevent human disease and injury.",
-      "Essential gear: Stethoscope & Chart and primarily works in Hospital / Clinic.",
-      "Requires mastery of Medical Diagnosis with the societal mission of Saving Lives & Healing."
+      "I examine physical symptoms to diagnose illnesses and prescribe treatments.",
+      "My primary workspace is Clinic utilizing specialized Chart.",
+      "Demands advanced command of Pathology in the domain of Healthcare."
     ],
     "primaryClues": [
-      "Licensed medical practitioner who diagnoses, treats, and helps prevent human disease and injury.",
-      "Tool/Gear: Stethoscope & Chart."
+      "I examine physical symptoms to diagnose illnesses and prescribe treatments.",
+      "Primary workspace: Clinic."
     ],
     "secondaryClues": [
-      "Environment: Hospital / Clinic.",
-      "Skill: Medical Diagnosis."
+      "Key equipment: Chart.",
+      "Specialization: Pathology."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Stethoscope & Chart"
+        "label": "Gear",
+        "value": "Chart"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Hospital / Clinic"
+        "label": "Base",
+        "value": "Clinic"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Medical Diagnosis"
+        "label": "Skill",
+        "value": "Pathology"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Saving Lives & Healing"
+        "label": "Field",
+        "value": "Healthcare"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Doctor (Physician)?",
-      "answer": "Stethoscope & Chart"
+      "question": "What essential gear or venue is key to a Doctor (Physician)?",
+      "answer": "Chart"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "doctor (physician)"
+      "doctor (physician)",
+      "doctor"
     ],
     "explanation": "Doctor (Physician) is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The stethoscope was invented in 1816 by a French doctor who felt uncomfortable placing his ear directly on patients' chests!",
+    "funFact": "The stethoscope was invented in 1816 by a French physician who was uncomfortable putting his ear on patients' chests!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_firefighter_003",
     "category": "professions",
     "name": "Firefighter",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👨‍🚒",
     "buzzWords": [
-      "Hose",
-      "Ladder",
-      "Siren"
+      "Apparatus",
+      "Siren",
+      "Hazard"
     ],
     "clues": [
-      "First responder trained in fire suppression, rescue operations, and hazard control during emergencies.",
-      "Essential gear: Fire Hose & Turnout Gear and primarily works in Firehouse / Emergency Sites.",
-      "Requires mastery of Bravery & Rescue Tactics with the societal mission of Community Safety."
+      "I wear specialized thermal protective gear to enter burning structures.",
+      "My primary workspace is Station utilizing specialized Turnout Gear.",
+      "Demands advanced command of Suppression in the domain of Rescue."
     ],
     "primaryClues": [
-      "First responder trained in fire suppression, rescue operations, and hazard control during emergencies.",
-      "Tool/Gear: Fire Hose & Turnout Gear."
+      "I wear specialized thermal protective gear to enter burning structures.",
+      "Primary workspace: Station."
     ],
     "secondaryClues": [
-      "Environment: Firehouse / Emergency Sites.",
-      "Skill: Bravery & Rescue Tactics."
+      "Key equipment: Turnout Gear.",
+      "Specialization: Suppression."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Fire Hose & Turnout Gear"
+        "label": "Gear",
+        "value": "Turnout Gear"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Firehouse / Emergency Sites"
+        "label": "Base",
+        "value": "Station"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Bravery & Rescue Tactics"
+        "label": "Skill",
+        "value": "Suppression"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Community Safety"
+        "label": "Field",
+        "value": "Rescue"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Firefighter?",
-      "answer": "Fire Hose & Turnout Gear"
+      "question": "What essential gear or venue is key to a Firefighter?",
+      "answer": "Turnout Gear"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "firefighter",
       "firefighter"
     ],
     "explanation": "Firefighter is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Firefighter turnout coats are constructed from Nomex and Kevlar fabrics that withstand temperatures over 1,000°F (540°C)!",
+    "funFact": "Firefighter turnout coats are crafted from Kevlar and Nomex fabrics that withstand temperatures exceeding 1,000°F!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_teacher_004",
     "category": "professions",
     "name": "Teacher (Educator)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👩‍🏫",
     "buzzWords": [
-      "Whiteboard",
-      "Books",
-      "Lesson"
+      "Curriculum",
+      "Academy",
+      "Lecture"
     ],
     "clues": [
-      "Professional who guides students to gain knowledge, competence, curiosity, and moral character.",
-      "Essential gear: Whiteboard & Curriculum and primarily works in Classroom / School.",
-      "Requires mastery of Pedagogy & Patience with the societal mission of Empowering Minds."
+      "I develop lesson plans and guide learners to master concepts and skills.",
+      "My primary workspace is Classroom utilizing specialized Planner.",
+      "Demands advanced command of Pedagogy in the domain of Education."
     ],
     "primaryClues": [
-      "Professional who guides students to gain knowledge, competence, curiosity, and moral character.",
-      "Tool/Gear: Whiteboard & Curriculum."
+      "I develop lesson plans and guide learners to master concepts and skills.",
+      "Primary workspace: Classroom."
     ],
     "secondaryClues": [
-      "Environment: Classroom / School.",
-      "Skill: Pedagogy & Patience."
+      "Key equipment: Planner.",
+      "Specialization: Pedagogy."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Whiteboard & Curriculum"
+        "label": "Gear",
+        "value": "Planner"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Classroom / School"
+        "label": "Base",
+        "value": "Classroom"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Pedagogy & Patience"
+        "label": "Skill",
+        "value": "Pedagogy"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Empowering Minds"
+        "label": "Field",
+        "value": "Education"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Teacher (Educator)?",
-      "answer": "Whiteboard & Curriculum"
+      "question": "What essential gear or venue is key to a Teacher (Educator)?",
+      "answer": "Planner"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "teacher (educator)"
+      "teacher (educator)",
+      "teacher"
     ],
     "explanation": "Teacher (Educator) is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Studies show that an inspiring teacher increases their students' college attendance rates and lifetime earnings substantially!",
+    "funFact": "Studies prove that an inspiring educator measurably increases their students' future college attendance and lifetime earnings!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_software_005",
     "category": "professions",
     "name": "Software Engineer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "💻",
     "buzzWords": [
-      "Coding",
       "Algorithm",
-      "Debugging"
+      "Architecture",
+      "Syntax"
     ],
     "clues": [
-      "Professional who applies computer science principles to design, develop, test, and maintain software apps.",
-      "Essential gear: Laptop & IDE and primarily works in Tech Office / Remote.",
-      "Requires mastery of Logic & Problem Solving with the societal mission of Building Digital World."
+      "I translate business logic into maintainable code to create applications.",
+      "My primary workspace is Workstation utilizing specialized Terminal.",
+      "Demands advanced command of Logic in the domain of Technology."
     ],
     "primaryClues": [
-      "Professional who applies computer science principles to design, develop, test, and maintain software apps.",
-      "Tool/Gear: Laptop & IDE."
+      "I translate business logic into maintainable code to create applications.",
+      "Primary workspace: Workstation."
     ],
     "secondaryClues": [
-      "Environment: Tech Office / Remote.",
-      "Skill: Logic & Problem Solving."
+      "Key equipment: Terminal.",
+      "Specialization: Logic."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Laptop & IDE"
+        "label": "Gear",
+        "value": "Terminal"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Tech Office / Remote"
+        "label": "Base",
+        "value": "Workstation"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Logic & Problem Solving"
+        "label": "Skill",
+        "value": "Logic"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Building Digital World"
+        "label": "Field",
+        "value": "Technology"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Software Engineer?",
-      "answer": "Laptop & IDE"
+      "question": "What essential gear or venue is key to a Software Engineer?",
+      "answer": "Terminal"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "software engineer"
+      "software engineer",
+      "software"
     ],
     "explanation": "Software Engineer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The world’s first computer programmer was Ada Lovelace, who wrote an algorithm for Charles Babbage's mechanical engine in 1843!",
+    "funFact": "The world’s first computer programmer was Ada Lovelace, who published an algorithm for Charles Babbage’s mechanical engine in 1843!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_pilot_006",
     "category": "professions",
     "name": "Airline Pilot",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👨‍✈️",
     "buzzWords": [
-      "Cockpit",
-      "Rudder",
-      "Wings"
+      "Altitude",
+      "Navigation",
+      "Turbulence"
     ],
     "clues": [
-      "Aviator who operates aircraft flight controls to transport passengers and cargo safely through the skies.",
-      "Essential gear: Cockpit Controls & Headset and primarily works in Airplane Flight Deck.",
-      "Requires mastery of Navigation & Aerodynamics with the societal mission of Connecting Global Travel."
+      "I monitor navigation arrays and weather radar to steer transport craft.",
+      "My primary workspace is Flight Deck utilizing specialized Headset.",
+      "Demands advanced command of Aviation in the domain of Transit."
     ],
     "primaryClues": [
-      "Aviator who operates aircraft flight controls to transport passengers and cargo safely through the skies.",
-      "Tool/Gear: Cockpit Controls & Headset."
+      "I monitor navigation arrays and weather radar to steer transport craft.",
+      "Primary workspace: Flight Deck."
     ],
     "secondaryClues": [
-      "Environment: Airplane Flight Deck.",
-      "Skill: Navigation & Aerodynamics."
+      "Key equipment: Headset.",
+      "Specialization: Aviation."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Cockpit Controls & Headset"
+        "label": "Gear",
+        "value": "Headset"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Airplane Flight Deck"
+        "label": "Base",
+        "value": "Flight Deck"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Navigation & Aerodynamics"
+        "label": "Skill",
+        "value": "Aviation"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Connecting Global Travel"
+        "label": "Field",
+        "value": "Transit"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Airline Pilot?",
-      "answer": "Cockpit Controls & Headset"
+      "question": "What essential gear or venue is key to a Airline Pilot?",
+      "answer": "Headset"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "airline pilot"
+      "airline pilot",
+      "airline"
     ],
     "explanation": "Airline Pilot is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Airline pilots eat completely different meals during flight to prevent both pilots from suffering food poisoning simultaneously!",
+    "funFact": "Airline pilots eat completely different meals during flight to prevent both crew members from suffering food poisoning simultaneously!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_chef_007",
     "category": "professions",
     "name": "Executive Chef",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👨‍🍳",
     "buzzWords": [
-      "Toque",
-      "Knife",
-      "Kitchen"
+      "Gourmet",
+      "Plating",
+      "Apprentice"
     ],
     "clues": [
-      "Professional culinary master in charge of restaurant kitchens, menu design, and gastronomy.",
-      "Essential gear: Chef Knife & Whisk and primarily works in Commercial Kitchen.",
-      "Requires mastery of Flavor Crafting & Leadership with the societal mission of Culinary Delight."
+      "I design seasonal menus, source rare ingredients, and direct culinary teams.",
+      "My primary workspace is Atelier utilizing specialized Steel Knife.",
+      "Demands advanced command of Gastronomy in the domain of Culinary."
     ],
     "primaryClues": [
-      "Professional culinary master in charge of restaurant kitchens, menu design, and gastronomy.",
-      "Tool/Gear: Chef Knife & Whisk."
+      "I design seasonal menus, source rare ingredients, and direct culinary teams.",
+      "Primary workspace: Atelier."
     ],
     "secondaryClues": [
-      "Environment: Commercial Kitchen.",
-      "Skill: Flavor Crafting & Leadership."
+      "Key equipment: Steel Knife.",
+      "Specialization: Gastronomy."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Chef Knife & Whisk"
+        "label": "Gear",
+        "value": "Steel Knife"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Commercial Kitchen"
+        "label": "Base",
+        "value": "Atelier"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Flavor Crafting & Leadership"
+        "label": "Skill",
+        "value": "Gastronomy"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Culinary Delight"
+        "label": "Field",
+        "value": "Culinary"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Executive Chef?",
-      "answer": "Chef Knife & Whisk"
+      "question": "What essential gear or venue is key to a Executive Chef?",
+      "answer": "Steel Knife"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "executive chef"
+      "executive chef",
+      "executive"
     ],
     "explanation": "Executive Chef is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The pleats on a traditional chef's tall white hat (toque) traditionally numbered 100, representing 100 ways to cook an egg!",
+    "funFact": "The traditional 100 pleats on a chef’s toque historically signified 100 different techniques to prepare an egg!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_detective_008",
     "category": "professions",
     "name": "Detective / Investigator",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🕵️",
     "buzzWords": [
-      "Magnifying Glass",
-      "Fingerprints",
-      "Badge"
+      "Motive",
+      "Evidence",
+      "Inquiry"
     ],
     "clues": [
-      "Investigator tasked with collecting clues, interviewing witnesses, and solving mysterious crimes.",
-      "Essential gear: Magnifying Glass & Notepad and primarily works in Crime Scenes & Precinct.",
-      "Requires mastery of Deduction & Forensics with the societal mission of Justice & Truth."
+      "I collect forensic traces, interview persons of interest, and solve cold cases.",
+      "My primary workspace is Field utilizing specialized Notepad.",
+      "Demands advanced command of Forensics in the domain of Justice."
     ],
     "primaryClues": [
-      "Investigator tasked with collecting clues, interviewing witnesses, and solving mysterious crimes.",
-      "Tool/Gear: Magnifying Glass & Notepad."
+      "I collect forensic traces, interview persons of interest, and solve cold cases.",
+      "Primary workspace: Field."
     ],
     "secondaryClues": [
-      "Environment: Crime Scenes & Precinct.",
-      "Skill: Deduction & Forensics."
+      "Key equipment: Notepad.",
+      "Specialization: Forensics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Magnifying Glass & Notepad"
+        "label": "Gear",
+        "value": "Notepad"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Crime Scenes & Precinct"
+        "label": "Base",
+        "value": "Field"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Deduction & Forensics"
+        "label": "Skill",
+        "value": "Forensics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Justice & Truth"
+        "label": "Field",
+        "value": "Justice"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Detective / Investigator?",
-      "answer": "Magnifying Glass & Notepad"
+      "question": "What essential gear or venue is key to a Detective / Investigator?",
+      "answer": "Notepad"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "detective / investigator"
+      "detective / investigator",
+      "detective"
     ],
     "explanation": "Detective / Investigator is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The phrase \"The game is afoot\" was coined by William Shakespeare in Henry V, later popularized by Sherlock Holmes!",
+    "funFact": "The famous phrase \"The game is afoot\" was coined by William Shakespeare in Henry V before Sherlock Holmes popularized it!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_architect_009",
     "category": "professions",
     "name": "Architect",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "📐",
     "buzzWords": [
-      "Blueprints",
-      "Drafting",
-      "Skyline"
+      "Elevation",
+      "Foundation",
+      "Drafting"
     ],
     "clues": [
-      "Designer of buildings and physical structures, balancing artistic beauty, structural safety, and function.",
-      "Essential gear: Drafting Triangle & CAD and primarily works in Design Studio & Construction Site.",
-      "Requires mastery of Spatial Vision & Math with the societal mission of Shaping Cities."
+      "I produce scale structural drawings balancing aesthetic form and physics.",
+      "My primary workspace is Studio utilizing specialized Compass.",
+      "Demands advanced command of Structural in the domain of Design."
     ],
     "primaryClues": [
-      "Designer of buildings and physical structures, balancing artistic beauty, structural safety, and function.",
-      "Tool/Gear: Drafting Triangle & CAD."
+      "I produce scale structural drawings balancing aesthetic form and physics.",
+      "Primary workspace: Studio."
     ],
     "secondaryClues": [
-      "Environment: Design Studio & Construction Site.",
-      "Skill: Spatial Vision & Math."
+      "Key equipment: Compass.",
+      "Specialization: Structural."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Drafting Triangle & CAD"
+        "label": "Gear",
+        "value": "Compass"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Design Studio & Construction Site"
+        "label": "Base",
+        "value": "Studio"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Spatial Vision & Math"
+        "label": "Skill",
+        "value": "Structural"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Shaping Cities"
+        "label": "Field",
+        "value": "Design"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Architect?",
-      "answer": "Drafting Triangle & CAD"
+      "question": "What essential gear or venue is key to a Architect?",
+      "answer": "Compass"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "architect",
       "architect"
     ],
     "explanation": "Architect is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The word \"Architect\" originates from Greek words \"arkhi\" (master) and \"tekton\" (builder)—the Master Builder!",
+    "funFact": "The term \"Architect\" derives from Greek roots \"arkhi\" (master) and \"tekton\" (builder)—meaning the Master Builder!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_vet_010",
     "category": "professions",
     "name": "Veterinarian",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🩺",
     "buzzWords": [
-      "Paws",
-      "Vaccine",
+      "Fauna",
+      "Healing",
       "Creatures"
     ],
     "clues": [
-      "Medical doctor who specializes in treating diseases, injuries, and health disorders in animals.",
-      "Essential gear: Stethoscope & Thermometer and primarily works in Animal Hospital / Zoo.",
-      "Requires mastery of Animal Medicine & Empathy with the societal mission of Animal Welfare."
+      "I perform surgery and administer preventative medicine across animal species.",
+      "My primary workspace is Surgery utilizing specialized Scanner.",
+      "Demands advanced command of Zoology in the domain of Animal Care."
     ],
     "primaryClues": [
-      "Medical doctor who specializes in treating diseases, injuries, and health disorders in animals.",
-      "Tool/Gear: Stethoscope & Thermometer."
+      "I perform surgery and administer preventative medicine across animal species.",
+      "Primary workspace: Surgery."
     ],
     "secondaryClues": [
-      "Environment: Animal Hospital / Zoo.",
-      "Skill: Animal Medicine & Empathy."
+      "Key equipment: Scanner.",
+      "Specialization: Zoology."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Stethoscope & Thermometer"
+        "label": "Gear",
+        "value": "Scanner"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Animal Hospital / Zoo"
+        "label": "Base",
+        "value": "Surgery"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Animal Medicine & Empathy"
+        "label": "Skill",
+        "value": "Zoology"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Animal Welfare"
+        "label": "Field",
+        "value": "Animal Care"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Veterinarian?",
-      "answer": "Stethoscope & Thermometer"
+      "question": "What essential gear or venue is key to a Veterinarian?",
+      "answer": "Scanner"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "veterinarian",
       "veterinarian"
     ],
     "explanation": "Veterinarian is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Veterinarians must learn the distinct biology, anatomy, and pharmacology of dozens of completely different animal species!",
+    "funFact": "Veterinarians must master the distinct anatomies, metabolic rates, and pharmacology of dozens of completely different animal species!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_scientist_011",
     "category": "professions",
     "name": "Research Scientist",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🔬",
     "buzzWords": [
-      "Microscope",
-      "Lab Coat",
-      "Hypothesis"
+      "Hypothesis",
+      "Empirical",
+      "Specimen"
     ],
     "clues": [
-      "Expert who conducts rigorous scientific research and experiments to uncover natural truths.",
-      "Essential gear: Microscope & Pipette and primarily works in Laboratory.",
-      "Requires mastery of Scientific Method & Analysis with the societal mission of Expanding Knowledge."
+      "I formulate testable theories, run controlled trials, and publish peer-reviewed papers.",
+      "My primary workspace is Cleanroom utilizing specialized Pipette.",
+      "Demands advanced command of Analysis in the domain of Discovery."
     ],
     "primaryClues": [
-      "Expert who conducts rigorous scientific research and experiments to uncover natural truths.",
-      "Tool/Gear: Microscope & Pipette."
+      "I formulate testable theories, run controlled trials, and publish peer-reviewed papers.",
+      "Primary workspace: Cleanroom."
     ],
     "secondaryClues": [
-      "Environment: Laboratory.",
-      "Skill: Scientific Method & Analysis."
+      "Key equipment: Pipette.",
+      "Specialization: Analysis."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Microscope & Pipette"
+        "label": "Gear",
+        "value": "Pipette"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Laboratory"
+        "label": "Base",
+        "value": "Cleanroom"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Scientific Method & Analysis"
+        "label": "Skill",
+        "value": "Analysis"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Expanding Knowledge"
+        "label": "Field",
+        "value": "Discovery"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Research Scientist?",
-      "answer": "Microscope & Pipette"
+      "question": "What essential gear or venue is key to a Research Scientist?",
+      "answer": "Pipette"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "research scientist"
+      "research scientist",
+      "research"
     ],
     "explanation": "Research Scientist is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Marie Curie was the first person ever to win two Nobel Prizes in two completely different scientific fields (Physics and Chemistry)!",
+    "funFact": "Marie Curie was the first person in history to win two Nobel Prizes in completely separate scientific domains (Physics and Chemistry)!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_photographer_012",
     "category": "professions",
     "name": "Photographer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "📷",
     "buzzWords": [
-      "Shutter",
-      "Lens",
-      "Aperture"
+      "Aperture",
+      "Exposure",
+      "Composition"
     ],
     "clues": [
-      "Visual artist who captures stunning still images using cameras, lenses, and mastery of lighting.",
-      "Essential gear: DSLR Camera & Tripod and primarily works in Studio & On-Location.",
-      "Requires mastery of Composition & Lighting with the societal mission of Freezing Moments in Time."
+      "I manipulate natural light, shutter speed, and focal length to capture imagery.",
+      "My primary workspace is Location utilizing specialized Tripod.",
+      "Demands advanced command of Optics in the domain of Visual Arts."
     ],
     "primaryClues": [
-      "Visual artist who captures stunning still images using cameras, lenses, and mastery of lighting.",
-      "Tool/Gear: DSLR Camera & Tripod."
+      "I manipulate natural light, shutter speed, and focal length to capture imagery.",
+      "Primary workspace: Location."
     ],
     "secondaryClues": [
-      "Environment: Studio & On-Location.",
-      "Skill: Composition & Lighting."
+      "Key equipment: Tripod.",
+      "Specialization: Optics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "DSLR Camera & Tripod"
+        "label": "Gear",
+        "value": "Tripod"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Studio & On-Location"
+        "label": "Base",
+        "value": "Location"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Composition & Lighting"
+        "label": "Skill",
+        "value": "Optics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Freezing Moments in Time"
+        "label": "Field",
+        "value": "Visual Arts"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Photographer?",
-      "answer": "DSLR Camera & Tripod"
+      "question": "What essential gear or venue is key to a Photographer?",
+      "answer": "Tripod"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "photographer",
       "photographer"
     ],
     "explanation": "Photographer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The oldest surviving photograph in the world was captured in 1826 by Joseph Nicéphore Niépce and required an 8-hour exposure!",
+    "funFact": "The world’s oldest surviving photographic exposure was captured in 1826 by Nicéphore Niépce and required 8 full hours of sunlight!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_journalist_013",
     "category": "professions",
     "name": "Journalist (Reporter)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "📰",
     "buzzWords": [
-      "Microphone",
-      "Headline",
-      "Scoop"
+      "Source",
+      "Byline",
+      "Investigation"
     ],
     "clues": [
-      "Writer or broadcaster who investigates and reports news stories to inform the public objectively.",
-      "Essential gear: Microphone & Recorder and primarily works in Press Room & Field.",
-      "Requires mastery of Investigative Research with the societal mission of Holding Power Accountable."
+      "I conduct investigative research, verify tips, and report objective findings.",
+      "My primary workspace is Press Room utilizing specialized Recorder.",
+      "Demands advanced command of Verification in the domain of Informing."
     ],
     "primaryClues": [
-      "Writer or broadcaster who investigates and reports news stories to inform the public objectively.",
-      "Tool/Gear: Microphone & Recorder."
+      "I conduct investigative research, verify tips, and report objective findings.",
+      "Primary workspace: Press Room."
     ],
     "secondaryClues": [
-      "Environment: Press Room & Field.",
-      "Skill: Investigative Research."
+      "Key equipment: Recorder.",
+      "Specialization: Verification."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Microphone & Recorder"
+        "label": "Gear",
+        "value": "Recorder"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Press Room & Field"
+        "label": "Base",
+        "value": "Press Room"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Investigative Research"
+        "label": "Skill",
+        "value": "Verification"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Holding Power Accountable"
+        "label": "Field",
+        "value": "Informing"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Journalist (Reporter)?",
-      "answer": "Microphone & Recorder"
+      "question": "What essential gear or venue is key to a Journalist (Reporter)?",
+      "answer": "Recorder"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "journalist (reporter)"
+      "journalist (reporter)",
+      "journalist"
     ],
     "explanation": "Journalist (Reporter) is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The First Amendment of the US Constitution explicitly protects freedom of the press as an essential pillar of democracy!",
+    "funFact": "The US Constitution explicitly protects freedom of the press in its First Amendment as a crucial check on institutional power!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_electrician_014",
     "category": "professions",
     "name": "Electrician",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⚡",
     "buzzWords": [
-      "Voltmeter",
-      "Circuits",
-      "Wiring"
+      "Voltage",
+      "Conduit",
+      "Current"
     ],
     "clues": [
-      "Skilled tradesperson who installs, repairs, and maintains electrical wiring systems and equipment.",
-      "Essential gear: Multimeter & Wire Strippers and primarily works in Job Sites & Sub-panels.",
-      "Requires mastery of Circuit Theory & Safety with the societal mission of Powering Modern Life."
+      "I route high-voltage cables, balance circuit loads, and service transformers.",
+      "My primary workspace is Sub-panel utilizing specialized Tester.",
+      "Demands advanced command of Ohm's Law in the domain of Power Grid."
     ],
     "primaryClues": [
-      "Skilled tradesperson who installs, repairs, and maintains electrical wiring systems and equipment.",
-      "Tool/Gear: Multimeter & Wire Strippers."
+      "I route high-voltage cables, balance circuit loads, and service transformers.",
+      "Primary workspace: Sub-panel."
     ],
     "secondaryClues": [
-      "Environment: Job Sites & Sub-panels.",
-      "Skill: Circuit Theory & Safety."
+      "Key equipment: Tester.",
+      "Specialization: Ohm's Law."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Multimeter & Wire Strippers"
+        "label": "Gear",
+        "value": "Tester"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Job Sites & Sub-panels"
+        "label": "Base",
+        "value": "Sub-panel"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Circuit Theory & Safety"
+        "label": "Skill",
+        "value": "Ohm's Law"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Powering Modern Life"
+        "label": "Field",
+        "value": "Power Grid"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Electrician?",
-      "answer": "Multimeter & Wire Strippers"
+      "question": "What essential gear or venue is key to a Electrician?",
+      "answer": "Tester"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "electrician",
       "electrician"
     ],
     "explanation": "Electrician is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Electricians wear specialized non-conductive rubber-soled boots and tools rated for up to 1,000 volts of electricity!",
+    "funFact": "Professional electricians wear specialized dielectric rubber-soled boots and insulated hand tools rated to isolate up to 1,000 volts!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_musician_015",
     "category": "professions",
     "name": "Musician / Composer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🎵",
     "buzzWords": [
-      "Instrument",
-      "Melody",
-      "Concert"
+      "Acoustic",
+      "Harmony",
+      "Tempo"
     ],
     "clues": [
-      "Artist who plays instruments, sings, or writes harmonic compositions that move human emotions.",
-      "Essential gear: Musical Instrument & Sheet Music and primarily works in Recording Studio / Stage.",
-      "Requires mastery of Rhythm, Harmony & Ear with the societal mission of Emotional Expression."
+      "I compose melodic structures, practice phrasing, and perform live arrangements.",
+      "My primary workspace is Concert Hall utilizing specialized Score.",
+      "Demands advanced command of Acoustics in the domain of Culture."
     ],
     "primaryClues": [
-      "Artist who plays instruments, sings, or writes harmonic compositions that move human emotions.",
-      "Tool/Gear: Musical Instrument & Sheet Music."
+      "I compose melodic structures, practice phrasing, and perform live arrangements.",
+      "Primary workspace: Concert Hall."
     ],
     "secondaryClues": [
-      "Environment: Recording Studio / Stage.",
-      "Skill: Rhythm, Harmony & Ear."
+      "Key equipment: Score.",
+      "Specialization: Acoustics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Musical Instrument & Sheet Music"
+        "label": "Gear",
+        "value": "Score"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Recording Studio / Stage"
+        "label": "Base",
+        "value": "Concert Hall"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Rhythm, Harmony & Ear"
+        "label": "Skill",
+        "value": "Acoustics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Emotional Expression"
+        "label": "Field",
+        "value": "Culture"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Musician / Composer?",
-      "answer": "Musical Instrument & Sheet Music"
+      "question": "What essential gear or venue is key to a Musician / Composer?",
+      "answer": "Score"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "musician / composer"
+      "musician / composer",
+      "musician"
     ],
     "explanation": "Musician / Composer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Listening to or playing music triggers the release of dopamine—the exact same pleasure chemical released when eating favorite foods!",
+    "funFact": "Playing musical instruments actively engages virtually every area of the human brain simultaneously, especially visual and motor cortices!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_nurse_016",
     "category": "professions",
     "name": "Registered Nurse",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "💉",
     "buzzWords": [
-      "Vitals",
-      "Compassion",
-      "Scrubs"
+      "Triage",
+      "Bedside",
+      "Vitals"
     ],
     "clues": [
-      "Healthcare professional focused on the ongoing care, treatment, and recovery of patients.",
-      "Essential gear: Blood Pressure Cuff & Syringe and primarily works in Hospital Ward / ER.",
-      "Requires mastery of Patient Care & Vigilance with the societal mission of Healing Hands."
+      "I monitor vital indicators, administer intravenous meds, and comfort patients.",
+      "My primary workspace is Ward utilizing specialized Cuff.",
+      "Demands advanced command of Patient Care in the domain of Healthcare."
     ],
     "primaryClues": [
-      "Healthcare professional focused on the ongoing care, treatment, and recovery of patients.",
-      "Tool/Gear: Blood Pressure Cuff & Syringe."
+      "I monitor vital indicators, administer intravenous meds, and comfort patients.",
+      "Primary workspace: Ward."
     ],
     "secondaryClues": [
-      "Environment: Hospital Ward / ER.",
-      "Skill: Patient Care & Vigilance."
+      "Key equipment: Cuff.",
+      "Specialization: Patient Care."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Blood Pressure Cuff & Syringe"
+        "label": "Gear",
+        "value": "Cuff"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Hospital Ward / ER"
+        "label": "Base",
+        "value": "Ward"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Patient Care & Vigilance"
+        "label": "Skill",
+        "value": "Patient Care"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Healing Hands"
+        "label": "Field",
+        "value": "Healthcare"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Registered Nurse?",
-      "answer": "Blood Pressure Cuff & Syringe"
+      "question": "What essential gear or venue is key to a Registered Nurse?",
+      "answer": "Cuff"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "registered nurse"
+      "registered nurse",
+      "registered"
     ],
     "explanation": "Registered Nurse is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Florence Nightingale revolutionized modern nursing in the 1850s by introducing sanitary practices and statistical data charts!",
+    "funFact": "Florence Nightingale revolutionized modern nursing in the 1850s by introducing strict hygiene regimens and statistical mortality diagrams!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_archaeologist_017",
     "category": "professions",
     "name": "Archaeologist",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🏺",
     "buzzWords": [
-      "Trowel",
-      "Fossils",
+      "Stratum",
+      "Relic",
       "Excavation"
     ],
     "clues": [
-      "Scientist who studies human history and prehistory through the excavation and analysis of artifacts.",
-      "Essential gear: Marshalltown Trowel & Brush and primarily works in Dig Sites & Ancient Ruins.",
-      "Requires mastery of Stratigraphy & History with the societal mission of Uncovering Lost Civilizations."
+      "I excavate ancient settlement layers, record stratigraphy, and catalog antiquities.",
+      "My primary workspace is Dig Site utilizing specialized Brush.",
+      "Demands advanced command of Stratigraphy in the domain of History."
     ],
     "primaryClues": [
-      "Scientist who studies human history and prehistory through the excavation and analysis of artifacts.",
-      "Tool/Gear: Marshalltown Trowel & Brush."
+      "I excavate ancient settlement layers, record stratigraphy, and catalog antiquities.",
+      "Primary workspace: Dig Site."
     ],
     "secondaryClues": [
-      "Environment: Dig Sites & Ancient Ruins.",
-      "Skill: Stratigraphy & History."
+      "Key equipment: Brush.",
+      "Specialization: Stratigraphy."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Marshalltown Trowel & Brush"
+        "label": "Gear",
+        "value": "Brush"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Dig Sites & Ancient Ruins"
+        "label": "Base",
+        "value": "Dig Site"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Stratigraphy & History"
+        "label": "Skill",
+        "value": "Stratigraphy"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Uncovering Lost Civilizations"
+        "label": "Field",
+        "value": "History"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Archaeologist?",
-      "answer": "Marshalltown Trowel & Brush"
+      "question": "What essential gear or venue is key to a Archaeologist?",
+      "answer": "Brush"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "archaeologist",
       "archaeologist"
     ],
     "explanation": "Archaeologist is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "King Tutankhamun’s undisturbed tomb was uncovered in 1922 by British archaeologist Howard Carter after 5 years of digging!",
+    "funFact": "Tutankhamun’s intact golden tomb was uncovered in Egypt's Valley of the Kings in 1922 by Howard Carter after five grueling seasons!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_marinebiologist_018",
     "category": "professions",
     "name": "Marine Biologist",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🐬",
     "buzzWords": [
-      "Scuba",
-      "Coral Reef",
-      "Ocean"
+      "Pelagic",
+      "Coral",
+      "Ecosystem"
     ],
     "clues": [
-      "Scientist who studies organisms in the ocean and other saltwater environments.",
-      "Essential gear: Scuba Gear & Sampling Nets and primarily works in Research Vessel & Coral Reefs.",
-      "Requires mastery of Marine Ecology & Diving with the societal mission of Protecting Ocean Life."
+      "I dive deep ocean trenches, track migratory marine mammals, and study reefs.",
+      "My primary workspace is Research Ship utilizing specialized Tag.",
+      "Demands advanced command of Marine Life in the domain of Ecology."
     ],
     "primaryClues": [
-      "Scientist who studies organisms in the ocean and other saltwater environments.",
-      "Tool/Gear: Scuba Gear & Sampling Nets."
+      "I dive deep ocean trenches, track migratory marine mammals, and study reefs.",
+      "Primary workspace: Research Ship."
     ],
     "secondaryClues": [
-      "Environment: Research Vessel & Coral Reefs.",
-      "Skill: Marine Ecology & Diving."
+      "Key equipment: Tag.",
+      "Specialization: Marine Life."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Scuba Gear & Sampling Nets"
+        "label": "Gear",
+        "value": "Tag"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Research Vessel & Coral Reefs"
+        "label": "Base",
+        "value": "Research Ship"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Marine Ecology & Diving"
+        "label": "Skill",
+        "value": "Marine Life"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Protecting Ocean Life"
+        "label": "Field",
+        "value": "Ecology"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Marine Biologist?",
-      "answer": "Scuba Gear & Sampling Nets"
+      "question": "What essential gear or venue is key to a Marine Biologist?",
+      "answer": "Tag"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "marine biologist"
+      "marine biologist",
+      "marine"
     ],
     "explanation": "Marine Biologist is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "More than 80 percent of the world's oceans remain unmapped and unexplored by marine scientists!",
+    "funFact": "More than 80 percent of the Earth’s ocean floor remains completely unmapped and unexplored by marine scientists!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_police_019",
     "category": "professions",
     "name": "Police Officer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👮",
     "buzzWords": [
-      "Badge",
+      "Jurisdiction",
       "Patrol",
-      "Protect"
+      "Enforcement"
     ],
     "clues": [
-      "Sworn officer responsible for maintaining public order, enforcing laws, and preventing crime.",
-      "Essential gear: Badge, Radio & Belt and primarily works in Patrol Cruiser & Community.",
-      "Requires mastery of Conflict Resolution & Law with the societal mission of Public Safety."
+      "I patrol assigned sectors, resolve domestic conflicts, and deter unlawful acts.",
+      "My primary workspace is Community utilizing specialized Radio.",
+      "Demands advanced command of Public Safety in the domain of Order."
     ],
     "primaryClues": [
-      "Sworn officer responsible for maintaining public order, enforcing laws, and preventing crime.",
-      "Tool/Gear: Badge, Radio & Belt."
+      "I patrol assigned sectors, resolve domestic conflicts, and deter unlawful acts.",
+      "Primary workspace: Community."
     ],
     "secondaryClues": [
-      "Environment: Patrol Cruiser & Community.",
-      "Skill: Conflict Resolution & Law."
+      "Key equipment: Radio.",
+      "Specialization: Public Safety."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Badge, Radio & Belt"
+        "label": "Gear",
+        "value": "Radio"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Patrol Cruiser & Community"
+        "label": "Base",
+        "value": "Community"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Conflict Resolution & Law"
+        "label": "Skill",
+        "value": "Public Safety"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Public Safety"
+        "label": "Field",
+        "value": "Order"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Police Officer?",
-      "answer": "Badge, Radio & Belt"
+      "question": "What essential gear or venue is key to a Police Officer?",
+      "answer": "Radio"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "police officer"
+      "police officer",
+      "police"
     ],
     "explanation": "Police Officer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The world’s first modern professional police force was established in London in 1829 by Sir Robert Peel at Scotland Yard!",
+    "funFact": "The world’s first modern civilian municipal police force was created in London in 1829 by Sir Robert Peel at Scotland Yard!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_lawyer_020",
     "category": "professions",
     "name": "Lawyer (Attorney)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "⚖️",
     "buzzWords": [
-      "Courtroom",
-      "Gavel",
-      "Verdict"
+      "Statute",
+      "Litigation",
+      "Testimony"
     ],
     "clues": [
-      "Advocate licensed to advise clients on legal rights and represent them in courts of law.",
-      "Essential gear: Legal Briefs & Case Law and primarily works in Courtroom & Law Firm.",
-      "Requires mastery of Argumentation & Ethics with the societal mission of Upholding Justice."
+      "I draft legal pleadings, examine sworn witnesses, and argue jurisprudence.",
+      "My primary workspace is Courtroom utilizing specialized Brief.",
+      "Demands advanced command of Pleadings in the domain of Advocacy."
     ],
     "primaryClues": [
-      "Advocate licensed to advise clients on legal rights and represent them in courts of law.",
-      "Tool/Gear: Legal Briefs & Case Law."
+      "I draft legal pleadings, examine sworn witnesses, and argue jurisprudence.",
+      "Primary workspace: Courtroom."
     ],
     "secondaryClues": [
-      "Environment: Courtroom & Law Firm.",
-      "Skill: Argumentation & Ethics."
+      "Key equipment: Brief.",
+      "Specialization: Pleadings."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Legal Briefs & Case Law"
+        "label": "Gear",
+        "value": "Brief"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Courtroom & Law Firm"
+        "label": "Base",
+        "value": "Courtroom"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Argumentation & Ethics"
+        "label": "Skill",
+        "value": "Pleadings"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Upholding Justice"
+        "label": "Field",
+        "value": "Advocacy"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Lawyer (Attorney)?",
-      "answer": "Legal Briefs & Case Law"
+      "question": "What essential gear or venue is key to a Lawyer (Attorney)?",
+      "answer": "Brief"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "lawyer (attorney)"
+      "lawyer (attorney)",
+      "lawyer"
     ],
     "explanation": "Lawyer (Attorney) is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The tradition of lawyers wearing dark robes in court originated in 17th-century Britain as mourning dress after King Charles II died!",
+    "funFact": "The custom of advocates wearing dark robes originated in 17th-century England as ceremonial mourning dress upon the death of King Charles II!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_mechanic_021",
     "category": "professions",
     "name": "Auto Mechanic",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🔧",
     "buzzWords": [
-      "Wrench",
-      "Engine",
-      "Lift"
+      "Torque",
+      "Transmission",
+      "Hydraulics"
     ],
     "clues": [
-      "Skilled technician who inspects, diagnoses, and repairs automotive engines and vehicle systems.",
-      "Essential gear: Torque Wrench & Diagnostic Scanner and primarily works in Auto Repair Shop.",
-      "Requires mastery of Mechanical Troubleshooting with the societal mission of Keeping Vehicles Running."
+      "I connect computerized diagnostic readers and overhaul mechanical drivetrains.",
+      "My primary workspace is Service Bay utilizing specialized Wrench.",
+      "Demands advanced command of Drivetrain in the domain of Transport."
     ],
     "primaryClues": [
-      "Skilled technician who inspects, diagnoses, and repairs automotive engines and vehicle systems.",
-      "Tool/Gear: Torque Wrench & Diagnostic Scanner."
+      "I connect computerized diagnostic readers and overhaul mechanical drivetrains.",
+      "Primary workspace: Service Bay."
     ],
     "secondaryClues": [
-      "Environment: Auto Repair Shop.",
-      "Skill: Mechanical Troubleshooting."
+      "Key equipment: Wrench.",
+      "Specialization: Drivetrain."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Torque Wrench & Diagnostic Scanner"
+        "label": "Gear",
+        "value": "Wrench"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Auto Repair Shop"
+        "label": "Base",
+        "value": "Service Bay"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Mechanical Troubleshooting"
+        "label": "Skill",
+        "value": "Drivetrain"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Keeping Vehicles Running"
+        "label": "Field",
+        "value": "Transport"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Auto Mechanic?",
-      "answer": "Torque Wrench & Diagnostic Scanner"
+      "question": "What essential gear or venue is key to a Auto Mechanic?",
+      "answer": "Wrench"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "auto mechanic"
+      "auto mechanic",
+      "auto"
     ],
     "explanation": "Auto Mechanic is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Modern passenger cars contain over 30,000 distinct individual components and up to 100 computerized sensors!",
+    "funFact": "A standard passenger vehicle consists of approximately 30,000 individual parts and up to 100 internal microprocessor sensor units!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_plumber_022",
     "category": "professions",
     "name": "Plumber",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🪠",
     "buzzWords": [
-      "Pipes",
-      "Wrench",
-      "Drain"
+      "Pressure",
+      "Drainage",
+      "Conduit"
     ],
     "clues": [
-      "Tradesperson specializing in installing and maintaining pipe systems for drinking water and sewage.",
-      "Essential gear: Pipe Wrench & Soldering Torch and primarily works in Residential & Commercial Buildings.",
-      "Requires mastery of Hydraulics & Code Compliance with the societal mission of Clean Sanitation."
+      "I assemble pressurized supply lines, vent traps, and backflow preventers.",
+      "My primary workspace is Basement utilizing specialized Torch.",
+      "Demands advanced command of Hydraulics in the domain of Sanitation."
     ],
     "primaryClues": [
-      "Tradesperson specializing in installing and maintaining pipe systems for drinking water and sewage.",
-      "Tool/Gear: Pipe Wrench & Soldering Torch."
+      "I assemble pressurized supply lines, vent traps, and backflow preventers.",
+      "Primary workspace: Basement."
     ],
     "secondaryClues": [
-      "Environment: Residential & Commercial Buildings.",
-      "Skill: Hydraulics & Code Compliance."
+      "Key equipment: Torch.",
+      "Specialization: Hydraulics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Pipe Wrench & Soldering Torch"
+        "label": "Gear",
+        "value": "Torch"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Residential & Commercial Buildings"
+        "label": "Base",
+        "value": "Basement"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Hydraulics & Code Compliance"
+        "label": "Skill",
+        "value": "Hydraulics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Clean Sanitation"
+        "label": "Field",
+        "value": "Sanitation"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Plumber?",
-      "answer": "Pipe Wrench & Soldering Torch"
+      "question": "What essential gear or venue is key to a Plumber?",
+      "answer": "Torch"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "plumber",
       "plumber"
     ],
     "explanation": "Plumber is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The word \"Plumber\" comes from the Latin word \"plumbum\" (lead), because ancient Roman water pipes were made of lead!",
+    "funFact": "The word \"Plumber\" originates from the Latin noun \"plumbum\" (lead), because imperial Roman aqueducts and pipes were made of lead!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_flightattendant_023",
     "category": "professions",
     "name": "Flight Attendant",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "✈️",
     "buzzWords": [
+      "Cruising",
       "Cabin",
-      "Safety Demo",
-      "Passenger"
+      "Hospitality"
     ],
     "clues": [
-      "Cabin crew member responsible for passenger comfort, emergency evacuations, and airborne safety.",
-      "Essential gear: Intercom & Safety Card and primarily works in Airplane Passenger Cabin.",
-      "Requires mastery of First Aid & Crisis Management with the societal mission of Sky Hospitality & Safety."
+      "I conduct cabin safety demonstrations, administer first aid, and evacuate planes.",
+      "My primary workspace is Aisle utilizing specialized Intercom.",
+      "Demands advanced command of Emergency in the domain of Aviation."
     ],
     "primaryClues": [
-      "Cabin crew member responsible for passenger comfort, emergency evacuations, and airborne safety.",
-      "Tool/Gear: Intercom & Safety Card."
+      "I conduct cabin safety demonstrations, administer first aid, and evacuate planes.",
+      "Primary workspace: Aisle."
     ],
     "secondaryClues": [
-      "Environment: Airplane Passenger Cabin.",
-      "Skill: First Aid & Crisis Management."
+      "Key equipment: Intercom.",
+      "Specialization: Emergency."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Intercom & Safety Card"
+        "label": "Gear",
+        "value": "Intercom"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Airplane Passenger Cabin"
+        "label": "Base",
+        "value": "Aisle"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "First Aid & Crisis Management"
+        "label": "Skill",
+        "value": "Emergency"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Sky Hospitality & Safety"
+        "label": "Field",
+        "value": "Aviation"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Flight Attendant?",
-      "answer": "Intercom & Safety Card"
+      "question": "What essential gear or venue is key to a Flight Attendant?",
+      "answer": "Intercom"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "flight attendant"
+      "flight attendant",
+      "flight"
     ],
     "explanation": "Flight Attendant is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The world's first flight attendants in 1930 were all required to be registered nurses to comfort anxious early passengers!",
+    "funFact": "The world's earliest flight attendants in 1930 were all required to hold registered nurse credentials to comfort anxious passengers!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_dentist_024",
     "category": "professions",
     "name": "Dentist",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🦷",
     "buzzWords": [
-      "Mirror",
-      "Floss",
-      "Enamel"
+      "Hygiene",
+      "Enamel",
+      "Extraction"
     ],
     "clues": [
-      "Medical professional specializing in the diagnosis, prevention, and treatment of oral health conditions.",
-      "Essential gear: Dental Mirror & High-Speed Drill and primarily works in Dental Clinic.",
-      "Requires mastery of Precision Dentistry & Anatomy with the societal mission of Healthy Bright Smiles."
+      "I inspect dental arches, remove decay, and restore damaged oral structures.",
+      "My primary workspace is Operatory utilizing specialized Mirror.",
+      "Demands advanced command of Periodontics in the domain of Oral Health."
     ],
     "primaryClues": [
-      "Medical professional specializing in the diagnosis, prevention, and treatment of oral health conditions.",
-      "Tool/Gear: Dental Mirror & High-Speed Drill."
+      "I inspect dental arches, remove decay, and restore damaged oral structures.",
+      "Primary workspace: Operatory."
     ],
     "secondaryClues": [
-      "Environment: Dental Clinic.",
-      "Skill: Precision Dentistry & Anatomy."
+      "Key equipment: Mirror.",
+      "Specialization: Periodontics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Dental Mirror & High-Speed Drill"
+        "label": "Gear",
+        "value": "Mirror"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Dental Clinic"
+        "label": "Base",
+        "value": "Operatory"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Precision Dentistry & Anatomy"
+        "label": "Skill",
+        "value": "Periodontics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Healthy Bright Smiles"
+        "label": "Field",
+        "value": "Oral Health"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Dentist?",
-      "answer": "Dental Mirror & High-Speed Drill"
+      "question": "What essential gear or venue is key to a Dentist?",
+      "answer": "Mirror"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "dentist",
       "dentist"
     ],
     "explanation": "Dentist is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Tooth enamel is the single hardest substance in the entire human body—harder even than human bone!",
+    "funFact": "Tooth enamel is the single hardest mineralized biological substance in the entire human body—surpassing even hardened bone!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_designer_025",
     "category": "professions",
     "name": "Graphic Designer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🎨",
     "buzzWords": [
-      "Vector",
       "Typography",
-      "Branding"
+      "Palette",
+      "Vector"
     ],
     "clues": [
-      "Visual communicator who creates logos, illustrations, and user layouts using digital software.",
-      "Essential gear: Graphics Tablet & Adobe Suite and primarily works in Design Agency / Studio.",
-      "Requires mastery of Color Theory & Typography with the societal mission of Visual Communication."
+      "I manipulate vector paths, negative space, and font pairings for brand identities.",
+      "My primary workspace is Studio utilizing specialized Tablet.",
+      "Demands advanced command of Visual Arts in the domain of Branding."
     ],
     "primaryClues": [
-      "Visual communicator who creates logos, illustrations, and user layouts using digital software.",
-      "Tool/Gear: Graphics Tablet & Adobe Suite."
+      "I manipulate vector paths, negative space, and font pairings for brand identities.",
+      "Primary workspace: Studio."
     ],
     "secondaryClues": [
-      "Environment: Design Agency / Studio.",
-      "Skill: Color Theory & Typography."
+      "Key equipment: Tablet.",
+      "Specialization: Visual Arts."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Graphics Tablet & Adobe Suite"
+        "label": "Gear",
+        "value": "Tablet"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Design Agency / Studio"
+        "label": "Base",
+        "value": "Studio"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Color Theory & Typography"
+        "label": "Skill",
+        "value": "Visual Arts"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Visual Communication"
+        "label": "Field",
+        "value": "Branding"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Graphic Designer?",
-      "answer": "Graphics Tablet & Adobe Suite"
+      "question": "What essential gear or venue is key to a Graphic Designer?",
+      "answer": "Tablet"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "graphic designer"
+      "graphic designer",
+      "graphic"
     ],
     "explanation": "Graphic Designer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The famous Nike \"Swoosh\" logo was created in 1971 by graphic design student Carolyn Davidson for just $35!",
+    "funFact": "The globally recognized Nike \"Swoosh\" logo was drawn in 1971 by graphic design student Carolyn Davidson for a humble fee of just $35!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_farmer_026",
     "category": "professions",
     "name": "Farmer / Agriculturalist",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🚜",
     "buzzWords": [
-      "Tractor",
-      "Harvest",
-      "Crops"
+      "Agronomy",
+      "Cultivation",
+      "Harvest"
     ],
     "clues": [
-      "Practitioner who cultivates crops and raises livestock to produce food, fiber, and raw materials.",
-      "Essential gear: Tractor & Harvester and primarily works in Farmland & Fields.",
-      "Requires mastery of Agronomy & Weather Wisdom with the societal mission of Feeding the World."
+      "I test soil nitrogen, manage irrigation pivots, and reap seasonal produce.",
+      "My primary workspace is Farmland utilizing specialized Harvester.",
+      "Demands advanced command of Agronomy in the domain of Agriculture."
     ],
     "primaryClues": [
-      "Practitioner who cultivates crops and raises livestock to produce food, fiber, and raw materials.",
-      "Tool/Gear: Tractor & Harvester."
+      "I test soil nitrogen, manage irrigation pivots, and reap seasonal produce.",
+      "Primary workspace: Farmland."
     ],
     "secondaryClues": [
-      "Environment: Farmland & Fields.",
-      "Skill: Agronomy & Weather Wisdom."
+      "Key equipment: Harvester.",
+      "Specialization: Agronomy."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Tractor & Harvester"
+        "label": "Gear",
+        "value": "Harvester"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Farmland & Fields"
+        "label": "Base",
+        "value": "Farmland"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Agronomy & Weather Wisdom"
+        "label": "Skill",
+        "value": "Agronomy"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Feeding the World"
+        "label": "Field",
+        "value": "Agriculture"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Farmer / Agriculturalist?",
-      "answer": "Tractor & Harvester"
+      "question": "What essential gear or venue is key to a Farmer / Agriculturalist?",
+      "answer": "Harvester"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "farmer / agriculturalist"
+      "farmer / agriculturalist",
+      "farmer"
     ],
     "explanation": "Farmer / Agriculturalist is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "A single farmer in modern agriculture produces enough food to feed approximately 166 people every year!",
+    "funFact": "A single modern commercial farmer yields enough grains, produce, and dairy to supply roughly 166 individuals with nutritious food each year!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_carpenter_027",
     "category": "professions",
     "name": "Carpenter",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🪵",
     "buzzWords": [
-      "Saw",
-      "Chisel",
-      "Timber"
+      "Timber",
+      "Joinery",
+      "Measurement"
     ],
     "clues": [
-      "Craftsperson who cuts, shapes, and installs building materials during the construction of timber structures.",
-      "Essential gear: Chisel, Circular Saw & Level and primarily works in Woodshop & Construction Site.",
-      "Requires mastery of Joinery & Measurement with the societal mission of Building Solid Homes."
+      "I plane hardwoods, cut mortise-and-tenon joints, and frame load-bearing timber.",
+      "My primary workspace is Woodshop utilizing specialized Chisel.",
+      "Demands advanced command of Joinery in the domain of Building."
     ],
     "primaryClues": [
-      "Craftsperson who cuts, shapes, and installs building materials during the construction of timber structures.",
-      "Tool/Gear: Chisel, Circular Saw & Level."
+      "I plane hardwoods, cut mortise-and-tenon joints, and frame load-bearing timber.",
+      "Primary workspace: Woodshop."
     ],
     "secondaryClues": [
-      "Environment: Woodshop & Construction Site.",
-      "Skill: Joinery & Measurement."
+      "Key equipment: Chisel.",
+      "Specialization: Joinery."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Chisel, Circular Saw & Level"
+        "label": "Gear",
+        "value": "Chisel"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Woodshop & Construction Site"
+        "label": "Base",
+        "value": "Woodshop"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Joinery & Measurement"
+        "label": "Skill",
+        "value": "Joinery"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Building Solid Homes"
+        "label": "Field",
+        "value": "Building"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Carpenter?",
-      "answer": "Chisel, Circular Saw & Level"
+      "question": "What essential gear or venue is key to a Carpenter?",
+      "answer": "Chisel"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "carpenter",
       "carpenter"
     ],
     "explanation": "Carpenter is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The world’s oldest known wooden structure is a 7,200-year-old oak water well lining excavated in the Czech Republic!",
+    "funFact": "The world’s oldest discovered wooden structure is a 7,200-year-old water well lining crafted from interlocking oak planks in Czechia!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_paramedic_028",
     "category": "professions",
     "name": "Paramedic (EMT)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🚑",
     "buzzWords": [
-      "Ambulance",
-      "Defibrillator",
-      "CPR"
+      "Triage",
+      "Resuscitation",
+      "Trauma"
     ],
     "clues": [
-      "Emergency medical technician who provides advanced life support to critically ill or injured patients.",
-      "Essential gear: Defibrillator & Trauma Bag and primarily works in Ambulance & Emergency Scene.",
-      "Requires mastery of Rapid Triage & Resuscitation with the societal mission of Golden Hour Survival."
+      "I deliver acute mobile emergency care, defibrillate hearts, and secure airways.",
+      "My primary workspace is Ambulance utilizing specialized Monitor.",
+      "Demands advanced command of Trauma Care in the domain of Emergency."
     ],
     "primaryClues": [
-      "Emergency medical technician who provides advanced life support to critically ill or injured patients.",
-      "Tool/Gear: Defibrillator & Trauma Bag."
+      "I deliver acute mobile emergency care, defibrillate hearts, and secure airways.",
+      "Primary workspace: Ambulance."
     ],
     "secondaryClues": [
-      "Environment: Ambulance & Emergency Scene.",
-      "Skill: Rapid Triage & Resuscitation."
+      "Key equipment: Monitor.",
+      "Specialization: Trauma Care."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Defibrillator & Trauma Bag"
+        "label": "Gear",
+        "value": "Monitor"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Ambulance & Emergency Scene"
+        "label": "Base",
+        "value": "Ambulance"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Rapid Triage & Resuscitation"
+        "label": "Skill",
+        "value": "Trauma Care"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Golden Hour Survival"
+        "label": "Field",
+        "value": "Emergency"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Paramedic (EMT)?",
-      "answer": "Defibrillator & Trauma Bag"
+      "question": "What essential gear or venue is key to a Paramedic (EMT)?",
+      "answer": "Monitor"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "paramedic (emt)"
+      "paramedic (emt)",
+      "paramedic"
     ],
     "explanation": "Paramedic (EMT) is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The concept of emergency ambulances on battlefields was developed by Napoleon Bonaparte’s chief surgeon, Dominique Larrey!",
+    "funFact": "Battlefield emergency ambulance transport was pioneered during the Napoleonic Wars by Napoleon Bonaparte’s surgeon Dominique Larrey!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_author_029",
     "category": "professions",
     "name": "Author / Novelist",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "✍️",
     "buzzWords": [
       "Manuscript",
-      "Plot",
-      "Bestseller"
+      "Narrative",
+      "Fiction"
     ],
     "clues": [
-      "Writer who conceives and authors novels, stories, and literature that captivate reader imagination.",
-      "Essential gear: Typewriter / Laptop & Notebook and primarily works in Writing Study & Library.",
-      "Requires mastery of Storytelling & Character Craft with the societal mission of Illuminating the Human Heart."
+      "I build fictional worlds, establish narrative cadence, and edit draft manuscripts.",
+      "My primary workspace is Study utilizing specialized Notebook.",
+      "Demands advanced command of Storycraft in the domain of Literature."
     ],
     "primaryClues": [
-      "Writer who conceives and authors novels, stories, and literature that captivate reader imagination.",
-      "Tool/Gear: Typewriter / Laptop & Notebook."
+      "I build fictional worlds, establish narrative cadence, and edit draft manuscripts.",
+      "Primary workspace: Study."
     ],
     "secondaryClues": [
-      "Environment: Writing Study & Library.",
-      "Skill: Storytelling & Character Craft."
+      "Key equipment: Notebook.",
+      "Specialization: Storycraft."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Typewriter / Laptop & Notebook"
+        "label": "Gear",
+        "value": "Notebook"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Writing Study & Library"
+        "label": "Base",
+        "value": "Study"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Storytelling & Character Craft"
+        "label": "Skill",
+        "value": "Storycraft"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Illuminating the Human Heart"
+        "label": "Field",
+        "value": "Literature"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Author / Novelist?",
-      "answer": "Typewriter / Laptop & Notebook"
+      "question": "What essential gear or venue is key to a Author / Novelist?",
+      "answer": "Notebook"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "author / novelist"
+      "author / novelist",
+      "author"
     ],
     "explanation": "Author / Novelist is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "J.K. Rowling wrote the opening chapters of Harry Potter in Edinburgh cafes while pushing her baby daughter in a stroller!",
+    "funFact": "J.K. Rowling penned early Harry Potter chapters by hand in Edinburgh coffee houses while pushing her sleeping infant in a pram!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_judge_030",
     "category": "professions",
     "name": "Judge (Magistrate)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👨‍⚖️",
     "buzzWords": [
-      "Gavel",
-      "Bench",
-      "Constitution"
+      "Precedent",
+      "Verdict",
+      "Statute"
     ],
     "clues": [
-      "Public official appointed to preside over court proceedings and administer justice objectively.",
-      "Essential gear: Gavel & Judicial Robes and primarily works in Court of Law.",
-      "Requires mastery of Legal Interpretation & Impartiality with the societal mission of Rule of Law."
+      "I review evidentiary motions, deliver jury charges, and hand down sentences.",
+      "My primary workspace is Bench utilizing specialized Robes.",
+      "Demands advanced command of Due Process in the domain of Judiciary."
     ],
     "primaryClues": [
-      "Public official appointed to preside over court proceedings and administer justice objectively.",
-      "Tool/Gear: Gavel & Judicial Robes."
+      "I review evidentiary motions, deliver jury charges, and hand down sentences.",
+      "Primary workspace: Bench."
     ],
     "secondaryClues": [
-      "Environment: Court of Law.",
-      "Skill: Legal Interpretation & Impartiality."
+      "Key equipment: Robes.",
+      "Specialization: Due Process."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Gavel & Judicial Robes"
+        "label": "Gear",
+        "value": "Robes"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Court of Law"
+        "label": "Base",
+        "value": "Bench"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Legal Interpretation & Impartiality"
+        "label": "Skill",
+        "value": "Due Process"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Rule of Law"
+        "label": "Field",
+        "value": "Judiciary"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Judge (Magistrate)?",
-      "answer": "Gavel & Judicial Robes"
+      "question": "What essential gear or venue is key to a Judge (Magistrate)?",
+      "answer": "Robes"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "judge (magistrate)"
+      "judge (magistrate)",
+      "judge"
     ],
     "explanation": "Judge (Magistrate) is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "In many high courts, judges use a wooden mallet called a \"gavel\" to demand order and signal courtroom decisions!",
+    "funFact": "In many common-law traditions, judges strike a hardwood gavel to signal judicial rulings and command absolute silence in the court!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_librarian_031",
     "category": "professions",
     "name": "Librarian",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "📚",
     "buzzWords": [
-      "Catalog",
-      "Dewey Decimal",
-      "Archive"
+      "Dewey",
+      "Archive",
+      "Bibliography"
     ],
     "clues": [
-      "Information professional trained in library science, archiving books, and assisting community research.",
-      "Essential gear: Library Database & Scanner and primarily works in Public or Academic Library.",
-      "Requires mastery of Information Retrieval & Curation with the societal mission of Preserving Civilization."
+      "I curate public digital catalogs, manage archives, and assist community research.",
+      "My primary workspace is Stacks utilizing specialized Scanner.",
+      "Demands advanced command of Curation in the domain of Literacy."
     ],
     "primaryClues": [
-      "Information professional trained in library science, archiving books, and assisting community research.",
-      "Tool/Gear: Library Database & Scanner."
+      "I curate public digital catalogs, manage archives, and assist community research.",
+      "Primary workspace: Stacks."
     ],
     "secondaryClues": [
-      "Environment: Public or Academic Library.",
-      "Skill: Information Retrieval & Curation."
+      "Key equipment: Scanner.",
+      "Specialization: Curation."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Library Database & Scanner"
+        "label": "Gear",
+        "value": "Scanner"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Public or Academic Library"
+        "label": "Base",
+        "value": "Stacks"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Information Retrieval & Curation"
+        "label": "Skill",
+        "value": "Curation"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Preserving Civilization"
+        "label": "Field",
+        "value": "Literacy"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Librarian?",
-      "answer": "Library Database & Scanner"
+      "question": "What essential gear or venue is key to a Librarian?",
+      "answer": "Scanner"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "librarian",
       "librarian"
     ],
     "explanation": "Librarian is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The ancient Library of Alexandria in Egypt aimed to house a copy of every scroll written in the known civilized world!",
+    "funFact": "The celebrated ancient Library of Alexandria in Egypt sought to house a copy of every recorded scroll across the civilized world!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_geologist_032",
     "category": "professions",
     "name": "Geologist",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🪨",
     "buzzWords": [
-      "Rock Hammer",
+      "Tectonic",
       "Strata",
-      "Minerals"
+      "Mineral"
     ],
     "clues": [
-      "Earth scientist who studies the solid Earth, rocks of which it is composed, and evolutionary processes.",
-      "Essential gear: Rock Hammer & Hand Lens and primarily works in Mountain Formations & Fieldwork.",
-      "Requires mastery of Mineralogy & Plate Tectonics with the societal mission of Understanding Our Planet."
+      "I log stratigraphic core drillings, map faults, and trace tectonic shifts.",
+      "My primary workspace is Field Site utilizing specialized Hand Lens.",
+      "Demands advanced command of Petrology in the domain of Geoscience."
     ],
     "primaryClues": [
-      "Earth scientist who studies the solid Earth, rocks of which it is composed, and evolutionary processes.",
-      "Tool/Gear: Rock Hammer & Hand Lens."
+      "I log stratigraphic core drillings, map faults, and trace tectonic shifts.",
+      "Primary workspace: Field Site."
     ],
     "secondaryClues": [
-      "Environment: Mountain Formations & Fieldwork.",
-      "Skill: Mineralogy & Plate Tectonics."
+      "Key equipment: Hand Lens.",
+      "Specialization: Petrology."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Rock Hammer & Hand Lens"
+        "label": "Gear",
+        "value": "Hand Lens"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Mountain Formations & Fieldwork"
+        "label": "Base",
+        "value": "Field Site"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Mineralogy & Plate Tectonics"
+        "label": "Skill",
+        "value": "Petrology"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Understanding Our Planet"
+        "label": "Field",
+        "value": "Geoscience"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Geologist?",
-      "answer": "Rock Hammer & Hand Lens"
+      "question": "What essential gear or venue is key to a Geologist?",
+      "answer": "Hand Lens"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "geologist",
       "geologist"
     ],
     "explanation": "Geologist is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Geologists read rock layers like pages in a history book, determining that Earth is approximately 4.54 billion years old!",
+    "funFact": "Geologists determine rock chronology through radiometric dating, establishing that Earth was formed approximately 4.54 billion years ago!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_deepdiver_033",
     "category": "professions",
     "name": "Deep Sea Diver",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🤿",
     "buzzWords": [
-      "Wetsuit",
-      "Regulator",
-      "Abyss"
+      "Subsea",
+      "Decompression",
+      "Pressure"
     ],
     "clues": [
-      "Underwater specialist trained in technical, commercial, or scientific diving beneath high ocean pressures.",
-      "Essential gear: Helium Rebreather & Dive Computer and primarily works in Deep Ocean & Underwater Rigs.",
-      "Requires mastery of Decompression Science & Fortitude with the societal mission of Subsea Engineering."
+      "I breathe specialized trimix gas blends and inspect underwater infrastructure.",
+      "My primary workspace is Offshore utilizing specialized Rebreather.",
+      "Demands advanced command of Hyperbarics in the domain of Subsea Eng."
     ],
     "primaryClues": [
-      "Underwater specialist trained in technical, commercial, or scientific diving beneath high ocean pressures.",
-      "Tool/Gear: Helium Rebreather & Dive Computer."
+      "I breathe specialized trimix gas blends and inspect underwater infrastructure.",
+      "Primary workspace: Offshore."
     ],
     "secondaryClues": [
-      "Environment: Deep Ocean & Underwater Rigs.",
-      "Skill: Decompression Science & Fortitude."
+      "Key equipment: Rebreather.",
+      "Specialization: Hyperbarics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Helium Rebreather & Dive Computer"
+        "label": "Gear",
+        "value": "Rebreather"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Deep Ocean & Underwater Rigs"
+        "label": "Base",
+        "value": "Offshore"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Decompression Science & Fortitude"
+        "label": "Skill",
+        "value": "Hyperbarics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Subsea Engineering"
+        "label": "Field",
+        "value": "Subsea Eng"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Deep Sea Diver?",
-      "answer": "Helium Rebreather & Dive Computer"
+      "question": "What essential gear or venue is key to a Deep Sea Diver?",
+      "answer": "Rebreather"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "deep sea diver"
+      "deep sea diver",
+      "deep"
     ],
     "explanation": "Deep Sea Diver is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Commercial saturation divers live inside pressurized chambers for weeks at a time to work at ocean depths over 600 feet!",
+    "funFact": "Commercial saturation divers live inside pressurized chambers for weeks at a time to work at oceanic depths over 600 feet!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_astronomer_034",
     "category": "professions",
     "name": "Astronomer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🔭",
     "buzzWords": [
-      "Observatory",
-      "Spectroscopy",
-      "Cosmos"
+      "Cosmos",
+      "Spectrum",
+      "Observatory"
     ],
     "clues": [
-      "Scientist who studies celestial bodies, deep galaxies, black holes, and the physics of the universe.",
-      "Essential gear: Giant Observatory & Data Feeds and primarily works in Mountain Observatories / Labs.",
-      "Requires mastery of Astrophysics & Data Science with the societal mission of Mapping the Universe."
+      "I analyze deep-sky celestial light, calibrate spectrographs, and model galaxies.",
+      "My primary workspace is Summit Dome utilizing specialized Detector.",
+      "Demands advanced command of Astrophysics in the domain of Cosmology."
     ],
     "primaryClues": [
-      "Scientist who studies celestial bodies, deep galaxies, black holes, and the physics of the universe.",
-      "Tool/Gear: Giant Observatory & Data Feeds."
+      "I analyze deep-sky celestial light, calibrate spectrographs, and model galaxies.",
+      "Primary workspace: Summit Dome."
     ],
     "secondaryClues": [
-      "Environment: Mountain Observatories / Labs.",
-      "Skill: Astrophysics & Data Science."
+      "Key equipment: Detector.",
+      "Specialization: Astrophysics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Giant Observatory & Data Feeds"
+        "label": "Gear",
+        "value": "Detector"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Mountain Observatories / Labs"
+        "label": "Base",
+        "value": "Summit Dome"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Astrophysics & Data Science"
+        "label": "Skill",
+        "value": "Astrophysics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Mapping the Universe"
+        "label": "Field",
+        "value": "Cosmology"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Astronomer?",
-      "answer": "Giant Observatory & Data Feeds"
+      "question": "What essential gear or venue is key to a Astronomer?",
+      "answer": "Detector"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "astronomer",
       "astronomer"
     ],
     "explanation": "Astronomer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Galileo Galilei was the first astronomer to point an optical telescope at Jupiter in 1610, discovering its four largest moons!",
+    "funFact": "Galileo Galilei was the first astronomer to aim an optical telescope at Jupiter in 1610, discovering its four largest orbiting moons!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_fashiondesigner_035",
     "category": "professions",
     "name": "Fashion Designer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👗",
     "buzzWords": [
-      "Mannequin",
-      "Runway",
-      "Textiles"
+      "Silhouette",
+      "Textile",
+      "Atelier"
     ],
     "clues": [
-      "Creative visionary who designs haute couture clothing, footwear, and accessories showcased on runways.",
-      "Essential gear: Measuring Tape & Fabric Shears and primarily works in Atelier & Fashion Runway.",
-      "Requires mastery of Draping & Trend Vision with the societal mission of Wearable Art."
+      "I drape delicate fabrics over forms, sketch couture lines, and direct fashion shows.",
+      "My primary workspace is Atelier utilizing specialized Shears.",
+      "Demands advanced command of Patterning in the domain of Couture."
     ],
     "primaryClues": [
-      "Creative visionary who designs haute couture clothing, footwear, and accessories showcased on runways.",
-      "Tool/Gear: Measuring Tape & Fabric Shears."
+      "I drape delicate fabrics over forms, sketch couture lines, and direct fashion shows.",
+      "Primary workspace: Atelier."
     ],
     "secondaryClues": [
-      "Environment: Atelier & Fashion Runway.",
-      "Skill: Draping & Trend Vision."
+      "Key equipment: Shears.",
+      "Specialization: Patterning."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Measuring Tape & Fabric Shears"
+        "label": "Gear",
+        "value": "Shears"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Atelier & Fashion Runway"
+        "label": "Base",
+        "value": "Atelier"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Draping & Trend Vision"
+        "label": "Skill",
+        "value": "Patterning"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Wearable Art"
+        "label": "Field",
+        "value": "Couture"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Fashion Designer?",
-      "answer": "Measuring Tape & Fabric Shears"
+      "question": "What essential gear or venue is key to a Fashion Designer?",
+      "answer": "Shears"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "fashion designer"
+      "fashion designer",
+      "fashion"
     ],
     "explanation": "Fashion Designer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Fashion designer Coco Chanel revolutionized women’s style in the 1920s by popularizing comfortable jerseys and the \"Little Black Dress\"!",
+    "funFact": "Coco Chanel transformed 1920s women’s fashion by freeing women from corsets and creating the iconic, versatile \"Little Black Dress\"!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_animator_036",
     "category": "professions",
     "name": "Animator",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🎞️",
     "buzzWords": [
-      "Keyframes",
-      "Storyboarding",
-      "CGI"
+      "Keyframe",
+      "Rendering",
+      "Motion"
     ],
     "clues": [
-      "Artist who creates multiple sequential images to create the illusion of lifelike movement on screen.",
-      "Essential gear: Cintiq Tablet & 3D Software and primarily works in Animation Studio.",
-      "Requires mastery of Timing & Character Acting with the societal mission of Bringing Art to Life."
+      "I set sequential motion timing, rig digital skeletons, and create 3D performances.",
+      "My primary workspace is Studio utilizing specialized Cintiq.",
+      "Demands advanced command of Kinematics in the domain of Cinema."
     ],
     "primaryClues": [
-      "Artist who creates multiple sequential images to create the illusion of lifelike movement on screen.",
-      "Tool/Gear: Cintiq Tablet & 3D Software."
+      "I set sequential motion timing, rig digital skeletons, and create 3D performances.",
+      "Primary workspace: Studio."
     ],
     "secondaryClues": [
-      "Environment: Animation Studio.",
-      "Skill: Timing & Character Acting."
+      "Key equipment: Cintiq.",
+      "Specialization: Kinematics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Cintiq Tablet & 3D Software"
+        "label": "Gear",
+        "value": "Cintiq"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Animation Studio"
+        "label": "Base",
+        "value": "Studio"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Timing & Character Acting"
+        "label": "Skill",
+        "value": "Kinematics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Bringing Art to Life"
+        "label": "Field",
+        "value": "Cinema"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Animator?",
-      "answer": "Cintiq Tablet & 3D Software"
+      "question": "What essential gear or venue is key to a Animator?",
+      "answer": "Cintiq"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "animator",
       "animator"
     ],
     "explanation": "Animator is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Traditional hand-drawn animation required 24 individually hand-drawn and colored frames for every single second of film!",
+    "funFact": "Traditional hand-drawn animation required 24 individually hand-drawn and painted celluloid frames for every single second of cinema!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_surgeon_037",
     "category": "professions",
     "name": "Surgeon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "👨‍⚕️",
     "buzzWords": [
-      "Scalpel",
-      "Sterile",
-      "Operation"
+      "Operative",
+      "Incision",
+      "Sterile"
     ],
     "clues": [
-      "Medical doctor who performs operative surgical procedures to treat illness, injuries, and deformities.",
-      "Essential gear: Scalpel & Forceps and primarily works in Sterile Operating Room.",
-      "Requires mastery of Precision Manual Dexterity with the societal mission of Surgical Lifesaving."
+      "I perform meticulous invasive procedures to repair trauma or remove tumors.",
+      "My primary workspace is OR Suite utilizing specialized Forceps.",
+      "Demands advanced command of Dexterity in the domain of Surgery."
     ],
     "primaryClues": [
-      "Medical doctor who performs operative surgical procedures to treat illness, injuries, and deformities.",
-      "Tool/Gear: Scalpel & Forceps."
+      "I perform meticulous invasive procedures to repair trauma or remove tumors.",
+      "Primary workspace: OR Suite."
     ],
     "secondaryClues": [
-      "Environment: Sterile Operating Room.",
-      "Skill: Precision Manual Dexterity."
+      "Key equipment: Forceps.",
+      "Specialization: Dexterity."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Scalpel & Forceps"
+        "label": "Gear",
+        "value": "Forceps"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Sterile Operating Room"
+        "label": "Base",
+        "value": "OR Suite"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Precision Manual Dexterity"
+        "label": "Skill",
+        "value": "Dexterity"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Surgical Lifesaving"
+        "label": "Field",
+        "value": "Surgery"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Surgeon?",
-      "answer": "Scalpel & Forceps"
+      "question": "What essential gear or venue is key to a Surgeon?",
+      "answer": "Forceps"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
+      "surgeon",
       "surgeon"
     ],
     "explanation": "Surgeon is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Surgeons scrub their hands and forearms with antiseptic soap for at least 5 minutes before entering the sterile operating theater!",
+    "funFact": "Surgical staff thoroughly scrub hands and forearms with antimicrobial agents for at least five minutes before entering the sterile field!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_diplomat_038",
     "category": "professions",
     "name": "Diplomat / Ambassador",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🕊️",
     "buzzWords": [
-      "Embassy",
-      "Treaty",
-      "Peace"
+      "Consulate",
+      "Protocol",
+      "Treaty"
     ],
     "clues": [
-      "Official appointed by a country to conduct international relations and negotiate treaties peacefully.",
-      "Essential gear: Diplomatic Passport & Treaty Portfolio and primarily works in Foreign Embassy & United Nations.",
-      "Requires mastery of Negotiation & Foreign Policy with the societal mission of Global Peace & Alliance."
+      "I negotiate bilateral peace treaties, advocate state policy, and defuse tensions.",
+      "My primary workspace is Mission utilizing specialized Passport.",
+      "Demands advanced command of Statecraft in the domain of Diplomacy."
     ],
     "primaryClues": [
-      "Official appointed by a country to conduct international relations and negotiate treaties peacefully.",
-      "Tool/Gear: Diplomatic Passport & Treaty Portfolio."
+      "I negotiate bilateral peace treaties, advocate state policy, and defuse tensions.",
+      "Primary workspace: Mission."
     ],
     "secondaryClues": [
-      "Environment: Foreign Embassy & United Nations.",
-      "Skill: Negotiation & Foreign Policy."
+      "Key equipment: Passport.",
+      "Specialization: Statecraft."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Diplomatic Passport & Treaty Portfolio"
+        "label": "Gear",
+        "value": "Passport"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Foreign Embassy & United Nations"
+        "label": "Base",
+        "value": "Mission"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Negotiation & Foreign Policy"
+        "label": "Skill",
+        "value": "Statecraft"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Global Peace & Alliance"
+        "label": "Field",
+        "value": "Diplomacy"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Diplomat / Ambassador?",
-      "answer": "Diplomatic Passport & Treaty Portfolio"
+      "question": "What essential gear or venue is key to a Diplomat / Ambassador?",
+      "answer": "Passport"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "diplomat / ambassador"
+      "diplomat / ambassador",
+      "diplomat"
     ],
     "explanation": "Diplomat / Ambassador is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Diplomats enjoy \"diplomatic immunity\", a centuries-old international convention preventing host countries from arresting them!",
+    "funFact": "Diplomats are safeguarded by \"diplomatic immunity\", an international convention preventing host countries from arresting foreign envoys!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_parkranger_039",
     "category": "professions",
     "name": "Park Ranger",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🌲",
     "buzzWords": [
-      "Stetson",
-      "Trail",
-      "Wildlife Protection"
+      "Wilderness",
+      "Conservation",
+      "Stewardship"
     ],
     "clues": [
-      "Conservation steward dedicated to protecting, preserving, and educating visitors in national parks.",
-      "Essential gear: Field Radio & Stetson Hat and primarily works in National Parks & Wilderness.",
-      "Requires mastery of Wilderness Survival & Ecology with the societal mission of Safeguarding Nature."
+      "I patrol backcountry trails, track apex wildlife, and maintain pristine reserves.",
+      "My primary workspace is Backcountry utilizing specialized Field Radio.",
+      "Demands advanced command of Forestry in the domain of Ecology."
     ],
     "primaryClues": [
-      "Conservation steward dedicated to protecting, preserving, and educating visitors in national parks.",
-      "Tool/Gear: Field Radio & Stetson Hat."
+      "I patrol backcountry trails, track apex wildlife, and maintain pristine reserves.",
+      "Primary workspace: Backcountry."
     ],
     "secondaryClues": [
-      "Environment: National Parks & Wilderness.",
-      "Skill: Wilderness Survival & Ecology."
+      "Key equipment: Field Radio.",
+      "Specialization: Forestry."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Field Radio & Stetson Hat"
+        "label": "Gear",
+        "value": "Field Radio"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "National Parks & Wilderness"
+        "label": "Base",
+        "value": "Backcountry"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Wilderness Survival & Ecology"
+        "label": "Skill",
+        "value": "Forestry"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Safeguarding Nature"
+        "label": "Field",
+        "value": "Ecology"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Park Ranger?",
-      "answer": "Field Radio & Stetson Hat"
+      "question": "What essential gear or venue is key to a Park Ranger?",
+      "answer": "Field Radio"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "park ranger"
+      "park ranger",
+      "park"
     ],
     "explanation": "Park Ranger is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "Yellowstone was established as the world’s very first National Park in 1872, safeguarded by early military rangers!",
+    "funFact": "Yellowstone was established as the world’s very first National Park in 1872, initially safeguarded and patrolled by mounted military cavalry!",
     "verificationStatus": "verified"
   },
   {
     "id": "prf_civilengineer_040",
     "category": "professions",
     "name": "Civil Engineer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "emoji": "🌉",
     "buzzWords": [
+      "Span",
       "Truss",
-      "Concrete",
       "Infrastructure"
     ],
     "clues": [
-      "Engineer who conceives, builds, and supervises infrastructure projects like bridges, dams, and tunnels.",
-      "Essential gear: Hard Hat & CAD Calculations and primarily works in Construction Site & Office.",
-      "Requires mastery of Structural Mechanics & Materials with the societal mission of Building Societies."
+      "I calculate tension stresses, design stormwater networks, and build suspension spans.",
+      "My primary workspace is Job Site utilizing specialized Theodolite.",
+      "Demands advanced command of Statics in the domain of Civil Works."
     ],
     "primaryClues": [
-      "Engineer who conceives, builds, and supervises infrastructure projects like bridges, dams, and tunnels.",
-      "Tool/Gear: Hard Hat & CAD Calculations."
+      "I calculate tension stresses, design stormwater networks, and build suspension spans.",
+      "Primary workspace: Job Site."
     ],
     "secondaryClues": [
-      "Environment: Construction Site & Office.",
-      "Skill: Structural Mechanics & Materials."
+      "Key equipment: Theodolite.",
+      "Specialization: Statics."
     ],
     "factGrid": [
       {
         "icon": "🧰",
-        "label": "Key Tool / Gear",
-        "value": "Hard Hat & CAD Calculations"
+        "label": "Gear",
+        "value": "Theodolite"
       },
       {
         "icon": "🏢",
-        "label": "Workplace",
-        "value": "Construction Site & Office"
+        "label": "Base",
+        "value": "Job Site"
       },
       {
         "icon": "🧠",
-        "label": "Core Skill",
-        "value": "Structural Mechanics & Materials"
+        "label": "Skill",
+        "value": "Statics"
       },
       {
         "icon": "🌟",
-        "label": "Impact",
-        "value": "Building Societies"
+        "label": "Field",
+        "value": "Civil Works"
       }
     ],
     "bonusTrivia": {
-      "question": "What primary tool or workplace is central to an Civil Engineer?",
-      "answer": "Hard Hat & CAD Calculations"
+      "question": "What essential gear or venue is key to a Civil Engineer?",
+      "answer": "Theodolite"
     },
     "facts": {
       "isProfession": true,
       "essentialCareer": true
     },
     "aliases": [
-      "civil engineer"
+      "civil engineer",
+      "civil"
     ],
     "explanation": "Civil Engineer is an impactful profession contributing vital expertise to human civilization.",
-    "funFact": "The Golden Gate Bridge’s two main suspension cables contain 80,000 miles of steel wire—enough to wrap around Earth three times!",
+    "funFact": "The Golden Gate Bridge's two main suspension cables contain 80,000 miles of individual galvanized steel wires bound together!",
     "verificationStatus": "verified"
   }
 ];

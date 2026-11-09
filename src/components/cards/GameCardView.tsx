@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card } from '@/types/card';
-import { HelpCircle, Sparkles, ShieldCheck } from 'lucide-react';
+import { HelpCircle, Sparkles } from 'lucide-react';
 import { CATEGORIES } from '@/features/cards/data/categories';
 
 interface GameCardViewProps {
@@ -25,14 +25,14 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
 }) => {
   const categoryInfo = card ? CATEGORIES.find((c) => c.id === card.category) : null;
 
-  // Strict dimensions to guarantee no flex parent can ever squish or collapse the card
+  // Generous dimensions to guarantee no text truncation or card squishing
   const dimensions = {
-    sm: { width: 220, height: 340, widthClass: 'w-[220px]', heightClass: 'h-[340px]' },
-    md: { width: 310, height: 460, widthClass: 'w-[300px] sm:w-[310px]', heightClass: 'h-[460px]' },
-    lg: { width: 340, height: 500, widthClass: 'w-[330px] sm:w-[340px]', heightClass: 'h-[500px]' },
+    sm: { width: 260, height: 420, widthClass: 'w-[260px]', heightClass: 'h-[420px]' },
+    md: { width: 340, height: 530, widthClass: 'w-[330px] sm:w-[340px]', heightClass: 'h-[520px] sm:h-[530px]' },
+    lg: { width: 360, height: 560, widthClass: 'w-[350px] sm:w-[360px]', heightClass: 'h-[550px] sm:h-[560px]' },
   }[size];
 
-  // 3 Clues: either card.clues or primaryClues + secondaryClues
+  // 3 Clues
   const displayedClues = card?.clues && card.clues.length >= 3
     ? card.clues
     : [
@@ -86,9 +86,9 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
         >
           {/* Subtle background decorative shapes */}
           <div className="absolute inset-0 opacity-15 pointer-events-none">
-            <div className="absolute -top-10 -left-10 w-40 h-40 rounded-full border-8 border-white"></div>
-            <div className="absolute top-1/2 -right-12 w-48 h-48 rounded-full border-8 border-white"></div>
-            <div className="absolute -bottom-10 left-1/4 w-32 h-32 rounded-full border-8 border-white"></div>
+            <div className="absolute -top-10 -left-10 w-44 h-44 rounded-full border-8 border-white"></div>
+            <div className="absolute top-1/2 -right-12 w-52 h-52 rounded-full border-8 border-white"></div>
+            <div className="absolute -bottom-10 left-1/4 w-36 h-36 rounded-full border-8 border-white"></div>
           </div>
 
           {/* Top Banner with Official Logo */}
@@ -108,14 +108,14 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
 
           {/* Center Graphic */}
           <div className="z-10 flex flex-col items-center justify-center text-center my-auto">
-            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl bg-white/15 backdrop-blur-md border border-white/30 flex items-center justify-center text-4xl sm:text-5xl shadow-inner mb-3">
+            <div className="w-22 h-22 sm:w-24 sm:h-24 rounded-3xl bg-white/15 backdrop-blur-md border border-white/30 flex items-center justify-center text-4xl sm:text-5xl shadow-inner mb-3">
               {categoryInfo?.icon || <HelpCircle className="w-12 h-12 text-white/90" />}
             </div>
             <p className="font-heading font-black text-white text-lg sm:text-xl drop-shadow-md">
               {categoryInfo?.name || 'Secret Card'}
             </p>
-            <p className="text-xs font-semibold text-white/80 max-w-[200px] mt-1.5 leading-snug">
-              Ask up to 10 Yes/No questions to identify this secret card!
+            <p className="text-xs font-semibold text-white/80 max-w-[220px] mt-1.5 leading-snug">
+              Ask up to 10 strategic Yes/No questions to identify this secret card!
             </p>
           </div>
 
@@ -125,7 +125,7 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
           </div>
         </div>
 
-        {/* ================= CARD FRONT (Faithful Reproduction of Physical Card) ================= */}
+        {/* ================= CARD FRONT (Physical Card Replica) ================= */}
         <div
           className="absolute inset-0 w-full h-full rounded-card-lg backface-hidden shadow-card border-4 border-emerald-600 bg-[#2D5A27] flex flex-col overflow-hidden rotate-y-180 text-white"
           style={{
@@ -136,9 +136,9 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
           }}
         >
           {card ? (
-            <div className="w-full h-full flex flex-col p-3 sm:p-3.5 justify-between bg-gradient-to-b from-black/20 via-transparent to-black/30">
+            <div className="w-full h-full flex flex-col p-3 sm:p-3.5 justify-between bg-gradient-to-b from-black/25 via-transparent to-black/35">
               {/* 1. TOP TITLE BANNER */}
-              <div className="w-full flex items-center justify-center mb-1">
+              <div className="w-full flex items-center justify-center">
                 <div className="w-full bg-emerald-800/95 border-2 border-emerald-400/80 rounded-xl py-1 px-3 text-center shadow-md">
                   <h2 className="font-heading font-black text-base sm:text-lg uppercase tracking-wider text-white drop-shadow truncate">
                     {card.name}
@@ -146,71 +146,78 @@ export const GameCardView: React.FC<GameCardViewProps> = ({
                 </div>
               </div>
 
-              {/* 2. ART & SCENERY AREA */}
-              <div className="w-full h-24 sm:h-28 rounded-xl bg-gradient-to-b from-emerald-900/60 to-emerald-950/80 border border-white/20 flex items-center justify-center relative overflow-hidden my-1 shadow-inner">
-                <span className="text-5xl sm:text-6xl drop-shadow-lg transform hover:scale-110 transition-transform">
+              {/* 2. ART & SCENERY AREA (Compact height gives room for clues & facts) */}
+              <div className="w-full h-20 sm:h-22 rounded-xl bg-gradient-to-b from-emerald-900/60 to-emerald-950/80 border border-white/20 flex items-center justify-center relative overflow-hidden my-1 shadow-inner shrink-0">
+                <span className="text-4xl sm:text-5xl drop-shadow-lg transform hover:scale-110 transition-transform">
                   {card.emoji || '🌟'}
                 </span>
-                <div className="absolute top-1.5 right-2 flex items-center gap-1 bg-black/40 px-2 py-0.5 rounded-full text-[10px] text-white/90 font-bold backdrop-blur-sm">
+                <div className="absolute top-1.5 right-2 flex items-center gap-1 bg-black/45 px-2 py-0.5 rounded-full text-[10px] text-white/90 font-bold backdrop-blur-sm border border-white/20">
                   <span>{categoryInfo?.icon}</span>
                   <span className="capitalize">{card.difficulty}</span>
                 </div>
               </div>
 
-              {/* 3. BUZZ-WORDS PILL BAR (Directly matching Sample Card) */}
-              <div className="w-full bg-black/45 border border-white/25 rounded-xl px-2.5 py-1.5 flex items-center justify-between text-[11px] font-bold my-1 shadow-inner">
+              {/* 3. BUZZ-WORDS PILL BAR (Thematic anchor clues) */}
+              <div className="w-full bg-black/45 border border-white/25 rounded-xl px-2.5 py-1.5 flex items-center justify-between text-[11px] font-bold my-1 shadow-inner shrink-0">
                 <span className="text-amber-300 font-black uppercase text-[10px] tracking-wider shrink-0 pr-1.5 border-r border-white/25">
                   Buzz-words
                 </span>
                 <div className="flex items-center justify-around flex-1 text-white font-bold pl-2 text-[11px]">
-                  <span>{buzzWords[0]}</span>
+                  <span className="truncate max-w-[85px]">{buzzWords[0]}</span>
                   <span className="text-white/40">|</span>
-                  <span>{buzzWords[1]}</span>
+                  <span className="truncate max-w-[85px]">{buzzWords[1]}</span>
                   <span className="text-white/40">|</span>
-                  <span>{buzzWords[2]}</span>
+                  <span className="truncate max-w-[85px]">{buzzWords[2]}</span>
                 </div>
               </div>
 
-              {/* 4. MAIN CLUES & FACTS 2x2 GRID */}
-              <div className="grid grid-cols-12 gap-2 my-1 items-stretch">
+              {/* 4. MAIN CLUES & FACTS 2x2 GRID (No truncation, comfortable line height) */}
+              <div className="grid grid-cols-12 gap-2 my-1 items-stretch flex-1">
                 {/* Numbered Clues 1, 2, 3 (Col 7) */}
-                <div className="col-span-7 bg-black/30 rounded-xl p-2 border border-white/20 flex flex-col justify-around space-y-1">
+                <div className="col-span-7 bg-black/30 rounded-xl p-2.5 border border-white/20 flex flex-col justify-around space-y-1.5">
                   <span className="text-[10px] font-black uppercase tracking-wider text-emerald-300 block mb-0.5">
                     Clues
                   </span>
                   {displayedClues.map((clue, idx) => (
-                    <div key={idx} className="flex items-start gap-1.5 text-[10px] sm:text-[11px] leading-tight text-white/95">
-                      <span className="w-4 h-4 rounded-full bg-emerald-500 text-white font-black text-[9px] flex items-center justify-center shrink-0 shadow-sm">
+                    <div key={idx} className="flex items-start gap-1.5 text-[10px] sm:text-[11px] leading-snug text-white/95">
+                      <span className="w-4 h-4 rounded-full bg-emerald-500 text-white font-black text-[9px] flex items-center justify-center shrink-0 shadow-sm mt-0.5">
                         {idx + 1}
                       </span>
-                      <span className="line-clamp-2">{clue}</span>
+                      <span className="break-words leading-tight">{clue}</span>
                     </div>
                   ))}
                 </div>
 
-                {/* Facts 2x2 Grid (Col 5) */}
+                {/* Facts 2x2 Grid (Col 5) - No truncation, words wrap cleanly */}
                 <div className="col-span-5 bg-amber-50 rounded-xl p-1.5 text-gray-800 border border-amber-200 flex flex-col justify-between shadow-sm">
-                  <span className="text-[9px] font-black uppercase tracking-wider text-amber-800 text-center block">
+                  <span className="text-[9px] font-black uppercase tracking-wider text-amber-800 text-center block mb-0.5">
                     Facts
                   </span>
                   <div className="grid grid-cols-2 gap-1 text-[9px] leading-tight text-center my-auto">
                     {factGrid.map((item, idx) => (
-                      <div key={idx} className="bg-white/80 p-1 rounded-md border border-amber-100 flex flex-col items-center justify-center">
-                        <span className="text-xs">{item.icon}</span>
-                        <span className="font-bold text-[8px] text-gray-500 uppercase mt-0.5">{item.label}</span>
-                        <span className="font-extrabold text-[9px] text-gray-900 truncate w-full">{item.value}</span>
+                      <div
+                        key={idx}
+                        className="bg-white/95 p-1 rounded-md border border-amber-100 flex flex-col items-center justify-center min-h-[40px]"
+                      >
+                        <span className="text-xs leading-none">{item.icon}</span>
+                        <span className="font-bold text-[8px] text-gray-500 uppercase mt-0.5 line-clamp-1">
+                          {item.label}
+                        </span>
+                        <span className="font-black text-[9px] text-gray-900 leading-tight break-words text-center px-0.5">
+                          {item.value}
+                        </span>
                       </div>
                     ))}
                   </div>
                 </div>
               </div>
 
-              {/* 5. BONUS BOX AT BOTTOM */}
-              <div className="w-full bg-emerald-950/90 border border-emerald-400/40 rounded-xl p-2 flex items-center gap-2 mt-1 shadow-inner">
-                <span className="bg-amber-400 text-black font-black text-[9px] uppercase px-1.5 py-0.5 rounded-md tracking-wider shrink-0 shadow">
+              {/* 5. BONUS BOX AT BOTTOM (No truncation, multi-line wrap) */}
+              <div className="w-full bg-emerald-950/95 border border-emerald-400/50 rounded-xl p-2 sm:p-2.5 flex items-start gap-2 mt-1 shadow-inner shrink-0">
+                <span className="bg-amber-400 text-black font-black text-[9px] uppercase px-1.5 py-0.5 rounded-md tracking-wider shrink-0 shadow mt-0.5">
                   BONUS
                 </span>
-                <p className="text-[10px] text-white/90 leading-tight truncate">
+                <p className="text-[10px] sm:text-[10.5px] text-white/95 leading-snug break-words">
                   {card.bonusTrivia?.question || card.funFact || card.explanation}
                 </p>
               </div>
